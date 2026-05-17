@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">can-can</string>
+    <string name="nav_recipes">Recipes</string>
+    <string name="nav_cooking">Cooking</string>
+    <string name="nav_inventory">Inventory</string>
+    <string name="nav_reference">Reference</string>
+</resources>
