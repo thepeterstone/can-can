@@ -11,10 +11,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    permissions:
-      contents: read
-      pull-requests: write
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -26,7 +22,6 @@ jobs:
           distribution: 'temurin'
           cache: gradle
 
-      # platform-36 is pre-installed on ubuntu-latest; licenses still need accepting
       - name: Accept SDK licenses
         run: yes | ${ANDROID_HOME}/cmdline-tools/latest/bin/sdkmanager --licenses > /dev/null 2>&1 || true
 
@@ -34,20 +29,7 @@ jobs:
         run: chmod +x gradlew
 
       - name: Build debug APK
-        id: gradle_build
-        run: ./gradlew assembleDebug --no-daemon --stacktrace 2>&1 | tee /tmp/gradle.log; exit ${PIPESTATUS[0]}
-
-      - name: Post Gradle failure to PR
-        if: failure() && github.event.pull_request.number != ''
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          LOG=$(grep -E "error:|Error:|FAILED|Exception|> Task" /tmp/gradle.log | head -60 || tail -60 /tmp/gradle.log)
-          gh pr comment "${{ github.event.pull_request.number }}" --repo thepeterstone/can-can \
-            --body "**Gradle build failure (run ${{ github.run_id }})**
-          \`\`\`
-          $LOG
-          \`\`\`"
+        run: ./gradlew assembleDebug --no-daemon
 
       - name: Upload debug APK
         uses: actions/upload-artifact@v4
