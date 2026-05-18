@@ -22,13 +22,10 @@ jobs:
           distribution: 'temurin'
           cache: gradle
 
-      - name: Set up Android SDK
-        uses: android-actions/setup-android@v3
-
-      - name: Install SDK platform 36
+      - name: Accept SDK licenses and install platform 36
         run: |
-          sdkmanager --install "platforms;android-36" "build-tools;36.0.0" | tail -5
-          yes | sdkmanager --licenses > /dev/null 2>&1 || true
+          yes | ${ANDROID_HOME}/cmdline-tools/latest/bin/sdkmanager --licenses > /dev/null 2>&1 || true
+          ${ANDROID_HOME}/cmdline-tools/latest/bin/sdkmanager "platforms;android-36"
 
       - name: Grant gradlew execute permission
         run: chmod +x gradlew
