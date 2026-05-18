@@ -26,49 +26,28 @@ jobs:
           distribution: 'temurin'
           cache: gradle
 
-      - name: Diagnose Android SDK and post to PR
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PR_NUMBER: ${{ github.event.pull_request.number }}
-        run: |
-          set +e
-          {
-            echo "ANDROID_HOME=$ANDROID_HOME"
-            echo "ANDROID_SDK_ROOT=$ANDROID_SDK_ROOT"
-            echo "--- ls cmdline-tools ---"
-            ls -la "$ANDROID_HOME/cmdline-tools/" 2>&1
-            echo "--- find sdkmanager ---"
-            find "$ANDROID_HOME" -name "sdkmanager" 2>/dev/null
-            SDKM="$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager"
-            if [ -f "$SDKM" ]; then
-              echo "--- installed ---"
-              "$SDKM" --list_installed 2>&1 | head -30
-              echo "--- available android platforms ---"
-              "$SDKM" --list 2>&1 | grep "platforms;android-3" | tail -10
-            else
-              echo "sdkmanager NOT FOUND at $SDKM"
-            fi
-          } > /tmp/sdk-diag.txt 2>&1
-          cat /tmp/sdk-diag.txt
-          if [ -n "$PR_NUMBER" ]; then
-            BODY=$(cat /tmp/sdk-diag.txt | head -60)
-            gh pr comment "$PR_NUMBER" --repo thepeterstone/can-can \
-              --body "**SDK Diagnostics (run ${{ github.run_id }})**\`\`\`
-          $BODY
-          \`\`\`"
-          fi
-          set -e
-
-      - name: Install platform 36
-        run: |
-          yes | ${ANDROID_HOME}/cmdline-tools/latest/bin/sdkmanager --licenses > /dev/null 2>&1 || true
-          ${ANDROID_HOME}/cmdline-tools/latest/bin/sdkmanager "platforms;android-36"
+      # platform-36 is pre-installed on ubuntu-latest; licenses still need accepting
+      - name: Accept SDK licenses
+        run: yes | ${ANDROID_HOME}/cmdline-tools/latest/bin/sdkmanager --licenses > /dev/null 2>&1 || true
 
       - name: Grant gradlew execute permission
         run: chmod +x gradlew
 
       - name: Build debug APK
-        run: ./gradlew assembleDebug --no-daemon --stacktrace
+        id: gradle_build
+        run: ./gradlew assembleDebug --no-daemon --stacktrace 2>&1 | tee /tmp/gradle.log; exit ${PIPESTATUS[0]}
+
+      - name: Post Gradle failure to PR
+        if: failure() && github.event.pull_request.number != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          LOG=$(grep -E "error:|Error:|FAILED|Exception|> Task" /tmp/gradle.log | head -60 || tail -60 /tmp/gradle.log)
+          gh pr comment "${{ github.event.pull_request.number }}" --repo thepeterstone/can-can \
+            --body "**Gradle build failure (run ${{ github.run_id }})**
+          \`\`\`
+          $LOG
+          \`\`\`"
 
       - name: Upload debug APK
         uses: actions/upload-artifact@v4
