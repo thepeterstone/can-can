@@ -22,6 +22,14 @@ jobs:
           distribution: 'temurin'
           cache: gradle
 
+      - name: Diagnose Android SDK environment
+        run: |
+          echo "ANDROID_HOME=$ANDROID_HOME"
+          echo "ANDROID_SDK_ROOT=$ANDROID_SDK_ROOT"
+          ls -la ${ANDROID_HOME}/cmdline-tools/ || echo "no cmdline-tools dir"
+          find ${ANDROID_HOME} -name "sdkmanager" 2>/dev/null || echo "sdkmanager not found"
+          ${ANDROID_HOME}/cmdline-tools/latest/bin/sdkmanager --list_installed 2>&1 | head -30 || true
+
       - name: Accept SDK licenses and install platform 36
         run: |
           yes | ${ANDROID_HOME}/cmdline-tools/latest/bin/sdkmanager --licenses > /dev/null 2>&1 || true
