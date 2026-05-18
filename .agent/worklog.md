@@ -1,8 +1,8 @@
 # can-can — Worklog
 
-## Current Session (2026-05-18)
+## Current Session (2026-05-18 — cont.)
 
-**Focus:** Build pipeline — GitHub Actions CI, session-start hook
+**Focus:** Implement Reference screen — offline USDA canning guide lookup
 
 **Completed this session:**
 - [x] Launcher icon: extracted foreground (transparent PNG) from logo reference sheet, generated all 5 density variants (mdpi–xxxhdpi)

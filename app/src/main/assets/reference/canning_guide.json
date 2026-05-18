@@ -1,0 +1,371 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "tomatoes-whole",
+      "name": "Tomatoes, Whole or Halved",
+      "category": "Tomatoes",
+      "method": "water_bath",
+      "safety_notes": "Must acidify: 2 tbsp bottled lemon juice or ½ tsp citric acid per pint (double for quarts). Do not use fresh lemon juice.",
+      "source": "USDA 2015",
+      "altitude_note": "+5 min for 1,001–3,000 ft · +10 min for 3,001–6,000 ft · +15 min for 6,001–8,000 ft",
+      "entries": [
+        { "jar_size": "pint",  "pack": "hot", "processing_time_minutes": 40 },
+        { "jar_size": "quart", "pack": "hot", "processing_time_minutes": 45 }
+      ]
+    },
+    {
+      "id": "tomatoes-crushed",
+      "name": "Tomatoes, Crushed",
+      "category": "Tomatoes",
+      "method": "water_bath",
+      "safety_notes": "Must acidify: 2 tbsp bottled lemon juice or ½ tsp citric acid per pint (double for quarts).",
+      "source": "USDA 2015",
+      "altitude_note": "+5 min for 1,001–3,000 ft · +10 min for 3,001–6,000 ft · +15 min for 6,001–8,000 ft",
+      "entries": [
+        { "jar_size": "pint",  "pack": "hot", "processing_time_minutes": 35 },
+        { "jar_size": "quart", "pack": "hot", "processing_time_minutes": 45 }
+      ]
+    },
+    {
+      "id": "tomato-juice",
+      "name": "Tomato Juice",
+      "category": "Tomatoes",
+      "method": "water_bath",
+      "safety_notes": "Must acidify: 2 tbsp bottled lemon juice or ½ tsp citric acid per pint.",
+      "source": "USDA 2015",
+      "altitude_note": "+5 min for 1,001–3,000 ft · +10 min for 3,001–6,000 ft · +15 min for 6,001–8,000 ft",
+      "entries": [
+        { "jar_size": "pint",  "pack": "hot", "processing_time_minutes": 35 },
+        { "jar_size": "quart", "pack": "hot", "processing_time_minutes": 40 }
+      ]
+    },
+    {
+      "id": "tomato-sauce",
+      "name": "Tomato Sauce",
+      "category": "Tomatoes",
+      "method": "water_bath",
+      "safety_notes": "Must acidify: 2 tbsp bottled lemon juice or ½ tsp citric acid per pint.",
+      "source": "USDA 2015",
+      "altitude_note": "+5 min for 1,001–3,000 ft · +10 min for 3,001–6,000 ft · +15 min for 6,001–8,000 ft",
+      "entries": [
+        { "jar_size": "pint",  "pack": "hot", "processing_time_minutes": 35 },
+        { "jar_size": "quart", "pack": "hot", "processing_time_minutes": 40 }
+      ]
+    },
+    {
+      "id": "tomato-salsa",
+      "name": "Tomato Salsa",
+      "category": "Tomatoes",
+      "method": "water_bath",
+      "safety_notes": "Use only a USDA-tested recipe. Do not alter vegetable or vinegar proportions.",
+      "source": "USDA 2015",
+      "altitude_note": "+5 min for 1,001–3,000 ft · +10 min for 3,001–6,000 ft",
+      "entries": [
+        { "jar_size": "pint", "pack": "hot", "processing_time_minutes": 15 }
+      ]
+    },
+    {
+      "id": "green-beans",
+      "name": "Green Beans",
+      "category": "Vegetables",
+      "method": "pressure",
+      "safety_notes": "Low-acid vegetable. Pressure canning is required — water bath canning is unsafe.",
+      "source": "USDA 2015",
+      "altitude_note": "Dial: 11 lb (0–2,000 ft) · 12 lb (2,001–4,000 ft) · 13 lb (4,001–6,000 ft). Weighted: 10 lb (≤1,000 ft) · 15 lb (above 1,000 ft).",
+      "entries": [
+        { "jar_size": "pint",  "pack": "hot", "processing_time_minutes": 20, "pressure_psi_weighted": 10, "pressure_psi_dial": 11 },
+        { "jar_size": "pint",  "pack": "raw", "processing_time_minutes": 20, "pressure_psi_weighted": 10, "pressure_psi_dial": 11 },
+        { "jar_size": "quart", "pack": "hot", "processing_time_minutes": 25, "pressure_psi_weighted": 10, "pressure_psi_dial": 11 },
+        { "jar_size": "quart", "pack": "raw", "processing_time_minutes": 25, "pressure_psi_weighted": 10, "pressure_psi_dial": 11 }
+      ]
+    },
+    {
+      "id": "corn-whole-kernel",
+      "name": "Corn, Whole Kernel",
+      "category": "Vegetables",
+      "method": "pressure",
+      "safety_notes": "Low-acid vegetable. Pressure canning required.",
+      "source": "USDA 2015",
+      "altitude_note": "Dial: 11 lb (0–2,000 ft) · 12 lb (2,001–4,000 ft). Weighted: 10 lb (≤1,000 ft) · 15 lb (above 1,000 ft).",
+      "entries": [
+        { "jar_size": "pint",  "pack": "hot", "processing_time_minutes": 55, "pressure_psi_weighted": 10, "pressure_psi_dial": 11 },
+        { "jar_size": "pint",  "pack": "raw", "processing_time_minutes": 55, "pressure_psi_weighted": 10, "pressure_psi_dial": 11 },
+        { "jar_size": "quart", "pack": "hot", "processing_time_minutes": 85, "pressure_psi_weighted": 10, "pressure_psi_dial": 11 },
+        { "jar_size": "quart", "pack": "raw", "processing_time_minutes": 85, "pressure_psi_weighted": 10, "pressure_psi_dial": 11 }
+      ]
+    },
+    {
+      "id": "carrots",
+      "name": "Carrots",
+      "category": "Vegetables",
+      "method": "pressure",
+      "safety_notes": "Low-acid vegetable. Pressure canning required.",
+      "source": "USDA 2015",
+      "altitude_note": "Dial: 11 lb (0–2,000 ft) · 12 lb (2,001–4,000 ft). Weighted: 10 lb (≤1,000 ft) · 15 lb (above 1,000 ft).",
+      "entries": [
+        { "jar_size": "pint",  "pack": "hot", "processing_time_minutes": 25, "pressure_psi_weighted": 10, "pressure_psi_dial": 11 },
+        { "jar_size": "pint",  "pack": "raw", "processing_time_minutes": 25, "pressure_psi_weighted": 10, "pressure_psi_dial": 11 },
+        { "jar_size": "quart", "pack": "hot", "processing_time_minutes": 30, "pressure_psi_weighted": 10, "pressure_psi_dial": 11 },
+        { "jar_size": "quart", "pack": "raw", "processing_time_minutes": 30, "pressure_psi_weighted": 10, "pressure_psi_dial": 11 }
+      ]
+    },
+    {
+      "id": "beets",
+      "name": "Beets",
+      "category": "Vegetables",
+      "method": "pressure",
+      "safety_notes": "Low-acid. Pressure canning required. For a water bath option, see Pickled Beets.",
+      "source": "USDA 2015",
+      "altitude_note": "Dial: 11 lb (0–2,000 ft) · 12 lb (2,001–4,000 ft). Weighted: 10 lb (≤1,000 ft) · 15 lb (above 1,000 ft).",
+      "entries": [
+        { "jar_size": "pint",  "pack": "hot", "processing_time_minutes": 30, "pressure_psi_weighted": 10, "pressure_psi_dial": 11 },
+        { "jar_size": "quart", "pack": "hot", "processing_time_minutes": 35, "pressure_psi_weighted": 10, "pressure_psi_dial": 11 }
+      ]
+    },
+    {
+      "id": "potatoes",
+      "name": "Potatoes, Cubed",
+      "category": "Vegetables",
+      "method": "pressure",
+      "safety_notes": "Low-acid. Pressure canning required. Cut into 1-inch cubes.",
+      "source": "USDA 2015",
+      "altitude_note": "Dial: 11 lb (0–2,000 ft) · 12 lb (2,001–4,000 ft). Weighted: 10 lb (≤1,000 ft) · 15 lb (above 1,000 ft).",
+      "entries": [
+        { "jar_size": "pint",  "pack": "hot", "processing_time_minutes": 35, "pressure_psi_weighted": 10, "pressure_psi_dial": 11 },
+        { "jar_size": "quart", "pack": "hot", "processing_time_minutes": 40, "pressure_psi_weighted": 10, "pressure_psi_dial": 11 }
+      ]
+    },
+    {
+      "id": "peas",
+      "name": "Peas, Shelled",
+      "category": "Vegetables",
+      "method": "pressure",
+      "safety_notes": "Low-acid. Pressure canning required. Pints recommended for best quality.",
+      "source": "USDA 2015",
+      "altitude_note": "Dial: 11 lb (0–2,000 ft) · 12 lb (2,001–4,000 ft). Weighted: 10 lb (≤1,000 ft) · 15 lb (above 1,000 ft).",
+      "entries": [
+        { "jar_size": "pint",  "pack": "hot", "processing_time_minutes": 40, "pressure_psi_weighted": 10, "pressure_psi_dial": 11 },
+        { "jar_size": "pint",  "pack": "raw", "processing_time_minutes": 40, "pressure_psi_weighted": 10, "pressure_psi_dial": 11 },
+        { "jar_size": "quart", "pack": "hot", "processing_time_minutes": 40, "pressure_psi_weighted": 10, "pressure_psi_dial": 11 },
+        { "jar_size": "quart", "pack": "raw", "processing_time_minutes": 40, "pressure_psi_weighted": 10, "pressure_psi_dial": 11 }
+      ]
+    },
+    {
+      "id": "asparagus",
+      "name": "Asparagus",
+      "category": "Vegetables",
+      "method": "pressure",
+      "safety_notes": "Low-acid. Pressure canning required.",
+      "source": "USDA 2015",
+      "altitude_note": "Dial: 11 lb (0–2,000 ft) · 12 lb (2,001–4,000 ft). Weighted: 10 lb (≤1,000 ft) · 15 lb (above 1,000 ft).",
+      "entries": [
+        { "jar_size": "pint",  "pack": "hot", "processing_time_minutes": 30, "pressure_psi_weighted": 10, "pressure_psi_dial": 11 },
+        { "jar_size": "pint",  "pack": "raw", "processing_time_minutes": 30, "pressure_psi_weighted": 10, "pressure_psi_dial": 11 },
+        { "jar_size": "quart", "pack": "hot", "processing_time_minutes": 40, "pressure_psi_weighted": 10, "pressure_psi_dial": 11 },
+        { "jar_size": "quart", "pack": "raw", "processing_time_minutes": 40, "pressure_psi_weighted": 10, "pressure_psi_dial": 11 }
+      ]
+    },
+    {
+      "id": "winter-squash",
+      "name": "Winter Squash / Pumpkin",
+      "category": "Vegetables",
+      "method": "pressure",
+      "safety_notes": "Low-acid. Must be cubed — do not mash or purée for canning. Pressure canning required.",
+      "source": "USDA 2015",
+      "altitude_note": "Dial: 11 lb (0–2,000 ft) · 12 lb (2,001–4,000 ft). Weighted: 10 lb (≤1,000 ft) · 15 lb (above 1,000 ft).",
+      "entries": [
+        { "jar_size": "pint",  "pack": "hot", "processing_time_minutes": 55, "pressure_psi_weighted": 10, "pressure_psi_dial": 11 },
+        { "jar_size": "quart", "pack": "hot", "processing_time_minutes": 90, "pressure_psi_weighted": 10, "pressure_psi_dial": 11 }
+      ]
+    },
+    {
+      "id": "applesauce",
+      "name": "Applesauce",
+      "category": "Fruits",
+      "method": "water_bath",
+      "safety_notes": "",
+      "source": "USDA 2015",
+      "altitude_note": "+5 min for 1,001–3,000 ft · +10 min for 3,001–6,000 ft · +15 min for 6,001–8,000 ft",
+      "entries": [
+        { "jar_size": "pint",  "pack": "hot", "processing_time_minutes": 15 },
+        { "jar_size": "quart", "pack": "hot", "processing_time_minutes": 20 }
+      ]
+    },
+    {
+      "id": "peaches",
+      "name": "Peaches, Halved or Sliced",
+      "category": "Fruits",
+      "method": "water_bath",
+      "safety_notes": "Treat cut surfaces with ascorbic acid solution to prevent browning.",
+      "source": "USDA 2015",
+      "altitude_note": "+5 min for 1,001–3,000 ft · +10 min for 3,001–6,000 ft · +15 min for 6,001–8,000 ft",
+      "entries": [
+        { "jar_size": "pint",  "pack": "hot", "processing_time_minutes": 20 },
+        { "jar_size": "pint",  "pack": "raw", "processing_time_minutes": 25 },
+        { "jar_size": "quart", "pack": "hot", "processing_time_minutes": 25 },
+        { "jar_size": "quart", "pack": "raw", "processing_time_minutes": 30 }
+      ]
+    },
+    {
+      "id": "pears",
+      "name": "Pears, Halved",
+      "category": "Fruits",
+      "method": "water_bath",
+      "safety_notes": "Asian pears are low-acid and must not be canned using these directions.",
+      "source": "USDA 2015",
+      "altitude_note": "+5 min for 1,001–3,000 ft · +10 min for 3,001–6,000 ft · +15 min for 6,001–8,000 ft",
+      "entries": [
+        { "jar_size": "pint",  "pack": "hot", "processing_time_minutes": 20 },
+        { "jar_size": "quart", "pack": "hot", "processing_time_minutes": 25 }
+      ]
+    },
+    {
+      "id": "apples-sliced",
+      "name": "Apples, Sliced",
+      "category": "Fruits",
+      "method": "water_bath",
+      "safety_notes": "",
+      "source": "USDA 2015",
+      "altitude_note": "+5 min for 1,001–3,000 ft · +10 min for 3,001–6,000 ft · +15 min for 6,001–8,000 ft",
+      "entries": [
+        { "jar_size": "pint",  "pack": "hot", "processing_time_minutes": 20 },
+        { "jar_size": "quart", "pack": "hot", "processing_time_minutes": 20 }
+      ]
+    },
+    {
+      "id": "cherries",
+      "name": "Cherries",
+      "category": "Fruits",
+      "method": "water_bath",
+      "safety_notes": "",
+      "source": "USDA 2015",
+      "altitude_note": "+5 min for 1,001–3,000 ft · +10 min for 3,001–6,000 ft · +15 min for 6,001–8,000 ft",
+      "entries": [
+        { "jar_size": "pint",  "pack": "hot", "processing_time_minutes": 15 },
+        { "jar_size": "pint",  "pack": "raw", "processing_time_minutes": 25 },
+        { "jar_size": "quart", "pack": "hot", "processing_time_minutes": 20 },
+        { "jar_size": "quart", "pack": "raw", "processing_time_minutes": 25 }
+      ]
+    },
+    {
+      "id": "plums",
+      "name": "Plums",
+      "category": "Fruits",
+      "method": "water_bath",
+      "safety_notes": "",
+      "source": "USDA 2015",
+      "altitude_note": "+5 min for 1,001–3,000 ft · +10 min for 3,001–6,000 ft · +15 min for 6,001–8,000 ft",
+      "entries": [
+        { "jar_size": "pint",  "pack": "hot", "processing_time_minutes": 20 },
+        { "jar_size": "quart", "pack": "hot", "processing_time_minutes": 25 }
+      ]
+    },
+    {
+      "id": "jams-soft-spreads",
+      "name": "Jams and Soft Spreads",
+      "category": "Jams",
+      "method": "water_bath",
+      "safety_notes": "Use only tested recipes.",
+      "source": "USDA 2015",
+      "altitude_note": "+1 min for 1,001–3,000 ft · +2 min for 3,001–6,000 ft · +3 min for 6,001–8,000 ft",
+      "entries": [
+        { "jar_size": "half_pint", "pack": "hot", "processing_time_minutes": 10 },
+        { "jar_size": "pint",      "pack": "hot", "processing_time_minutes": 10 }
+      ]
+    },
+    {
+      "id": "jelly",
+      "name": "Jelly",
+      "category": "Jams",
+      "method": "water_bath",
+      "safety_notes": "",
+      "source": "USDA 2015",
+      "altitude_note": "+1 min for 1,001–3,000 ft · +2 min for 3,001–6,000 ft · +3 min for 6,001–8,000 ft",
+      "entries": [
+        { "jar_size": "half_pint", "pack": "hot", "processing_time_minutes": 5 },
+        { "jar_size": "pint",      "pack": "hot", "processing_time_minutes": 5 }
+      ]
+    },
+    {
+      "id": "dill-pickles",
+      "name": "Dill Pickles",
+      "category": "Pickles",
+      "method": "water_bath",
+      "safety_notes": "Use 4–6% acidity vinegar. Do not reduce vinegar or increase water. Use pickling/canning salt only.",
+      "source": "USDA 2015",
+      "altitude_note": "+5 min for 1,001–6,000 ft · +10 min above 6,000 ft",
+      "entries": [
+        { "jar_size": "pint",  "pack": "raw", "processing_time_minutes": 10 },
+        { "jar_size": "quart", "pack": "raw", "processing_time_minutes": 10 }
+      ]
+    },
+    {
+      "id": "bread-butter-pickles",
+      "name": "Bread and Butter Pickles",
+      "category": "Pickles",
+      "method": "water_bath",
+      "safety_notes": "Use 4–6% acidity vinegar. Use pickling/canning salt only.",
+      "source": "USDA 2015",
+      "altitude_note": "+5 min for 1,001–6,000 ft · +10 min above 6,000 ft",
+      "entries": [
+        { "jar_size": "pint",  "pack": "hot", "processing_time_minutes": 10 },
+        { "jar_size": "quart", "pack": "hot", "processing_time_minutes": 10 }
+      ]
+    },
+    {
+      "id": "pickled-beets",
+      "name": "Pickled Beets",
+      "category": "Pickles",
+      "method": "water_bath",
+      "safety_notes": "Use 5% acidity vinegar. Do not reduce vinegar or increase water.",
+      "source": "USDA 2015",
+      "altitude_note": "+5 min for 1,001–3,000 ft · +10 min for 3,001–6,000 ft · +15 min for 6,001–8,000 ft",
+      "entries": [
+        { "jar_size": "pint",  "pack": "hot", "processing_time_minutes": 30 },
+        { "jar_size": "quart", "pack": "hot", "processing_time_minutes": 35 }
+      ]
+    },
+    {
+      "id": "ground-meat",
+      "name": "Ground or Chopped Meat",
+      "category": "Meats",
+      "method": "pressure",
+      "safety_notes": "Use fresh, chilled meat. Remove excess fat before packing. Pressure canning required.",
+      "source": "USDA 2015",
+      "altitude_note": "Dial: 11 lb (0–2,000 ft) · 12 lb (2,001–4,000 ft). Weighted: 10 lb (≤1,000 ft) · 15 lb (above 1,000 ft).",
+      "entries": [
+        { "jar_size": "pint",  "pack": "hot", "processing_time_minutes": 75, "pressure_psi_weighted": 10, "pressure_psi_dial": 11 },
+        { "jar_size": "quart", "pack": "hot", "processing_time_minutes": 90, "pressure_psi_weighted": 10, "pressure_psi_dial": 11 }
+      ]
+    },
+    {
+      "id": "chicken-turkey",
+      "name": "Chicken or Turkey",
+      "category": "Meats",
+      "method": "pressure",
+      "safety_notes": "Use fresh, chilled poultry. Remove excess fat and skin. Pressure canning required.",
+      "source": "USDA 2015",
+      "altitude_note": "Dial: 11 lb (0–2,000 ft) · 12 lb (2,001–4,000 ft). Weighted: 10 lb (≤1,000 ft) · 15 lb (above 1,000 ft).",
+      "entries": [
+        { "jar_size": "pint",  "pack": "hot", "processing_time_minutes": 75, "pressure_psi_weighted": 10, "pressure_psi_dial": 11 },
+        { "jar_size": "pint",  "pack": "raw", "processing_time_minutes": 75, "pressure_psi_weighted": 10, "pressure_psi_dial": 11 },
+        { "jar_size": "quart", "pack": "hot", "processing_time_minutes": 90, "pressure_psi_weighted": 10, "pressure_psi_dial": 11 },
+        { "jar_size": "quart", "pack": "raw", "processing_time_minutes": 90, "pressure_psi_weighted": 10, "pressure_psi_dial": 11 }
+      ]
+    },
+    {
+      "id": "fish",
+      "name": "Fish (Tuna, Salmon, etc.)",
+      "category": "Meats",
+      "method": "pressure",
+      "safety_notes": "Use only fresh, high-quality fish. USDA recommends half-pint or pint jars only. Pressure canning required.",
+      "source": "USDA 2015",
+      "altitude_note": "Dial: 11 lb (0–2,000 ft) · 12 lb (2,001–4,000 ft). Weighted: 10 lb (≤1,000 ft) · 15 lb (above 1,000 ft).",
+      "entries": [
+        { "jar_size": "half_pint", "pack": "raw", "processing_time_minutes": 100, "pressure_psi_weighted": 10, "pressure_psi_dial": 11 },
+        { "jar_size": "pint",      "pack": "raw", "processing_time_minutes": 100, "pressure_psi_weighted": 10, "pressure_psi_dial": 11 }
+      ]
+    }
+  ]
+}
