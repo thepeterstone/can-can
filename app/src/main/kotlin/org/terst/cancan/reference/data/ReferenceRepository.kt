@@ -13,16 +13,26 @@ class ReferenceRepository @Inject constructor(
 ) {
     private val json = Json { ignoreUnknownKeys = true }
 
+    private val assetFiles = listOf(
+        "reference/canning_guide.json",
+        "reference/fermentation_guide.json",
+        "reference/foraging_guide.json",
+        "reference/preservation_guide.json"
+    )
+
     val items: List<ReferenceItem> by lazy {
-        try {
-            val text = context.assets.open("reference/canning_guide.json")
-                .bufferedReader().use { it.readText() }
-            val data = json.decodeFromString<ReferenceData>(text)
-            CanCanLogger.log("ReferenceRepository: loaded ${data.items.size} items (schema v${data.version})")
-            data.items
-        } catch (e: Exception) {
-            CanCanLogger.log("ReferenceRepository: failed to load guide — ${e.message}")
-            emptyList()
+        assetFiles.flatMap { path -> loadFile(path) }.also {
+            CanCanLogger.log("ReferenceRepository: ${it.size} total reference items loaded")
         }
+    }
+
+    private fun loadFile(path: String): List<ReferenceItem> = try {
+        val text = context.assets.open(path).bufferedReader().use { it.readText() }
+        val data = json.decodeFromString<ReferenceData>(text)
+        CanCanLogger.log("ReferenceRepository: $path → ${data.items.size} items (schema v${data.version})")
+        data.items
+    } catch (e: Exception) {
+        CanCanLogger.log("ReferenceRepository: $path failed — ${e.message}")
+        emptyList()
     }
 }

@@ -10,6 +10,7 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
@@ -42,7 +43,7 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavController
-import androidx.navigation.compose.rememberNavController
+import org.terst.cancan.reference.data.GuideSection
 import org.terst.cancan.reference.data.ProcessingEntry
 import org.terst.cancan.reference.data.ReferenceItem
 import org.terst.cancan.ui.theme.CanCanTheme
@@ -68,7 +69,7 @@ private fun ReferenceContent(
         OutlinedTextField(
             value = uiState.query,
             onValueChange = onSearch,
-            placeholder = { Text("Search foods…") },
+            placeholder = { Text("Search foods, guides, plants…") },
             leadingIcon = { Icon(Icons.Default.Search, contentDescription = null) },
             singleLine = true,
             modifier = Modifier
@@ -130,8 +131,10 @@ private fun ReferenceItemCard(item: ReferenceItem) {
                     style = MaterialTheme.typography.titleMedium,
                     modifier = Modifier.weight(1f)
                 )
-                MethodBadge(method = item.method)
-                Spacer(Modifier.width(8.dp))
+                if (item.type == "lookup") {
+                    MethodBadge(method = item.method)
+                    Spacer(Modifier.width(8.dp))
+                }
                 Icon(
                     imageVector = if (expanded) Icons.Default.ExpandLess else Icons.Default.ExpandMore,
                     contentDescription = if (expanded) "Collapse" else "Expand"
@@ -139,55 +142,128 @@ private fun ReferenceItemCard(item: ReferenceItem) {
             }
 
             AnimatedVisibility(visible = expanded) {
-                Column(modifier = Modifier.padding(top = 12.dp)) {
-                    item.entries.forEachIndexed { index, entry ->
-                        if (index > 0) {
-                            HorizontalDivider(modifier = Modifier.padding(vertical = 6.dp))
-                        }
-                        ProcessingEntryRow(entry = entry)
-                    }
-
-                    if (item.altitudeNote.isNotBlank()) {
-                        Text(
-                            text = "Altitude: ${item.altitudeNote}",
-                            style = MaterialTheme.typography.bodySmall,
-                            color = MaterialTheme.colorScheme.onSurfaceVariant,
-                            modifier = Modifier.padding(top = 10.dp)
-                        )
-                    }
-
-                    if (item.safetyNotes.isNotBlank()) {
-                        Row(
-                            verticalAlignment = Alignment.Top,
-                            modifier = Modifier.padding(top = 8.dp)
-                        ) {
-                            Icon(
-                                Icons.Default.Warning,
-                                contentDescription = "Safety note",
-                                tint = MaterialTheme.colorScheme.error,
-                                modifier = Modifier
-                                    .size(16.dp)
-                                    .padding(top = 2.dp)
-                            )
-                            Spacer(Modifier.width(4.dp))
-                            Text(
-                                text = item.safetyNotes,
-                                style = MaterialTheme.typography.bodySmall,
-                                color = MaterialTheme.colorScheme.error
-                            )
-                        }
-                    }
-
-                    Text(
-                        text = "Source: ${item.source}",
-                        style = MaterialTheme.typography.labelSmall,
-                        color = MaterialTheme.colorScheme.onSurfaceVariant,
-                        modifier = Modifier.padding(top = 8.dp)
-                    )
+                if (item.type == "guide") {
+                    GuideExpandedContent(item = item)
+                } else {
+                    LookupExpandedContent(item = item)
                 }
             }
         }
     }
+}
+
+@Composable
+private fun LookupExpandedContent(item: ReferenceItem) {
+    Column(modifier = Modifier.padding(top = 12.dp)) {
+        item.entries.forEachIndexed { index, entry ->
+            if (index > 0) HorizontalDivider(modifier = Modifier.padding(vertical = 6.dp))
+            ProcessingEntryRow(entry = entry)
+        }
+        if (item.altitudeNote.isNotBlank()) {
+            Spacer(Modifier.height(10.dp))
+            Text(
+                text = "Altitude: ${item.altitudeNote}",
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant
+            )
+        }
+        SafetyAndSource(item = item)
+    }
+}
+
+@Composable
+private fun GuideExpandedContent(item: ReferenceItem) {
+    Column(modifier = Modifier.padding(top = 12.dp)) {
+        if (item.summary.isNotBlank()) {
+            Text(
+                text = item.summary,
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.onSurfaceVariant
+            )
+            Spacer(Modifier.height(4.dp))
+        }
+
+        val meta = listOfNotNull(
+            item.difficulty.takeIf { it.isNotBlank() }
+                ?.let { "Difficulty: ${it.replaceFirstChar { c -> c.uppercaseChar() }}" },
+            item.timeEstimate.takeIf { it.isNotBlank() }?.let { "Time: $it" }
+        ).joinToString(" · ")
+        if (meta.isNotBlank()) {
+            Text(
+                text = meta,
+                style = MaterialTheme.typography.labelMedium,
+                color = MaterialTheme.colorScheme.primary,
+                modifier = Modifier.padding(bottom = 8.dp)
+            )
+        }
+
+        item.sections.forEach { section ->
+            GuideSectionBlock(section = section)
+        }
+
+        SafetyAndSource(item = item)
+    }
+}
+
+@Composable
+private fun GuideSectionBlock(section: GuideSection) {
+    Column(modifier = Modifier.padding(vertical = 6.dp)) {
+        Text(
+            text = section.heading,
+            style = MaterialTheme.typography.titleSmall,
+            fontWeight = FontWeight.SemiBold
+        )
+        Spacer(Modifier.height(4.dp))
+        Text(
+            text = section.body,
+            style = MaterialTheme.typography.bodySmall
+        )
+        if (section.tips.isNotEmpty()) {
+            Spacer(Modifier.height(4.dp))
+            section.tips.forEach { tip ->
+                Row(modifier = Modifier.padding(start = 8.dp, top = 2.dp)) {
+                    Text(
+                        text = "·",
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.primary,
+                        modifier = Modifier.padding(end = 6.dp)
+                    )
+                    Text(text = tip, style = MaterialTheme.typography.bodySmall)
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun SafetyAndSource(item: ReferenceItem) {
+    if (item.safetyNotes.isNotBlank()) {
+        Row(
+            verticalAlignment = Alignment.Top,
+            modifier = Modifier.padding(top = 8.dp)
+        ) {
+            Icon(
+                Icons.Default.Warning,
+                contentDescription = "Safety note",
+                tint = MaterialTheme.colorScheme.error,
+                modifier = Modifier
+                    .size(16.dp)
+                    .padding(top = 2.dp)
+            )
+            Spacer(Modifier.width(4.dp))
+            Text(
+                text = item.safetyNotes,
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.error
+            )
+        }
+    }
+    Text(
+        text = "Source: ${item.source}",
+        style = MaterialTheme.typography.labelSmall,
+        color = MaterialTheme.colorScheme.onSurfaceVariant,
+        modifier = Modifier.padding(top = 8.dp)
+    )
 }
 
 @Composable
@@ -196,7 +272,7 @@ private fun MethodBadge(method: String) {
         "water_bath" -> "WB"
         "pressure" -> "PC"
         "either" -> "WB/PC"
-        else -> method
+        else -> return
     }
     val color = when (method) {
         "water_bath" -> MaterialTheme.colorScheme.primary
@@ -253,22 +329,30 @@ private fun String.formatJarSize(): String = when (this) {
 
 @Preview(showBackground = true)
 @Composable
-private fun ReferenceContentPreview() {
+private fun LookupCardPreview() {
     CanCanTheme {
         ReferenceContent(
             uiState = ReferenceUiState(
                 allItems = listOf(
                     ReferenceItem(
-                        id = "green-beans",
-                        name = "Green Beans",
-                        category = "Vegetables",
-                        method = "pressure",
+                        id = "green-beans", name = "Green Beans", category = "Vegetables",
+                        type = "lookup", method = "pressure",
                         safetyNotes = "Low-acid. Pressure canning required.",
                         source = "USDA 2015",
                         altitudeNote = "Dial: +1 lb per 2,000 ft above 2,000 ft.",
                         entries = listOf(
-                            org.terst.cancan.reference.data.ProcessingEntry("pint", "hot", 20, 10, 11),
-                            org.terst.cancan.reference.data.ProcessingEntry("quart", "hot", 25, 10, 11)
+                            ProcessingEntry("pint", "hot", 20, 10, 11),
+                            ProcessingEntry("quart", "hot", 25, 10, 11)
+                        )
+                    ),
+                    ReferenceItem(
+                        id = "sauerkraut-guide", name = "Sauerkraut", category = "Fermentation",
+                        type = "guide", summary = "Classic fermented cabbage.",
+                        difficulty = "beginner", timeEstimate = "1–4 weeks",
+                        source = "NCHFP",
+                        sections = listOf(
+                            GuideSection("How It Works", "Salt draws water from cabbage, creating brine.",
+                                tips = listOf("Use 1–3% salt by weight", "Keep cabbage submerged"))
                         )
                     )
                 )

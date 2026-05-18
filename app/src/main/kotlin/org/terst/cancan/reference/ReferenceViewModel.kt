@@ -10,7 +10,10 @@ import org.terst.cancan.reference.data.ReferenceItem
 import org.terst.cancan.reference.data.ReferenceRepository
 import javax.inject.Inject
 
-private val categoryOrder = listOf("Tomatoes", "Vegetables", "Fruits", "Jams", "Pickles", "Meats")
+private val categoryOrder = listOf(
+    "Tomatoes", "Vegetables", "Fruits", "Jams", "Pickles", "Meats",
+    "Fermentation", "Foraging", "Dehydrating", "Smoking & Curing"
+)
 
 data class ReferenceUiState(
     val allItems: List<ReferenceItem> = emptyList(),
