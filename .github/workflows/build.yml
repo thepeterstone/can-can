@@ -11,6 +11,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: read
+      pull-requests: write
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -22,57 +26,63 @@ jobs:
           distribution: 'temurin'
           cache: gradle
 
-      - name: Diagnose and install Android SDK
+      - name: Diagnose Android SDK and post to PR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
         run: |
           set +e
           {
-            echo "=== ANDROID_HOME: $ANDROID_HOME"
-            echo "=== ANDROID_SDK_ROOT: $ANDROID_SDK_ROOT"
-            echo "=== ls cmdline-tools:"
+            echo "ANDROID_HOME=$ANDROID_HOME"
+            echo "ANDROID_SDK_ROOT=$ANDROID_SDK_ROOT"
+            echo "--- ls cmdline-tools ---"
             ls -la "$ANDROID_HOME/cmdline-tools/" 2>&1
-            echo "=== find sdkmanager:"
+            echo "--- find sdkmanager ---"
             find "$ANDROID_HOME" -name "sdkmanager" 2>/dev/null
             SDKM="$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager"
             if [ -f "$SDKM" ]; then
-              echo "=== installed packages:"
-              "$SDKM" --list_installed 2>&1 | head -40
-              echo "=== accepting licenses"
-              yes | "$SDKM" --licenses 2>&1 | tail -5
-              echo "=== available android platforms:"
-              "$SDKM" --list 2>&1 | grep "platforms;android-" | tail -20
-              echo "=== installing platforms;android-36"
-              "$SDKM" "platforms;android-36" 2>&1
+              echo "--- installed ---"
+              "$SDKM" --list_installed 2>&1 | head -30
+              echo "--- available android platforms ---"
+              "$SDKM" --list 2>&1 | grep "platforms;android-3" | tail -10
             else
-              echo "sdkmanager NOT found at $SDKM"
+              echo "sdkmanager NOT FOUND at $SDKM"
             fi
-          } | tee /tmp/sdk-diag.txt
+          } > /tmp/sdk-diag.txt 2>&1
+          cat /tmp/sdk-diag.txt
+          if [ -n "$PR_NUMBER" ]; then
+            BODY=$(cat /tmp/sdk-diag.txt | head -60)
+            gh pr comment "$PR_NUMBER" --repo thepeterstone/can-can \
+              --body "**SDK Diagnostics (run ${{ github.run_id }})**\`\`\`
+          $BODY
+          \`\`\`"
+          fi
           set -e
 
-      - name: Upload SDK diagnostics
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: sdk-diagnostics
-          path: /tmp/sdk-diag.txt
-          retention-days: 3
+      - name: Install platform 36
+        run: |
+          yes | ${ANDROID_HOME}/cmdline-tools/latest/bin/sdkmanager --licenses > /dev/null 2>&1 || true
+          ${ANDROID_HOME}/cmdline-tools/latest/bin/sdkmanager "platforms;android-36"
 
       - name: Grant gradlew execute permission
         run: chmod +x gradlew
 
       - name: Build debug APK
-        run: ./gradlew assembleDebug --no-daemon --stacktrace 2>&1 | tee /tmp/gradle-build.txt; exit ${PIPESTATUS[0]}
-
-      - name: Upload Gradle build log
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: gradle-build-log
-          path: /tmp/gradle-build.txt
-          retention-days: 3
+        run: ./gradlew assembleDebug --no-daemon --stacktrace
 
       - name: Upload debug APK
         uses: actions/upload-artifact@v4
         with:
           name: can-can-debug
           path: app/build/outputs/apk/debug/app-debug.apk
+          retention-days: 14
+
+      - name: Build release APK (unsigned)
+        run: ./gradlew assembleRelease --no-daemon
+
+      - name: Upload release APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: can-can-release-unsigned
+          path: app/build/outputs/apk/release/app-release-unsigned.apk
           retention-days: 14
