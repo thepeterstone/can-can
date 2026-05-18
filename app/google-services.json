@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "189313038886",
+    "project_id": "cancan-test-32f7a",
+    "storage_bucket": "cancan-test-32f7a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189313038886:android:65969c50a7b9975982c4e7",
+        "android_client_info": {
+          "package_name": "org.terst.cancan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1EfbjpudzUWpIQGq3_92-omHQKKx8X5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

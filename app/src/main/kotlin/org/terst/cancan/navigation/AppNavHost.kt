@@ -12,14 +12,20 @@ import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.navigation.NavDestination.Companion.hierarchy
 import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
+import com.google.firebase.Firebase
+import com.google.firebase.analytics.FirebaseAnalytics
+import com.google.firebase.analytics.analytics
+import com.google.firebase.analytics.logEvent
 import org.terst.cancan.cooking.CookingScreen
 import org.terst.cancan.inventory.InventoryScreen
 import org.terst.cancan.recipes.RecipesScreen
@@ -43,6 +49,15 @@ fun AppNavHost() {
     val navController = rememberNavController()
     val navBackStackEntry by navController.currentBackStackEntryAsState()
     val currentDestination = navBackStackEntry?.destination
+    val analytics = Firebase.analytics
+
+    LaunchedEffect(navBackStackEntry) {
+        val route = navBackStackEntry?.destination?.route ?: return@LaunchedEffect
+        analytics.logEvent(FirebaseAnalytics.Event.SCREEN_VIEW) {
+            param(FirebaseAnalytics.Param.SCREEN_NAME, route)
+            param(FirebaseAnalytics.Param.SCREEN_CLASS, route)
+        }
+    }
 
     Scaffold(
         bottomBar = {

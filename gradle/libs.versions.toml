@@ -17,6 +17,9 @@ mlkit-barcode = "17.3.0"
 
 coroutines = "1.9.0"
 kotlinx-serialization = "1.7.3"
+firebase-bom = "33.7.0"
+google-services = "4.4.2"
+firebase-crashlytics-gradle = "3.0.2"
 lifecycle = "2.8.7"
 activity-compose = "1.9.3"
 core-ktx = "1.15.0"
@@ -70,6 +73,11 @@ mlkit-barcode = { group = "com.google.mlkit", name = "barcode-scanning", version
 coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
 kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "kotlinx-serialization" }
 
+# Firebase
+firebase-bom = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebase-bom" }
+firebase-analytics = { group = "com.google.firebase", name = "firebase-analytics" }
+firebase-crashlytics = { group = "com.google.firebase", name = "firebase-crashlytics" }
+
 # Testing
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-test-ext = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext" }
@@ -84,3 +92,5 @@ kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "ko
 hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+google-services = { id = "com.google.gms.google-services", version.ref = "google-services" }
+firebase-crashlytics-gradle = { id = "com.google.firebase.crashlytics", version.ref = "firebase-crashlytics-gradle" }
