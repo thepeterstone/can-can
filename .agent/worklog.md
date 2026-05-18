@@ -11,9 +11,9 @@
 - [x] Fixed `AppNavHost.kt`: exhaustive `when()` — no dead `else` branch
 - [x] Build note: Google Maven (AGP / AndroidX) is not reachable from cloud sessions; APK compilation goes through GitHub Actions
 
-**IMPORTANT BUILD NOTE:**
-Google's Maven repository (`maven.google.com`) is blocked in Claude Code cloud sessions.
-APK builds happen via GitHub Actions → download artifact from the Actions tab.
+**Build is GREEN.** Download APK from Actions tab → can-can-debug artifact.
+
+Root cause of initial CI failure: missing `gradle.properties` — `android.useAndroidX=true` is required for any AndroidX project and was absent from the scaffold.
 
 **Next steps:**
 - Wire up Room database schema for inventory
