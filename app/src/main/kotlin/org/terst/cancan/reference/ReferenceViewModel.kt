@@ -1,13 +1,16 @@
 package org.terst.cancan.reference
 
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
+import kotlinx.coroutines.launch
 import org.terst.cancan.reference.data.ReferenceItem
 import org.terst.cancan.reference.data.ReferenceRepository
+import org.terst.cancan.reference.data.WikipediaImageRepository
 import javax.inject.Inject
 
 private val categoryOrder = listOf(
@@ -18,7 +21,8 @@ private val categoryOrder = listOf(
 data class ReferenceUiState(
     val allItems: List<ReferenceItem> = emptyList(),
     val query: String = "",
-    val activeCategory: String = "All"
+    val activeCategory: String = "All",
+    val imageUrls: Map<String, String> = emptyMap()
 ) {
     val categories: List<String> = listOf("All") +
         allItems.map { it.category }.distinct()
@@ -32,7 +36,8 @@ data class ReferenceUiState(
 
 @HiltViewModel
 class ReferenceViewModel @Inject constructor(
-    repository: ReferenceRepository
+    repository: ReferenceRepository,
+    private val wikiImages: WikipediaImageRepository
 ) : ViewModel() {
 
     private val _uiState = MutableStateFlow(ReferenceUiState())
@@ -45,4 +50,13 @@ class ReferenceViewModel @Inject constructor(
     fun onSearch(query: String) = _uiState.update { it.copy(query = query) }
 
     fun onCategorySelected(category: String) = _uiState.update { it.copy(activeCategory = category) }
+
+    fun fetchImageFor(wikipediaTitle: String) {
+        if (wikipediaTitle.isBlank()) return
+        if (_uiState.value.imageUrls.containsKey(wikipediaTitle)) return
+        viewModelScope.launch {
+            val url = wikiImages.getThumbnailUrl(wikipediaTitle) ?: return@launch
+            _uiState.update { it.copy(imageUrls = it.imageUrls + (wikipediaTitle to url)) }
+        }
+    }
 }

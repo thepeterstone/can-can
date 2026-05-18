@@ -27,7 +27,8 @@ data class ReferenceItem(
     val sections: List<GuideSection> = emptyList(),
     // shared
     @SerialName("safety_notes") val safetyNotes: String = "",
-    val source: String
+    val source: String,
+    @SerialName("wikipedia_title") val wikipediaTitle: String = ""
 )
 
 @Serializable

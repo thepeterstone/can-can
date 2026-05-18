@@ -31,18 +31,22 @@ import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavController
+import coil.compose.AsyncImage
 import org.terst.cancan.reference.data.GuideSection
 import org.terst.cancan.reference.data.ProcessingEntry
 import org.terst.cancan.reference.data.ReferenceItem
@@ -55,7 +59,8 @@ fun ReferenceScreen(navController: NavController) {
     ReferenceContent(
         uiState = uiState,
         onSearch = viewModel::onSearch,
-        onCategorySelected = viewModel::onCategorySelected
+        onCategorySelected = viewModel::onCategorySelected,
+        onFetchImage = viewModel::fetchImageFor
     )
 }
 
@@ -63,7 +68,8 @@ fun ReferenceScreen(navController: NavController) {
 private fun ReferenceContent(
     uiState: ReferenceUiState,
     onSearch: (String) -> Unit,
-    onCategorySelected: (String) -> Unit
+    onCategorySelected: (String) -> Unit,
+    onFetchImage: (String) -> Unit
 ) {
     Column(modifier = Modifier.fillMaxSize()) {
         OutlinedTextField(
@@ -106,7 +112,11 @@ private fun ReferenceContent(
                 modifier = Modifier.fillMaxSize()
             ) {
                 items(uiState.filtered, key = { it.id }) { item ->
-                    ReferenceItemCard(item = item)
+                    ReferenceItemCard(
+                        item = item,
+                        imageUrl = uiState.imageUrls[item.wikipediaTitle],
+                        onFetchImage = onFetchImage
+                    )
                 }
             }
         }
@@ -114,8 +124,18 @@ private fun ReferenceContent(
 }
 
 @Composable
-private fun ReferenceItemCard(item: ReferenceItem) {
+private fun ReferenceItemCard(
+    item: ReferenceItem,
+    imageUrl: String?,
+    onFetchImage: (String) -> Unit
+) {
     var expanded by remember { mutableStateOf(false) }
+
+    LaunchedEffect(expanded) {
+        if (expanded && item.type == "guide" && item.wikipediaTitle.isNotBlank()) {
+            onFetchImage(item.wikipediaTitle)
+        }
+    }
 
     ElevatedCard(
         onClick = { expanded = !expanded },
@@ -143,7 +163,7 @@ private fun ReferenceItemCard(item: ReferenceItem) {
 
             AnimatedVisibility(visible = expanded) {
                 if (item.type == "guide") {
-                    GuideExpandedContent(item = item)
+                    GuideExpandedContent(item = item, imageUrl = imageUrl)
                 } else {
                     LookupExpandedContent(item = item)
                 }
@@ -172,8 +192,21 @@ private fun LookupExpandedContent(item: ReferenceItem) {
 }
 
 @Composable
-private fun GuideExpandedContent(item: ReferenceItem) {
+private fun GuideExpandedContent(item: ReferenceItem, imageUrl: String?) {
     Column(modifier = Modifier.padding(top = 12.dp)) {
+        if (imageUrl != null) {
+            AsyncImage(
+                model = imageUrl,
+                contentDescription = "${item.name} photograph",
+                contentScale = ContentScale.Crop,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .height(220.dp)
+                    .clip(MaterialTheme.shapes.medium)
+                    .padding(bottom = 12.dp)
+            )
+        }
+
         if (item.summary.isNotBlank()) {
             Text(
                 text = item.summary,
@@ -197,9 +230,7 @@ private fun GuideExpandedContent(item: ReferenceItem) {
             )
         }
 
-        item.sections.forEach { section ->
-            GuideSectionBlock(section = section)
-        }
+        item.sections.forEach { section -> GuideSectionBlock(section = section) }
 
         SafetyAndSource(item = item)
     }
@@ -214,10 +245,7 @@ private fun GuideSectionBlock(section: GuideSection) {
             fontWeight = FontWeight.SemiBold
         )
         Spacer(Modifier.height(4.dp))
-        Text(
-            text = section.body,
-            style = MaterialTheme.typography.bodySmall
-        )
+        Text(text = section.body, style = MaterialTheme.typography.bodySmall)
         if (section.tips.isNotEmpty()) {
             Spacer(Modifier.height(4.dp))
             section.tips.forEach { tip ->
@@ -329,36 +357,23 @@ private fun String.formatJarSize(): String = when (this) {
 
 @Preview(showBackground = true)
 @Composable
-private fun LookupCardPreview() {
+private fun PreviewGuideCard() {
     CanCanTheme {
         ReferenceContent(
             uiState = ReferenceUiState(
                 allItems = listOf(
                     ReferenceItem(
-                        id = "green-beans", name = "Green Beans", category = "Vegetables",
-                        type = "lookup", method = "pressure",
-                        safetyNotes = "Low-acid. Pressure canning required.",
-                        source = "USDA 2015",
-                        altitudeNote = "Dial: +1 lb per 2,000 ft above 2,000 ft.",
-                        entries = listOf(
-                            ProcessingEntry("pint", "hot", 20, 10, 11),
-                            ProcessingEntry("quart", "hot", 25, 10, 11)
-                        )
-                    ),
-                    ReferenceItem(
-                        id = "sauerkraut-guide", name = "Sauerkraut", category = "Fermentation",
-                        type = "guide", summary = "Classic fermented cabbage.",
-                        difficulty = "beginner", timeEstimate = "1–4 weeks",
-                        source = "NCHFP",
-                        sections = listOf(
-                            GuideSection("How It Works", "Salt draws water from cabbage, creating brine.",
-                                tips = listOf("Use 1–3% salt by weight", "Keep cabbage submerged"))
-                        )
+                        id = "foraging-dandelion", name = "Dandelion (Taraxacum officinale)",
+                        category = "Foraging", type = "guide",
+                        summary = "One of the most abundant and unambiguously safe wild edibles.",
+                        difficulty = "beginner", source = "USDA PLANTS / Traditional",
+                        wikipediaTitle = "Taraxacum_officinale",
+                        sections = listOf(GuideSection("Identification", "Deeply toothed leaves."))
                     )
-                )
+                ),
+                imageUrls = emptyMap()
             ),
-            onSearch = {},
-            onCategorySelected = {}
+            onSearch = {}, onCategorySelected = {}, onFetchImage = {}
         )
     }
 }
