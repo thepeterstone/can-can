@@ -69,7 +69,7 @@ private fun ReferenceContent(
     uiState: ReferenceUiState,
     onSearch: (String) -> Unit,
     onCategorySelected: (String) -> Unit,
-    onFetchImage: (String) -> Unit
+    onFetchImage: (String, String) -> Unit
 ) {
     Column(modifier = Modifier.fillMaxSize()) {
         OutlinedTextField(
@@ -114,7 +114,7 @@ private fun ReferenceContent(
                 items(uiState.filtered, key = { it.id }) { item ->
                     ReferenceItemCard(
                         item = item,
-                        imageUrl = uiState.imageUrls[item.wikipediaTitle],
+                        imageUrl = uiState.imageUrls[item.id],
                         onFetchImage = onFetchImage
                     )
                 }
@@ -127,13 +127,13 @@ private fun ReferenceContent(
 private fun ReferenceItemCard(
     item: ReferenceItem,
     imageUrl: String?,
-    onFetchImage: (String) -> Unit
+    onFetchImage: (String, String) -> Unit
 ) {
     var expanded by remember { mutableStateOf(false) }
 
     LaunchedEffect(expanded) {
-        if (expanded && item.type == "guide" && item.wikipediaTitle.isNotBlank()) {
-            onFetchImage(item.wikipediaTitle)
+        if (expanded && item.wikipediaTitle.isNotBlank()) {
+            onFetchImage(item.id, item.wikipediaTitle)
         }
     }
 
@@ -165,7 +165,7 @@ private fun ReferenceItemCard(
                 if (item.type == "guide") {
                     GuideExpandedContent(item = item, imageUrl = imageUrl)
                 } else {
-                    LookupExpandedContent(item = item)
+                    LookupExpandedContent(item = item, imageUrl = imageUrl)
                 }
             }
         }
@@ -173,8 +173,11 @@ private fun ReferenceItemCard(
 }
 
 @Composable
-private fun LookupExpandedContent(item: ReferenceItem) {
+private fun LookupExpandedContent(item: ReferenceItem, imageUrl: String?) {
     Column(modifier = Modifier.padding(top = 12.dp)) {
+        if (imageUrl != null) {
+            ItemImage(imageUrl = imageUrl, name = item.name)
+        }
         item.entries.forEachIndexed { index, entry ->
             if (index > 0) HorizontalDivider(modifier = Modifier.padding(vertical = 6.dp))
             ProcessingEntryRow(entry = entry)
@@ -187,6 +190,12 @@ private fun LookupExpandedContent(item: ReferenceItem) {
                 color = MaterialTheme.colorScheme.onSurfaceVariant
             )
         }
+        if (item.sections.isNotEmpty()) {
+            Spacer(Modifier.height(8.dp))
+            HorizontalDivider()
+            Spacer(Modifier.height(8.dp))
+            item.sections.forEach { section -> GuideSectionBlock(section = section) }
+        }
         SafetyAndSource(item = item)
     }
 }
@@ -195,16 +204,7 @@ private fun LookupExpandedContent(item: ReferenceItem) {
 private fun GuideExpandedContent(item: ReferenceItem, imageUrl: String?) {
     Column(modifier = Modifier.padding(top = 12.dp)) {
         if (imageUrl != null) {
-            AsyncImage(
-                model = imageUrl,
-                contentDescription = "${item.name} photograph",
-                contentScale = ContentScale.Crop,
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .height(220.dp)
-                    .clip(MaterialTheme.shapes.medium)
-                    .padding(bottom = 12.dp)
-            )
+            ItemImage(imageUrl = imageUrl, name = item.name)
         }
 
         if (item.summary.isNotBlank()) {
@@ -234,6 +234,20 @@ private fun GuideExpandedContent(item: ReferenceItem, imageUrl: String?) {
 
         SafetyAndSource(item = item)
     }
+}
+
+@Composable
+private fun ItemImage(imageUrl: String, name: String) {
+    AsyncImage(
+        model = imageUrl,
+        contentDescription = "$name photograph",
+        contentScale = ContentScale.Crop,
+        modifier = Modifier
+            .fillMaxWidth()
+            .height(220.dp)
+            .clip(MaterialTheme.shapes.medium)
+            .padding(bottom = 12.dp)
+    )
 }
 
 @Composable
@@ -373,7 +387,7 @@ private fun PreviewGuideCard() {
                 ),
                 imageUrls = emptyMap()
             ),
-            onSearch = {}, onCategorySelected = {}, onFetchImage = {}
+            onSearch = {}, onCategorySelected = {}, onFetchImage = { _, _ -> }
         )
     }
 }

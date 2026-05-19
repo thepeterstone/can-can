@@ -51,12 +51,11 @@ class ReferenceViewModel @Inject constructor(
 
     fun onCategorySelected(category: String) = _uiState.update { it.copy(activeCategory = category) }
 
-    fun fetchImageFor(wikipediaTitle: String) {
-        if (wikipediaTitle.isBlank()) return
-        if (_uiState.value.imageUrls.containsKey(wikipediaTitle)) return
+    fun fetchImageFor(itemId: String, wikipediaTitle: String) {
+        if (_uiState.value.imageUrls.containsKey(itemId)) return
         viewModelScope.launch {
-            val url = wikiImages.getThumbnailUrl(wikipediaTitle) ?: return@launch
-            _uiState.update { it.copy(imageUrls = it.imageUrls + (wikipediaTitle to url)) }
+            val url = wikiImages.getImageUrl(itemId, wikipediaTitle) ?: return@launch
+            _uiState.update { it.copy(imageUrls = it.imageUrls + (itemId to url)) }
         }
     }
 }
