@@ -32,3 +32,6 @@ render.experimental.xml
 
 # Android Profiling
 *.hprof
+
+# Downloaded reference PDFs (run scripts/download_reference_pdfs.py to populate locally)
+docs/reference_pdfs/
