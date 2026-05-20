@@ -1,4 +1,10 @@
-name: Build
+name: Android CI/CD
+
+# ── Per-project config ────────────────────────────────────────
+env:
+  ANDROID_DIR: .
+  APP_NAME: can-can
+# ─────────────────────────────────────────────────────────────
 
 on:
   push:
@@ -10,49 +16,53 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Set up JDK 17
-        uses: actions/setup-java@v4
+      - uses: actions/setup-java@v4
         with:
           java-version: '17'
-          distribution: 'temurin'
+          distribution: temurin
           cache: gradle
 
       - name: Accept SDK licenses
         run: yes | ${ANDROID_HOME}/cmdline-tools/latest/bin/sdkmanager --licenses > /dev/null 2>&1 || true
 
-      - name: Grant gradlew execute permission
-        run: chmod +x gradlew
+      - name: Grant gradlew permission
+        run: chmod +x ${{ env.ANDROID_DIR }}/gradlew
 
       - name: Build debug APK
         run: ./gradlew assembleDebug --no-daemon
+        working-directory: ${{ env.ANDROID_DIR }}
 
-      - name: Upload to Firebase App Distribution
+      - name: Distribute to testers
         if: github.ref == 'refs/heads/main' && github.event_name == 'push'
         uses: wzieba/Firebase-Distribution-Github-Action@v1
         with:
           appId: ${{ secrets.FIREBASE_APP_ID }}
           serviceCredentialsFileContent: ${{ secrets.CREDENTIAL_FILE_CONTENT }}
           groups: testers
-          file: app/build/outputs/apk/debug/app-debug.apk
+          file: ${{ env.ANDROID_DIR }}/app/build/outputs/apk/debug/app-debug.apk
 
-      - name: Upload debug APK
+      - name: Upload debug artifact
         uses: actions/upload-artifact@v4
         with:
-          name: can-can-debug
-          path: app/build/outputs/apk/debug/app-debug.apk
-          retention-days: 14
+          name: ${{ env.APP_NAME }}-debug
+          path: ${{ env.ANDROID_DIR }}/app/build/outputs/apk/debug/app-debug.apk
+          retention-days: 3
 
-      - name: Build release APK (unsigned)
+      - name: Build release APK
         run: ./gradlew assembleRelease --no-daemon
+        working-directory: ${{ env.ANDROID_DIR }}
 
-      - name: Upload release APK
+      - name: Upload release artifact
         uses: actions/upload-artifact@v4
         with:
-          name: can-can-release-unsigned
-          path: app/build/outputs/apk/release/app-release-unsigned.apk
-          retention-days: 14
+          name: ${{ env.APP_NAME }}-release-unsigned
+          path: ${{ env.ANDROID_DIR }}/app/build/outputs/apk/release/app-release-unsigned.apk
+          retention-days: 3
+
+      # ── Claudomator ── uncomment when wired up ─────────────
+      # - name: Notify claudomator
+      #   if: always()
+      #   ...
