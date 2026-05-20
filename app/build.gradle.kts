@@ -17,8 +17,8 @@ android {
         applicationId = "org.terst.cancan"
         minSdk = 36
         targetSdk = 36
-        versionCode = 1
-        versionName = "0.1.0"
+        versionCode = (project.findProperty("buildVersionCode") as String?)?.toInt() ?: 1
+        versionName = (project.findProperty("buildVersionName") as String?) ?: "0.1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

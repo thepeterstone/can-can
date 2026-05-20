@@ -31,6 +31,14 @@ jobs:
       - name: Grant gradlew permission
         run: chmod +x ${{ env.ANDROID_DIR }}/gradlew
 
+      - name: Compute version
+        run: |
+          COMMIT_SHORT=$(git rev-parse --short HEAD)
+          COMMIT_MSG=$(git log -1 --pretty=format:'%s' | cut -c1-60)
+          VN="1.0.${{ github.run_number }} (${COMMIT_SHORT} ${COMMIT_MSG})"
+          printf '\nbuildVersionCode=${{ github.run_number }}\nbuildVersionName=%s\n' "$VN" >> ${{ env.ANDROID_DIR }}/gradle.properties
+          echo "BUILD_VERSION_NAME=${VN}" >> $GITHUB_ENV
+
       - name: Build debug APK
         run: ./gradlew assembleDebug --no-daemon
         working-directory: ${{ env.ANDROID_DIR }}
@@ -42,6 +50,7 @@ jobs:
           appId: ${{ secrets.FIREBASE_APP_ID }}
           serviceCredentialsFileContent: ${{ secrets.CREDENTIAL_FILE_CONTENT }}
           groups: testers
+          releaseNotes: ${{ env.BUILD_VERSION_NAME }}
           file: ${{ env.ANDROID_DIR }}/app/build/outputs/apk/debug/app-debug.apk
 
       - name: Upload debug artifact
