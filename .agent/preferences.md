@@ -10,6 +10,7 @@
 - Always research and present a strategy before implementing. Wait for explicit GO.
 - Flag temporary hacks with `// HACK:` or `// TODO(cleanup):` comments. Don't leave them undocumented.
 - One-off solutions are fine when justified — don't over-engineer for hypothetical reuse.
+- **Keep branches small and short-lived.** Before starting new work, offer to merge the current branch to `main` first. One feature per branch.
 
 ## Debugging
 
