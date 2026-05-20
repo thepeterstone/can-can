@@ -1,39 +1,59 @@
 # can-can — Worklog
 
-## Current Session (2026-05-18 — cont.)
+## Current State (as of 2026-05-20)
 
-**Focus:** Implement Reference screen — offline USDA canning guide lookup
-
-**Completed this session:**
-- [x] Launcher icon: extracted foreground (transparent PNG) from logo reference sheet, generated all 5 density variants (mdpi–xxxhdpi)
-- [x] `.github/workflows/build.yml`: CI builds debug + unsigned release APKs on push to main/claude/* branches; artifacts available for 14 days
-- [x] `.claude/hooks/session-start.sh` + `.claude/settings.json`: async SessionStart hook that sets git hooks path and validates Gradle wrapper
-- [x] Fixed `AppNavHost.kt`: exhaustive `when()` — no dead `else` branch
-- [x] Build note: Google Maven (AGP / AndroidX) is not reachable from cloud sessions; APK compilation goes through GitHub Actions
-
-**Build is GREEN.** Download APK from Actions tab → can-can-debug artifact.
-
-Root cause of initial CI failure: missing `gradle.properties` — `android.useAndroidX=true` is required for any AndroidX project and was absent from the scaffold.
-
-**Next steps:**
-- Wire up Room database schema for inventory
-- Begin recipe data model
-- Source and structure initial USDA/LDS/Ball guide reference data
-- Implement RecipesScreen (list + detail)
-- Implement InventoryScreen (batch log + expiration alerts)
+**Branch:** `main` (all work merged)
+**Build:** GREEN via GitHub Actions — download APK from Actions → can-can-debug artifact
 
 ---
 
-## Log
+## What's Built
 
-### 2026-05-18
-- Set up GitHub Actions build workflow (.github/workflows/build.yml)
-- Confirmed Google Maven is blocked in cloud sessions — builds run via CI only
-- Session-start hook added (.claude/hooks/session-start.sh)
-- Launcher icon foreground extracted and placed at all 5 mipmap densities
+### Reference Screen (complete)
+- Offline USDA canning lookup: 66 items across Tomatoes, Vegetables, Fruits, Jams, Pickles, Meats
+- Each item has full verbatim USDA sections: Quantity, Quality, Preparation, Procedure, Altitude Adjustments (~187 KB JSON)
+- Foraging guide: 28 entries with Wikipedia titles for image loading
+- Fermentation guide: 12 guides (sauerkraut, kimchi, kombucha, kefir, sourdough, etc.)
+- Preservation guide: 12 guides across Dehydrating, Smoking & Curing, Root Cellaring, Freeze Drying
+- Search + category filter chip row
+- Expand-in-place cards with AnimatedVisibility
+- Images: asset-first (bundled WebP via `scripts/download_plant_images.py`), Wikipedia fallback
+- `WikipediaImageRepository`: checks `assets/reference/images/<id>.webp` first, then fetches Wikipedia API
+- `ReferenceRepository`: loads 4 JSON asset files lazily via `flatMap`
 
-### 2026-05-17
-- Project created from scratch; nav conventions imported and adapted for Compose
-- Key decisions recorded: API 36 target, Compose-only UI, MVVM, Hilt, Room + Flow, barcode scanning via CameraX + ML Kit
-- Package set to `org.terst.cancan`
-- Logo provided as adaptive icon components (dancing canning jars, teal background)
+### Firebase (complete)
+- Analytics: `SCREEN_VIEW` events fired on navigation route changes in `AppNavHost`
+- Crashlytics: enabled in `CanCanApp.onCreate()`
+- `google-services.json` committed (keys are package-restricted, intentional)
+
+### Infrastructure
+- GitHub Actions CI: builds debug + unsigned release APKs; Google Maven blocked in cloud, so all compilation happens via CI
+- Session-start hook: `.claude/hooks/session-start.sh` sets git hooks path, validates Gradle wrapper
+- In-app debug logger: `CanCanLogger` — primary debugging tool (no ADB required)
+- INTERNET permission in AndroidManifest
+
+### Scripts (in `scripts/`)
+- `download_plant_images.py` — downloads Wikipedia thumbnails for foraging guide plants; run locally, commit images to `assets/reference/images/`
+- `download_reference_pdfs.py` — downloads 32 PDFs (USDA guides, NCHFP fact sheets, UH CTAHR Hawaii plant guides, UC ANR/UAF preservation guides, foraging guides) to `docs/reference_pdfs/` (gitignored)
+- `reference_data/sections_tomatoes_fruits.py` + `sections_data.py` — source data used to populate canning_guide.json sections; kept for reference
+
+---
+
+## Stub Screens (not yet started)
+- `RecipesScreen` — placeholder only
+- `CookingScreen` — placeholder only
+- `InventoryScreen` — placeholder only
+
+---
+
+## Next Steps
+- Inventory screen: Room DB schema, InventoryItem model, jar/batch log, expiration alerts
+- Recipes screen: bundled recipe JSON, list + detail view
+- Cooking mode: step-by-step, screen-on, large text, per-step timers
+
+---
+
+## Process Notes
+- **Merge to `main` before starting new work.** Keep branches small, one feature per branch. Don't let work pile up on a feature branch — check that it's merged, don't just assume.
+- Google Maven is unreachable from cloud sessions. Any dependency changes need a CI push to verify the build.
+- Dial gauge accuracy: cooperative extension office annually. (Relevant for USDA content accuracy notes.)

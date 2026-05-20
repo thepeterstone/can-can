@@ -48,10 +48,12 @@ org.terst.cancan/
       InventoryDao.kt
       InventoryRepository.kt
   reference/
-    ReferenceScreen.kt
-    ReferenceViewModel.kt
+    ReferenceScreen.kt         ← complete: search, filter chips, expand-in-place cards, images
+    ReferenceViewModel.kt      ← complete: StateFlow<ReferenceUiState>, image fetch
     data/
-      ReferenceRepository.kt  ← reads from bundled assets
+      ReferenceItem.kt         ← complete: lookup + guide types, ProcessingEntry, GuideSection
+      ReferenceRepository.kt   ← complete: loads 4 JSON asset files lazily
+      WikipediaImageRepository.kt ← complete: asset-first, Wikipedia fallback, in-memory cache
   core/
     CanCanLogger.kt         ← in-app debug log (primary debugging tool)
     database/
@@ -67,9 +69,10 @@ org.terst.cancan/
 - Expiration alerts computed from `bestByDate` vs `LocalDate.now()`
 - Reactive queries via `Flow<List<InventoryItem>>`
 
-### Reference Data (Bundled Assets)
-- USDA, LDS, and Ball guide data stored as JSON in `assets/reference/`
-- Loaded at startup by `ReferenceRepository`, held in memory or Room table
+### Reference Data (Bundled Assets) — COMPLETE
+- 4 JSON files in `assets/reference/`: `canning_guide.json` (66 items, verbatim USDA sections), `fermentation_guide.json` (12), `foraging_guide.json` (28, with `wikipedia_title`), `preservation_guide.json` (12)
+- Two item types: `"lookup"` (processing time tables + USDA prep sections) and `"guide"` (prose sections)
+- Images: bundled WebP at `assets/reference/images/<id>.webp` (run `scripts/download_plant_images.py` locally); Wikipedia API fallback for anything not bundled
 - Read-only; updated only via app releases
 
 ### Recipes (Room or Bundled)
