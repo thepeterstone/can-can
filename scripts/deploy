@@ -1,0 +1,79 @@
+#!/usr/bin/env bash
+# Deploy a debug APK directly to Firebase App Distribution.
+# Bypasses GitHub Actions — useful when CI is broken or you need an out-of-band push.
+#
+# Usage:
+#   FIREBASE_APP_ID=1:xxx:android:yyy \
+#   GOOGLE_APPLICATION_CREDENTIALS=/path/to/service-account.json \
+#   ./scripts/deploy [--groups testers] [--release-notes "my notes"]
+#
+# Or set CREDENTIAL_FILE_CONTENT to the raw JSON string instead of a file path.
+
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+ANDROID_DIR="$REPO_ROOT"
+APK_PATH="$ANDROID_DIR/app/build/outputs/apk/debug/app-debug.apk"
+
+GROUPS="${FIREBASE_GROUPS:-testers}"
+RELEASE_NOTES=""
+
+# Parse optional args
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    --groups) GROUPS="$2"; shift 2 ;;
+    --release-notes) RELEASE_NOTES="$2"; shift 2 ;;
+    *) echo "Unknown arg: $1"; exit 1 ;;
+  esac
+done
+
+# ── Credentials ──────────────────────────────────────────────────────────────
+if [[ -z "${FIREBASE_APP_ID:-}" ]]; then
+  echo "Error: FIREBASE_APP_ID is not set" >&2
+  exit 1
+fi
+
+# If caller passed raw JSON via CREDENTIAL_FILE_CONTENT, write it to a temp file
+CRED_FILE="${GOOGLE_APPLICATION_CREDENTIALS:-}"
+if [[ -z "$CRED_FILE" && -n "${CREDENTIAL_FILE_CONTENT:-}" ]]; then
+  CRED_FILE="$(mktemp /tmp/cancan-sa-XXXXXX.json)"
+  echo "$CREDENTIAL_FILE_CONTENT" > "$CRED_FILE"
+  trap 'rm -f "$CRED_FILE"' EXIT
+fi
+if [[ -z "$CRED_FILE" ]]; then
+  echo "Error: set GOOGLE_APPLICATION_CREDENTIALS or CREDENTIAL_FILE_CONTENT" >&2
+  exit 1
+fi
+export GOOGLE_APPLICATION_CREDENTIALS="$CRED_FILE"
+
+# ── Build ─────────────────────────────────────────────────────────────────────
+echo "==> Building debug APK…"
+cd "$ANDROID_DIR"
+./gradlew assembleDebug
+
+if [[ ! -f "$APK_PATH" ]]; then
+  echo "Error: APK not found at $APK_PATH" >&2
+  exit 1
+fi
+APK_SIZE=$(du -sh "$APK_PATH" | cut -f1)
+echo "==> Built: $APK_PATH ($APK_SIZE)"
+
+# ── Upload ────────────────────────────────────────────────────────────────────
+if ! command -v firebase &>/dev/null; then
+  echo "==> firebase CLI not found — installing via npm…"
+  npm install -g firebase-tools
+fi
+
+echo "==> Uploading to Firebase App Distribution (groups: $GROUPS)…"
+FIREBASE_ARGS=(
+  appdistribution:distribute "$APK_PATH"
+  --app "$FIREBASE_APP_ID"
+  --groups "$GROUPS"
+)
+if [[ -n "$RELEASE_NOTES" ]]; then
+  FIREBASE_ARGS+=(--release-notes "$RELEASE_NOTES")
+fi
+
+firebase "${FIREBASE_ARGS[@]}"
+echo "==> Done."
