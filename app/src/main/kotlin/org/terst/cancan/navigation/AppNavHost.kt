@@ -115,7 +115,7 @@ fun AppNavHost() {
         NavHost(
             navController = navController,
             startDestination = Screen.Recipes.route,
-            modifier = Modifier.padding(innerPadding)
+            modifier = if (isFullscreen) Modifier.fillMaxSize() else Modifier.padding(innerPadding)
         ) {
             composable(Screen.Recipes.route) { RecipesScreen(navController) }
             composable(Screen.Cooking.route) { CookingScreen(navController) }
