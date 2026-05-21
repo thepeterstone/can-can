@@ -49,8 +49,20 @@
 
 ---
 
+### Recipes Screen (complete — 2026-05-21)
+- `recipes/data/RecipeItem.kt`: `RecipeItem`, `Ingredient`, `RecipeStep`, `RecipesData` (all `@Serializable`)
+- `recipes/data/RecipeRepository.kt`: `@Singleton`, loads `assets/recipes/recipes.json` lazily
+- `recipes/RecipesViewModel.kt`: `RecipesUiState` with computed `categories`/`filtered`, `onSearch`, `onCategorySelected`
+- `recipes/RecipesScreen.kt`: full UI — search bar, category filter chips, expandable recipe cards
+  - Cards show: name + `DifficultyBadge` (Beginner/Intermediate/Advanced color-coded) + expand icon
+  - Expanded: summary, time/yield meta, ingredients list, numbered steps with tips, safety notes, source
+- `assets/recipes/recipes.json`: 15 food preservation recipes across 4 categories:
+  - Water Bath Canning (5): Strawberry Jam, Dill Pickles, Tomato Salsa, Apple Butter, Peach Preserves
+  - Pressure Canning (3): Green Beans, Chicken Stock, Beef Vegetable Stew
+  - Fermentation (4): Sauerkraut, Kimchi, Lacto-Fermented Pickles, Sourdough Starter
+  - Dehydrating (3): Fruit Leather, Beef Jerky, Dried Herb Blend
+
 ## Stub Screens (not yet started)
-- `RecipesScreen` — placeholder only
 - `CookingScreen` — placeholder only
 - `InventoryScreen` — placeholder only
 
@@ -60,7 +72,6 @@
 - Download PDFs locally with `scripts/download_reference_pdfs.py` and copy to `app/src/main/assets/reading_room/`
 - Smoke test: Reading Room tab, category filter, tap → PDF renders pages, back works offline
 - Inventory screen: Room DB schema, InventoryItem model, jar/batch log, expiration alerts
-- Recipes screen: bundled recipe JSON, list + detail view
 - Cooking mode: step-by-step, screen-on, large text, per-step timers
 
 ---
