@@ -10,43 +10,72 @@
       "time_estimate": "1.5–2 hours",
       "yield": "6–7 half-pints",
       "ingredients": [
-        { "name": "Fresh strawberries, hulled and crushed", "quantity": "5 cups" },
-        { "name": "Granulated sugar", "quantity": "7 cups" },
-        { "name": "Bottled lemon juice", "quantity": "2 tbsp" },
-        { "name": "Powdered fruit pectin", "quantity": "1 package (1.75 oz)" }
+        {
+          "name": "Fresh strawberries, hulled and crushed",
+          "quantity": "5 cups"
+        },
+        {
+          "name": "Granulated sugar",
+          "quantity": "7 cups"
+        },
+        {
+          "name": "Bottled lemon juice",
+          "quantity": "2 tbsp"
+        },
+        {
+          "name": "Powdered fruit pectin",
+          "quantity": "1 package (1.75 oz)"
+        }
       ],
       "steps": [
         {
           "instruction": "Prepare canner: fill water bath canner halfway with water and bring to a simmer. Wash jars and keep hot until ready to fill. Prepare new lids per manufacturer instructions.",
-          "tips": ["Keep jars submerged in hot (not boiling) water to prevent thermal shock when filling."]
+          "tips": [
+            "Keep jars submerged in hot (not boiling) water to prevent thermal shock when filling."
+          ]
         },
         {
           "instruction": "Hull and crush strawberries one layer at a time with a potato masher. Measure exactly 5 cups of crushed berries into a large heavy-bottomed pot.",
-          "tips": ["Do not purée — small pieces of fruit give the best texture.", "Slightly underripe berries contain more natural pectin."]
+          "tips": [
+            "Do not purée — small pieces of fruit give the best texture.",
+            "Slightly underripe berries contain more natural pectin."
+          ]
         },
         {
           "instruction": "Stir powdered pectin and lemon juice into the crushed berries. Bring mixture to a full rolling boil over high heat, stirring constantly.",
-          "tips": ["A full rolling boil cannot be stirred down — that is your cue to add sugar."]
+          "tips": [
+            "A full rolling boil cannot be stirred down — that is your cue to add sugar."
+          ]
         },
         {
           "instruction": "Add all the sugar at once and stir to dissolve. Return to a full rolling boil and boil hard for exactly 1 minute, stirring constantly.",
-          "tips": ["Set a timer for 1 minute — boiling too long degrades pectin and darkens the jam."]
+          "tips": [
+            "Set a timer for 1 minute — boiling too long degrades pectin and darkens the jam."
+          ]
         },
         {
           "instruction": "Remove from heat. Skim foam with a metal spoon.",
-          "tips": ["A small pat of butter stirred in before boiling reduces foam significantly."]
+          "tips": [
+            "A small pat of butter stirred in before boiling reduces foam significantly."
+          ]
         },
         {
           "instruction": "Ladle hot jam into hot jars leaving ¼-inch headspace. Remove air bubbles with a thin spatula. Wipe jar rims with a damp cloth. Center lids and apply bands fingertip-tight.",
-          "tips": ["Consistent ¼-inch headspace is critical for proper sealing."]
+          "tips": [
+            "Consistent ¼-inch headspace is critical for proper sealing."
+          ]
         },
         {
           "instruction": "Process in boiling water bath canner for 10 minutes (adjusting for altitude). Turn off heat, remove lid, and let jars stand in canner for 5 minutes.",
-          "tips": ["Start timing once the water returns to a full boil after adding jars."]
+          "tips": [
+            "Start timing once the water returns to a full boil after adding jars."
+          ]
         },
         {
           "instruction": "Remove jars and let cool undisturbed for 12–24 hours. Check seals: lids should not flex up and down. Refrigerate any unsealed jars and use within 3 weeks.",
-          "tips": ["Do not press down on lids while cooling — you may mistake the seal sound for a proper seal."]
+          "tips": [
+            "Do not press down on lids while cooling — you may mistake the seal sound for a proper seal."
+          ]
         }
       ],
       "safety_notes": "Use only tested recipes and measured ingredients. Do not reduce sugar — it is a preservative and affects the gel. Altitude above 1,000 ft requires extended processing time.",
@@ -61,26 +90,55 @@
       "time_estimate": "1–1.5 hours (plus 4–6 weeks resting)",
       "yield": "7 quarts",
       "ingredients": [
-        { "name": "Fresh pickling cucumbers (3–4 inch)", "quantity": "17–18 lbs" },
-        { "name": "Pickling or canning salt (not table salt)", "quantity": "½ cup" },
-        { "name": "White vinegar (5% acidity)", "quantity": "6 cups" },
-        { "name": "Water", "quantity": "6 cups" },
-        { "name": "Fresh dill heads or dill seed", "quantity": "14 heads or 4½ tsp seed" },
-        { "name": "Garlic cloves, peeled", "quantity": "14 cloves", "notes": "2 per jar" },
-        { "name": "Pickling spice (optional)", "quantity": "1 tsp per jar" }
+        {
+          "name": "Fresh pickling cucumbers (3–4 inch)",
+          "quantity": "17–18 lbs"
+        },
+        {
+          "name": "Pickling or canning salt (not table salt)",
+          "quantity": "½ cup"
+        },
+        {
+          "name": "White vinegar (5% acidity)",
+          "quantity": "6 cups"
+        },
+        {
+          "name": "Water",
+          "quantity": "6 cups"
+        },
+        {
+          "name": "Fresh dill heads or dill seed",
+          "quantity": "14 heads or 4½ tsp seed"
+        },
+        {
+          "name": "Garlic cloves, peeled",
+          "quantity": "14 cloves",
+          "notes": "2 per jar"
+        },
+        {
+          "name": "Pickling spice (optional)",
+          "quantity": "1 tsp per jar"
+        }
       ],
       "steps": [
         {
           "instruction": "Wash cucumbers thoroughly and scrub with a vegetable brush. Remove blossom ends (opposite from stem) — blossom-end enzymes cause softening. Cut into spears or leave whole.",
-          "tips": ["Remove at least 1/16 inch from the blossom end.", "Use cucumbers within 24 hours of picking for best crunch."]
+          "tips": [
+            "Remove at least 1/16 inch from the blossom end.",
+            "Use cucumbers within 24 hours of picking for best crunch."
+          ]
         },
         {
           "instruction": "Combine vinegar, water, and salt in a large saucepan and bring to a boil, stirring until salt dissolves. Keep brine hot.",
-          "tips": ["Use only 5% acidity vinegar. Do not alter the vinegar-to-water ratio — acidity is a safety requirement."]
+          "tips": [
+            "Use only 5% acidity vinegar. Do not alter the vinegar-to-water ratio — acidity is a safety requirement."
+          ]
         },
         {
           "instruction": "Pack cucumber spears vertically into hot jars. Add 2 garlic cloves and 1–2 dill heads per jar. Pack tightly but without crushing.",
-          "tips": ["Stand spears upright for a more attractive pack."]
+          "tips": [
+            "Stand spears upright for a more attractive pack."
+          ]
         },
         {
           "instruction": "Ladle hot brine over cucumbers leaving ½-inch headspace. Remove air bubbles. Wipe rims, center lids, apply bands fingertip-tight.",
@@ -88,11 +146,15 @@
         },
         {
           "instruction": "Process in boiling water bath canner: pints 10 minutes, quarts 15 minutes. Adjust for altitude.",
-          "tips": ["Processing quarts any shorter risks under-sterilization."]
+          "tips": [
+            "Processing quarts any shorter risks under-sterilization."
+          ]
         },
         {
           "instruction": "Remove jars. Let stand undisturbed 12–24 hours. Allow pickles to rest 4–6 weeks before opening for full flavor development.",
-          "tips": ["Pickles continue to soften if processed too long — do not extend processing time."]
+          "tips": [
+            "Pickles continue to soften if processed too long — do not extend processing time."
+          ]
         }
       ],
       "safety_notes": "Never reduce vinegar, water, or salt ratios — the brine acidity keeps pickles safe. Use only standard 5% acidity vinegar. Iodized table salt causes cloudy brine and off-flavors.",
@@ -107,28 +169,61 @@
       "time_estimate": "2–3 hours",
       "yield": "6–7 pints",
       "ingredients": [
-        { "name": "Tomatoes, peeled, cored, and chopped (drained)", "quantity": "7 cups" },
-        { "name": "Long green chiles, seeded and chopped", "quantity": "2 cups" },
-        { "name": "Jalapeño peppers, seeded and chopped", "quantity": "1 cup" },
-        { "name": "Onions, chopped", "quantity": "1 cup" },
-        { "name": "White vinegar (5% acidity)", "quantity": "1¼ cups" },
-        { "name": "Garlic cloves, minced", "quantity": "3 cloves" },
-        { "name": "Cilantro, chopped (optional)", "quantity": "2 tbsp" },
-        { "name": "Salt", "quantity": "1 tbsp" },
-        { "name": "Bottled lemon juice", "quantity": "2 tbsp" }
+        {
+          "name": "Tomatoes, peeled, cored, and chopped (drained)",
+          "quantity": "7 cups"
+        },
+        {
+          "name": "Long green chiles, seeded and chopped",
+          "quantity": "2 cups"
+        },
+        {
+          "name": "Jalapeño peppers, seeded and chopped",
+          "quantity": "1 cup"
+        },
+        {
+          "name": "Onions, chopped",
+          "quantity": "1 cup"
+        },
+        {
+          "name": "White vinegar (5% acidity)",
+          "quantity": "1¼ cups"
+        },
+        {
+          "name": "Garlic cloves, minced",
+          "quantity": "3 cloves"
+        },
+        {
+          "name": "Cilantro, chopped (optional)",
+          "quantity": "2 tbsp"
+        },
+        {
+          "name": "Salt",
+          "quantity": "1 tbsp"
+        },
+        {
+          "name": "Bottled lemon juice",
+          "quantity": "2 tbsp"
+        }
       ],
       "steps": [
         {
           "instruction": "Peel tomatoes: score an X on the bottom, blanch 30–60 seconds in boiling water, transfer to ice bath, then slip off skins. Core and chop. Drain in a colander for 30 minutes to remove excess liquid.",
-          "tips": ["Draining is important — too much liquid makes a watery salsa."]
+          "tips": [
+            "Draining is important — too much liquid makes a watery salsa."
+          ]
         },
         {
           "instruction": "Roast or boil chiles and jalapeños until softened. Peel if roasted, seed, and chop finely. Measure after chopping.",
-          "tips": ["Wear gloves when handling hot peppers — capsaicin is persistent."]
+          "tips": [
+            "Wear gloves when handling hot peppers — capsaicin is persistent."
+          ]
         },
         {
           "instruction": "Combine all ingredients in a large stainless steel saucepan. Bring to a boil over medium-high heat, stirring frequently. Reduce heat and simmer 10 minutes.",
-          "tips": ["Stir frequently to prevent scorching on the bottom."]
+          "tips": [
+            "Stir frequently to prevent scorching on the bottom."
+          ]
         },
         {
           "instruction": "Ladle hot salsa into hot pint jars leaving ½-inch headspace. Remove air bubbles. Wipe rims, center lids, apply bands fingertip-tight.",
@@ -151,19 +246,45 @@
       "time_estimate": "10–12 hours (mostly unattended slow cooker time)",
       "yield": "8–9 half-pints",
       "ingredients": [
-        { "name": "Apples (tart variety), peeled, cored, and quartered", "quantity": "5½ lbs" },
-        { "name": "Granulated sugar", "quantity": "2½ cups" },
-        { "name": "Brown sugar, packed", "quantity": "2½ cups" },
-        { "name": "Apple cider vinegar", "quantity": "¼ cup" },
-        { "name": "Ground cinnamon", "quantity": "2 tsp" },
-        { "name": "Ground cloves", "quantity": "¼ tsp" },
-        { "name": "Ground allspice", "quantity": "¼ tsp" },
-        { "name": "Bottled lemon juice", "quantity": "2 tbsp" }
+        {
+          "name": "Apples (tart variety), peeled, cored, and quartered",
+          "quantity": "5½ lbs"
+        },
+        {
+          "name": "Granulated sugar",
+          "quantity": "2½ cups"
+        },
+        {
+          "name": "Brown sugar, packed",
+          "quantity": "2½ cups"
+        },
+        {
+          "name": "Apple cider vinegar",
+          "quantity": "¼ cup"
+        },
+        {
+          "name": "Ground cinnamon",
+          "quantity": "2 tsp"
+        },
+        {
+          "name": "Ground cloves",
+          "quantity": "¼ tsp"
+        },
+        {
+          "name": "Ground allspice",
+          "quantity": "¼ tsp"
+        },
+        {
+          "name": "Bottled lemon juice",
+          "quantity": "2 tbsp"
+        }
       ],
       "steps": [
         {
           "instruction": "Combine apples and vinegar in a large slow cooker. Cook on low 8–10 hours, stirring occasionally, until apples are completely soft.",
-          "tips": ["Tart apples like Granny Smith, Cortland, or Jonathan give the best flavor."]
+          "tips": [
+            "Tart apples like Granny Smith, Cortland, or Jonathan give the best flavor."
+          ]
         },
         {
           "instruction": "Blend with an immersion blender until smooth. Stir in both sugars, spices, and lemon juice.",
@@ -171,7 +292,9 @@
         },
         {
           "instruction": "Return to slow cooker uncovered and cook on high 1–2 hours, stirring frequently, until mixture is very thick. A spoonful on a cold plate should not weep liquid around the edges.",
-          "tips": ["Leave slow cooker lid propped open a crack to allow steam to escape and concentrate the butter."]
+          "tips": [
+            "Leave slow cooker lid propped open a crack to allow steam to escape and concentrate the butter."
+          ]
         },
         {
           "instruction": "Ladle hot apple butter into hot half-pint jars leaving ¼-inch headspace. Remove air bubbles. Wipe rims, center lids, apply bands fingertip-tight.",
@@ -194,17 +317,39 @@
       "time_estimate": "2–3 hours",
       "yield": "5–6 half-pints",
       "ingredients": [
-        { "name": "Ripe peaches, peeled, pitted, and chopped", "quantity": "4 cups" },
-        { "name": "Granulated sugar", "quantity": "4 cups" },
-        { "name": "Bottled lemon juice", "quantity": "¼ cup" },
-        { "name": "Powdered pectin (low-sugar or regular)", "quantity": "1 package (1.75 oz)" },
-        { "name": "Ground cinnamon", "quantity": "½ tsp", "notes": "optional" },
-        { "name": "Ground nutmeg", "quantity": "⅛ tsp", "notes": "optional" }
+        {
+          "name": "Ripe peaches, peeled, pitted, and chopped",
+          "quantity": "4 cups"
+        },
+        {
+          "name": "Granulated sugar",
+          "quantity": "4 cups"
+        },
+        {
+          "name": "Bottled lemon juice",
+          "quantity": "¼ cup"
+        },
+        {
+          "name": "Powdered pectin (low-sugar or regular)",
+          "quantity": "1 package (1.75 oz)"
+        },
+        {
+          "name": "Ground cinnamon",
+          "quantity": "½ tsp",
+          "notes": "optional"
+        },
+        {
+          "name": "Ground nutmeg",
+          "quantity": "⅛ tsp",
+          "notes": "optional"
+        }
       ],
       "steps": [
         {
           "instruction": "Blanch peaches 30–60 seconds, transfer to ice bath, and slip off skins. Pit and chop into ½-inch pieces. Measure exactly 4 cups.",
-          "tips": ["Slightly firm peaches hold their shape better than very ripe ones."]
+          "tips": [
+            "Slightly firm peaches hold their shape better than very ripe ones."
+          ]
         },
         {
           "instruction": "Combine peaches, lemon juice, pectin, and optional spices in a large heavy saucepan. Stir well. Bring to a full rolling boil over high heat.",
@@ -220,7 +365,9 @@
         },
         {
           "instruction": "Process in boiling water bath canner for 10 minutes. Adjust for altitude. Cool 12–24 hours.",
-          "tips": ["Gel set continues to firm up over 24–48 hours after processing."]
+          "tips": [
+            "Gel set continues to firm up over 24–48 hours after processing."
+          ]
         }
       ],
       "safety_notes": "Peaches are a borderline-acid fruit. Always add bottled lemon juice as specified — do not substitute fresh lemon juice as its acidity is not standardized.",
@@ -235,18 +382,31 @@
       "time_estimate": "2.5–3.5 hours",
       "yield": "7 quarts or 9 pints",
       "ingredients": [
-        { "name": "Fresh green beans, washed and trimmed", "quantity": "14 lbs (for 7 quarts)" },
-        { "name": "Canning salt (optional)", "quantity": "1 tsp per quart, ½ tsp per pint" },
-        { "name": "Boiling water", "quantity": "as needed" }
+        {
+          "name": "Fresh green beans, washed and trimmed",
+          "quantity": "14 lbs (for 7 quarts)"
+        },
+        {
+          "name": "Canning salt (optional)",
+          "quantity": "1 tsp per quart, ½ tsp per pint"
+        },
+        {
+          "name": "Boiling water",
+          "quantity": "as needed"
+        }
       ],
       "steps": [
         {
           "instruction": "Wash beans thoroughly. Snap off stem and blossom ends. Break or cut into 1–2-inch pieces.",
-          "tips": ["Use fresh, firm beans picked within 6–12 hours for best texture."]
+          "tips": [
+            "Use fresh, firm beans picked within 6–12 hours for best texture."
+          ]
         },
         {
           "instruction": "Pack raw beans tightly into hot quart jars leaving 1-inch headspace. Add salt if desired. Pour boiling water over beans leaving 1-inch headspace. Remove air bubbles.",
-          "tips": ["Pack very tightly — beans shrink during processing."]
+          "tips": [
+            "Pack very tightly — beans shrink during processing."
+          ]
         },
         {
           "instruction": "Wipe jar rims. Center lids. Apply bands fingertip-tight. Load jars into pressure canner with 2–3 inches of hot water in canner bottom.",
@@ -254,15 +414,21 @@
         },
         {
           "instruction": "Lock canner lid. Heat over high heat. Vent steam steadily for 10 minutes to purge air from the canner, then close petcock or put on weighted gauge.",
-          "tips": ["Incomplete venting leaves air pockets that lower internal temperature and compromise safety."]
+          "tips": [
+            "Incomplete venting leaves air pockets that lower internal temperature and compromise safety."
+          ]
         },
         {
           "instruction": "Bring to pressure: 10 lb weighted gauge (or 11 lb dial gauge) at sea level. Process quarts 25 minutes, pints 20 minutes. Adjust pressure for altitude.",
-          "tips": ["Maintain steady pressure — fluctuating pressure stresses jars and affects safety."]
+          "tips": [
+            "Maintain steady pressure — fluctuating pressure stresses jars and affects safety."
+          ]
         },
         {
           "instruction": "Turn off heat. Let canner depressurize naturally until pressure gauge reads zero. Wait an additional 10 minutes. Remove weight or open petcock. Wait 10 more minutes before opening lid.",
-          "tips": ["Never force cool the canner or run it under cold water — sudden depressurization causes siphoning."]
+          "tips": [
+            "Never force cool the canner or run it under cold water — sudden depressurization causes siphoning."
+          ]
         },
         {
           "instruction": "Remove jars with lifter. Cool undisturbed 12–24 hours on a dry towel. Check seals. Store sealed jars in a cool, dark place up to 1 year.",
@@ -281,29 +447,67 @@
       "time_estimate": "5–6 hours (including stock making)",
       "yield": "7 quarts",
       "ingredients": [
-        { "name": "Chicken carcasses, backs, or a whole stewing hen", "quantity": "4–5 lbs" },
-        { "name": "Onions, quartered", "quantity": "2 large" },
-        { "name": "Celery stalks with leaves", "quantity": "4 stalks" },
-        { "name": "Carrots, roughly chopped", "quantity": "3 medium" },
-        { "name": "Garlic cloves, crushed", "quantity": "6 cloves" },
-        { "name": "Bay leaves", "quantity": "3" },
-        { "name": "Whole black peppercorns", "quantity": "1 tsp" },
-        { "name": "Fresh parsley or thyme sprigs", "quantity": "small bunch", "notes": "optional" },
-        { "name": "Cold water", "quantity": "enough to cover by 2 inches" },
-        { "name": "Canning salt", "quantity": "1 tsp per quart", "notes": "optional" }
+        {
+          "name": "Chicken carcasses, backs, or a whole stewing hen",
+          "quantity": "4–5 lbs"
+        },
+        {
+          "name": "Onions, quartered",
+          "quantity": "2 large"
+        },
+        {
+          "name": "Celery stalks with leaves",
+          "quantity": "4 stalks"
+        },
+        {
+          "name": "Carrots, roughly chopped",
+          "quantity": "3 medium"
+        },
+        {
+          "name": "Garlic cloves, crushed",
+          "quantity": "6 cloves"
+        },
+        {
+          "name": "Bay leaves",
+          "quantity": "3"
+        },
+        {
+          "name": "Whole black peppercorns",
+          "quantity": "1 tsp"
+        },
+        {
+          "name": "Fresh parsley or thyme sprigs",
+          "quantity": "small bunch",
+          "notes": "optional"
+        },
+        {
+          "name": "Cold water",
+          "quantity": "enough to cover by 2 inches"
+        },
+        {
+          "name": "Canning salt",
+          "quantity": "1 tsp per quart",
+          "notes": "optional"
+        }
       ],
       "steps": [
         {
           "instruction": "Place chicken pieces in a large stockpot. Cover with cold water by 2 inches. Bring slowly to a boil, skimming gray foam frequently for the first 20 minutes.",
-          "tips": ["Starting in cold water extracts more gelatin and gives clearer stock."]
+          "tips": [
+            "Starting in cold water extracts more gelatin and gives clearer stock."
+          ]
         },
         {
           "instruction": "Add all vegetables, herbs, and peppercorns. Reduce heat to a bare simmer (small bubbles only). Cook 3–4 hours.",
-          "tips": ["Do not boil hard — it clouds the stock and makes it fatty."]
+          "tips": [
+            "Do not boil hard — it clouds the stock and makes it fatty."
+          ]
         },
         {
           "instruction": "Strain stock through a fine-mesh strainer. Discard solids. Defat the stock: chill overnight and lift off solidified fat, or use a fat separator immediately.",
-          "tips": ["Removing fat is important for clarity and flavor; fat can also impede lid sealing."]
+          "tips": [
+            "Removing fat is important for clarity and flavor; fat can also impede lid sealing."
+          ]
         },
         {
           "instruction": "Reheat strained stock to boiling. Ladle hot stock into hot quart jars leaving 1-inch headspace. Add salt if desired. Wipe rims, apply lids fingertip-tight.",
@@ -315,7 +519,9 @@
         },
         {
           "instruction": "Cool 12–24 hours. Check seals. Stock will gel solid in jars — this is normal and indicates good gelatin content.",
-          "tips": ["Label jars with contents and date — stock looks similar to other liquids."]
+          "tips": [
+            "Label jars with contents and date — stock looks similar to other liquids."
+          ]
         }
       ],
       "safety_notes": "Stock is a low-acid food and must be pressure canned. Do not add pasta, rice, thickeners, or flour — they alter heat penetration. These additions are safe only when added to stock after opening.",
@@ -330,29 +536,65 @@
       "time_estimate": "4–5 hours",
       "yield": "7 quarts",
       "ingredients": [
-        { "name": "Beef chuck, trimmed and cut into 1-inch cubes", "quantity": "3 lbs" },
-        { "name": "Potatoes, peeled and cubed (1-inch)", "quantity": "3 lbs" },
-        { "name": "Carrots, sliced ½ inch thick", "quantity": "1 lb" },
-        { "name": "Onions, chopped", "quantity": "1 lb" },
-        { "name": "Celery, sliced", "quantity": "4 stalks" },
-        { "name": "Garlic cloves, minced", "quantity": "4 cloves" },
-        { "name": "Beef stock or water", "quantity": "6 cups" },
-        { "name": "Tomato paste", "quantity": "2 tbsp" },
-        { "name": "Worcestershire sauce", "quantity": "1 tbsp" },
-        { "name": "Salt and black pepper", "quantity": "to taste" }
+        {
+          "name": "Beef chuck, trimmed and cut into 1-inch cubes",
+          "quantity": "3 lbs"
+        },
+        {
+          "name": "Potatoes, peeled and cubed (1-inch)",
+          "quantity": "3 lbs"
+        },
+        {
+          "name": "Carrots, sliced ½ inch thick",
+          "quantity": "1 lb"
+        },
+        {
+          "name": "Onions, chopped",
+          "quantity": "1 lb"
+        },
+        {
+          "name": "Celery, sliced",
+          "quantity": "4 stalks"
+        },
+        {
+          "name": "Garlic cloves, minced",
+          "quantity": "4 cloves"
+        },
+        {
+          "name": "Beef stock or water",
+          "quantity": "6 cups"
+        },
+        {
+          "name": "Tomato paste",
+          "quantity": "2 tbsp"
+        },
+        {
+          "name": "Worcestershire sauce",
+          "quantity": "1 tbsp"
+        },
+        {
+          "name": "Salt and black pepper",
+          "quantity": "to taste"
+        }
       ],
       "steps": [
         {
           "instruction": "Brown beef cubes in batches in a hot skillet with a small amount of oil. Season with salt and pepper. Do not cook through — just brown the exterior.",
-          "tips": ["Browning adds flavor through Maillard reaction — do not skip this step."]
+          "tips": [
+            "Browning adds flavor through Maillard reaction — do not skip this step."
+          ]
         },
         {
           "instruction": "Combine browned beef, vegetables, stock, tomato paste, and Worcestershire in a large pot. Bring to a boil. Simmer 15 minutes — vegetables should still be firm.",
-          "tips": ["Vegetables will continue cooking during processing; slightly undercooked now is correct."]
+          "tips": [
+            "Vegetables will continue cooking during processing; slightly undercooked now is correct."
+          ]
         },
         {
           "instruction": "Ladle hot stew into hot quart jars, distributing solids and liquid evenly, leaving 1-inch headspace. Remove air bubbles thoroughly. Wipe rims, apply lids fingertip-tight.",
-          "tips": ["Use a wide-mouth funnel and ladle; quart jars fill more easily than pints for chunky stews."]
+          "tips": [
+            "Use a wide-mouth funnel and ladle; quart jars fill more easily than pints for chunky stews."
+          ]
         },
         {
           "instruction": "Process in pressure canner at 10 lb weighted gauge (11 lb dial gauge): quarts 90 minutes. Vent 10 minutes before closing, maintain steady pressure throughout.",
@@ -360,7 +602,9 @@
         },
         {
           "instruction": "Allow natural depressurization. Remove jars. Cool 12–24 hours. Check seals.",
-          "tips": ["A 90-minute process is long — check that canner water level is adequate at start."]
+          "tips": [
+            "A 90-minute process is long — check that canner water level is adequate at start."
+          ]
         }
       ],
       "safety_notes": "Do not add flour, cornstarch, or any thickener before canning — thickeners insulate the stew interior and prevent safe heat penetration. Thicken after opening if desired. Potatoes may discolor slightly — this is safe. Discard any jar with off odors.",
@@ -375,33 +619,52 @@
       "time_estimate": "1–4 weeks (fermentation)",
       "yield": "1 quart",
       "ingredients": [
-        { "name": "Green cabbage, outer leaves removed", "quantity": "2 lbs (about 1 medium head)" },
-        { "name": "Non-iodized salt (kosher or canning salt)", "quantity": "1 tbsp (about 2% by weight)" }
+        {
+          "name": "Green cabbage, outer leaves removed",
+          "quantity": "2 lbs (about 1 medium head)"
+        },
+        {
+          "name": "Non-iodized salt (kosher or canning salt)",
+          "quantity": "1 tbsp (about 2% by weight)"
+        }
       ],
       "steps": [
         {
           "instruction": "Remove and reserve a few outer cabbage leaves. Quarter cabbage, remove core, and slice thinly — about ⅛ inch thick. A mandoline is helpful for uniformity.",
-          "tips": ["Thinner shreds ferment faster and produce a more tender kraut."]
+          "tips": [
+            "Thinner shreds ferment faster and produce a more tender kraut."
+          ]
         },
         {
           "instruction": "Combine shredded cabbage and salt in a large bowl. Toss well. Massage vigorously with clean hands for 5–10 minutes until the cabbage wilts and releases a significant amount of brine.",
-          "tips": ["The cabbage should look watery and feel limp — if it doesn't, wait 10 minutes and try again.", "Taste the brine — it should be pleasantly salty but not overwhelming."]
+          "tips": [
+            "The cabbage should look watery and feel limp — if it doesn't, wait 10 minutes and try again.",
+            "Taste the brine — it should be pleasantly salty but not overwhelming."
+          ]
         },
         {
           "instruction": "Pack cabbage tightly into a clean quart mason jar, pushing down firmly after each handful so brine rises above the cabbage. The brine should cover the cabbage completely by at least ½ inch.",
-          "tips": ["Use your fist or a wooden dowel to tamp cabbage down firmly."]
+          "tips": [
+            "Use your fist or a wooden dowel to tamp cabbage down firmly."
+          ]
         },
         {
           "instruction": "Fold a reserved outer leaf and press it over the top of the shredded cabbage as a weight. Close jar loosely with a lid (do not seal airtight — CO₂ must escape). Alternatively, use a zip-lock bag filled with brine as a weight.",
-          "tips": ["The cabbage must stay submerged — exposure to air causes undesirable mold."]
+          "tips": [
+            "The cabbage must stay submerged — exposure to air causes undesirable mold."
+          ]
         },
         {
           "instruction": "Store at room temperature (65–75°F / 18–24°C) away from direct sunlight. Check daily. Press cabbage back under brine if it floats up. Burp the jar if using a sealed lid.",
-          "tips": ["Warmer temperatures ferment faster (7–10 days); cooler temperatures give more complex flavor (3–4 weeks)."]
+          "tips": [
+            "Warmer temperatures ferment faster (7–10 days); cooler temperatures give more complex flavor (3–4 weeks)."
+          ]
         },
         {
           "instruction": "Taste starting at day 5–7. Kraut is ready when pleasantly sour and tangy to your preference. Transfer to refrigerator (keeps 6+ months cold) or water bath can for shelf stability.",
-          "tips": ["Personal taste determines doneness — there is no single right answer."]
+          "tips": [
+            "Personal taste determines doneness — there is no single right answer."
+          ]
         }
       ],
       "safety_notes": "White surface film (kahm yeast) is harmless — skim it off. Fuzzy mold of any color means discard — do not attempt to salvage. Ensure cabbage stays submerged below brine at all times. Use non-iodized salt — iodine inhibits beneficial bacteria.",
@@ -416,27 +679,58 @@
       "time_estimate": "3–4 hours (prep) + 1–5 days (fermentation)",
       "yield": "1 quart",
       "ingredients": [
-        { "name": "Napa cabbage", "quantity": "1 medium head (about 2 lbs)" },
-        { "name": "Non-iodized salt", "quantity": "3–4 tbsp" },
-        { "name": "Korean red pepper flakes (gochugaru)", "quantity": "3–4 tbsp", "notes": "adjust to taste" },
-        { "name": "Garlic cloves, minced", "quantity": "6 cloves" },
-        { "name": "Fresh ginger, grated", "quantity": "1 tbsp" },
-        { "name": "Green onions, cut into 1-inch pieces", "quantity": "4 stalks" },
-        { "name": "Fish sauce or soy sauce (for vegan)", "quantity": "2 tbsp" },
-        { "name": "Sugar", "quantity": "1 tsp" }
+        {
+          "name": "Napa cabbage",
+          "quantity": "1 medium head (about 2 lbs)"
+        },
+        {
+          "name": "Non-iodized salt",
+          "quantity": "3–4 tbsp"
+        },
+        {
+          "name": "Korean red pepper flakes (gochugaru)",
+          "quantity": "3–4 tbsp",
+          "notes": "adjust to taste"
+        },
+        {
+          "name": "Garlic cloves, minced",
+          "quantity": "6 cloves"
+        },
+        {
+          "name": "Fresh ginger, grated",
+          "quantity": "1 tbsp"
+        },
+        {
+          "name": "Green onions, cut into 1-inch pieces",
+          "quantity": "4 stalks"
+        },
+        {
+          "name": "Fish sauce or soy sauce (for vegan)",
+          "quantity": "2 tbsp"
+        },
+        {
+          "name": "Sugar",
+          "quantity": "1 tsp"
+        }
       ],
       "steps": [
         {
           "instruction": "Quarter cabbage lengthwise, then cut crosswise into 2-inch pieces. Toss with salt in a large bowl. Let sit 1–2 hours, tossing every 30 minutes, until cabbage is significantly wilted and has released liquid.",
-          "tips": ["The cabbage should be pliable and reduced to about half its original volume."]
+          "tips": [
+            "The cabbage should be pliable and reduced to about half its original volume."
+          ]
         },
         {
           "instruction": "Rinse cabbage 2–3 times with cold water. Taste — it should be mildly salty. Drain and squeeze out excess water with your hands. Set aside.",
-          "tips": ["Thorough rinsing controls final saltiness."]
+          "tips": [
+            "Thorough rinsing controls final saltiness."
+          ]
         },
         {
           "instruction": "Mix gochugaru, garlic, ginger, fish sauce, and sugar together into a paste. Adjust gochugaru to desired heat level.",
-          "tips": ["Wear gloves — gochugaru stains and the capsaicin can linger on skin."]
+          "tips": [
+            "Wear gloves — gochugaru stains and the capsaicin can linger on skin."
+          ]
         },
         {
           "instruction": "Combine drained cabbage, paste, and green onions. Toss with gloved hands until every piece is coated with the red paste.",
@@ -448,7 +742,9 @@
         },
         {
           "instruction": "Ferment at room temperature 1–5 days. Press down twice daily. Taste at day 1–2 for fresh kimchi, or continue fermenting for stronger sour flavor. Refrigerate when desired sourness is reached.",
-          "tips": ["Refrigerator kimchi continues to slowly ferment and improve for weeks to months."]
+          "tips": [
+            "Refrigerator kimchi continues to slowly ferment and improve for weeks to months."
+          ]
         }
       ],
       "safety_notes": "Kimchi is a lacto-fermented food — the lactic acid produced during fermentation is its preservative. Keep vegetables submerged in liquid. White spots are kahm yeast; fuzzy mold means discard. Refrigerate after reaching desired fermentation.",
@@ -463,31 +759,66 @@
       "time_estimate": "30 minutes (prep) + 3–7 days (fermentation)",
       "yield": "1 quart",
       "ingredients": [
-        { "name": "Pickling cucumbers (Kirby or similar)", "quantity": "1–1.5 lbs" },
-        { "name": "Non-chlorinated water (filtered or left out overnight)", "quantity": "2 cups" },
-        { "name": "Non-iodized salt", "quantity": "1 tbsp", "notes": "~2% brine" },
-        { "name": "Fresh dill, with heads", "quantity": "3–4 sprigs" },
-        { "name": "Garlic cloves, lightly smashed", "quantity": "3 cloves" },
-        { "name": "Black peppercorns", "quantity": "½ tsp" },
-        { "name": "Grape, oak, or horseradish leaves", "quantity": "1–2 leaves", "notes": "optional — tannins preserve crunch" },
-        { "name": "Mustard seeds", "quantity": "½ tsp", "notes": "optional" }
+        {
+          "name": "Pickling cucumbers (Kirby or similar)",
+          "quantity": "1–1.5 lbs"
+        },
+        {
+          "name": "Non-chlorinated water (filtered or left out overnight)",
+          "quantity": "2 cups"
+        },
+        {
+          "name": "Non-iodized salt",
+          "quantity": "1 tbsp",
+          "notes": "~2% brine"
+        },
+        {
+          "name": "Fresh dill, with heads",
+          "quantity": "3–4 sprigs"
+        },
+        {
+          "name": "Garlic cloves, lightly smashed",
+          "quantity": "3 cloves"
+        },
+        {
+          "name": "Black peppercorns",
+          "quantity": "½ tsp"
+        },
+        {
+          "name": "Grape, oak, or horseradish leaves",
+          "quantity": "1–2 leaves",
+          "notes": "optional — tannins preserve crunch"
+        },
+        {
+          "name": "Mustard seeds",
+          "quantity": "½ tsp",
+          "notes": "optional"
+        }
       ],
       "steps": [
         {
           "instruction": "Dissolve salt in water. Stir well until fully dissolved. Set aside.",
-          "tips": ["Use filtered or boiled-and-cooled water — chlorine inhibits lacto-fermentation."]
+          "tips": [
+            "Use filtered or boiled-and-cooled water — chlorine inhibits lacto-fermentation."
+          ]
         },
         {
           "instruction": "Wash cucumbers. Remove blossom ends (at least 1/16 inch). Leave whole, halve lengthwise, or leave as spears.",
-          "tips": ["The blossom end contains enzymes that cause softening — always remove it."]
+          "tips": [
+            "The blossom end contains enzymes that cause softening — always remove it."
+          ]
         },
         {
           "instruction": "Place dill, garlic, peppercorns, grape leaves, and mustard seeds in the bottom of a clean quart mason jar. Pack cucumbers in vertically as tightly as possible without crushing.",
-          "tips": ["Tight packing helps keep cucumbers submerged."]
+          "tips": [
+            "Tight packing helps keep cucumbers submerged."
+          ]
         },
         {
           "instruction": "Pour brine over cucumbers to cover completely. Weigh down with a small zip-lock bag filled with extra brine, a small jar lid, or a fermentation weight. Seal loosely to allow CO₂ to escape.",
-          "tips": ["Every surface of cucumber must stay below brine."]
+          "tips": [
+            "Every surface of cucumber must stay below brine."
+          ]
         },
         {
           "instruction": "Ferment at room temperature (65–75°F) away from sunlight. Brine will become cloudy and bubbly — this is normal and a sign of active fermentation.",
@@ -495,7 +826,9 @@
         },
         {
           "instruction": "Taste starting at day 3. Ferment to your desired level of sourness (3 days = mild, 7 days = half-sour, 14+ days = full-sour). Refrigerate when done — fermentation nearly stops when cold.",
-          "tips": ["Cold storage maintains crunch significantly better than room temperature."]
+          "tips": [
+            "Cold storage maintains crunch significantly better than room temperature."
+          ]
         }
       ],
       "safety_notes": "Keep all vegetable surfaces submerged in brine at all times. White film on the surface (kahm yeast) is harmless but should be skimmed. Discard if you see fuzzy mold. These pickles are not shelf-stable — store in refrigerator.",
@@ -510,26 +843,43 @@
       "time_estimate": "7–14 days",
       "yield": "1 active starter (ongoing)",
       "ingredients": [
-        { "name": "Whole wheat or rye flour (for establishing)", "quantity": "50 g per day for first 3–5 days" },
-        { "name": "Unbleached all-purpose or bread flour", "quantity": "50 g per feeding after day 5" },
-        { "name": "Non-chlorinated water (room temperature)", "quantity": "50 g per feeding" }
+        {
+          "name": "Whole wheat or rye flour (for establishing)",
+          "quantity": "50 g per day for first 3–5 days"
+        },
+        {
+          "name": "Unbleached all-purpose or bread flour",
+          "quantity": "50 g per feeding after day 5"
+        },
+        {
+          "name": "Non-chlorinated water (room temperature)",
+          "quantity": "50 g per feeding"
+        }
       ],
       "steps": [
         {
           "instruction": "Day 1: Mix 50 g whole wheat flour and 50 g room-temperature water in a clean 1-quart jar. Stir vigorously to incorporate air. Cover loosely with a cloth or loose lid. Mark the level with a rubber band. Leave at 70–75°F.",
-          "tips": ["Using weight (grams) is more reliable than volume for flour hydration."]
+          "tips": [
+            "Using weight (grams) is more reliable than volume for flour hydration."
+          ]
         },
         {
           "instruction": "Days 2–3: Discard all but 50 g of starter. Feed with 50 g flour and 50 g water. Stir well. Cover and return to warm spot. You may see some bubbles by day 2–3 — this is promising.",
-          "tips": ["The discard is important — without discarding you accumulate too much acid and the starter becomes sluggish."]
+          "tips": [
+            "The discard is important — without discarding you accumulate too much acid and the starter becomes sluggish."
+          ]
         },
         {
           "instruction": "Days 4–7: Switch to all-purpose flour. Continue daily discard-and-feed routine. By days 5–7 the starter should be reliably doubling in volume within 4–8 hours of feeding.",
-          "tips": ["Starter is ready when it reliably doubles, smells pleasantly yeasty/tangy, and passes the float test (a small spoonful floats in water)."]
+          "tips": [
+            "Starter is ready when it reliably doubles, smells pleasantly yeasty/tangy, and passes the float test (a small spoonful floats in water)."
+          ]
         },
         {
           "instruction": "Maintenance (once established): Keep at room temperature and feed daily. Or refrigerate and feed once a week. To use from fridge: pull out, feed, wait for peak activity (doubled, domed top), then use.",
-          "tips": ["A refrigerated starter kept for months can always be revived with a few daily feedings."]
+          "tips": [
+            "A refrigerated starter kept for months can always be revived with a few daily feedings."
+          ]
         }
       ],
       "safety_notes": "Wild fermentation can produce some odd smells in the first few days — hooch (gray liquid) on top is just alcohol from hungry yeast; stir it in or pour it off. A pink or orange streak signals contamination — discard and start over.",
@@ -544,18 +894,32 @@
       "time_estimate": "6–10 hours (mostly unattended dehydrating)",
       "yield": "2–3 sheets (about 8 servings)",
       "ingredients": [
-        { "name": "Fresh or frozen strawberries, thawed", "quantity": "4 cups" },
-        { "name": "Bottled lemon juice", "quantity": "1 tbsp" },
-        { "name": "Honey or sugar (optional)", "quantity": "2–3 tbsp", "notes": "adjust to fruit sweetness" }
+        {
+          "name": "Fresh or frozen strawberries, thawed",
+          "quantity": "4 cups"
+        },
+        {
+          "name": "Bottled lemon juice",
+          "quantity": "1 tbsp"
+        },
+        {
+          "name": "Honey or sugar (optional)",
+          "quantity": "2–3 tbsp",
+          "notes": "adjust to fruit sweetness"
+        }
       ],
       "steps": [
         {
           "instruction": "Purée strawberries, lemon juice, and optional sweetener in a blender until completely smooth. Taste and adjust sweetness.",
-          "tips": ["Lemon juice brightens flavor and helps preserve color."]
+          "tips": [
+            "Lemon juice brightens flavor and helps preserve color."
+          ]
         },
         {
           "instruction": "Line dehydrator trays or rimmed baking sheets with non-stick dehydrator sheets, parchment, or plastic wrap sprayed with cooking spray.",
-          "tips": ["Do not use wax paper — the leather will stick and tear."]
+          "tips": [
+            "Do not use wax paper — the leather will stick and tear."
+          ]
         },
         {
           "instruction": "Pour purée onto prepared sheets about ¼ inch thick. Tilt to spread evenly. Spread slightly thicker at edges (edges dry faster).",
@@ -563,11 +927,15 @@
         },
         {
           "instruction": "Dehydrate at 135°F (57°C) for 6–10 hours, or in oven at lowest setting (150–170°F) for 4–6 hours with door slightly ajar.",
-          "tips": ["Leather is done when it is no longer sticky to the touch in the center and peels away cleanly."]
+          "tips": [
+            "Leather is done when it is no longer sticky to the touch in the center and peels away cleanly."
+          ]
         },
         {
           "instruction": "While still slightly warm, peel leather off sheet and roll in plastic wrap or parchment. Store in airtight container at room temperature up to 1 month, or freeze up to 1 year.",
-          "tips": ["Do not store in a sealed container until completely cool to prevent moisture accumulation."]
+          "tips": [
+            "Do not store in a sealed container until completely cool to prevent moisture accumulation."
+          ]
         }
       ],
       "safety_notes": "Underdried leather can mold — err on the side of slightly longer drying time. Center of the sheet should be leathery, not wet or glossy.",
@@ -582,36 +950,73 @@
       "time_estimate": "24 hours marinade + 6–10 hours drying",
       "yield": "about 1 lb (from 3 lbs raw)",
       "ingredients": [
-        { "name": "Beef (eye of round, flank, or top round), well-trimmed", "quantity": "3 lbs" },
-        { "name": "Soy sauce", "quantity": "½ cup" },
-        { "name": "Worcestershire sauce", "quantity": "¼ cup" },
-        { "name": "Brown sugar", "quantity": "2 tbsp" },
-        { "name": "Garlic powder", "quantity": "1 tsp" },
-        { "name": "Onion powder", "quantity": "1 tsp" },
-        { "name": "Smoked paprika", "quantity": "1 tsp" },
-        { "name": "Black pepper, coarsely ground", "quantity": "1 tsp" },
-        { "name": "Red pepper flakes (optional)", "quantity": "½ tsp" }
+        {
+          "name": "Beef (eye of round, flank, or top round), well-trimmed",
+          "quantity": "3 lbs"
+        },
+        {
+          "name": "Soy sauce",
+          "quantity": "½ cup"
+        },
+        {
+          "name": "Worcestershire sauce",
+          "quantity": "¼ cup"
+        },
+        {
+          "name": "Brown sugar",
+          "quantity": "2 tbsp"
+        },
+        {
+          "name": "Garlic powder",
+          "quantity": "1 tsp"
+        },
+        {
+          "name": "Onion powder",
+          "quantity": "1 tsp"
+        },
+        {
+          "name": "Smoked paprika",
+          "quantity": "1 tsp"
+        },
+        {
+          "name": "Black pepper, coarsely ground",
+          "quantity": "1 tsp"
+        },
+        {
+          "name": "Red pepper flakes (optional)",
+          "quantity": "½ tsp"
+        }
       ],
       "steps": [
         {
           "instruction": "Freeze beef 1–2 hours until firm but not solid. Slice with the grain into ¼-inch strips for chewy jerky, or against the grain for tender jerky.",
-          "tips": ["Partially frozen meat slices far more evenly than fresh."]
+          "tips": [
+            "Partially frozen meat slices far more evenly than fresh."
+          ]
         },
         {
           "instruction": "Combine all marinade ingredients in a zip-lock bag or bowl. Add beef strips. Marinate in refrigerator 12–24 hours, turning occasionally.",
-          "tips": ["Longer marinating = deeper flavor but do not exceed 24 hours."]
+          "tips": [
+            "Longer marinating = deeper flavor but do not exceed 24 hours."
+          ]
         },
         {
           "instruction": "Remove meat from marinade. Pat dry with paper towels. Spread strips in a single layer on dehydrator trays or oven racks over a foil-lined baking sheet.",
-          "tips": ["Strips should not overlap or touch — air circulation is essential."]
+          "tips": [
+            "Strips should not overlap or touch — air circulation is essential."
+          ]
         },
         {
           "instruction": "USDA safety step: Place strips on a baking rack over a sheet pan in a 275°F oven for 10 minutes before transferring to dehydrator. This pre-heating step ensures meat reaches 160°F for safety.",
-          "tips": ["This step is critical — most dehydrators cannot reliably reach 160°F internal temperature."]
+          "tips": [
+            "This step is critical — most dehydrators cannot reliably reach 160°F internal temperature."
+          ]
         },
         {
           "instruction": "Dehydrate at 165°F for 4–6 hours until strips bend and crack (not snap). Check periodically — thickness varies and affects drying time.",
-          "tips": ["Jerky is done when it bends and begins to crack but does not break completely."]
+          "tips": [
+            "Jerky is done when it bends and begins to crack but does not break completely."
+          ]
         },
         {
           "instruction": "Cool completely. Store in airtight containers, glass jars, or vacuum-sealed bags. Room temperature up to 2 months; refrigerator up to 6 months; freezer up to 1 year.",
@@ -630,13 +1035,21 @@
       "time_estimate": "1–4 hours (dehydrator) or 1–2 weeks (air dry)",
       "yield": "varies (about ⅓ volume of fresh)",
       "ingredients": [
-        { "name": "Fresh herbs, washed and dried", "quantity": "any amount" },
-        { "name": "No other ingredients needed", "quantity": "" }
+        {
+          "name": "Fresh herbs, washed and dried",
+          "quantity": "any amount"
+        },
+        {
+          "name": "No other ingredients needed",
+          "quantity": ""
+        }
       ],
       "steps": [
         {
           "instruction": "Harvest herbs in the morning after dew has dried but before afternoon heat. Pick just before or at the start of flowering — this is when essential oil content is highest.",
-          "tips": ["Basil, mint, and other tender herbs should be dried quickly; thick-stemmed herbs like rosemary can be air-dried."]
+          "tips": [
+            "Basil, mint, and other tender herbs should be dried quickly; thick-stemmed herbs like rosemary can be air-dried."
+          ]
         },
         {
           "instruction": "Wash gently in cool water. Shake off excess moisture. Pat dry with clean towels. Discard damaged or discolored leaves.",
@@ -644,19 +1057,523 @@
         },
         {
           "instruction": "Dehydrator method: Spread in a single layer on trays. Dry at 95–115°F (35–46°C) for 1–4 hours until leaves crumble when rubbed between fingers. Tender herbs dry faster; woody stems take longer.",
-          "tips": ["Lower temperature preserves more volatile aromatics and color."]
+          "tips": [
+            "Lower temperature preserves more volatile aromatics and color."
+          ]
         },
         {
           "instruction": "Air-dry method: Bundle 4–6 stems together with twine. Hang upside-down in a warm, dry, well-ventilated location away from direct light. Ready in 1–2 weeks.",
-          "tips": ["Paper bags loosely tied over bundles catch falling leaves and protect from dust."]
+          "tips": [
+            "Paper bags loosely tied over bundles catch falling leaves and protect from dust."
+          ]
         },
         {
           "instruction": "Strip leaves from stems. Crumble or leave whole. Store in airtight glass jars away from light and heat. Properly dried herbs retain potency 1–3 years.",
-          "tips": ["Crushing releases aroma immediately — crush just before use rather than when storing for best flavor retention."]
+          "tips": [
+            "Crushing releases aroma immediately — crush just before use rather than when storing for best flavor retention."
+          ]
         }
       ],
       "safety_notes": "Ensure herbs are completely dry before storing — any moisture causes mold. If herbs clump together after a few days in the jar, they were not fully dry. Re-dry immediately.",
       "source": "UC ANR"
+    },
+    {
+      "id": "wbc-lilikoi-jelly",
+      "name": "Lilikoi (Passion Fruit) Jelly",
+      "category": "Water Bath Canning",
+      "summary": "Brilliantly aromatic lilikoi jelly made from fresh passion fruit. The tropical flavor is intensely floral and tart. This recipe uses yellow lilikoi common in West Hawaii, but works equally with purple variety. One of the most prized homemade jellies in Hawaii.",
+      "difficulty": "beginner",
+      "time_estimate": "2–3 hours",
+      "yield": "6–7 half-pints",
+      "ingredients": [
+        {
+          "name": "Fresh lilikoi juice (strained, seeds removed)",
+          "quantity": "2 cups",
+          "notes": "About 20–25 yellow lilikoi"
+        },
+        {
+          "name": "Water",
+          "quantity": "½ cup"
+        },
+        {
+          "name": "Bottled lemon juice",
+          "quantity": "2 tbsp"
+        },
+        {
+          "name": "Powdered fruit pectin",
+          "quantity": "1 package (1.75 oz)"
+        },
+        {
+          "name": "Granulated sugar",
+          "quantity": "5 cups"
+        }
+      ],
+      "steps": [
+        {
+          "instruction": "Prepare canner, jars, and lids. Keep jars hot until filling.",
+          "tips": [
+            "Half-pint jars are ideal — the intensely flavored jelly is used a little at a time."
+          ]
+        },
+        {
+          "instruction": "Cut lilikoi in half and scoop pulp into a blender. Pulse briefly (2–3 seconds only) to loosen seeds without crushing them. Strain through a fine-mesh sieve, pressing to extract all juice. Discard seeds.",
+          "tips": [
+            "Don't over-blend — crushing seeds makes the juice bitter.",
+            "Freeze excess juice in ice cube trays for smoothies and curd."
+          ]
+        },
+        {
+          "instruction": "Combine 2 cups lilikoi juice, water, lemon juice, and powdered pectin in a large heavy saucepan. Stir well. Bring to a full rolling boil over high heat, stirring constantly.",
+          "tips": []
+        },
+        {
+          "instruction": "Add all sugar at once. Return to a full rolling boil and boil hard for exactly 1 minute, stirring constantly.",
+          "tips": [
+            "The jelly will foam dramatically — a deep pot prevents boilover."
+          ]
+        },
+        {
+          "instruction": "Remove from heat. Skim foam. Ladle into hot half-pint jars leaving ¼-inch headspace. Remove air bubbles. Wipe rims, center lids, apply bands fingertip-tight.",
+          "tips": []
+        },
+        {
+          "instruction": "Process in boiling water bath canner for 10 minutes. Adjust for altitude (add 5 min above 1,000 ft — relevant for Waimea-area harvest). Cool undisturbed 12–24 hours.",
+          "tips": [
+            "The jelly continues to set for up to 48 hours after processing."
+          ]
+        }
+      ],
+      "safety_notes": "Use only bottled lemon juice — its standardized acidity ensures a safe pH. Do not reduce pectin or sugar quantities.",
+      "source": "Ball Complete Book of Home Preserving / traditional Hawaii recipe"
+    },
+    {
+      "id": "wbc-guava-jam",
+      "name": "Guava Jam",
+      "category": "Water Bath Canning",
+      "summary": "A rich, coral-pink jam made from the abundant common guava of West Hawaii. Guava's natural pectin means no commercial pectin is required if you include some slightly underripe fruit. The flavor is tropical and fragrant with a pleasant tartness.",
+      "difficulty": "beginner",
+      "time_estimate": "2–3 hours",
+      "yield": "5–6 half-pints",
+      "ingredients": [
+        {
+          "name": "Fresh guava, washed, blossom ends removed, roughly chopped (skins on)",
+          "quantity": "4 lbs"
+        },
+        {
+          "name": "Water",
+          "quantity": "1 cup"
+        },
+        {
+          "name": "Bottled lemon juice",
+          "quantity": "3 tbsp"
+        },
+        {
+          "name": "Granulated sugar",
+          "quantity": "3 cups"
+        }
+      ],
+      "steps": [
+        {
+          "instruction": "Combine chopped guava (skins and all) and water in a large heavy pot. Bring to a boil, reduce heat, and simmer 20–25 minutes until very soft, stirring occasionally.",
+          "tips": [
+            "Include 10–15% slightly underripe fruit for more natural pectin and a firmer set.",
+            "Common guava with pink flesh gives a beautiful coral-pink color."
+          ]
+        },
+        {
+          "instruction": "Press cooked guava through a food mill or fine sieve to remove seeds and skin fibers. Measure the pulp — you need about 4 cups. Adjust water if necessary.",
+          "tips": [
+            "A food mill is faster than a sieve for large batches — worth the investment."
+          ]
+        },
+        {
+          "instruction": "Return strained pulp to the pot. Add lemon juice and sugar. Stir to combine. Bring to a boil over medium-high heat, stirring frequently.",
+          "tips": []
+        },
+        {
+          "instruction": "Cook at a boil, stirring frequently, until jam reaches gel stage: 220°F on a candy thermometer, or passes the cold plate test (a dollop on a chilled plate wrinkles when pushed with a finger). This takes 20–35 minutes.",
+          "tips": [
+            "Guava jam can scorch — stir constantly in the last 10 minutes.",
+            "Start checking temperature at 15 minutes."
+          ]
+        },
+        {
+          "instruction": "Ladle hot jam into hot half-pint jars leaving ¼-inch headspace. Remove bubbles. Wipe rims, apply lids fingertip-tight.",
+          "tips": []
+        },
+        {
+          "instruction": "Process in boiling water bath canner for 10 minutes. Cool undisturbed 12–24 hours.",
+          "tips": []
+        }
+      ],
+      "safety_notes": "Guava jam is a high-acid product suitable for water bath canning. Always add the specified bottled lemon juice — guava pH can vary. Do not reduce lemon juice.",
+      "source": "Ball Complete Book / University of Hawaii CTAHR"
+    },
+    {
+      "id": "wbc-poha-jam",
+      "name": "Poha Berry Jam",
+      "category": "Water Bath Canning",
+      "summary": "Poha jam is uniquely Hawaiian — a golden, sweet-tart jam from the cape gooseberry that grows at higher elevations around Waimea and the Kona coffee belt. Complex tropical flavor with honey-like sweetness and a bright tartness. A signature upcountry Big Island product.",
+      "difficulty": "intermediate",
+      "time_estimate": "2–3 hours",
+      "yield": "4–5 half-pints",
+      "ingredients": [
+        {
+          "name": "Poha berries, husks removed, rinsed",
+          "quantity": "4 cups (about 1.5 lbs)"
+        },
+        {
+          "name": "Granulated sugar",
+          "quantity": "3 cups"
+        },
+        {
+          "name": "Bottled lemon juice",
+          "quantity": "3 tbsp"
+        },
+        {
+          "name": "Powdered pectin",
+          "quantity": "1 package (1.75 oz)",
+          "notes": "Include if using fully ripe berries; can omit with 25% underripe"
+        },
+        {
+          "name": "Fresh ginger, grated",
+          "quantity": "1 tsp",
+          "notes": "optional but recommended"
+        }
+      ],
+      "steps": [
+        {
+          "instruction": "Prepare canner and jars. Remove all papery husks from poha berries — the husk is NOT edible. Rinse berries thoroughly. Halve or leave whole.",
+          "tips": [
+            "Remove the husk completely — even small husk fragments should be discarded."
+          ]
+        },
+        {
+          "instruction": "Crush berries slightly with a potato masher or pulse briefly in a blender. Combine with lemon juice, ginger (if using), and powdered pectin in a large saucepan. Stir. Bring to a full rolling boil.",
+          "tips": [
+            "A few pulses in the blender give a more uniform texture while retaining some pieces."
+          ]
+        },
+        {
+          "instruction": "Add all sugar at once. Return to a full rolling boil and boil hard 1 minute, stirring constantly.",
+          "tips": []
+        },
+        {
+          "instruction": "If not using pectin: cook jam at a moderate boil, stirring frequently, until it reaches 220°F or passes the cold plate test — this takes 25–40 minutes with fully ripe berries.",
+          "tips": [
+            "Poha naturally gels fairly well — a no-pectin version is achievable with patience."
+          ]
+        },
+        {
+          "instruction": "Ladle into hot half-pint jars leaving ¼-inch headspace. Wipe rims, apply lids fingertip-tight.",
+          "tips": []
+        },
+        {
+          "instruction": "Process in boiling water bath canner for 10 minutes. Cool 12–24 hours.",
+          "tips": [
+            "Poha jam makes an outstanding gift — label with the Hawaiian name for local authenticity."
+          ]
+        }
+      ],
+      "safety_notes": "Use only dehusked, ripe berries. The papery calyx contains mildly toxic compounds — ensure all husk material is removed. Always add bottled lemon juice for safe acidity.",
+      "source": "Traditional Hawaii / University of Hawaii CTAHR"
+    },
+    {
+      "id": "dehy-ahi-jerky",
+      "name": "Ahi (Yellowfin Tuna) Jerky",
+      "category": "Dehydrating",
+      "summary": "Ahi jerky made from fresh Kona-caught yellowfin tuna — deeply savory, slightly sweet, and intensely ocean-flavored. The lean, firm texture of ahi makes it ideal for jerky. This is one of the best uses for a large ahi that you can't consume fresh.",
+      "difficulty": "intermediate",
+      "time_estimate": "12–24 hours marinade + 4–8 hours drying",
+      "yield": "about ½ lb (from 2 lbs raw)",
+      "ingredients": [
+        {
+          "name": "Ahi fillet, bloodline removed, skin off",
+          "quantity": "2 lbs"
+        },
+        {
+          "name": "Soy sauce or tamari",
+          "quantity": "½ cup"
+        },
+        {
+          "name": "Mirin (sweet rice wine)",
+          "quantity": "¼ cup"
+        },
+        {
+          "name": "Sesame oil",
+          "quantity": "1 tbsp"
+        },
+        {
+          "name": "Fresh ginger, grated",
+          "quantity": "1 tbsp"
+        },
+        {
+          "name": "Garlic cloves, minced",
+          "quantity": "3 cloves"
+        },
+        {
+          "name": "Brown sugar",
+          "quantity": "2 tbsp"
+        },
+        {
+          "name": "Red pepper flakes or Hawaiian chili pepper",
+          "quantity": "½ tsp"
+        },
+        {
+          "name": "Black pepper",
+          "quantity": "1 tsp"
+        }
+      ],
+      "steps": [
+        {
+          "instruction": "Freeze ahi partially — about 1–2 hours until firm but not solid — for easier, more uniform slicing. Slice across the grain into ¼-inch thick strips. Remove any remaining bloodline (dark red tissue) — it becomes very bitter when dried.",
+          "tips": [
+            "Slicing against the grain produces a more tender jerky; with the grain is chewier — both are good.",
+            "Remove every trace of bloodline — it is the most important prep step for good ahi jerky."
+          ]
+        },
+        {
+          "instruction": "Combine all marinade ingredients in a bowl or zip-lock bag. Add ahi strips. Marinate refrigerated 12–24 hours, turning occasionally.",
+          "tips": [
+            "Don't exceed 24 hours — fish absorbs flavor faster than beef and can become overly salty."
+          ]
+        },
+        {
+          "instruction": "Remove ahi from marinade. Pat dry with paper towels. Arrange in a single layer on dehydrator trays or oven racks over foil-lined baking sheets.",
+          "tips": [
+            "Strips should not touch — air circulation on all sides prevents uneven drying."
+          ]
+        },
+        {
+          "instruction": "USDA safety step: heat strips in a 275°F oven for 10 minutes before transferring to dehydrator. This ensures the fish reaches 160°F internally for pathogen safety.",
+          "tips": [
+            "Fish carries different pathogens than beef — the oven pre-heat step is critical for fish jerky."
+          ]
+        },
+        {
+          "instruction": "Dehydrate at 165°F for 4–8 hours, checking hourly after hour 4. Ahi jerky is done when it bends without breaking and is no longer tacky to the touch. Thicker pieces take longer.",
+          "tips": [
+            "Ahi jerky is done sooner than beef jerky — the lean fish dries quickly."
+          ]
+        },
+        {
+          "instruction": "Cool completely. Store in airtight containers or vacuum-sealed bags. Room temperature up to 1 month; refrigerator up to 3 months; freezer up to 1 year.",
+          "tips": [
+            "Vacuum sealing dramatically extends shelf life and maintains texture."
+          ]
+        }
+      ],
+      "safety_notes": "Raw fish must reach 160°F for safety — do not skip the oven pre-heat step. Fish jerky made without this step has caused illness. Ahi that was previously frozen (for sashimi purposes) still requires heat treatment to make jerky safe.",
+      "source": "USDA / NCHFP; traditional Hawaii recipe"
+    },
+    {
+      "id": "dehy-dried-fish-hawaii",
+      "name": "Traditional Hawaiian Dried Fish (Paakai)",
+      "category": "Dehydrating",
+      "summary": "Paakai (salt) dried fish is one of Hawaii's oldest preservation methods. Small whole fish (akule, opelu) or fish fillets are packed in Hawaiian sea salt, then sun-dried or dehydrated until shelf-stable. The result is firm, intensely flavored, and shelf-stable for months. Eaten in small amounts as a condiment or flavor base.",
+      "difficulty": "beginner",
+      "time_estimate": "24 hours salting + 6–12 hours drying",
+      "yield": "varies",
+      "ingredients": [
+        {
+          "name": "Fresh akule, opelu, or firm fish fillets",
+          "quantity": "2 lbs"
+        },
+        {
+          "name": "Hawaiian sea salt (coarse, preferably alaea/red clay salt)",
+          "quantity": "½ cup per lb of fish"
+        },
+        {
+          "name": "Water",
+          "quantity": "as needed for cleaning only"
+        }
+      ],
+      "steps": [
+        {
+          "instruction": "Scale and gut whole fish. Score both sides of the flesh with a knife, making cuts ½ inch apart and ¼ inch deep — this allows salt to penetrate and moisture to escape. Pat dry.",
+          "tips": [
+            "Gut fish as soon as possible after landing — the viscera accelerate spoilage.",
+            "For fillets, score the skin side deeply."
+          ]
+        },
+        {
+          "instruction": "Cover the bottom of a glass or ceramic container with a thick layer of Hawaiian salt. Lay fish on the salt. Cover with another generous layer of salt, ensuring all surfaces are in contact with salt. Refrigerate 12–24 hours.",
+          "tips": [
+            "Hawaiian alaea (red clay) salt gives authentic color, flavor, and minerals.",
+            "Liquid will draw out of the fish — this is normal and desirable."
+          ]
+        },
+        {
+          "instruction": "Rinse fish thoroughly with clean water to remove salt. Taste a small piece — it should be pleasantly salty but not overwhelmingly so. If too salty, soak in clean water 30–60 minutes.",
+          "tips": []
+        },
+        {
+          "instruction": "Pat fish completely dry. Hang on a drying rack or lay on dehydrator screens. Sun dry outdoors in a breezy location 1–2 days (covering at night to prevent rehydration), or dehydrate at 165°F for 6–12 hours until completely stiff and dry.",
+          "tips": [
+            "Old-school method: hang fish from a line in the sun — still highly effective in West Hawaii's dry climate.",
+            "The fish should be hard and stiff when done, not pliable."
+          ]
+        },
+        {
+          "instruction": "Store dried fish wrapped in paper or in a loosely covered container in a cool, dry place. Properly dried fish keeps several months at room temperature; indefinitely frozen.",
+          "tips": [
+            "Do not store in an airtight container if any moisture remains — check after 2 days and re-dry if needed."
+          ]
+        }
+      ],
+      "safety_notes": "Fully dried fish must be completely stiff and hard — any remaining moisture allows mold growth. Discard if any soft spots, mold, or off odors develop. The salt level must be sufficient (ratio of at least ¼ cup salt per pound of fish) for preservation.",
+      "source": "Traditional Hawaiian fishing / NCHFP"
+    },
+    {
+      "id": "sc-smoked-ahi",
+      "name": "Smoked Ahi",
+      "category": "Smoking & Curing",
+      "summary": "Hot-smoked yellowfin tuna — brined in a simple salt-sugar cure, then smoked to a firm, flaky texture. The rich ahi takes smoke beautifully. Use kiawe (Hawaiian mesquite) for an authentic West Hawaii flavor. Excellent served warm, used in dips, or tossed in pasta.",
+      "difficulty": "intermediate",
+      "time_estimate": "4–6 hours brine + 2–4 hours smoking",
+      "yield": "about 1.5 lbs (from 2 lbs raw)",
+      "ingredients": [
+        {
+          "name": "Ahi loin, bloodline removed, cut into 1-inch thick portions",
+          "quantity": "2 lbs"
+        },
+        {
+          "name": "Non-iodized salt",
+          "quantity": "¼ cup"
+        },
+        {
+          "name": "Brown sugar",
+          "quantity": "¼ cup"
+        },
+        {
+          "name": "Soy sauce",
+          "quantity": "2 tbsp"
+        },
+        {
+          "name": "Cold water",
+          "quantity": "4 cups"
+        },
+        {
+          "name": "Fresh ginger, sliced",
+          "quantity": "4 slices",
+          "notes": "optional"
+        },
+        {
+          "name": "Garlic cloves, crushed",
+          "quantity": "2 cloves",
+          "notes": "optional"
+        },
+        {
+          "name": "Kiawe or applewood chips",
+          "quantity": "2 cups",
+          "notes": "soaked in water 30 minutes"
+        }
+      ],
+      "steps": [
+        {
+          "instruction": "Combine salt, brown sugar, soy sauce, water, ginger, and garlic in a bowl. Stir until salt and sugar dissolve. Add ahi pieces. Brine in the refrigerator 4–6 hours.",
+          "tips": [
+            "Don't over-brine — ahi is a delicate fish and 6 hours is the maximum."
+          ]
+        },
+        {
+          "instruction": "Remove ahi from brine. Rinse briefly, then pat dry. Arrange on a rack and air-dry in the refrigerator (or a cool spot) 1–2 hours uncovered until a glossy, tacky surface (pellicle) forms.",
+          "tips": [
+            "The pellicle is critical — it helps smoke adhere and creates a better texture. Don't skip this step."
+          ]
+        },
+        {
+          "instruction": "Prepare smoker or kettle grill for indirect heat at 200–225°F. Add soaked kiawe or applewood chips. Place ahi pieces on the grill grate away from direct heat.",
+          "tips": [
+            "Kiawe (Hawaiian mesquite) gives a mild, sweet smoke that complements ahi without overpowering it.",
+            "Keep the temperature steady — high heat toughens the fish."
+          ]
+        },
+        {
+          "instruction": "Smoke until internal temperature reaches 145°F, approximately 1.5–3 hours depending on thickness and smoker temperature. Check with an instant-read thermometer after 90 minutes.",
+          "tips": [
+            "Ahi changes color from red to a warm brown-grey as it smokes — this is expected.",
+            "Remove from smoker as soon as it hits 145°F — carryover cooking will continue."
+          ]
+        },
+        {
+          "instruction": "Rest smoked ahi 30 minutes before serving or refrigerating. Refrigerate in an airtight container up to 1 week, or vacuum-seal and freeze up to 3 months.",
+          "tips": []
+        }
+      ],
+      "safety_notes": "Smoked fish must reach an internal temperature of 145°F (63°C) for food safety. Use an instant-read thermometer — do not estimate doneness by color or texture alone. Refrigerate within 2 hours of smoking.",
+      "source": "USDA / NCHFP smoked fish guidelines"
+    },
+    {
+      "id": "sc-smoked-opakapaka",
+      "name": "Smoked Opakapaka (Pink Snapper)",
+      "category": "Smoking & Curing",
+      "summary": "Cold-smoked opakapaka — the most refined smoked fish product you can make in West Hawaii. The delicate, moist flesh of opakapaka takes a subtle cold smoke from kiawe or fruit wood beautifully, producing something that rivals the finest smoked salmon. A labor of love with an extraordinary result.",
+      "difficulty": "advanced",
+      "time_estimate": "24–36 hours total (wet brine + pellicle formation + cold smoking)",
+      "yield": "about 1 lb (from 1.5 lbs raw fillet)",
+      "ingredients": [
+        {
+          "name": "Opakapaka fillet, skin-on, pin bones removed",
+          "quantity": "1.5 lbs"
+        },
+        {
+          "name": "Non-iodized salt",
+          "quantity": "¼ cup"
+        },
+        {
+          "name": "Granulated sugar",
+          "quantity": "2 tbsp"
+        },
+        {
+          "name": "Cold water",
+          "quantity": "4 cups"
+        },
+        {
+          "name": "Black pepper, coarsely cracked",
+          "quantity": "1 tsp"
+        },
+        {
+          "name": "Kiawe, applewood, or cherry wood chips",
+          "quantity": "4 cups",
+          "notes": "very small amount burned at low temperature — keep smoke cool"
+        }
+      ],
+      "steps": [
+        {
+          "instruction": "Dissolve salt and sugar in cold water to make a 3% brine. Submerge opakapaka fillet completely. Brine skin-on in the refrigerator 8–12 hours for a 1-inch-thick fillet.",
+          "tips": [
+            "Opakapaka is thin and delicate — do not over-brine. 8 hours is typically sufficient for ½-inch thick fillets."
+          ]
+        },
+        {
+          "instruction": "Remove from brine. Pat dry. Place skin-side down on a rack. Refrigerate uncovered 6–12 hours until the surface feels tacky and slightly glossy — the pellicle is essential for cold smoking.",
+          "tips": [
+            "A fan blowing gently over the fish speeds pellicle formation.",
+            "Do not rush — a proper pellicle prevents the flesh from over-absorbing smoke and gives the finished product its characteristic sheen."
+          ]
+        },
+        {
+          "instruction": "Cold smoking requires keeping the smoke chamber below 90°F — the fish must NOT cook. Methods: (a) Use a dedicated cold smoke generator (e.g., Smoke Chief, A-Maze-N) attached to a sealed chamber; (b) Offset smoke generation with a long tube running between the fire box and the fish chamber; (c) Cold conditions (below 50°F ambient) can make a standard smoker viable with minimal heat.",
+          "tips": [
+            "Cold smoking in West Hawaii's warm climate requires a purpose-built setup — ambient temperatures are too warm to cold-smoke safely without refrigeration.",
+            "A safer and still excellent alternative is a very-low hot smoke (150–160°F) if cold smoking equipment is unavailable — the product will be firmer but still excellent."
+          ]
+        },
+        {
+          "instruction": "Cold smoke for 6–12 hours at under 90°F, or hot smoke at 150–160°F for 1.5–2.5 hours to internal 145°F. Use a light hand with the kiawe — opakapaka's delicate flavor is easily overwhelmed.",
+          "tips": [
+            "Light fruit wood (apple, cherry) or minimal kiawe — less smoke than you think necessary.",
+            "Check internal temperature regularly if hot smoking."
+          ]
+        },
+        {
+          "instruction": "Rest finished smoked opakapaka at room temperature 30 minutes. Cold-smoked (under 145°F internal) product is refrigerator-only — consume within 3–5 days or vacuum-seal and freeze up to 2 months. Hot-smoked (145°F internal) product keeps refrigerated 7–10 days or frozen 3–6 months.",
+          "tips": []
+        }
+      ],
+      "safety_notes": "Cold-smoked fish that does not reach 145°F internal temperature is not fully pasteurized and carries a risk of Listeria and other pathogens. Consume cold-smoked product within 5 days of smoking and keep refrigerated at all times. People who are immunocompromised, pregnant, elderly, or very young should consume only fully hot-smoked (145°F internal) fish.",
+      "source": "USDA / NCHFP smoked fish guidelines; traditional Hawaii practice"
     }
   ]
 }

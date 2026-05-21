@@ -15,7 +15,8 @@ import javax.inject.Inject
 
 private val categoryOrder = listOf(
     "Tomatoes", "Vegetables", "Fruits", "Jams", "Pickles", "Meats",
-    "Fermentation", "Foraging", "Dehydrating", "Smoking & Curing"
+    "Fermentation", "Foraging", "Hawaii Foraging", "Hawaii Fishing",
+    "Dehydrating", "Smoking & Curing"
 )
 
 data class ReferenceUiState(

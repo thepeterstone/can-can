@@ -17,7 +17,8 @@ class ReferenceRepository @Inject constructor(
         "reference/canning_guide.json",
         "reference/fermentation_guide.json",
         "reference/foraging_guide.json",
-        "reference/preservation_guide.json"
+        "reference/preservation_guide.json",
+        "reference/fishing_guide.json"
     )
 
     val items: List<ReferenceItem> by lazy {

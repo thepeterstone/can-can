@@ -11,7 +11,7 @@ import org.terst.cancan.recipes.data.RecipeRepository
 import javax.inject.Inject
 
 private val categoryOrder = listOf(
-    "Water Bath Canning", "Pressure Canning", "Fermentation", "Dehydrating"
+    "Water Bath Canning", "Pressure Canning", "Fermentation", "Dehydrating", "Smoking & Curing"
 )
 
 data class RecipesUiState(
