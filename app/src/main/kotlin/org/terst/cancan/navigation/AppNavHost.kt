@@ -1,5 +1,8 @@
 package org.terst.cancan.navigation
 
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.slideInVertically
+import androidx.compose.animation.slideOutVertically
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Book
@@ -15,6 +18,9 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavDestination.Companion.hierarchy
 import androidx.navigation.NavGraph.Companion.findStartDestination
@@ -57,41 +63,51 @@ fun AppNavHost() {
     val currentDestination = navBackStackEntry?.destination
     val analytics = Firebase.analytics
 
+    var isFullscreen by remember { mutableStateOf(false) }
+    val currentRoute = currentDestination?.route ?: ""
+
     LaunchedEffect(navBackStackEntry) {
         val route = navBackStackEntry?.destination?.route ?: return@LaunchedEffect
         analytics.logEvent(FirebaseAnalytics.Event.SCREEN_VIEW) {
             param(FirebaseAnalytics.Param.SCREEN_NAME, route)
             param(FirebaseAnalytics.Param.SCREEN_CLASS, route)
         }
+        if (!route.startsWith("pdf_viewer")) isFullscreen = false
     }
 
     Scaffold(
         bottomBar = {
-            NavigationBar {
-                topLevelScreens.forEach { screen ->
-                    NavigationBarItem(
-                        icon = {
-                            Icon(
-                                imageVector = when (screen) {
-                                    Screen.Recipes -> Icons.Default.MenuBook
-                                    Screen.Inventory -> Icons.Default.Inventory
-                                    Screen.Reference -> Icons.Default.Book
-                                    Screen.Cooking -> Icons.Default.Restaurant
-                                    Screen.ReadingRoom -> Icons.Default.LibraryBooks
-                                },
-                                contentDescription = screen.label
-                            )
-                        },
-                        label = { Text(screen.label) },
-                        selected = currentDestination?.hierarchy?.any { it.route == screen.route } == true,
-                        onClick = {
-                            navController.navigate(screen.route) {
-                                popUpTo(navController.graph.findStartDestination().id) { saveState = true }
-                                launchSingleTop = true
-                                restoreState = true
+            AnimatedVisibility(
+                visible = !isFullscreen,
+                enter = slideInVertically(initialOffsetY = { it }),
+                exit = slideOutVertically(targetOffsetY = { it })
+            ) {
+                NavigationBar {
+                    topLevelScreens.forEach { screen ->
+                        NavigationBarItem(
+                            icon = {
+                                Icon(
+                                    imageVector = when (screen) {
+                                        Screen.Recipes -> Icons.Default.MenuBook
+                                        Screen.Inventory -> Icons.Default.Inventory
+                                        Screen.Reference -> Icons.Default.Book
+                                        Screen.Cooking -> Icons.Default.Restaurant
+                                        Screen.ReadingRoom -> Icons.Default.LibraryBooks
+                                    },
+                                    contentDescription = screen.label
+                                )
+                            },
+                            label = { Text(screen.label) },
+                            selected = currentDestination?.hierarchy?.any { it.route == screen.route } == true,
+                            onClick = {
+                                navController.navigate(screen.route) {
+                                    popUpTo(navController.graph.findStartDestination().id) { saveState = true }
+                                    launchSingleTop = true
+                                    restoreState = true
+                                }
                             }
-                        }
-                    )
+                        )
+                    }
                 }
             }
         }
@@ -110,7 +126,11 @@ fun AppNavHost() {
                 route = "pdf_viewer/{documentId}",
                 arguments = listOf(navArgument("documentId") { type = NavType.StringType })
             ) {
-                PdfViewerScreen(navController)
+                PdfViewerScreen(
+                    navController = navController,
+                    isFullscreen = isFullscreen,
+                    onToggleFullscreen = { isFullscreen = !isFullscreen }
+                )
             }
         }
     }
