@@ -2,8 +2,8 @@
 
 ## Current State (as of 2026-05-21)
 
-**Branch:** `claude/implement-reading-room-wmdFU`
-**Session focus:** Implement Reading Room feature — offline PDF viewer for bundled reference documents
+**Branch:** `claude/west-hawaii-content-53619`
+**Session focus:** Add West Hawaii fishing, foraging, and recipes content
 
 ---
 
@@ -48,6 +48,15 @@
 - **PDF assets are NOT committed** — they are ~20–50 MB and must be downloaded locally then committed
 
 ---
+
+### West Hawaii Content (complete — 2026-05-21)
+- `reference/fishing_guide.json` (new): 9 Hawaii Fishing guide entries — principles, ahi, mahimahi, ono, opakapaka, akule/opelu, ulua/papio, limu, opihi
+- `reference/foraging_guide.json`: +7 Hawaii Foraging entries — lilikoi, guava, mountain apple, breadfruit/ʻulu, poha, kukui, noni
+- `recipes/recipes.json`: +7 West Hawaii recipes — lilikoi jelly, guava jam, poha jam, ahi jerky, paakai dried fish, smoked ahi, smoked opakapaka
+- New "Smoking & Curing" recipe category (2 smoked fish recipes)
+- `ReferenceRepository`: added fishing_guide.json to assetFiles
+- `ReferenceViewModel`: added "Hawaii Foraging" and "Hawaii Fishing" to categoryOrder
+- `RecipesViewModel`: added "Smoking & Curing" to categoryOrder
 
 ### Recipes Screen (complete — 2026-05-21)
 - `recipes/data/RecipeItem.kt`: `RecipeItem`, `Ingredient`, `RecipeStep`, `RecipesData` (all `@Serializable`)
