@@ -40,7 +40,7 @@ sealed class Screen(val route: String, val label: String) {
     data object Cooking : Screen("cooking", "Cooking")
     data object Inventory : Screen("inventory", "Inventory")
     data object Reference : Screen("reference", "Reference")
-    data object ReadingRoom : Screen("reading_room", "Reading Room")
+    data object ReadingRoom : Screen("reading_room", "Library")
 }
 
 private val topLevelScreens = listOf(
