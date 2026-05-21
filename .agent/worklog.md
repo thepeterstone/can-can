@@ -1,9 +1,9 @@
 # can-can — Worklog
 
-## Current State (as of 2026-05-20)
+## Current State (as of 2026-05-21)
 
-**Branch:** `main` (all work merged)
-**Build:** GREEN via GitHub Actions — download APK from Actions → can-can-debug artifact
+**Branch:** `claude/implement-reading-room-wmdFU`
+**Session focus:** Implement Reading Room feature — offline PDF viewer for bundled reference documents
 
 ---
 
@@ -34,8 +34,18 @@
 
 ### Scripts (in `scripts/`)
 - `download_plant_images.py` — downloads Wikipedia thumbnails for foraging guide plants; run locally, commit images to `assets/reference/images/`
-- `download_reference_pdfs.py` — downloads 32 PDFs (USDA guides, NCHFP fact sheets, UH CTAHR Hawaii plant guides, UC ANR/UAF preservation guides, foraging guides) to `docs/reference_pdfs/` (gitignored)
+- `download_reference_pdfs.py` — downloads 33 PDFs (USDA guides, NCHFP fact sheets, UH CTAHR Hawaii plant guides, UC ANR/UAF preservation guides, foraging guides) to `docs/reference_pdfs/` (gitignored)
 - `reference_data/sections_tomatoes_fruits.py` + `sections_data.py` — source data used to populate canning_guide.json sections; kept for reference
+
+### Reading Room (in progress — 2026-05-21)
+- New feature: offline PDF viewer for bundled reference documents
+- `reading_room/` package: `ReadingRoomDocument`, `ReadingRoomRepository` (33 hardcoded docs), `ReadingRoomViewModel`, `PdfViewerViewModel`
+- `ReadingRoomScreen`: category filter chips + document card list
+- `PdfViewerScreen`: PdfRenderer-based page viewer with TopAppBar + back nav
+- Navigation: `Screen.ReadingRoom` added to bottom nav; `"reading_room/{documentId}"` for PDF viewer
+- PDFs: bundled under `app/src/main/assets/reading_room/` — must run `scripts/download_reference_pdfs.py` then copy to assets, or download directly
+- Unit tests: `ReadingRoomRepositoryTest`, `ReadingRoomViewModelTest`
+- **PDF assets are NOT committed** — they are ~20–50 MB and must be downloaded locally then committed
 
 ---
 
@@ -47,6 +57,8 @@
 ---
 
 ## Next Steps
+- Download PDFs locally with `scripts/download_reference_pdfs.py` and copy to `app/src/main/assets/reading_room/`
+- Smoke test: Reading Room tab, category filter, tap → PDF renders pages, back works offline
 - Inventory screen: Room DB schema, InventoryItem model, jar/batch log, expiration alerts
 - Recipes screen: bundled recipe JSON, list + detail view
 - Cooking mode: step-by-step, screen-on, large text, per-step timers
@@ -57,3 +69,4 @@
 - **Merge to `main` before starting new work.** Keep branches small, one feature per branch. Don't let work pile up on a feature branch — check that it's merged, don't just assume.
 - Google Maven is unreachable from cloud sessions. Any dependency changes need a CI push to verify the build.
 - Dial gauge accuracy: cooperative extension office annually. (Relevant for USDA content accuracy notes.)
+- PDF assets (reading_room/) are gitignored to keep APK size manageable — download and commit them in a dedicated commit.
