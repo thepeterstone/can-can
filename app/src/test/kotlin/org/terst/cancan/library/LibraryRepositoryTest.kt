@@ -1,13 +1,13 @@
-package org.terst.cancan.reading_room
+package org.terst.cancan.library
 
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
 import org.junit.Test
 
-class ReadingRoomRepositoryTest {
+class LibraryRepositoryTest {
 
-    private val repository = ReadingRoomRepository()
+    private val repository = LibraryRepository()
     private val documents = repository.documents
 
     @Test

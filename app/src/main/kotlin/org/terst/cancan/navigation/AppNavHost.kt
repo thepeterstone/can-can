@@ -37,8 +37,8 @@ import com.google.firebase.analytics.analytics
 import com.google.firebase.analytics.logEvent
 import org.terst.cancan.cooking.CookingScreen
 import org.terst.cancan.inventory.InventoryScreen
-import org.terst.cancan.reading_room.PdfViewerScreen
-import org.terst.cancan.reading_room.ReadingRoomScreen
+import org.terst.cancan.library.LibraryScreen
+import org.terst.cancan.library.PdfViewerScreen
 import org.terst.cancan.recipes.RecipesScreen
 import org.terst.cancan.reference.ReferenceScreen
 
@@ -47,14 +47,14 @@ sealed class Screen(val route: String, val label: String) {
     data object Cooking : Screen("cooking", "Cooking")
     data object Inventory : Screen("inventory", "Inventory")
     data object Reference : Screen("reference", "Reference")
-    data object ReadingRoom : Screen("reading_room", "Library")
+    data object Library : Screen("library", "Library")
 }
 
 private val topLevelScreens = listOf(
     Screen.Recipes,
     Screen.Inventory,
     Screen.Reference,
-    Screen.ReadingRoom,
+    Screen.Library,
 )
 
 @Composable
@@ -92,7 +92,7 @@ fun AppNavHost() {
                                         Screen.Inventory -> Icons.Default.Inventory
                                         Screen.Reference -> Icons.Default.Book
                                         Screen.Cooking -> Icons.Default.Restaurant
-                                        Screen.ReadingRoom -> Icons.Default.LibraryBooks
+                                        Screen.Library -> Icons.Default.LibraryBooks
                                     },
                                     contentDescription = screen.label
                                 )
@@ -121,7 +121,7 @@ fun AppNavHost() {
             composable(Screen.Cooking.route) { CookingScreen(navController) }
             composable(Screen.Inventory.route) { InventoryScreen(navController) }
             composable(Screen.Reference.route) { ReferenceScreen(navController) }
-            composable(Screen.ReadingRoom.route) { ReadingRoomScreen(navController) }
+            composable(Screen.Library.route) { LibraryScreen(navController) }
             composable(
                 route = "pdf_viewer/{documentId}",
                 arguments = listOf(navArgument("documentId") { type = NavType.StringType })

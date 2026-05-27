@@ -1,4 +1,4 @@
-package org.terst.cancan.reading_room
+package org.terst.cancan.library
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -24,7 +24,7 @@ import java.io.File
 import javax.inject.Inject
 
 data class PdfViewerUiState(
-    val document: ReadingRoomDocument? = null,
+    val document: LibraryDocument? = null,
     val pageCount: Int = 0,
     val isLoading: Boolean = true,
     val error: String? = null
@@ -33,7 +33,7 @@ data class PdfViewerUiState(
 @HiltViewModel
 class PdfViewerViewModel @Inject constructor(
     savedStateHandle: SavedStateHandle,
-    repository: ReadingRoomRepository,
+    repository: LibraryRepository,
     @ApplicationContext private val context: Context
 ) : ViewModel() {
 
@@ -56,9 +56,9 @@ class PdfViewerViewModel @Inject constructor(
         }
     }
 
-    private suspend fun openDocument(document: ReadingRoomDocument) {
+    private suspend fun openDocument(document: LibraryDocument) {
         try {
-            val cacheFile = File(context.cacheDir, "reading_room/${document.id}.pdf")
+            val cacheFile = File(context.cacheDir, "library/${document.id}.pdf")
             if (!cacheFile.exists()) {
                 cacheFile.parentFile?.mkdirs()
                 context.assets.open(document.assetPath).use { input ->
