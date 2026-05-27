@@ -1,4 +1,4 @@
-package org.terst.cancan.reading_room
+package org.terst.cancan.library
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi
@@ -13,16 +13,16 @@ import org.junit.Before
 import org.junit.Test
 
 @OptIn(ExperimentalCoroutinesApi::class)
-class ReadingRoomViewModelTest {
+class LibraryViewModelTest {
 
     private val testDispatcher = StandardTestDispatcher()
-    private val repository = ReadingRoomRepository()
-    private lateinit var viewModel: ReadingRoomViewModel
+    private val repository = LibraryRepository()
+    private lateinit var viewModel: LibraryViewModel
 
     @Before
     fun setUp() {
         Dispatchers.setMain(testDispatcher)
-        viewModel = ReadingRoomViewModel(repository)
+        viewModel = LibraryViewModel(repository)
     }
 
     @After

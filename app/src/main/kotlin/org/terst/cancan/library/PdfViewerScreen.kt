@@ -1,4 +1,4 @@
-package org.terst.cancan.reading_room
+package org.terst.cancan.library
 
 import android.graphics.Bitmap
 import androidx.compose.animation.AnimatedVisibility

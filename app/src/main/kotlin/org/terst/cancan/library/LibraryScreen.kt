@@ -1,4 +1,4 @@
-package org.terst.cancan.reading_room
+package org.terst.cancan.library
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -31,10 +31,10 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavController
 
 @Composable
-fun ReadingRoomScreen(navController: NavController) {
-    val viewModel: ReadingRoomViewModel = hiltViewModel()
+fun LibraryScreen(navController: NavController) {
+    val viewModel: LibraryViewModel = hiltViewModel()
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
-    ReadingRoomContent(
+    LibraryContent(
         uiState = uiState,
         onCategorySelected = viewModel::onCategorySelected,
         onDocumentClick = { doc -> navController.navigate("pdf_viewer/${doc.id}") }
@@ -42,14 +42,14 @@ fun ReadingRoomScreen(navController: NavController) {
 }
 
 @Composable
-private fun ReadingRoomContent(
-    uiState: ReadingRoomUiState,
+private fun LibraryContent(
+    uiState: LibraryUiState,
     onCategorySelected: (String?) -> Unit,
-    onDocumentClick: (ReadingRoomDocument) -> Unit
+    onDocumentClick: (LibraryDocument) -> Unit
 ) {
     Column(modifier = Modifier.fillMaxSize()) {
         Text(
-            text = "Reading Room",
+            text = "Library",
             style = MaterialTheme.typography.headlineMedium,
             modifier = Modifier.padding(horizontal = 16.dp, vertical = 12.dp)
         )
@@ -88,7 +88,7 @@ private fun ReadingRoomContent(
 }
 
 @Composable
-private fun DocumentCard(doc: ReadingRoomDocument, onClick: () -> Unit) {
+private fun DocumentCard(doc: LibraryDocument, onClick: () -> Unit) {
     ElevatedCard(
         onClick = onClick,
         modifier = Modifier.fillMaxWidth()

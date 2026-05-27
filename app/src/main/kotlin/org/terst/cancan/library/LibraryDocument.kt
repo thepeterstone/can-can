@@ -1,6 +1,6 @@
-package org.terst.cancan.reading_room
+package org.terst.cancan.library
 
-data class ReadingRoomDocument(
+data class LibraryDocument(
     val id: String,
     val title: String,
     val category: String,
