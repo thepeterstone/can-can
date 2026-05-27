@@ -52,6 +52,7 @@ sealed class Screen(val route: String, val label: String) {
 
 private val topLevelScreens = listOf(
     Screen.Recipes,
+    Screen.Cooking,
     Screen.Inventory,
     Screen.Reference,
     Screen.Library,
