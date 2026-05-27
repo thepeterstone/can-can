@@ -1,9 +1,9 @@
 # can-can — Worklog
 
-## Current State (as of 2026-05-21)
+## Current State (as of 2026-05-27)
 
-**Branch:** `claude/west-hawaii-content-53619`
-**Session focus:** Add West Hawaii fishing, foraging, and recipes content
+**Branch:** `main`
+**Session focus:** All planned features through PR #5 are merged to main
 
 ---
 
@@ -37,15 +37,23 @@
 - `download_reference_pdfs.py` — downloads 33 PDFs (USDA guides, NCHFP fact sheets, UH CTAHR Hawaii plant guides, UC ANR/UAF preservation guides, foraging guides) to `docs/reference_pdfs/` (gitignored)
 - `reference_data/sections_tomatoes_fruits.py` + `sections_data.py` — source data used to populate canning_guide.json sections; kept for reference
 
-### Reading Room (in progress — 2026-05-21)
-- New feature: offline PDF viewer for bundled reference documents
-- `reading_room/` package: `ReadingRoomDocument`, `ReadingRoomRepository` (33 hardcoded docs), `ReadingRoomViewModel`, `PdfViewerViewModel`
-- `ReadingRoomScreen`: category filter chips + document card list
-- `PdfViewerScreen`: PdfRenderer-based page viewer with TopAppBar + back nav
-- Navigation: `Screen.ReadingRoom` added to bottom nav; `"reading_room/{documentId}"` for PDF viewer
-- PDFs: bundled under `app/src/main/assets/reading_room/` — must run `scripts/download_reference_pdfs.py` then copy to assets, or download directly
-- Unit tests: `ReadingRoomRepositoryTest`, `ReadingRoomViewModelTest`
-- **PDF assets are NOT committed** — they are ~20–50 MB and must be downloaded locally then committed
+### Library / PDF Viewer (complete — PR #5, 2026-05-27)
+- Renamed from "Reading Room" to "Library" throughout: package, classes, route, assets
+- `library/` package: `LibraryDocument`, `LibraryRepository` (33 hardcoded docs), `LibraryViewModel`, `PdfViewerViewModel`
+- `LibraryScreen`: category filter chips + document card list
+- `PdfViewerScreen`: PdfRenderer-based page viewer with TopAppBar, back nav, pinch-to-zoom, fullscreen toggle
+- Navigation: `Screen.Library` route `"library"` in bottom nav; `"pdf_viewer/{documentId}"` for PDF viewer
+- PDFs: bundled under `app/src/main/assets/library/` — must run `scripts/download_reference_pdfs.py` then copy to assets, or download directly
+- Unit tests: `LibraryRepositoryTest`, `LibraryViewModelTest`
+- **PDF assets are NOT committed** — ~20–50 MB, must be downloaded locally then committed
+
+### Inventory Screen (complete — PR #5, 2026-05-27)
+- Room DB: `InventoryItemEntity` (`@Entity`), `InventoryDao` (Flow-returning), `CanCanDatabase`
+- `DatabaseModule`: Hilt `@Module` with `@Provides` for DB and DAO (first `@Module` in project)
+- `InventoryRepository`: `@Singleton`, wraps DAO
+- `InventoryViewModel`: search, category filter, add/edit/delete, barcode scanning state, `pendingBarcode` flow-through
+- `InventoryScreen`: search bar, FilterChip categories, item cards with expiry color-coding (red/amber/muted), FAB → `ModalBottomSheet` add/edit form with date picker, dropdowns, scan button
+- `BarcodeScannerScreen`: CameraX + ML Kit full-screen overlay, CAMERA permission handling, fires once on first barcode detected
 
 ---
 
@@ -73,15 +81,14 @@
 
 ## Stub Screens (not yet started)
 - `CookingScreen` — placeholder only
-- `InventoryScreen` — placeholder only
 
 ---
 
 ## Next Steps
-- Download PDFs locally with `scripts/download_reference_pdfs.py` and copy to `app/src/main/assets/reading_room/`
-- Smoke test: Reading Room tab, category filter, tap → PDF renders pages, back works offline
-- Inventory screen: Room DB schema, InventoryItem model, jar/batch log, expiration alerts
+- Download PDFs locally with `scripts/download_reference_pdfs.py` and copy to `app/src/main/assets/library/`
+- Smoke test: Library tab, category filter, tap → PDF renders pages, back works offline
 - Cooking mode: step-by-step, screen-on, large text, per-step timers
+- Consider: recipe-to-inventory integration (reduce stock when cooking)
 
 ---
 
