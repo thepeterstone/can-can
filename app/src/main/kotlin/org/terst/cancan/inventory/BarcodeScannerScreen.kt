@@ -81,7 +81,7 @@ private fun CameraPreview(onBarcodeDetected: (String) -> Unit) {
     val lifecycleOwner = LocalLifecycleOwner.current
     val executor = remember { Executors.newSingleThreadExecutor() }
     val scanner = remember { BarcodeScanning.getClient() }
-    @Volatile var detected = false
+    val detected = remember { java.util.concurrent.atomic.AtomicBoolean(false) }
 
     AndroidView(
         factory = { ctx ->
@@ -96,15 +96,14 @@ private fun CameraPreview(onBarcodeDetected: (String) -> Unit) {
                     .setBackpressureStrategy(ImageAnalysis.STRATEGY_KEEP_ONLY_LATEST)
                     .build()
                 analysis.setAnalyzer(executor) { imageProxy ->
-                    if (!detected) {
+                    if (!detected.get()) {
                         val mediaImage = imageProxy.image
                         if (mediaImage != null) {
                             val image = InputImage.fromMediaImage(mediaImage, imageProxy.imageInfo.rotationDegrees)
                             scanner.process(image)
                                 .addOnSuccessListener { barcodes ->
                                     val value = barcodes.firstOrNull()?.rawValue
-                                    if (value != null && !detected) {
-                                        detected = true
+                                    if (value != null && detected.compareAndSet(false, true)) {
                                         onBarcodeDetected(value)
                                     }
                                 }
