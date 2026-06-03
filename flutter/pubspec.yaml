@@ -1,0 +1,62 @@
+name: can_can
+description: Personal food preservation app — recipes, canning guides, inventory, and cooking timers.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State management
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
+
+  # Navigation
+  go_router: ^14.8.1
+
+  # Database (type-safe SQLite, streaming — mirrors Room)
+  drift: ^2.24.0
+  sqlite3_flutter_libs: ^0.5.4
+  path_provider: ^2.1.5
+  path: ^1.9.0
+
+  # Preferences
+  shared_preferences: ^2.3.5
+
+  # Camera / barcode
+  mobile_scanner: ^6.0.5
+
+  # PDF viewer
+  syncfusion_flutter_pdfviewer: ^27.1.48
+
+  # Network images with cache
+  cached_network_image: ^3.4.1
+
+  # Wake lock (keep screen on during cooking)
+  wakelock_plus: ^1.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.15
+  drift_dev: ^2.24.0
+  riverpod_generator: ^2.6.1
+  custom_lint: ^0.7.5
+  riverpod_lint: ^2.6.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/recipes/recipes.json
+    - assets/reference/canning_guide.json
+    - assets/reference/fermentation_guide.json
+    - assets/reference/fishing_guide.json
+    - assets/reference/foraging_guide.json
+    - assets/reference/preservation_guide.json

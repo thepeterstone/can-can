@@ -1,0 +1,1506 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "foraging-principles",
+      "name": "Safe Foraging Principles",
+      "category": "Foraging",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "Foraging is rewarding but requires discipline and humility. Every year people are harmed by misidentified plants. These principles reduce risk to near zero when followed consistently.",
+      "difficulty": "beginner",
+      "time_estimate": "",
+      "safety_notes": "This app is a reference, not a field guide. Never eat a wild plant based solely on this or any single source. Confirm identification with an experienced forager or botanist before consuming anything new.",
+      "source": "USDA Forest Service / Traditional",
+      "sections": [
+        {
+          "heading": "The Rule of Multiple Characteristics",
+          "body": "Never rely on a single identifying feature. Require at least three distinct characteristics to match before harvesting — leaf shape, smell, stem cross-section, habitat, season, and flower/fruit structure are all useful. A plant that matches on two of three should be left alone.",
+          "tips": [
+            "Learn one or two plants deeply rather than many plants superficially",
+            "Carry a regional field guide with color photos, not just this app"
+          ]
+        },
+        {
+          "heading": "Where Not to Harvest",
+          "body": "Avoid roadsides, railroad corridors, industrial areas, golf courses, and any land where herbicide or pesticide use is likely. Plants accumulate heavy metals and chemical residues from soil and runoff. Public parks may be treated with pesticides without posted notice. Always know who manages the land you're harvesting from.",
+          "tips": [
+            "Stay at least 100 ft from high-traffic roads",
+            "Never harvest from drainage channels or flood zones near agriculture"
+          ]
+        },
+        {
+          "heading": "Ethical Harvest",
+          "body": "Take no more than 10–20% of any visible stand of a plant, and less for slow-growing species or those that are locally uncommon. Spread harvesting across multiple locations. Avoid trampling surrounding vegetation. Leave the root system intact unless the root is your target.",
+          "tips": [
+            "If in doubt, leave it — a second visit to confirm ID costs nothing",
+            "Photograph what you harvest for later review"
+          ]
+        },
+        {
+          "heading": "Introducing New Plants",
+          "body": "Even correctly identified edible plants can cause reactions in some individuals. Introduce one new foraged food at a time, eat a small amount, and wait 24 hours before eating more. Some edible plants contain compounds (oxalates, lectins, alkaloids) that cause problems in quantity even if harmless in small amounts.",
+          "tips": []
+        },
+        {
+          "heading": "Regional Variation",
+          "body": "Plant identification, edibility, and seasonal timing all vary by region, elevation, and climate. A plant that is common and easy to ID in the Northeast may have dangerous lookalikes in the Pacific Northwest, or vice versa. Always supplement with a regional guide specific to your geography.",
+          "tips": []
+        }
+      ],
+      "wikipedia_title": ""
+    },
+    {
+      "id": "foraging-dandelion",
+      "name": "Dandelion (Taraxacum officinale)",
+      "category": "Foraging",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "One of the most abundant and unambiguously safe wild edibles in North America. Every part — root, leaves, stem, flower, and seed puff — is edible. Best harvested young in spring before flowering.",
+      "difficulty": "beginner",
+      "time_estimate": "",
+      "safety_notes": "No dangerous lookalikes in North America. The white milky sap and toothed leaves pointing backward toward the base are distinctive. Avoid harvesting from lawns that may be treated with herbicide.",
+      "source": "USDA PLANTS Database / Traditional",
+      "sections": [
+        {
+          "heading": "Identification",
+          "body": "Deeply toothed leaves (the 'teeth' point back toward the base, like a lion's teeth — dent de lion). Single hollow stem per flower, no branching. White milky sap in stem. Bright yellow composite flower. Spherical white seed head. Grows in a basal rosette with no true stem at ground level.",
+          "tips": []
+        },
+        {
+          "heading": "Where and When",
+          "body": "Ubiquitous across North America in lawns, meadows, roadsides, and disturbed ground. Leaves are best in early spring before the first flower — young leaves are least bitter. Flowers in spring and intermittently through fall. Roots are largest and most nutritious in fall when the plant stores energy underground.",
+          "tips": []
+        },
+        {
+          "heading": "Edible Parts and Preparation",
+          "body": "Young leaves: eat raw in salad, sauté like spinach, or blanch to reduce bitterness. Flowers: eat raw, batter and fry, or use to make dandelion wine or jelly. Buds: pickle in vinegar as a caper substitute. Roots: roast and grind as a coffee substitute, or cook like parsnip. Crowns (white base between root and leaves): most tender part, good raw or cooked.",
+          "tips": [
+            "Blanching leaves in boiling water for 1–2 min then draining cuts bitterness significantly",
+            "Fall roots are best for roasting — dry, roast at 350°F until dark brown, grind"
+          ]
+        },
+        {
+          "heading": "Preservation",
+          "body": "Leaves: blanch and freeze like spinach. Flowers: make dandelion jelly (water bath canned), wine, or dry them. Roots: dry and store for tea or coffee substitute; slice thin, dehydrate at 125°F until brittle, roast before use. Bud capers: quick-pickle in 5% vinegar brine, water bath 10 min.",
+          "tips": []
+        }
+      ],
+      "wikipedia_title": "Taraxacum_officinale"
+    },
+    {
+      "id": "foraging-chickweed",
+      "name": "Chickweed (Stellaria media)",
+      "category": "Foraging",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "A delicate, mild-flavored cool-season green that grows prolifically in gardens and disturbed ground from fall through spring. One of the first edible greens of the year in cold climates.",
+      "difficulty": "beginner",
+      "time_estimate": "",
+      "safety_notes": "The single line of fine hairs running along one side of the stem (rotating at each node) is the definitive ID characteristic. No dangerous lookalikes in North America, though scarlet pimpernel superficially resembles it — pimpernel has no hairy line on stem and has reddish-orange flowers.",
+      "source": "USDA PLANTS Database / Traditional",
+      "sections": [
+        {
+          "heading": "Identification",
+          "body": "Small oval opposite leaves, pointed at the tip, on a weak straggling stem. The single most important feature: a single line of fine hairs running along one side of the stem only, rotating 90° at each node pair. Tiny white star-shaped flowers with deeply notched petals (looks like 10 petals but is 5). Forms dense mats in cool weather.",
+          "tips": [
+            "Run your finger along the stem — you'll feel the single line of hairs"
+          ]
+        },
+        {
+          "heading": "Where and When",
+          "body": "Gardens, lawns, disturbed soil, and shaded moist areas throughout North America. A cool-season plant that thrives from late fall through early spring, often surviving under snow. Dies back in summer heat. Most abundant in early spring — harvest before it flowers for best flavor.",
+          "tips": []
+        },
+        {
+          "heading": "Edible Parts and Preparation",
+          "body": "Eat the entire above-ground plant — stems, leaves, and flowers. Best eaten raw in salads (mild, slightly grassy flavor) or added to sandwiches. Can be lightly sautéed but wilts dramatically. Makes a good addition to green smoothies. Pairs well with stronger-flavored greens.",
+          "tips": []
+        },
+        {
+          "heading": "Preservation",
+          "body": "Best eaten fresh — does not preserve well. Can be blended into a pesto (freeze in ice cube trays) or infused into vinegar. Drying destroys texture and most flavor. Freeze only if blended first.",
+          "tips": []
+        }
+      ],
+      "wikipedia_title": "Stellaria_media"
+    },
+    {
+      "id": "foraging-lambs-quarters",
+      "name": "Lamb's Quarters / Wild Spinach (Chenopodium album)",
+      "category": "Foraging",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "One of the most nutritious and abundant wild greens in North America, related to spinach and quinoa. Mild flavor, prolific producer through summer, and far more nutritious than cultivated spinach.",
+      "difficulty": "beginner",
+      "time_estimate": "",
+      "safety_notes": "Contains oxalic acid — cook and discard cooking water, especially if eating large amounts regularly. Not to be confused with Jimsonweed or other toxic plants; the mealy white coating on new growth is the key distinguishing feature. Avoid plants growing in nitrogen-rich soils near animal waste (may accumulate nitrates).",
+      "source": "USDA PLANTS Database / Traditional",
+      "sections": [
+        {
+          "heading": "Identification",
+          "body": "Leaves are irregularly toothed, diamond-to-goosefoot shaped, alternate on the stem. The most distinctive feature: new growth at the tips is coated in a powdery, mealy white or gray substance (farinose coating) that does not wash off. Mature stems often develop reddish or striped coloring. Plant can grow 2–6 ft tall. Small inconspicuous green flowers in dense clusters.",
+          "tips": [
+            "Rub the white coating — it's like a fine powder, not a waxy bloom"
+          ]
+        },
+        {
+          "heading": "Where and When",
+          "body": "Extremely common in gardens, farm fields, roadsides, and disturbed soil throughout North America. A warm-season annual that emerges in late spring and grows through summer. Harvest young leaves and shoot tips throughout the growing season. Older leaves become coarser but remain edible when cooked.",
+          "tips": []
+        },
+        {
+          "heading": "Edible Parts and Preparation",
+          "body": "Young leaves and shoot tips can be eaten raw (mild, slightly earthy). Mature leaves are best cooked like spinach — sauté, steam, or blanch. Seeds can be ground into a flour similar to quinoa (a close relative). One of the highest-protein wild greens. Rich in vitamins A, C, K, and calcium.",
+          "tips": [
+            "Blanch and discard water to reduce oxalates before cooking large quantities",
+            "Seeds can be harvested by shaking mature plants into a bag, then winnowed"
+          ]
+        },
+        {
+          "heading": "Preservation",
+          "body": "Blanch and freeze like spinach — blanch 2 min, cool in ice water, squeeze dry, freeze in portions. Dry at 125°F in dehydrator for use in soups and smoothie powder. Seeds: dry completely, store in airtight container, use like quinoa.",
+          "tips": []
+        }
+      ],
+      "wikipedia_title": "Chenopodium_album"
+    },
+    {
+      "id": "foraging-purslane",
+      "name": "Purslane (Portulaca oleracea)",
+      "category": "Foraging",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "A succulent summer green that grows as a common garden weed across North America. Exceptionally high in omega-3 fatty acids for a plant. Mildly sour and mucilaginous, with a satisfying crunch.",
+      "difficulty": "beginner",
+      "time_estimate": "",
+      "safety_notes": "No dangerous lookalikes in North America. Spurge (Euphorbia) can superficially resemble it but has white milky sap when broken and thinner, less succulent leaves — purslane has no milky sap. Purslane contains oxalic acid; eat in moderation if you have kidney stones.",
+      "source": "USDA PLANTS Database / Traditional",
+      "sections": [
+        {
+          "heading": "Identification",
+          "body": "Thick, succulent, paddle-shaped leaves, reddish stems, prostrate growth habit forming dense mats. Stems are smooth and reddish-pink. Leaves are clustered toward the ends of branches. Tiny yellow 5-petaled flowers open only in direct sun for a few hours. Break a stem — no milky sap (distinguishes from spurge).",
+          "tips": []
+        },
+        {
+          "heading": "Where and When",
+          "body": "Extremely common garden weed throughout North America, especially in hot dry summers. Thrives in disturbed soil, garden beds, and cracks in pavement. A warm-season plant — most abundant July through September. Harvest before it flowers for best texture.",
+          "tips": []
+        },
+        {
+          "heading": "Edible Parts and Preparation",
+          "body": "Entire above-ground plant is edible. Eat raw in salads — the slight mucilaginous texture works as a natural dressing binder. Sauté quickly (it cooks down dramatically). Add to soups as a thickener. Pickle the stems. In Middle Eastern cuisine it's the key ingredient in fattoush. Pairs well with lemon and garlic.",
+          "tips": [
+            "Use within 1–2 days of harvest — wilts quickly"
+          ]
+        },
+        {
+          "heading": "Preservation",
+          "body": "Quick pickle stems in 5% vinegar brine (no water bath needed for short-term refrigerator pickles; water bath 10 min for shelf-stable). Freeze blended into soups. Drying destroys the texture but the powder can be used as a nutritional supplement in smoothies.",
+          "tips": []
+        }
+      ],
+      "wikipedia_title": "Portulaca_oleracea"
+    },
+    {
+      "id": "foraging-wood-sorrel",
+      "name": "Wood Sorrel (Oxalis spp.)",
+      "category": "Foraging",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "A delicate, clover-like plant with a bright lemony-sour flavor from oxalic acid. Excellent as a trail nibble or salad accent. Found in shaded areas throughout North America.",
+      "difficulty": "beginner",
+      "time_estimate": "",
+      "safety_notes": "High oxalic acid content — eat in moderation, especially if prone to kidney stones. Do not confuse with true clover (Trifolium) — wood sorrel leaves fold down along the midrib at night and in heat, and taste sour; clover leaves do not fold and taste bland. Not related to and should not be confused with dock (Rumex), also called sorrel.",
+      "source": "USDA PLANTS Database / Traditional",
+      "sections": [
+        {
+          "heading": "Identification",
+          "body": "Three heart-shaped leaflets joined at a central point (similar to clover but leaflets are heart-shaped, not oval). The leaves fold downward along the midrib at night or during heat stress — a distinctive behavior. Yellow, pink, or white 5-petaled flowers depending on species. Seed pods are elongated and cylindrical, pop open when ripe. Intensely sour taste confirms identification.",
+          "tips": [
+            "Taste is the final confirmation — the bright lemon-sourness is unmistakable"
+          ]
+        },
+        {
+          "heading": "Where and When",
+          "body": "Found in shaded or partially shaded areas — under trees, in gardens, along woodland edges — throughout North America. Several species are active in different seasons; at least one species is usually findable year-round in mild climates. Most abundant in spring and fall.",
+          "tips": []
+        },
+        {
+          "heading": "Edible Parts and Preparation",
+          "body": "Leaves, stems, flowers, and unripe seed pods all edible. Best used as a flavoring accent rather than a primary green — the sour flavor brightens salads, sauces, fish dishes, and drinks. Make a refreshing lemonade-like drink by steeping in cold water. Use as a garnish on savory dishes.",
+          "tips": [
+            "Eat as a trail nibble — small quantities are fine",
+            "Avoid eating a large bowl of it as a salad due to oxalate content"
+          ]
+        },
+        {
+          "heading": "Preservation",
+          "body": "Drying concentrates oxalic acid — not recommended in quantity. Best used fresh. Can be blended with water and strained for a tart drink concentrate, which can be frozen. Infuse into vinegar for a lemony salad dressing vinegar.",
+          "tips": []
+        }
+      ],
+      "wikipedia_title": "Oxalis"
+    },
+    {
+      "id": "foraging-stinging-nettle",
+      "name": "Stinging Nettle (Urtica dioica)",
+      "category": "Foraging",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "One of the most nutritious wild greens available, with a flavor like rich spinach. The sting is completely destroyed by cooking, blanching, or drying. A prized spring green throughout Europe and North America.",
+      "difficulty": "beginner",
+      "time_estimate": "",
+      "safety_notes": "Wear gloves and long sleeves when harvesting — the hollow silica needles inject formic acid causing a painful sting that lasts hours. The sting is neutralized completely by heat or crushing. Dead nettle (Lamium) looks similar but lacks the sting — always touch-test carefully with a gloved hand. Raw nettle juice can cause irritation; always cook or dry before eating.",
+      "source": "USDA PLANTS Database / Traditional",
+      "sections": [
+        {
+          "heading": "Identification",
+          "body": "Opposite serrated leaves with a heart-shaped base, pointed tip, and deeply toothed margins. Covered in fine hollow stinging hairs on stems and leaf undersides. Stems are square in cross-section. Grows 3–7 ft tall in dense patches. Drooping catkin-like clusters of tiny greenish flowers. Stinging on skin contact is the definitive confirmation.",
+          "tips": [
+            "Harvest only the top 4–6 inches of young plants in spring",
+            "After the plant flowers and seeds, leaves become gritty and are not recommended for eating"
+          ]
+        },
+        {
+          "heading": "Where and When",
+          "body": "Moist, nitrogen-rich soil near streams, forest edges, roadsides, and disturbed areas throughout North America and Europe. A spring perennial — emerges early March through May. Harvest young shoots before they reach 12 inches tall. The plant regrows after cutting, allowing multiple harvests per season.",
+          "tips": []
+        },
+        {
+          "heading": "Edible Parts and Preparation",
+          "body": "Young tops (top 2–4 leaf pairs): blanch 1–2 minutes in boiling water to remove sting, then use like spinach. Excellent in soups, pasta, risotto, pesto, quiche, and tea. Nutritionally exceptional — high in iron, calcium, vitamins A, C, K, and protein. Dried nettle makes one of the most nutritious herbal teas.",
+          "tips": [
+            "Blanch water is highly nutritious — use as soup stock",
+            "Handle with silicone or thick rubber gloves; never bare hands"
+          ]
+        },
+        {
+          "heading": "Preservation",
+          "body": "Blanch and freeze like spinach (blanch 2 min, squeeze dry, freeze in portions). Dry at 95–115°F in dehydrator for tea — crumbles easily when dry. Make nettle pesto and freeze in ice cube trays. Dehydrate for use as a nutritional powder in soups and smoothies.",
+          "tips": []
+        }
+      ],
+      "wikipedia_title": "Urtica_dioica"
+    },
+    {
+      "id": "foraging-cattail",
+      "name": "Cattail (Typha spp.)",
+      "category": "Foraging",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "The 'supermarket of the swamp' — cattail provides multiple distinct foods across all four seasons and is one of the most productive wild food plants in North America. Found throughout freshwater wetlands.",
+      "difficulty": "beginner",
+      "time_estimate": "",
+      "safety_notes": "Harvest only from clean, unpolluted water — cattails are phytoremediation plants and accumulate heavy metals and contaminants from polluted water. Do not harvest from drainage ditches near agriculture or industrial sites. The similar-looking yellow flag iris (Iris pseudacorus) is toxic — it lacks the distinctive hot-dog-shaped brown seed head.",
+      "source": "USDA PLANTS Database / Traditional",
+      "sections": [
+        {
+          "heading": "Identification",
+          "body": "Unmistakable once you know it: long flat strap-like leaves, growing from rhizomes in standing or slow-moving water. The distinctive brown cylindrical seed head (the 'hot dog on a stick') develops in summer and persists through winter. The green male flower spike sits above the brown female spike in early summer before releasing pollen.",
+          "tips": []
+        },
+        {
+          "heading": "Where and When",
+          "body": "Freshwater marshes, pond edges, ditches, and lake margins throughout North America. Year-round harvesting is possible: shoots in spring (March–May), pollen in early summer (June), green female spikes in early summer, roots/rhizomes fall through winter.",
+          "tips": []
+        },
+        {
+          "heading": "Edible Parts and Preparation",
+          "body": "Spring shoots: peel outer leaves to reach the white inner core — eat raw like cucumber or cook like leeks. Green female spikes (before pollen release): boil like corn on the cob. Pollen: collect by shaking male spike into a bag — use as a high-protein flour supplement (replace up to 50% of flour in pancakes, bread). Rhizomes (fall/winter): pound underwater to separate starch, dry and use as flour.",
+          "tips": [
+            "Pollen harvest window is only a few days — watch for it in late May to June",
+            "Rhizome starch processing is labor-intensive but yields substantial food"
+          ]
+        },
+        {
+          "heading": "Preservation",
+          "body": "Pollen: freeze in airtight bags for up to a year. Shoots: pickle in 5% vinegar brine or blanch and freeze. Rhizome flour: dry completely after washing, store in airtight container. Green spikes: freeze after blanching for use in soups.",
+          "tips": []
+        }
+      ],
+      "wikipedia_title": "Typha"
+    },
+    {
+      "id": "foraging-ramps",
+      "name": "Ramps / Wild Leeks (Allium tricoccum)",
+      "category": "Foraging",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "Highly prized wild onion with broad flat leaves and a potent garlic-onion flavor. One of the most sought-after spring wild foods in eastern North America. Leaves appear in March–April, before the forest canopy leafs out.",
+      "difficulty": "beginner",
+      "time_estimate": "",
+      "safety_notes": "CRITICAL: Lily of the valley (Convallaria majalis) is extremely toxic and grows in the same habitat with similar broad leaves. The definitive test: crush a leaf — ramps smell intensely of garlic/onion; lily of the valley has no garlic smell whatsoever. Never harvest any broad-leaved plant from forest floor without confirming the garlic smell. False hellebore (Veratrum) is another toxic lookalike — it has pleated, parallel-veined leaves, unlike ramps' smooth leaves.",
+      "source": "USDA PLANTS Database / Traditional",
+      "sections": [
+        {
+          "heading": "Identification",
+          "body": "Broad, smooth, lance-shaped leaves (2–3 per plant) with parallel veins, emerging directly from a small bulb. Leaves are 6–12 inches long, bright green, often with a purplish-red tint at the base. Crushed leaves smell powerfully of garlic and onion — this is non-negotiable for identification. White bulb with a papery outer skin. Flowers appear on a separate stalk in June after leaves die back — a white spherical umbel.",
+          "tips": [
+            "The garlic smell is the safety check — confirm it every time, even if you've harvested from this spot before"
+          ]
+        },
+        {
+          "heading": "Where and When",
+          "body": "Rich, moist deciduous forest in eastern North America (Appalachians, Great Lakes, New England, into Canada). Appears early March to mid-April, disappearing as the tree canopy closes. Found on north-facing slopes and in creek hollows. Harvest sustainably — ramps are slow-growing and overharvested; take only leaves from some plants (the bulb regenerates), harvest bulbs sparingly.",
+          "tips": [
+            "Taking only the leaves (not the bulb) is more sustainable — the plant survives",
+            "Never harvest more than 10% of a patch"
+          ]
+        },
+        {
+          "heading": "Edible Parts and Preparation",
+          "body": "Entire plant is edible — bulbs, leaves, and stems. Eat raw in salads, on tacos, or as a scallion substitute (very pungent). Sauté in butter, grill, pickle, ferment with kimchi-style technique, or incorporate into pesto. Bulbs can be roasted. The flavor mellows significantly with cooking.",
+          "tips": []
+        },
+        {
+          "heading": "Preservation",
+          "body": "Pickle bulbs in 5% vinegar brine (refrigerator pickles last months). Ferment as kimchi — salt-wilt leaves, add gochugaru, ferment 2–3 days. Blanch and freeze leaves. Make ramp butter (blend with softened butter, log and freeze). Dehydrate leaves for flavoring soups and stews.",
+          "tips": []
+        }
+      ],
+      "wikipedia_title": "Allium_tricoccum"
+    },
+    {
+      "id": "foraging-elderberries",
+      "name": "Elderberries (Sambucus nigra / canadensis)",
+      "category": "Foraging",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "A native shrub producing large flat-topped clusters of dark blue-black berries prized for syrup, jam, and wine. Elderflowers are also edible. One of the most useful multi-purpose foraging plants in North America.",
+      "difficulty": "intermediate",
+      "time_estimate": "",
+      "safety_notes": "Raw berries, leaves, bark, and roots contain sambunigrin (cyanogenic glycoside) — always cook berries before eating in quantity; cooking destroys the toxin. Red-berried elder (S. racemosa) has red berries in a rounded cluster and is considered toxic. Confirmed lookalikes: water hemlock (Cicuta) has similar compound leaves but grows in wet areas with hollow, chambered stems and white carrot-like roots — extremely toxic. Pokeweed (Phytolacca) has smooth stems (not corky), dark purple berries in grape-like clusters, and a single main stem with dark reddish-purple color.",
+      "source": "USDA PLANTS Database / Traditional",
+      "sections": [
+        {
+          "heading": "Identification",
+          "body": "Large shrub or small tree (6–15 ft). Compound leaves with 5–11 opposite, lance-shaped, serrated leaflets. Stems are corky/pithy — snap a twig and see the white pith. Large flat-topped clusters (cymes) of tiny white flowers in June–July, followed by clusters of dark blue-black berries in August–September. Berries hang downward in ripe clusters.",
+          "tips": [
+            "The flat-topped flower/berry cluster shape is key — not a rounded cluster like pokeweed",
+            "Corky pithy stems help distinguish from water hemlock"
+          ]
+        },
+        {
+          "heading": "Where and When",
+          "body": "Forest edges, roadsides, stream banks, and moist disturbed areas throughout most of North America. Common in the eastern US and Pacific Northwest. Flowers in June–July; berries ripen August–September and can be harvested when fully dark blue-black (green or red berries are not yet ripe and more toxic). Flowers are harvested when fully open.",
+          "tips": []
+        },
+        {
+          "heading": "Edible Parts and Preparation",
+          "body": "Berries: always cook — simmer for syrup (with sugar and lemon), jam, wine, or juice. Do not eat raw in large quantities. Elderflower: eat raw or lightly cooked — batter and fry as fritters, infuse into syrup, make elderflower cordial, or dry for tea. Leaves, bark, and unripe berries: do not eat.",
+          "tips": [
+            "Elderberry syrup is made by simmering berries 45 min with water, straining, then adding honey off heat",
+            "Remove berries from stems with a fork before cooking — green stem pieces contain more toxin"
+          ]
+        },
+        {
+          "heading": "Preservation",
+          "body": "Syrup: water bath can in half-pints for 10 min (or refrigerate 3 months). Jam: water bath 10 min. Freeze berries on trays then bag for long-term storage. Dry flowers at 95°F for tea. Elderberry wine: ferment with wine yeast.",
+          "tips": []
+        }
+      ],
+      "wikipedia_title": "Sambucus_canadensis"
+    },
+    {
+      "id": "foraging-wild-strawberry",
+      "name": "Wild Strawberry (Fragaria virginiana)",
+      "category": "Foraging",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "The native ancestor of cultivated strawberries, with intensely flavored small fruits. The flavor far exceeds cultivated berries in richness. Found in meadows and forest edges across North America.",
+      "difficulty": "beginner",
+      "time_estimate": "",
+      "safety_notes": "Indian strawberry / mock strawberry (Potentilla indica, formerly Duchesnea indica) has similar leaves and fruit but yellow flowers (wild strawberry has white) and tasteless fruit — it is not toxic, just unpalatable. Confirm: wild strawberry flowers are white, fruit smells and tastes like strawberry. No dangerous lookalikes in North America.",
+      "source": "USDA PLANTS Database / Traditional",
+      "sections": [
+        {
+          "heading": "Identification",
+          "body": "Three toothed leaflets per leaf, similar to cultivated strawberry. White 5-petaled flowers. Small red fruit with seeds embedded in the surface (achenes). Distinguished from mock strawberry by white flowers (not yellow) and the unmistakable strawberry aroma and flavor. Spreads by runners.",
+          "tips": []
+        },
+        {
+          "heading": "Where and When",
+          "body": "Open meadows, roadsides, forest edges, and clearings throughout North America. Flowers May–June; fruit ripens June–July. Quantity varies greatly by year and location — some patches are abundant, others sparse.",
+          "tips": []
+        },
+        {
+          "heading": "Edible Parts and Preparation",
+          "body": "Fruit: eat fresh — the flavor is extraordinary, far richer than cultivated berries. Leaves: dry for tea (high in vitamin C). The small size makes bulk quantities time-consuming to harvest, but they reward the effort.",
+          "tips": []
+        },
+        {
+          "heading": "Preservation",
+          "body": "Jam: use immediately or water bath 10 min in half-pints. Freeze on trays then bag. Dehydrate at 135°F for concentrated dried berry snacks. Make wild strawberry vinegar by macerating in 5% white wine vinegar 2–4 weeks.",
+          "tips": []
+        }
+      ],
+      "wikipedia_title": "Fragaria_virginiana"
+    },
+    {
+      "id": "foraging-blackberry-raspberry",
+      "name": "Blackberries / Raspberries (Rubus spp.)",
+      "category": "Foraging",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "Thorny cane-forming shrubs with distinctive aggregate fruits. Among the easiest and most productive wild berries to forage in North America. No dangerous lookalikes — the aggregate fruit (cluster of drupelets) is unmistakable.",
+      "difficulty": "beginner",
+      "time_estimate": "",
+      "safety_notes": "No dangerous lookalikes in North America — the aggregate fruit structure (cluster of small round drupelets) is unique to Rubus and is unmistakable. Wear protective clothing for the thorns. Some people experience minor mouth irritation from large quantities of raw berries due to the seeds.",
+      "source": "USDA PLANTS Database / Traditional",
+      "sections": [
+        {
+          "heading": "Identification",
+          "body": "Thorny arching canes (first-year canes are green and vegetative; second-year canes flower and fruit, then die). Compound leaves with 3–7 leaflets, serrated, white-hairy underneath. Distinctive aggregate fruit: blackberries are black and solid (the receptacle comes with the fruit); raspberries are red (occasionally yellow/purple) and hollow (the receptacle stays on the plant when picked).",
+          "tips": [
+            "The hollow center of a picked raspberry confirms it's a raspberry, not a blackberry"
+          ]
+        },
+        {
+          "heading": "Where and When",
+          "body": "Widespread across North America in disturbed areas, roadsides, clearings, and forest edges. Raspberries fruit earlier (June–July in most regions); blackberries later (July–September). Both require two years of cane growth — first year vegetative, second year fruiting.",
+          "tips": []
+        },
+        {
+          "heading": "Edible Parts and Preparation",
+          "body": "Berries: eat fresh, cook into jam, pie, wine, vinegar, or syrup. Young spring cane tips: peel and eat raw like celery. Leaves: dry for tea (astringent, traditional raspberry leaf tea is used medicinally). Fruit is ripe when it detaches easily from the cane with no resistance.",
+          "tips": []
+        },
+        {
+          "heading": "Preservation",
+          "body": "Jam: water bath 10 min in half-pints. Freeze on trays then bag for year-round use. Dehydrate at 135°F. Make vinegar: macerate in 5% vinegar 2 weeks. Wine: ferment with wine yeast. Juice: simmer berries, strain, water bath 15 min.",
+          "tips": []
+        }
+      ],
+      "wikipedia_title": "Rubus"
+    },
+    {
+      "id": "foraging-mulberry",
+      "name": "Mulberries (Morus spp.)",
+      "category": "Foraging",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "Fast-growing trees producing abundant elongated aggregate fruits in early summer. A highly productive urban and suburban foraging target — trees often drop fruit prolifically with no competition from other foragers.",
+      "difficulty": "beginner",
+      "time_estimate": "",
+      "safety_notes": "No dangerous lookalikes. The elongated aggregate fruit structure is unique among trees in North America. Unripe (white or green) mulberries can cause mild gastrointestinal upset — harvest only fully ripe fruit. The fruit stains skin, clothing, and pavement intensely — wear dark clothes when harvesting.",
+      "source": "USDA PLANTS Database / Traditional",
+      "sections": [
+        {
+          "heading": "Identification",
+          "body": "Trees with variable leaf shape — leaves on the same tree can be lobed (mitten-shaped) or unlobed (oval). White mulberry (M. alba) and red mulberry (M. rubra) both present in North America; fruit color at ripeness varies — red mulberry is dark red to black when ripe; white mulberry can be white, pink, lavender, or black when ripe. The fruit resembles a blackberry but grows on a tree. Leaf undersides of red mulberry are hairy; white mulberry leaves are smooth underneath.",
+          "tips": [
+            "Spread a sheet under the tree and shake branches — ripe fruit falls easily",
+            "Taste is the final confirmation — ripe mulberries are sweet and fruity"
+          ]
+        },
+        {
+          "heading": "Where and When",
+          "body": "Widespread in eastern and central North America, increasingly common in the West (white mulberry introduced). Found in urban parks, roadsides, vacant lots, and forest edges. Fruit ripens May–July depending on region — one of the first fruits of summer. Trees produce heavily for 2–4 weeks.",
+          "tips": []
+        },
+        {
+          "heading": "Edible Parts and Preparation",
+          "body": "Fully ripe fruit: eat fresh or cook. Young leaves: edible when cooked (traditional food in parts of Asia). Ripe fruit makes excellent jam, wine, syrup, and pies. Flavor is sweet with a mild tartness — lower acid than blackberries.",
+          "tips": []
+        },
+        {
+          "heading": "Preservation",
+          "body": "Freeze on trays then bag. Jam: water bath 10 min in half-pints. Wine: high-sugar content makes excellent wine. Dehydrate at 135°F — result is raisin-like. Juice by simmering and straining.",
+          "tips": []
+        }
+      ],
+      "wikipedia_title": "Morus"
+    },
+    {
+      "id": "foraging-serviceberry",
+      "name": "Serviceberry / Juneberry (Amelanchier spp.)",
+      "category": "Foraging",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "Native shrubs and small trees producing abundant blue-purple berries in June — often the first fruit of the year. Flavor is a cross between blueberry and mild cherry, with an almond note from the seeds.",
+      "difficulty": "beginner",
+      "time_estimate": "",
+      "safety_notes": "No dangerous lookalikes in North America. The combination of white spring flowers, alternate simple leaves with fine serration, and blue-purple berries with a crown at the tip is distinctive. Seeds contain small amounts of amygdalin (like apple seeds) but are safe in normal consumption quantities.",
+      "source": "USDA PLANTS Database / Traditional",
+      "sections": [
+        {
+          "heading": "Identification",
+          "body": "Shrubs to small trees (4–30 ft) with smooth gray bark. White flowers in early spring before leaves fully emerge — one of the earliest flowering trees. Alternate, simple, finely serrated leaves. Blue-purple berries with a persistent 5-pointed crown at the tip (opposite the stem). Similar in appearance to blueberries but growing on a taller shrub or tree.",
+          "tips": []
+        },
+        {
+          "heading": "Where and When",
+          "body": "Found in forest edges, rocky slopes, stream banks, and open areas throughout North America. The 'June' in juneberry refers to ripening time — typically late May through July depending on latitude. Harvest window is short (1–2 weeks) before birds take them all.",
+          "tips": [
+            "Birds find these berries as fast as or faster than you — check daily when ripening begins"
+          ]
+        },
+        {
+          "heading": "Edible Parts and Preparation",
+          "body": "Berries: eat fresh (best when fully blue-purple and slightly soft), cook into jam, pie, syrup, or dried like raisins. Flavor intensifies when cooked. High in antioxidants. Can substitute for blueberries in any recipe.",
+          "tips": []
+        },
+        {
+          "heading": "Preservation",
+          "body": "Freeze on trays then bag. Jam: water bath 10 min in half-pints. Dehydrate at 135°F for raisin-like dried berries. Syrup: simmer berries with water and sugar, strain, water bath 10 min.",
+          "tips": []
+        }
+      ],
+      "wikipedia_title": "Amelanchier"
+    },
+    {
+      "id": "foraging-black-walnut",
+      "name": "Black Walnut (Juglans nigra)",
+      "category": "Foraging",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "A large native tree producing intensely flavored walnuts in thick green husks. The flavor is far more robust than commercial English walnuts. Processing requires effort but the reward is exceptional.",
+      "difficulty": "beginner",
+      "time_estimate": "",
+      "safety_notes": "The roots, hulls, and leaves produce juglone, which is toxic to many garden plants (allelopathic). Keep harvested nuts away from tomatoes and other juglone-sensitive plants. The green hull stains skin, clothing, and surfaces dark brown permanently — wear gloves and old clothes. Mold on kernels can produce aflatoxin — discard any moldy kernels.",
+      "source": "USDA PLANTS Database / Traditional",
+      "sections": [
+        {
+          "heading": "Identification",
+          "body": "Large tree (40–80 ft) with compound leaves (15–23 lance-shaped leaflets, alternate). Round green husks (2–3 inches diameter) fall in September–October — the husk is not split like hickory. The husk has a distinctive spicy-citrus smell when scratched. Dark brown to black deeply ridged nut shell inside. Bark has deep diamond-pattern furrows.",
+          "tips": [
+            "Smell the green husk — the distinctive spicy citrus-walnut aroma confirms ID"
+          ]
+        },
+        {
+          "heading": "Where and When",
+          "body": "Eastern and central North America in mixed forests, fence rows, and disturbed areas. Nuts fall September–October when husks begin to yellow and soften. Harvest from the ground after falling — do not try to knock them down early.",
+          "tips": []
+        },
+        {
+          "heading": "Edible Parts and Preparation",
+          "body": "Kernels after processing: eat raw or roasted, use in baking, ice cream, and confections. Processing: remove husks (wear gloves — stains are permanent), let nuts cure in shells 2–4 weeks in a dry area with good airflow, then crack the very hard shells. The flavor is bold and distinctive — use in smaller quantities than English walnuts.",
+          "tips": [
+            "Run husks over with a car tire to remove them, wearing gloves to handle",
+            "Cure in a single layer in a dry shed — do not pile deep or they mold"
+          ]
+        },
+        {
+          "heading": "Preservation",
+          "body": "Whole cured nuts in shell: store up to a year in a cool dry place. Shelled kernels: refrigerate up to 3 months, freeze up to 2 years. Vacuum-seal for longer freezer storage. The bold flavor is excellent in homemade ice cream and banana bread.",
+          "tips": []
+        }
+      ],
+      "wikipedia_title": "Juglans_nigra"
+    },
+    {
+      "id": "foraging-acorns",
+      "name": "Acorns (Quercus spp.)",
+      "category": "Foraging",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "Acorns from any oak species are edible after tannin removal by leaching. They were the primary starch source for many indigenous cultures across North America and remain one of the most abundant wild carbohydrates available.",
+      "difficulty": "intermediate",
+      "time_estimate": "1–3 days for leaching",
+      "safety_notes": "Raw acorns contain high levels of tannins (polyphenols) that are bitter and can cause digestive upset — always leach before eating in quantity. White oak group (rounded leaf lobes) has lower tannins and milder flavor; red oak group (pointed leaf lobes with bristle tips) has higher tannins and requires longer leaching. No toxic lookalikes — no other North American nut resembles an acorn.",
+      "source": "USDA Forest Service / Traditional",
+      "sections": [
+        {
+          "heading": "Identification and Oak Groups",
+          "body": "All oaks are identifiable by the distinctive acorn (nut in a scaly cup). White oak group: rounded leaf lobes without bristle tips; acorns sweeter and lower in tannins; mature in one year. Red/Black oak group: pointed leaf lobes with bristle tips; more bitter; acorns mature in two years and are found on tree and ground simultaneously. Any species is edible after leaching.",
+          "tips": [
+            "Bur oak (white group) has the largest, sweetest acorns — excellent for flour"
+          ]
+        },
+        {
+          "heading": "Harvesting and Sorting",
+          "body": "Collect acorns in fall when fully ripe and brown. Sort immediately: discard any with holes (weevil larvae), black spots, or mold. Float test: drop in water — floating acorns are usually infested or hollow; use sinking acorns. Shell by cracking with a nut cracker or rock; remove the papery inner skin if bitter.",
+          "tips": []
+        },
+        {
+          "heading": "Leaching Tannins",
+          "body": "Cold water leaching (best for flour): grind shelled acorns into coarse meal, place in a cloth or fine mesh bag, and run under cold water or soak in a bowl, changing water 3–5 times daily until water runs clear and taste is mild (1–5 days). Hot water leaching (faster, destroys some starch for bread-making): simmer shelled acorns in boiling water 15–30 min, drain, repeat until no longer bitter (several changes of water).",
+          "tips": [
+            "Cold leaching preserves more starch for binding in baked goods",
+            "Taste as you go — leaching is done when the bitterness is gone or minimal"
+          ]
+        },
+        {
+          "heading": "Preservation and Use",
+          "body": "Dry leached meal at 200°F in oven or 125°F in dehydrator, then grind into fine flour. Store flour in freezer — high fat content can go rancid. Use acorn flour in pancakes, cookies, bread (blend with wheat flour for structure), and porridge. Whole leached acorns can be roasted and eaten or ground fresh.",
+          "tips": []
+        }
+      ],
+      "wikipedia_title": "Acorn"
+    },
+    {
+      "id": "foraging-rose-hips",
+      "name": "Rose Hips (Rosa spp.)",
+      "category": "Foraging",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "The fruit of rose plants — any Rosa species produces edible rose hips. One of the highest plant sources of vitamin C available, with 10–40x the vitamin C of oranges. Best harvested after the first frost, which converts starches to sugars.",
+      "difficulty": "beginner",
+      "time_estimate": "",
+      "safety_notes": "The seeds and internal seed hairs are irritants if consumed in large quantities — strain or remove them before eating. No dangerous lookalikes — rose plants are easily recognized by their thorns, five-petaled flowers, and the distinctive floral hip. Avoid rose plants that have been sprayed with pesticides (common in ornamental roses).",
+      "source": "USDA PLANTS Database / Traditional",
+      "sections": [
+        {
+          "heading": "Identification",
+          "body": "Rose hips are the red-to-orange oval fruit that develops after the flower is pollinated. Identify the parent plant by the thorny stems, compound leaves with 5–9 leaflets, and characteristic rose flowers (5 petals, many stamens). The hip has a persistent calyx (star-shaped dried sepal cluster) at the tip, opposite the stem. Wild roses (R. canina, R. acicularis, R. blanda, etc.) all have edible hips.",
+          "tips": []
+        },
+        {
+          "heading": "Where and When",
+          "body": "Wild roses grow throughout North America in roadsides, meadows, forest edges, and disturbed areas. Hips are ripe in fall — best harvested after the first frost, which increases sweetness and softens the flesh. They remain on the plant through winter and can be harvested after snowfall.",
+          "tips": [
+            "Post-frost hips are sweeter and have a more complex flavor"
+          ]
+        },
+        {
+          "heading": "Edible Parts and Preparation",
+          "body": "The red outer flesh (hypanthium) is what you eat. To prepare: cut off both ends, slice in half, scoop out seeds and internal hairs with a spoon (or strain after cooking). Use for tea, jelly, syrup, and jam. Can be eaten raw (very tart). High pectin content makes excellent jam without added pectin.",
+          "tips": [
+            "Simmer hips to soften, push through a food mill or strainer to remove seeds and hairs automatically",
+            "Rose hip tea: steep dried hips 10–15 min in just-boiled water"
+          ]
+        },
+        {
+          "heading": "Preservation",
+          "body": "Dry whole hips at 125°F for tea (store 1 year). Rose hip jam: water bath 10 min in half-pints. Rose hip syrup: simmer, strain, sweeten, water bath 10 min. Freeze strained pulp in ice cube trays for adding to smoothies and sauces.",
+          "tips": []
+        }
+      ],
+      "wikipedia_title": "Rose_hip"
+    },
+    {
+      "id": "foraging-sumac",
+      "name": "Staghorn Sumac (Rhus typhina / glabra / copallinum)",
+      "category": "Foraging",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "A native shrub producing large upright clusters of dark red hairy berries with an intensely tart, lemony flavor. Easily made into a refreshing drink. One of the most flavorful and safe wild edibles for beginners.",
+      "difficulty": "beginner",
+      "time_estimate": "",
+      "safety_notes": "CRITICAL: Only harvest RED berry clusters — white or cream-colored berry clusters indicate poison sumac (Toxicodendron vernix), which grows in wetlands and is extremely toxic (same family as poison ivy). Edible sumac always has dense, upright, RED fuzzy clusters and grows in dry uplands. Poison sumac has drooping clusters of white berries and grows in wet swampy areas. When in doubt: if the berries are not red and the plant is growing near water, do not touch it.",
+      "source": "USDA PLANTS Database / Traditional",
+      "sections": [
+        {
+          "heading": "Identification",
+          "body": "Staghorn sumac (R. typhina): large shrub or small tree with velvety hairy stems (like deer antlers in velvet). Compound leaves with 11–31 lance-shaped, serrated leaflets. Dense, upright, cone-shaped clusters of tiny dark red hairy drupes (the fruit cluster is called a 'bob'). Smooth sumac (R. glabra) is similar with smooth stems. Winged sumac (R. copallinum) has winged rachis between leaflets. All three are edible.",
+          "tips": [
+            "Red upright cluster + dry upland habitat = safe. White drooping cluster + wet area = poison sumac, do not touch."
+          ]
+        },
+        {
+          "heading": "Where and When",
+          "body": "Dry, open areas, roadsides, field edges, and disturbed land throughout eastern North America. Common as a pioneer shrub in old fields. Harvest berries in late summer to early fall, before heavy rains wash away the malic acid coating. Berries remain on plant through winter but lose flavor after rain.",
+          "tips": [
+            "Harvest right after a dry period for the most tart, flavorful berries"
+          ]
+        },
+        {
+          "heading": "Edible Parts and Preparation",
+          "body": "The malic acid coating on the red hairs is the flavor — make sumac-ade by crushing the berry clusters in cold water, letting steep 20–30 min, then straining through cloth. Do not use hot water — it extracts bitter tannins. The resulting drink is a beautiful pink lemonade substitute. Ground dried berries are the Middle Eastern spice 'sumac,' used to season salads, meats, and hummus.",
+          "tips": [
+            "Use cold or room-temperature water only — hot water makes it bitter",
+            "Strain through cheesecloth to remove the tiny hairs"
+          ]
+        },
+        {
+          "heading": "Preservation",
+          "body": "Freeze whole berry clusters in bags — use directly from frozen for sumac-ade. Dry berry clusters in a dehydrator at 115°F, then grind into sumac spice powder — store in airtight container up to 1 year. Sumac syrup: cold-steep, strain, add sugar, simmer briefly, water bath 10 min.",
+          "tips": []
+        }
+      ],
+      "wikipedia_title": "Rhus_typhina"
+    },
+    {
+      "id": "foraging-jerusalem-artichoke",
+      "name": "Jerusalem Artichoke / Sunchoke (Helianthus tuberosus)",
+      "category": "Foraging",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "A native sunflower relative producing edible tubers with a mild, sweet, nutty flavor. One of the most productive wild food plants per square foot in North America, and easily cultivated once established.",
+      "difficulty": "beginner",
+      "time_estimate": "",
+      "safety_notes": "WARNING: Contains inulin (a fructose polymer) that is not digested in the small intestine and is fermented by gut bacteria, causing significant gas and bloating in many people — sometimes severe. Start with a very small amount (2–3 oz cooked) and observe your reaction before eating more. Cook thoroughly to partially break down inulin. Some people find they adapt over time with regular consumption.",
+      "source": "USDA PLANTS Database / Traditional",
+      "sections": [
+        {
+          "heading": "Identification",
+          "body": "A tall (4–10 ft) sunflower relative with rough, hairy stems and leaves. Alternate leaves on lower stem, opposite near top. Leaves are lance-to-oval shaped, 4–8 inches, with a rough texture. Small sunflowers (2–3 inches diameter) in late summer through fall. Tubers (the food) are underground, knobbly, 2–4 inches, with tan to reddish-brown skin, white crunchy interior. Found in colonies — once established it spreads aggressively.",
+          "tips": []
+        },
+        {
+          "heading": "Where and When",
+          "body": "Moist, disturbed areas, roadsides, floodplains, and field edges throughout North America. Tubers are best harvested after frost in fall through early spring. The tubers do not store well once dug — leave them in the ground and harvest as needed. Dig with a spading fork to avoid missing tubers.",
+          "tips": [
+            "After frost the tubers are sweeter — starches convert to sugars",
+            "They will regrow from any tuber left in the ground — very difficult to eradicate once established"
+          ]
+        },
+        {
+          "heading": "Edible Parts and Preparation",
+          "body": "Tubers: eat raw (crunchy, like water chestnut), roasted, sautéed, mashed, or in soup. The thin skin is edible when scrubbed. Raw texture is similar to jicama. Roasting at high heat (400°F+) partially breaks down inulin, reducing gas. Do not peel unless desired — much nutrition is in the skin.",
+          "tips": [
+            "Roast whole at high heat rather than boiling or steaming for less digestive impact",
+            "Introduce to diet gradually — a tablespoon of roasted sunchoke the first time, not a bowlful"
+          ]
+        },
+        {
+          "heading": "Preservation",
+          "body": "Best stored in the ground until needed. Dug tubers: store unwashed in a cool humid place (like a refrigerator crisper drawer) up to 2 weeks. Blanch and freeze for longer storage. Pickle in 5% vinegar brine (refrigerator pickles) — the acidity helps with digestibility. Dehydrate thin slices at 125°F for chips.",
+          "tips": []
+        }
+      ],
+      "wikipedia_title": "Helianthus_tuberosus"
+    },
+    {
+      "id": "foraging-chicory",
+      "name": "Chicory (Cichorium intybus)",
+      "category": "Foraging",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "A roadside perennial with striking blue flowers and bitter leaves. The roasted root is the classic coffee substitute and additive. Young leaves and buds are edible; blanching reduces bitterness.",
+      "difficulty": "beginner",
+      "time_estimate": "",
+      "safety_notes": "Harvest leaves and roots away from roadsides (lead and exhaust contamination) — harvest from field interiors and mowed meadows instead. No dangerous lookalikes; the sky-blue daisy-like flowers are distinctive. People with ragweed allergy may react to chicory (same family).",
+      "source": "USDA PLANTS Database / Traditional",
+      "sections": [
+        {
+          "heading": "Identification",
+          "body": "A branching perennial growing 2–4 ft tall with sparse, small leaves on rigid branches. The leaves are most prominent in a basal rosette (similar to dandelion, but toothed differently). The distinctive bright blue (occasionally white or pink) flowers are stalkless on the branches, opening only in morning sun. Milky sap in the stem. Taproot is thick and tan-colored.",
+          "tips": []
+        },
+        {
+          "heading": "Where and When",
+          "body": "Roadsides, fields, disturbed areas throughout North America (introduced from Europe). Leaves are best in early spring (basal rosette before flowering). The blue flowers appear June–October. Roots are best harvested in fall of the first year (before or after flowering season) when they are largest.",
+          "tips": []
+        },
+        {
+          "heading": "Edible Parts and Preparation",
+          "body": "Young basal leaves: bitter raw; blanch in boiling water 1–2 min and discard water to reduce bitterness, then use like endive (a close cultivated relative). Flower buds: eat raw or pickled. Roots: scrub, roast at 350°F until dark brown throughout (1–2 hours), then grind for a coffee substitute or additive. The roasted root has a rich, slightly chocolate flavor with no caffeine.",
+          "tips": [
+            "New Orleans-style coffee is traditionally blended with chicory root",
+            "Roots need to be very dark brown when roasted — under-roasted is bitter and starchy"
+          ]
+        },
+        {
+          "heading": "Preservation",
+          "body": "Blanched leaves: freeze like spinach. Roasted and ground root: store in airtight container up to 6 months. Flower buds: pickle in 5% vinegar as a caper substitute, refrigerate or water bath 10 min.",
+          "tips": []
+        }
+      ],
+      "wikipedia_title": "Cichorium_intybus"
+    },
+    {
+      "id": "foraging-common-plantain",
+      "name": "Common Plantain (Plantago major / lanceolata)",
+      "category": "Foraging",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "One of the most widespread and underutilized edible plants in North America, growing in almost every lawn, path, and disturbed area. Not related to banana plantain. Young leaves are edible; seeds are nutritious.",
+      "difficulty": "beginner",
+      "time_estimate": "",
+      "safety_notes": "No dangerous lookalikes. The combination of parallel veins, basal rosette, and distinctive flower spike are unmistakable. Avoid harvesting from areas treated with herbicide or near heavy traffic.",
+      "source": "USDA PLANTS Database / Traditional",
+      "sections": [
+        {
+          "heading": "Identification",
+          "body": "Broadleaf plantain (P. major): oval to round leaves with strongly parallel veins running from base to tip; leaves form a basal rosette. Narrow-leaf plantain (P. lanceolata): long lance-shaped leaves, strongly ribbed, also in basal rosette. Both produce a leafless spike with tiny densely packed flowers/seeds. The parallel veins are the key ID feature — peel a leaf and the stringy veins pull out like celery strings.",
+          "tips": [
+            "Pull the leaf gently and look for the parallel vein strings — this confirms ID"
+          ]
+        },
+        {
+          "heading": "Where and When",
+          "body": "Ubiquitous throughout North America — lawns, paths, gardens, roadsides, and any disturbed soil. Available year-round in mild climates; all growing season elsewhere. Young spring leaves are most tender. Seeds ripen in summer and fall.",
+          "tips": []
+        },
+        {
+          "heading": "Edible Parts and Preparation",
+          "body": "Young leaves: eat raw (slightly bitter, mucilaginous); cook briefly like spinach. Older leaves become fibrous and stringy — best cooked or used for tea. Seeds: strip from the spike and use like psyllium husk — a mild fiber supplement. Add to porridge or baked goods. The seeds are 30% mucilaginous fiber.",
+          "tips": [
+            "Very young spring leaves are mildly flavored — good in salads",
+            "Older leaves are best in long-cooked soups where the texture is less noticeable"
+          ]
+        },
+        {
+          "heading": "Preservation",
+          "body": "Dry leaves at 95–115°F for tea. Blanch and freeze young leaves. Seeds: air dry on the stalk, then strip and store in airtight container up to 2 years. Make a medicinal-culinary tea by steeping dried leaves.",
+          "tips": []
+        }
+      ],
+      "wikipedia_title": "Plantago_major"
+    },
+    {
+      "id": "foraging-watercress",
+      "name": "Watercress (Nasturtium officinale)",
+      "category": "Foraging",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "A peppery aquatic green related to mustard, found in cold clear streams. Nutritionally exceptional — one of the most nutrient-dense foods by calorie. The water source quality is paramount for safe harvest.",
+      "difficulty": "intermediate",
+      "time_estimate": "",
+      "safety_notes": "CRITICAL water safety issue: watercress growing in water downstream from pastures, farms, or wild animal habitat can harbor Fasciola hepatica (liver fluke) cysts on the leaves — cooking destroys them but raw consumption from suspect water sources can cause fasciolosis. Only harvest from confirmed clean, fast-flowing spring-fed water with no upstream agricultural or animal activity. Also avoid water with blue-green algae. Fool's watercress (Apium nodiflorum) is a lookalike — check for the peppery taste, which watercress has strongly.",
+      "source": "USDA PLANTS Database / Traditional",
+      "sections": [
+        {
+          "heading": "Identification",
+          "body": "Low-growing, floating or semi-aquatic plant in cold, clear, flowing water. Compound leaves with 3–9 rounded leaflets, the terminal leaflet being the largest. Stems root at nodes. Small white 4-petaled flowers. Strongly peppery/spicy taste (the taste confirms ID over any lookalike). Hollow stems. Deep green color.",
+          "tips": [
+            "The peppery taste is the definitive confirmation — taste a small piece before harvesting in quantity"
+          ]
+        },
+        {
+          "heading": "Where and When",
+          "body": "Cold, clear, fast-flowing streams, springs, and seeps throughout North America (introduced from Europe, now widespread). Prefers alkaline, limestone-based water. Grows and is harvestable year-round where streams don't freeze. Most tender in spring and fall; can become bitter in summer heat.",
+          "tips": [
+            "Know your watershed — trace the stream upstream before harvesting"
+          ]
+        },
+        {
+          "heading": "Edible Parts and Preparation",
+          "body": "Young stems and leaves: eat raw in salads, sandwiches, and as a garnish. The peppery bite pairs well with eggs, cheese, and fish. Wilt briefly in soups, pasta, and potato dishes. Can be made into pesto. Cooking is safer when water source is uncertain. Do not eat large stems — use tender young growth only.",
+          "tips": [
+            "If water source safety is any question, cook before eating"
+          ]
+        },
+        {
+          "heading": "Preservation",
+          "body": "Best eaten fresh — wilts within hours of harvest. Store in a glass of water in the refrigerator (like cut flowers) for 2–3 days. Blanch and freeze for use in soups. Make watercress pesto and freeze in ice cube trays.",
+          "tips": []
+        }
+      ],
+      "wikipedia_title": "Nasturtium_officinale"
+    },
+    {
+      "id": "foraging-curly-dock",
+      "name": "Curly Dock (Rumex crispus)",
+      "category": "Foraging",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "A common field weed with sour, spinach-like leaves and nutritious seeds. One of the most abundant and accessible wild greens across North America. The wavy leaf edges are the key identifier.",
+      "difficulty": "intermediate",
+      "time_estimate": "",
+      "safety_notes": "High in oxalic acid — always cook and discard cooking water; do not eat raw in large quantities. Not recommended for people with kidney stones or gout. Do not confuse with burdock (Arctium) — burdock has much larger, rounded leaves that are white and woolly on the underside (the roots are the edible part of burdock). Sheep sorrel (Rumex acetosella) is a smaller relative that is also edible.",
+      "source": "USDA PLANTS Database / Traditional",
+      "sections": [
+        {
+          "heading": "Identification",
+          "body": "Long, lance-shaped leaves with distinctly wavy or curly (crisped) margins — this is the key feature of curly dock specifically. Leaves can be 6–18 inches long. Forms a basal rosette, then sends up a tall (2–4 ft) flowering stalk with dense clusters of small brown seeds enclosed in winged fruit (papery valves). Stems are reddish-tinted. Taproot is large and yellow inside.",
+          "tips": [
+            "The wavy leaf margins are the easiest feature — run your finger along the edge"
+          ]
+        },
+        {
+          "heading": "Where and When",
+          "body": "Ubiquitous in roadsides, fields, disturbed areas, and pastures throughout North America. Leaves best in early spring (young leaves are least bitter and lowest in oxalates). Seeds ripen in late summer and fall.",
+          "tips": []
+        },
+        {
+          "heading": "Edible Parts and Preparation",
+          "body": "Young leaves: cook like spinach — boil or blanch in two changes of water (discard each water) to remove oxalic acid and bitterness. Use in soups, egg dishes, and cooked preparations. Seeds: strip from stalks, grind into a bitter, nutty flour substitute (remove papery valves first by winnowing). Add 20% dock seed flour to bread for nutrition and earthy flavor.",
+          "tips": [
+            "Change the cooking water at least once to reduce bitterness and oxalates",
+            "Only use very young leaves — older leaves are too bitter and high in oxalates"
+          ]
+        },
+        {
+          "heading": "Preservation",
+          "body": "Blanch and freeze young leaves like spinach. Seeds: dry, strip valves, store in airtight container up to 2 years, grind as needed.",
+          "tips": []
+        }
+      ],
+      "wikipedia_title": "Rumex_crispus"
+    },
+    {
+      "id": "foraging-wild-mint",
+      "name": "Wild Mint (Mentha spp.)",
+      "category": "Foraging",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "Several native and naturalized mint species grow across North America near water and in moist areas. Strongly aromatic, with culinary and medicinal uses. The distinctive mint aroma makes this one of the safest plants to identify by smell.",
+      "difficulty": "beginner",
+      "time_estimate": "",
+      "safety_notes": "The mint aroma is the primary safety feature — always smell before harvesting. If it doesn't smell strongly of mint, do not harvest. Water hemlock (Cicuta) grows in similar wet habitats but has no mint smell and has hollow, chambered stems — it is one of the most toxic plants in North America. Pennyroyal (Mentha pulegium) is a mint species that is toxic in concentrated form (especially as an essential oil or tea in large doses) — use sparingly.",
+      "source": "USDA PLANTS Database / Traditional",
+      "sections": [
+        {
+          "heading": "Identification",
+          "body": "Opposite leaves on a square stem (square cross-section is characteristic of the mint family). Strong mint aroma when crushed — this is non-negotiable for safe identification. Leaves are oval to lance-shaped with toothed margins. Small purple, pink, or white tubular flowers in whorls around the stem or in terminal spikes. Spreads by underground rhizomes.",
+          "tips": [
+            "Square stem + strong mint smell + opposite leaves = safe mint family ID"
+          ]
+        },
+        {
+          "heading": "Where and When",
+          "body": "Moist areas, stream banks, wet meadows, and disturbed wet ground throughout North America. Multiple species in different regions: spearmint, peppermint (a hybrid), watermint, corn mint, field mint. Available throughout the growing season; most aromatic before flowering. Harvest the top 4–6 inches of stem for best flavor.",
+          "tips": []
+        },
+        {
+          "heading": "Edible Parts and Preparation",
+          "body": "Leaves and stems: use fresh in teas, cocktails, salads, sauces, and Middle Eastern dishes (tabbouleh, lamb dishes). Make mint syrup, mint jelly, or mint-infused vinegar. Dry for tea. Stronger-flavored than cultivated garden mint in most cases.",
+          "tips": []
+        },
+        {
+          "heading": "Preservation",
+          "body": "Dry at 95°F in dehydrator (low temp preserves volatile oils) for tea — store in sealed glass jar. Make mint syrup: steep fresh mint in simple syrup, strain, refrigerate 3 weeks or water bath 10 min for shelf stability. Freeze in ice cubes. Infuse in white vinegar for culinary use.",
+          "tips": []
+        }
+      ],
+      "wikipedia_title": "Mentha"
+    },
+    {
+      "id": "foraging-pawpaw",
+      "name": "Pawpaw (Asimina triloba)",
+      "category": "Foraging",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "The largest native North American fruit — a custard-like tropical-tasting fruit with a mango-banana flavor. Found in rich bottomland forest in eastern North America. Ripens August–October.",
+      "difficulty": "intermediate",
+      "time_estimate": "",
+      "safety_notes": "Some people experience skin irritation from the bark and unripe fruit skin — wear gloves when handling. The seeds and skin are mildly toxic (contain acetogenins); eat only the flesh. A small number of people experience nausea after eating pawpaw — introduce cautiously. No dangerous lookalikes — the distinctive large leaves and fruit are unmistakable.",
+      "source": "USDA PLANTS Database / Traditional",
+      "sections": [
+        {
+          "heading": "Identification",
+          "body": "A small tree (15–30 ft) that often forms clonal colonies from root suckers. Large (8–12 inch), oblong, drooping leaves with smooth margins and a strong unpleasant odor when crushed. Distinctive maroon-purple flowers in early spring before leaves emerge. Fruit is large (3–6 inches), green to yellow-green (ripening), with a heavy custard-like texture and distinctive sweet tropical aroma when ripe.",
+          "tips": [
+            "The large leaves that droop downward and the colony-forming habit help locate trees",
+            "Smell the ripe fruit — the tropical-custard aroma is unmistakable"
+          ]
+        },
+        {
+          "heading": "Where and When",
+          "body": "Rich, moist bottomland forest in eastern North America, from Nebraska to the Atlantic coast, south to Florida. Often found along stream banks and in forest hollows. Fruit ripens August through October depending on latitude — falls from the tree when fully ripe. Check daily once ripening begins.",
+          "tips": [
+            "Shake the tree gently — ripe fruit drops easily",
+            "Fruit goes from firm-green to soft-yellow with black spots rapidly; check every 2–3 days"
+          ]
+        },
+        {
+          "heading": "Edible Parts and Preparation",
+          "body": "Eat the yellow-orange flesh raw — scoop from skin with a spoon, removing the large brown seeds. Use in ice cream, smoothies, bread, and custard. The flavor is often described as banana-mango-vanilla custard. Extremely perishable — must be eaten or processed within 2–3 days of harvest.",
+          "tips": []
+        },
+        {
+          "heading": "Preservation",
+          "body": "Freeze pulp immediately — scoop out seeds, mash or blend flesh, freeze in freezer bags. Frozen pawpaw pulp lasts 6–12 months and is excellent in smoothies and baked goods. Make pawpaw ice cream or sorbet and freeze. Cannot be water bath canned due to low acidity.",
+          "tips": []
+        }
+      ],
+      "wikipedia_title": "Asimina_triloba"
+    },
+    {
+      "id": "foraging-hawthorn",
+      "name": "Hawthorn Berries (Crataegus spp.)",
+      "category": "Foraging",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "Small red to orange-red berries from native and introduced hawthorn trees, excellent for jelly and syrup. High in pectin and antioxidants. A traditional hedgerow food in North America and Europe.",
+      "difficulty": "intermediate",
+      "time_estimate": "",
+      "safety_notes": "The seeds (stones) contain amygdalin — do not eat seeds in large quantities; strain or remove them before consuming the fruit in quantity. The tree has sharp thorns — wear gloves and long sleeves when harvesting. Multiple Crataegus species are present in North America; all have edible berries, though flavor varies. No dangerous lookalikes among red-berried shrubby trees with thorns, but confirm with other ID features.",
+      "source": "USDA PLANTS Database / Traditional",
+      "sections": [
+        {
+          "heading": "Identification",
+          "body": "Shrubs or small trees with thorns (usually 1–3 inches long). Alternate, lobed or toothed leaves. White 5-petaled flowers in spring. Small red, orange-red, or occasionally blue-black fruits (haws) with a persistent calyx (5 dried sepals) at the tip, similar in structure to rose hips. Fruit is mealy with a single large stone (or 2–5 smaller ones) inside.",
+          "tips": []
+        },
+        {
+          "heading": "Where and When",
+          "body": "Forest edges, roadsides, old fields, and hedgerows throughout North America. Berries ripen September–October and often persist on the tree into winter. Most flavorful after a light frost.",
+          "tips": []
+        },
+        {
+          "heading": "Edible Parts and Preparation",
+          "body": "Best cooked — the mealy texture is unpleasant raw for most people. Simmer with water until soft, then press through a food mill or strainer to remove seeds and skin. Use the resulting pulp and juice for jelly (high natural pectin), syrup, fruit leather, or sauce. Pairs well with apple. Traditional hawthorn ketchup (savory condiment) uses garlic and spices.",
+          "tips": [
+            "The seeds are hard — always strain or use a food mill, never eat whole",
+            "Mix 50/50 with apple for a more complex jelly"
+          ]
+        },
+        {
+          "heading": "Preservation",
+          "body": "Jelly: simmer, strain, measure juice, add sugar (1:1 juice to sugar), boil to set point, water bath 10 min. Syrup: simmer, strain, add sugar, water bath 10 min. Freeze whole washed berries for later processing. Dry at 135°F for tea (remove seeds first).",
+          "tips": []
+        }
+      ],
+      "wikipedia_title": "Crataegus"
+    },
+    {
+      "id": "foraging-ground-cherry",
+      "name": "Ground Cherry (Physalis spp.)",
+      "category": "Foraging",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "A native relative of the tomatillo producing small sweet-tart berries enclosed in a papery lantern-like husk. Found in disturbed ground and gardens across North America. Makes exceptional jam.",
+      "difficulty": "intermediate",
+      "time_estimate": "",
+      "safety_notes": "Only eat fully ripe fruit with a tan or papery husk — the husk is toxic, and green or unripe fruit contains solanine alkaloids that can cause illness. Nightshade family (Solanaceae) — members with similar husk-enclosed fruit (Chinese lanterns, Physalis alkekengi) are ornamental and NOT edible; edible Physalis species have tan papery husks and sweet-tart fruit. Always confirm the fruit smells and tastes like pineapple-citrus before eating.",
+      "source": "USDA PLANTS Database / Traditional",
+      "sections": [
+        {
+          "heading": "Identification",
+          "body": "Low-growing sprawling annual plant with alternate, toothed, somewhat sticky-hairy leaves. The fruit is enclosed in a papery inflated husk (lantern shape) that turns from green to tan/brown as it ripens. The fruit inside is round, yellow to orange, 1/2 to 3/4 inch diameter. Taste is sweet-tart with a tropical pineapple note. Related to tomatillo (P. philadelphica) but smaller and sweeter.",
+          "tips": [
+            "Ripe = tan papery husk + yellow fruit that detaches freely + sweet tropical aroma"
+          ]
+        },
+        {
+          "heading": "Where and When",
+          "body": "Disturbed ground, gardens, roadsides, and open areas throughout central and eastern North America. Several species; most common is P. pruinosa (strawberry ground cherry) or P. heterophylla (clammy ground cherry). Fruit ripens August–October and often falls from the plant when ripe — harvest from the ground.",
+          "tips": []
+        },
+        {
+          "heading": "Edible Parts and Preparation",
+          "body": "Ripe fruit only (with tan papery husk): remove husk, wash fruit (sticky coating on skin), eat raw or cook. Exceptional fresh, in jam, pie, and salsa verde. The flavor is uniquely complex — sweet, tart, and tropical. Can substitute for tomatillo in cooked salsas.",
+          "tips": []
+        },
+        {
+          "heading": "Preservation",
+          "body": "Jam: water bath 10 min in half-pints (high natural pectin). Freeze whole (after removing husks) — excellent in smoothies and baked goods. Dry at 135°F for a raisin-like dried fruit. Salsa verde using ground cherries: water bath 15 min in pints.",
+          "tips": []
+        }
+      ],
+      "wikipedia_title": "Physalis"
+    },
+    {
+      "id": "foraging-henbit",
+      "name": "Henbit (Lamium amplexicaule)",
+      "category": "Foraging",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "A small winter and early spring annual with purple flowers and scalloped leaves. One of the earliest edible spring greens available in cold climates, often flowering while snow is still on the ground.",
+      "difficulty": "beginner",
+      "time_estimate": "",
+      "safety_notes": "No dangerous lookalikes. Henbit and its close relative purple dead nettle (Lamium purpureum) are both edible and often grow together — both have square stems and pink-purple flowers, but henbit has round clasping leaves while dead nettle has more triangular leaves that are often purplish on top. Neither stings (despite the name 'dead nettle').",
+      "source": "USDA PLANTS Database / Traditional",
+      "sections": [
+        {
+          "heading": "Identification",
+          "body": "Small winter annual, 4–12 inches tall. Square stems (mint family). Rounded, scalloped leaves that clasp the stem at the upper nodes (sessile). Leaves are hairy. Pink-purple tubular flowers in whorls at the upper leaf axils, blooming January–May in most regions. Mild flavor, slightly grassy.",
+          "tips": []
+        },
+        {
+          "heading": "Where and When",
+          "body": "Lawns, gardens, disturbed ground throughout North America. A winter annual — germinates in fall, overwinters as a small rosette, flowers and sets seed in early spring before summer heat kills it. One of the first edibles of the year — often findable in February and March.",
+          "tips": []
+        },
+        {
+          "heading": "Edible Parts and Preparation",
+          "body": "Young stems, leaves, and flowers: eat raw in salads (mild, slightly herbal), add to smoothies, or sauté briefly. The whole above-ground plant is edible. Flavor is mild and pleasant — less assertive than most wild greens. Best eaten before it begins to flower for tenderest texture.",
+          "tips": []
+        },
+        {
+          "heading": "Preservation",
+          "body": "Does not preserve well — best eaten fresh. Blend into a spring green pesto and freeze in ice cube trays. Dry for mild herbal tea.",
+          "tips": []
+        }
+      ],
+      "wikipedia_title": "Lamium_amplexicaule"
+    },
+    {
+      "id": "hawaii-lilikoi",
+      "name": "Lilikoi / Passion Fruit (Passiflora edulis)",
+      "category": "Hawaii Foraging",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "Lilikoi (passion fruit) is one of the most abundant and beloved foraging finds in Hawaii. The vines grow vigorously along roadsides, fences, and forest margins from sea level to about 4,000 feet elevation. Both the purple-fruited (Passiflora edulis f. edulis) and yellow-fruited (f. flavicarpa) forms grow on the Big Island. The aromatic, intensely flavored pulp makes exceptional jelly, juice, and desserts.",
+      "difficulty": "beginner",
+      "time_estimate": "",
+      "safety_notes": "Ripe lilikoi only — unripe fruit contains cyanogenic glycosides that break down on ripening. Do not eat the leaves or skin in quantity. The fruit is fully ripe when it falls from the vine or when the skin is slightly wrinkled.",
+      "source": "University of Hawaii CTAHR / USDA",
+      "wikipedia_title": "Passiflora_edulis",
+      "sections": [
+        {
+          "heading": "Identification",
+          "body": "The passion fruit vine is a vigorous, tendril-climbing vine with distinctive 3-lobed leaves and extraordinary flowers — white petals with a fringed purple-and-white corona. Fruit is oval, 2–3 inches long. Purple variety: dark purple skin when ripe, intensely aromatic. Yellow variety (common in West Hawaii lowlands): bright yellow skin, slightly tarter flavor. Both have gelatinous, seed-filled pulp.",
+          "tips": [
+            "The flowers are unmistakable — intricate, alien-looking, with a purple and white fringe.",
+            "Ripe fruit falls naturally — check under vines after rain or wind.",
+            "Yellow lilikoi is more cold-hardy and is the form most often found at lower elevations around Kona."
+          ]
+        },
+        {
+          "heading": "Where & When",
+          "body": "Common throughout the Big Island from sea level to 4,000 feet. In West Hawaii, look along roadsides (Mamalahoa Highway, South Kohala), along fence lines in agricultural areas, and in gulches and forest edges. Fruiting peaks in late summer through fall but ripe fruit can be found nearly year-round in West Hawaii. The yellow variety thrives in the hot, dry lowland Kona climate.",
+          "tips": [
+            "Highway 11 (Mamalahoa Hwy) between Kailua-Kona and Captain Cook has roadside lilikoi in abundance.",
+            "Listen for the thud of ripe fruit falling — it's a distinctive sound under a heavy vine."
+          ]
+        },
+        {
+          "heading": "Harvest & Edible Parts",
+          "body": "Collect fruit that has fallen naturally or comes off the vine with a gentle twist. Cut in half — the fragrant, jelly-like pulp (with seeds) is the edible part. Seeds are edible but hard. The hollow interior of overripe fruit should be used promptly. A single vine in full production can yield hundreds of fruit. One cup of pulp requires approximately 6–8 fruit.",
+          "tips": [
+            "Freeze whole fruit immediately if you gather more than you can process — they freeze and thaw well.",
+            "Strain the pulp through a fine sieve to separate seeds for jelly-making; leave seeds in for smoothies."
+          ]
+        },
+        {
+          "heading": "Preservation",
+          "body": "Best preservation methods: (1) Lilikoi jelly — water bath canned; strain pulp, combine with pectin and sugar, process 10 minutes. (2) Lilikoi curd — butter, eggs, sugar, and juice; refrigerate up to 3 weeks or freeze. (3) Juice concentrate — simmer strained pulp, reduce by half, freeze in ice cube trays for year-round use. (4) Dehydrated lilikoi — slice thin and dehydrate at 135°F; intense flavor as a snack or garnish. (5) Fermented lilikoi wine — the high sugar content ferments readily.",
+          "tips": [
+            "Lilikoi juice freezes perfectly — process a batch and freeze in 1-cup portions.",
+            "A little lilikoi juice goes a very long way — its flavor is intensely concentrated."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hawaii-guava",
+      "name": "Guava (Psidium guajava & P. cattleianum)",
+      "category": "Hawaii Foraging",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "Guava is so abundant in Hawaii that it is simultaneously a beloved fruit and a serious invasive pest. Two species are common: common guava (Psidium guajava), with large yellow-green fruit and pink or white flesh, and strawberry guava (P. cattleianum), with small round red or yellow fruit. Both are excellent for jam, jelly, paste, and juice.",
+      "difficulty": "beginner",
+      "time_estimate": "",
+      "safety_notes": "Both guava species are considered invasive in Hawaii — harvesting them aggressively is encouraged by land managers. No toxicity concerns. The seeds are edible but hard; strain for smooth preparations.",
+      "source": "University of Hawaii CTAHR; USDA PLANTS",
+      "wikipedia_title": "Psidium_guajava",
+      "sections": [
+        {
+          "heading": "Identification",
+          "body": "Common guava (Psidium guajava): a small tree or shrub with copper-colored, peeling bark; oval, ribbed leaves; white 5-petaled flowers; fruit oval to round, 2–4 inches, yellow-green when ripe, with pink, red, or white seedy flesh. Strawberry guava (P. cattleianum): smaller tree with smooth, mottled brown-grey bark; smaller glossy leaves; fruit round, 1 inch, deep red or yellow when ripe, with white or pink flesh. Both have fragrant, musky aroma when ripe.",
+          "tips": [
+            "The distinctive peeling copper-colored bark of common guava is an excellent identifier year-round.",
+            "Smell the fruit — ripe guava is intensely aromatic and unmistakable.",
+            "Strawberry guava has much harder seeds than common guava."
+          ]
+        },
+        {
+          "heading": "Where & When",
+          "body": "Common guava is found at lower elevations, particularly in dry to mesic areas — farms, roadsides, and disturbed land around Kailua-Kona and the Kona coffee belt. Strawberry guava is most dense in higher elevation wet forests (Kona Hema area, upcountry) but also occurs at lower elevations. Both fruit prolifically — common guava peaks in summer and fall; strawberry guava fall through winter.",
+          "tips": [
+            "The Kona coffee farm belt (700–1,800 ft elevation) has extensive common guava growing along farm boundaries.",
+            "Ripe fruit falls to the ground — look down as much as up when harvesting."
+          ]
+        },
+        {
+          "heading": "Harvest & Edible Parts",
+          "body": "Pick fruit that gives slightly to thumb pressure or has fallen naturally. The entire flesh is edible; the skin is also edible (common guava skin is thin and pleasant; strawberry guava skin is thicker). Cut out any insect damage or brown spots. Guava spoils quickly at room temperature — refrigerate or process promptly. One pound of fruit yields roughly 1 cup of strained pulp.",
+          "tips": [
+            "Fruit that falls to the ground is often fully ripe and ideal — it bruises easily once fallen.",
+            "Guava freezes well whole or as pulp — freeze a batch for off-season jam making."
+          ]
+        },
+        {
+          "heading": "Preservation",
+          "body": "Guava's high pectin content makes it ideal for jelly and jam without added pectin: (1) Guava jam or jelly — simmer fruit with water, strain through jelly bag, add sugar (3:4 juice:sugar ratio), water bath can 10 minutes. (2) Guava paste (goiabada) — cook strained pulp with equal weight sugar until very thick and pulls from the pan; pour into molds and dry in oven at 200°F 2–3 hours; shelf-stable months. (3) Dried guava slices — dehydrate at 135°F 10–14 hours. (4) Guava syrup — simmer juice with sugar, refrigerate or can. (5) Fermented guava wine or kvass.",
+          "tips": [
+            "Guava naturally gels due to high pectin — no commercial pectin is needed for jam if you include some slightly underripe fruit.",
+            "Guava paste keeps for months at room temperature in a dry location — wrap in parchment."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hawaii-mountain-apple",
+      "name": "Mountain Apple / ʻŌhiʻa ʻAi (Syzygium malaccense)",
+      "category": "Hawaii Foraging",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "Mountain apple (ʻōhiʻa ʻai) is one of the original Polynesian canoe plants brought to Hawaii by early settlers. The crisp, mildly sweet, rosy-red fruit is one of the most pleasant fresh foraging finds in Hawaii — refreshing and juicy, like a mild apple crossed with a watermelon. Trees fruit abundantly in summer.",
+      "difficulty": "beginner",
+      "time_estimate": "",
+      "safety_notes": "Fully ripe mountain apples are safe and delicious. The seeds are large and hard — spit them out. No significant safety concerns.",
+      "source": "University of Hawaii CTAHR; traditional Hawaiian cultivation",
+      "wikipedia_title": "Syzygium_malaccense",
+      "sections": [
+        {
+          "heading": "Identification",
+          "body": "A medium to large tree (20–60 ft) with large, glossy, oval leaves and spectacular bright magenta-red flowers that emerge directly from the trunk and major branches (cauliflory). The fruit is pear-shaped, 2–3 inches long, waxy red to deep rose-red when ripe, with crisp white flesh and a large round seed. Trees often drop ripe fruit abundantly in summer.",
+          "tips": [
+            "The magenta trunk flowers erupting directly from the bark are unmistakable — one of Hawaii's most distinctive sights.",
+            "Ripe fruit is deep red and gives slightly to pressure; pale pink fruit is underripe."
+          ]
+        },
+        {
+          "heading": "Where & When",
+          "body": "Found in mesic to wet forest areas, particularly in valleys and gulches in the South Kona and Kona coffee belt region (700–2,500 ft elevation). Also found in residential areas and parks where it has been planted. Peak fruiting June–September. Trees alternate between light and heavy fruiting years. Listen for the thud of falling fruit in summer.",
+          "tips": [
+            "Waipio Valley and the wet gulches of South Kona have abundant wild trees.",
+            "Check hiking trails through forested areas — mountain apple is often found near water."
+          ]
+        },
+        {
+          "heading": "Harvest & Edible Parts",
+          "body": "Pick fruit that comes off the tree with a gentle tug or collect from the ground. Wash well. The entire fruit is edible except the large central seed. Best eaten fresh — the crisp, juicy texture deteriorates within a few days. A single productive tree can drop hundreds of fruit over a few weeks.",
+          "tips": [
+            "Mountain apple bruises easily — handle gently and eat or process promptly.",
+            "The skin is edible and thin — no need to peel."
+          ]
+        },
+        {
+          "heading": "Preservation",
+          "body": "Mountain apple has a mild flavor that does not concentrate intensely like lilikoi, but can be preserved: (1) Water bath canning in light syrup — peel, pit, pack in jars with syrup, process 20 minutes (like canned pears); (2) Dehydrating — slice thin, remove seed, dry at 135°F 10–12 hours; the flavor intensifies pleasantly; (3) Mountain apple jam — combine with lemon juice and pectin; the mild flavor pairs well with ginger or vanilla; (4) Freeze — pit and freeze on a tray, then bag; use in smoothies or cook from frozen.",
+          "tips": [
+            "Add lemon juice generously when canning mountain apple — its low acidity needs acidification for safe water bath canning.",
+            "A ginger and mountain apple jam is a unique local product worth making in quantity."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hawaii-breadfruit",
+      "name": "Breadfruit / ʻUlu (Artocarpus altilis)",
+      "category": "Hawaii Foraging",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "Breadfruit (ʻulu) is a cornerstone Polynesian canoe plant and one of the most productive food trees in the tropics. A single mature tree can produce 100–200 large fruit per year. Starchy and calorie-dense, ʻulu can be baked, boiled, fried, or fermented. It is experiencing a significant revival in Hawaii as a locally grown staple crop.",
+      "difficulty": "intermediate",
+      "time_estimate": "",
+      "safety_notes": "Do not eat raw breadfruit — it must be cooked to break down starch and remove any mildly bitter compounds. Fully ripe soft fruit can be eaten with minimal cooking. The sap is sticky and can irritate skin.",
+      "source": "University of Hawaii CTAHR; Breadfruit Institute; traditional Hawaiian cultivation",
+      "wikipedia_title": "Artocarpus_altilis",
+      "sections": [
+        {
+          "heading": "Identification",
+          "body": "A large, fast-growing tropical tree (up to 50 ft) with very large, deeply lobed, glossy leaves — among the most distinctive leaves in Hawaii. Fruit is round to oblong, 4–12 inches diameter, green and bumpy-textured when immature, turning yellow-green and slightly soft when ripe. The interior is cream to pale yellow, starchy, and seedless in most cultivated Hawaiian varieties. Ripe fruit has a sweet, yeasty fragrance.",
+          "tips": [
+            "The huge, dramatically lobed leaves make breadfruit trees unmistakable from a distance.",
+            "Maturity stages: green/firm (starchy, best for savory cooking), turning/mature (firmer starch), ripe/yellow (soft, sweet, can eat with minimal cooking)."
+          ]
+        },
+        {
+          "heading": "Where & When",
+          "body": "Found in residential areas, farms, and community food forests throughout West Hawaii, particularly in the warmer coastal areas below 1,500 ft. Honalo, Captain Cook, and Kealakekua areas have numerous productive trees. Many homeowners harvest only a fraction of their tree's production — ask permission and many will gladly share. Fruiting peaks July–November on the Big Island.",
+          "tips": [
+            "The Breadfruit Institute at the National Tropical Botanical Garden has resources on finding and using ʻulu.",
+            "Kona's community food forest projects often have ʻulu trees with public harvest access."
+          ]
+        },
+        {
+          "heading": "Harvest & Edible Parts",
+          "body": "Harvest by cutting the fruit stem with a knife when the skin is green to yellow-green and the fruit is still firm (for starchy savory use). Wear old clothes — the white latex sap is extremely sticky and nearly impossible to remove from fabric. Rub hands with oil before handling to ease cleanup. The entire interior flesh is edible (seedless varieties); the skin is not typically eaten.",
+          "tips": [
+            "Oil your hands and knife before cutting — the sap is extraordinarily sticky.",
+            "Once cut from the tree, use ʻulu within 2–3 days at room temperature or refrigerate up to a week."
+          ]
+        },
+        {
+          "heading": "Preservation",
+          "body": "Breadfruit is best preserved at the mature-green (starchy) stage: (1) Freezing — peel, core, and cube; blanch 2–3 minutes in boiling water; cool and vacuum-seal; freeze up to 12 months; this is the easiest and best method for volume. (2) Drying into flour — slice thin, dry at 135°F until crisp, grind into flour; shelf-stable 6–12 months; use in baking as a gluten-free starch. (3) Pressure canning — cube peeled ʻulu in water or light brine, process pints at 11 lb dial gauge 35 minutes (treat as a low-acid starchy vegetable). (4) Traditional Hawaiian fermentation (mahi ʻulu / māʻa) — wrap whole fruit in ti leaves, bury underground for weeks to years for a tangy, fermented paste used as poi substitute. (5) Roasting and freezing — roast whole in oven at 375°F until tender, mash, freeze.",
+          "tips": [
+            "Freezing is by far the easiest method — peel, blanch, cube, and freeze in meal-sized portions.",
+            "Breadfruit flour is an excellent gluten-free baking ingredient — available commercially but easy to make at home.",
+            "A productive tree in fall will easily overwhelm you with fruit — prioritize freezing in bulk."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hawaii-poha",
+      "name": "Poha / Cape Gooseberry (Physalis peruviana)",
+      "category": "Hawaii Foraging",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "Poha (cape gooseberry) is a bright orange-yellow berry enclosed in a papery husk — a gift from the upcountry fields and roadsides of the Big Island. The flavor is sweet-tart, complex, and tropical. Found wild along roadsides and cultivated fields from about 1,500 to 5,000 feet elevation. Makes extraordinary jam and is excellent dried.",
+      "difficulty": "beginner",
+      "time_estimate": "",
+      "safety_notes": "The papery husk is NOT edible — it contains solanine-like compounds and is mildly toxic. Always remove the husk and rinse the berry before eating. Green (unripe) berries inside the husk should also not be eaten in quantity. Fully ripe, orange-yellow berries are safe.",
+      "source": "University of Hawaii CTAHR; traditional Hawaiian use",
+      "wikipedia_title": "Physalis_peruviana",
+      "sections": [
+        {
+          "heading": "Identification",
+          "body": "A sprawling herbaceous to semi-woody plant, 2–4 feet tall, with soft, velvety heart-shaped leaves and small yellow flowers with purple spots. The distinctive fruit is a round, golden-orange berry about ½ inch in diameter, enclosed in a papery, lantern-shaped husk (calyx) that turns tan-brown when fully ripe. Related to tomatillos and ground cherries — the husk is a universal identifier for this genus.",
+          "tips": [
+            "The papery lantern husk is unmistakable — no dangerous species in Hawaii resembles this.",
+            "Ripe berries inside the husk are bright orange-gold; green berries are not yet ready."
+          ]
+        },
+        {
+          "heading": "Where & When",
+          "body": "Found at higher elevations around Waimea, the Kohala uplands, the Kona coffee belt, and Volcano area (1,500–5,000 ft). Grows as a weed in disturbed areas, roadsides, pasture edges, and abandoned farm fields. Plants fruit nearly continuously in suitable climate. Peak production in cooler months (October–March) in upcountry areas.",
+          "tips": [
+            "Waimea (Kamuela) area roads have abundant roadside poha — look near the highway shoulders.",
+            "Ripe husks turn from green to tan-brown and fall from the plant; collect from the ground too."
+          ]
+        },
+        {
+          "heading": "Harvest & Preparation",
+          "body": "Pick fruit when the husk is dry and papery (tan-brown), indicating ripeness. Peel back and discard the husk. Rinse the sticky, shiny berry in cool water. Taste — ripe poha should be sweet-tart with a complex tropical flavor. Poha keeps 1–2 weeks at room temperature in the husk; store dehusked in the refrigerator up to 2 weeks.",
+          "tips": [
+            "The husk acts as a natural protective wrapper — berries keep longer left in the husk.",
+            "Slightly underripe poha (pale yellow rather than deep orange) works well for jam — more pectin."
+          ]
+        },
+        {
+          "heading": "Preservation",
+          "body": "Poha's concentrated flavor and natural pectin make it ideal for preserves: (1) Poha jam — cook with sugar and lemon juice; no commercial pectin needed if some underripe berries are included; water bath can 10 minutes in half-pint jars. (2) Dried poha — dry whole at 135°F 18–24 hours; they shrink dramatically and intensify like raisins; excellent for trail mix and baking. (3) Poha syrup — cook down with sugar and water, strain, water bath can or refrigerate. (4) Freeze whole — spread on a sheet pan, freeze, then bag; preserves flavor well for baking. (5) Poha vinegar — ferment with raw apple cider vinegar as a starter.",
+          "tips": [
+            "Poha jam is one of the most unique and locally prized products you can make in West Hawaii.",
+            "Dried poha rivals golden raisins for sweetness and surpasses them for complexity."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hawaii-kukui",
+      "name": "Kukui / Candlenut (Aleurites moluccanus)",
+      "category": "Hawaii Foraging",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "Kukui (candlenut) is the official state tree of Hawaii — a silver-leafed, fast-growing tree found in gulches and valleys throughout the islands. The oily nut is an important condiment in Hawaiian cuisine (inamona) — roasted and mixed with salt to season poke and traditional dishes. Every part of the tree has traditional uses.",
+      "difficulty": "intermediate",
+      "time_estimate": "",
+      "safety_notes": "Raw kukui nuts are TOXIC — they contain a powerful purgative oil and should never be eaten raw. The nut must be roasted (charred) before consumption in small quantities. Roasted kukui is a condiment, not a snack — consume only small amounts (1–4 nuts per serving). Excessive quantities cause severe gastrointestinal distress even after roasting.",
+      "source": "University of Hawaii CTAHR; traditional Hawaiian use",
+      "wikipedia_title": "Aleurites_moluccanus",
+      "sections": [
+        {
+          "heading": "Identification",
+          "body": "A large, fast-growing tree (30–60 ft) most easily identified by its distinctive silvery-grey foliage — the leaves have a pale, almost metallic appearance due to fine hairs. Leaves are maple-shaped, 3–5 lobed. Fruit is a round, green, fleshy drupe 1.5–2 inches across, containing 1–2 hard-shelled round nuts inside a very hard brown shell. Trees often seen in gulches, roadsides, and mesic forest.",
+          "tips": [
+            "The silvery, pale grey-green foliage is visible from a distance and makes kukui easy to spot from a car.",
+            "Look for fallen green husks and cracked brown nuts on the ground beneath the tree."
+          ]
+        },
+        {
+          "heading": "Where & When",
+          "body": "Common in gulches and stream valleys throughout West Hawaii at lower to mid elevations. Concentrated along the deep gulches of North and South Kona. Widely planted as an ornamental. Nuts fall year-round but are most abundant in fall and winter. The silvery canopy is visible in most valleys on the western slope of Mauna Loa.",
+          "tips": [
+            "The gulches of Keei, Napoopoo, and Kealakekua have abundant wild kukui.",
+            "Collect nuts from the ground — the outer fleshy husk should be rotted away to expose the brown shell."
+          ]
+        },
+        {
+          "heading": "Processing (Inamona)",
+          "body": "Crack the extremely hard shell with a hammer or nutcracker to extract the oily white kernel. Traditional inamona preparation: (1) Roast kernels in a dry pan over medium heat, stirring constantly, until dark brown to charred on the outside — 10–15 minutes. (2) Cool completely. (3) Chop finely or pound in a mortar with Hawaiian sea salt to a coarse paste. (4) Taste — it should be rich, bitter-umami, and savory. Use as a condiment for poke, poi, raw fish, and vegetables in very small amounts (¼–½ teaspoon per serving).",
+          "tips": [
+            "Cracking kukui shells requires significant force — a bench vise or a heavy hammer on a concrete surface.",
+            "The charring is essential — it neutralizes the purgative compounds while developing umami flavor.",
+            "Inamona freezes well — make a batch and freeze in a small jar."
+          ]
+        },
+        {
+          "heading": "Preservation",
+          "body": "Raw kernels: shell and store raw kernels in the freezer for up to 1 year — they are extremely oily and go rancid quickly at room temperature. Inamona (roasted and salted): store in the freezer in a sealed jar for up to 6 months; refrigerator up to 4 weeks. Do not water bath or pressure can inamona — it is a high-fat product unsuitable for canning. The shell and outer husk have no edible preservation uses but historically were used as candles (hence 'candlenut').",
+          "tips": [
+            "Always store any kukui product cold — the high oil content causes rancidity at room temperature within days.",
+            "Label kukui products clearly — the raw nut and the roasted nut look similar but have very different safety profiles."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hawaii-noni",
+      "name": "Noni (Morinda citrifolia)",
+      "category": "Hawaii Foraging",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "Noni is a Polynesian canoe plant with a long history of medicinal and food use in Hawaii. The lumpy, pale yellow-white fruit has a famously pungent odor when ripe — often described as overripe cheese or a gym locker — but it has been used as a food of last resort and as a source of juice and medicine for centuries. Noni juice is now a commercial health product.",
+      "difficulty": "beginner",
+      "time_estimate": "",
+      "safety_notes": "Noni is generally safe for healthy adults in moderate amounts. High doses of noni juice may interact with blood thinners (warfarin) and some medications. People with kidney disease should avoid it — noni is high in potassium. The strong odor is off-putting but not a safety indicator. Pregnant women should consult a physician before consuming noni.",
+      "source": "University of Hawaii CTAHR; traditional Hawaiian use",
+      "wikipedia_title": "Morinda_citrifolia",
+      "sections": [
+        {
+          "heading": "Identification",
+          "body": "A small evergreen tree or shrub (10–20 ft) with very large, shiny, dark green, prominently veined oval leaves. Flowers are small and white, emerging from a oval bumpy fruit structure (the syncarps). Fruit is distinctive: oval, 2–4 inches, covered in irregular polygonal segments (like a lumpy pineapple), pale green turning yellowish-white when ripe. When fully ripe the fruit becomes translucent and soft with a strong, distinctive fermented cheese odor.",
+          "tips": [
+            "The large, glossy, quilted leaves and the uniquely textured pale fruit make noni unmistakable.",
+            "The smell of a ripe noni is quite strong — experienced foragers can smell a tree in fruit from downwind."
+          ]
+        },
+        {
+          "heading": "Where & When",
+          "body": "Common throughout coastal West Hawaii below 1,500 feet elevation — in lava fields, coastal scrub, roadsides, parks, and disturbed areas. Often seen growing in pure lava with minimal soil. Fruits continuously year-round. One of the few fruit trees that tolerates the harsh dry coastal conditions of the Kona and Kohala lowlands.",
+          "tips": [
+            "Noni thrives in the lava fields where little else grows — it's common along the Queen K Highway corridor.",
+            "Ripe fruit falls from the tree and can be collected from the ground."
+          ]
+        },
+        {
+          "heading": "Harvest & Edible Parts",
+          "body": "Harvest when the fruit is translucent and pale, just beginning to soften — or collect fallen fruit. The smell intensifies dramatically as it ripens. The flesh and juice are edible; seeds are large and not typically consumed. Many people prefer to blend ripe noni with other juices (pineapple, lilikoi) to make the flavor more palatable.",
+          "tips": [
+            "If you are new to noni, start with a small amount mixed into juice — the flavor is an acquired taste.",
+            "The smell is strongest in the skin; some prefer to squeeze the juice through a cloth to separate it."
+          ]
+        },
+        {
+          "heading": "Preservation",
+          "body": "Traditional Hawaiian preservation of noni: (1) Fermented noni juice — place ripe fruit in a covered glass jar, the juice seeps out naturally over 4–8 weeks; strain and bottle; traditional medicinal use. (2) Dried noni slices — slice and dehydrate at 135°F 12–18 hours; the odor diminishes significantly when dried; store in airtight container. (3) Noni juice frozen in ice cube trays — blend ripe fruit with a little water, strain, freeze; add cubes to smoothies. (4) Noni-infused vinegar — place in apple cider vinegar for 4–6 weeks, strain, use as a health tonic.",
+          "tips": [
+            "Fermented noni juice is the traditional method — the fermentation process mellows the flavor somewhat.",
+            "Freeze fresh noni juice immediately if you want to preserve the fresh taste rather than fermented."
+          ]
+        }
+      ]
+    }
+  ]
+}

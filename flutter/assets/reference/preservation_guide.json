@@ -1,0 +1,725 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "id": "dehydrating-principles",
+      "name": "Principles of Food Dehydration",
+      "category": "Dehydrating",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "Dehydration preserves food by removing water to levels where microbial activity and enzymatic reactions cannot proceed. Water activity (aw) must drop below 0.60 for shelf-stable safety. Properly dried and stored food can last 6 months to several years depending on the food and packaging.",
+      "difficulty": "beginner",
+      "time_estimate": "Varies by food and method",
+      "safety_notes": "Water activity must reach below 0.60. Never rely on appearance alone — mold can still grow on improperly dried foods. Condition all dried foods before long-term storage to detect residual moisture.",
+      "source": "USDA",
+      "sections": [
+        {
+          "heading": "How Dehydration Preserves Food",
+          "body": "Microorganisms — bacteria, molds, and yeasts — require water to grow and reproduce. Removing water from food drops its water activity (aw), a measure of the available water, to levels where these organisms cannot survive. Most bacteria are inhibited below aw 0.91, most molds below 0.80, and xerophilic molds and osmophilic yeasts below 0.60. The target for shelf-stable dehydrated food is aw below 0.60. Additionally, enzymes that cause browning and off-flavors are slowed by low moisture, though blanching is often needed to inactivate them fully in vegetables.",
+          "tips": [
+            "Low water activity is the true safety metric, not dryness by touch alone.",
+            "Blanching vegetables before drying inactivates enzymes that cause quality loss during storage."
+          ]
+        },
+        {
+          "heading": "Water Activity and Safety",
+          "body": "Water activity (aw) differs from moisture content. A food can feel dry but still have enough water activity to support mold growth. Properly dried fruits should reach aw 0.60 or below; jerky and other meat products must reach this level and also be heated to 160°F internally to destroy pathogens. High-sugar foods like dried fruits naturally suppress aw through solute binding, which is why they achieve lower aw at higher moisture content than vegetables. Use of oxygen absorbers further inhibits aerobic mold even if aw is slightly above ideal.",
+          "tips": [
+            "Home water activity meters (around $300–$500) exist but are not required for most home dehydrating.",
+            "When in doubt, dry longer — slightly over-dried food loses some quality but is safer."
+          ]
+        },
+        {
+          "heading": "Equipment Options",
+          "body": "Electric dehydrators are the most reliable option for home use. They provide consistent heat (125–165°F) and airflow, are purpose-built for the task, and typically have stackable trays. Oven drying uses a kitchen oven set to its lowest setting (usually 170°F), with the door propped open 2–3 inches to allow moisture to escape — this wastes energy and is harder to control. Solar drying is viable only in low-humidity climates such as the American Southwest; high humidity prevents adequate moisture removal and creates contamination risk from insects and dust. Solar drying should only be attempted when daytime humidity is consistently below 60% and temperatures are above 85°F.",
+          "tips": [
+            "Dehydrators with horizontal airflow (rear-mounted fan) dry more evenly than top- or bottom-mounted models.",
+            "A digital thermometer confirms your dehydrator's actual chamber temperature — many run hotter or cooler than labeled."
+          ]
+        },
+        {
+          "heading": "Temperature Guidelines",
+          "body": "Different foods require different drying temperatures. Herbs and flowers: 95–115°F (low heat preserves volatile oils). Fruits and vegetables: 125–135°F (higher temp would case-harden the outside before interior dries). Meat and jerky: 160–165°F throughout the entire drying time to ensure pathogen destruction. Do not start meat at a low temperature and raise it later — pathogens must be destroyed early in the process when surface moisture is still present. Vegetables dry at 125°F; slightly lower than fruits because their lower sugar content means there is less risk of case-hardening.",
+          "tips": [
+            "Case-hardening (a dried crust that traps interior moisture) results from too-high temperature early in drying.",
+            "Use the dehydrator's highest setting for meat, not the fruit/vegetable setting."
+          ]
+        },
+        {
+          "heading": "Conditioning and Storage",
+          "body": "Conditioning is a critical step that equalizes residual moisture among pieces and reveals any inadequately dried food. After drying and cooling, loosely pack food in a clear glass jar to about two-thirds full. Seal and let sit for 7 days at room temperature, shaking once daily. If moisture droplets appear on the glass or food pieces stick together, the food must be returned to the dehydrator for additional drying. Once conditioning is complete, pack food in airtight containers — glass jars, mylar bags, or vacuum-sealed bags — and store in a cool, dark location. Oxygen absorbers further extend shelf life by preventing oxidative rancidity and inhibiting aerobic molds.",
+          "tips": [
+            "Skip conditioning at your peril — visible mold growth on 'dry-feeling' food is not uncommon without this step.",
+            "Vacuum sealing after conditioning significantly extends shelf life compared to standard jar storage."
+          ]
+        },
+        {
+          "heading": "Rehydration",
+          "body": "Most dehydrated foods rehydrate well in warm or hot water. Vegetables typically rehydrate in 30–60 minutes in hot water or can be added directly to soups and stews where they will absorb cooking liquid. Fruits rehydrate in cold water in 30 minutes to a few hours; hot water speeds this but can make textures mushy. Use only as much water as the food will absorb — excess water leaches nutrients and flavor. Fruits and vegetables never fully return to fresh texture due to cell wall damage during drying, but rehydration is excellent for cooking applications. Freeze-dried foods (a separate process) rehydrate far more completely.",
+          "tips": [
+            "Add dried vegetables directly to soups without pre-rehydrating — they absorb broth and need no extra dishes.",
+            "Powdered dried vegetables (ground in a blender) dissolve instantly in liquids and are great for sauces."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dehydrating-fruits",
+      "name": "Dehydrating Fruits",
+      "category": "Dehydrating",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "Fruits are among the easiest foods to dehydrate at home, and most require only simple preparation such as slicing and optional pre-treatment to prevent browning. Finished dried fruit is naturally sweet, portable, and shelf-stable for 6–12 months in proper storage. Drying times vary widely based on fruit type, slice thickness, and equipment.",
+      "difficulty": "beginner",
+      "time_estimate": "6–36 hours",
+      "safety_notes": "Pre-treat light-colored fruits with ascorbic acid or lemon juice to prevent browning. Ensure fruit is dried to a leathery, pliable texture with no sticky wet spots — residual moisture will cause mold.",
+      "source": "USDA",
+      "sections": [
+        {
+          "heading": "Preparation and Pre-Treatment",
+          "body": "Most fruits need only washing, peeling (if desired), pitting, and slicing before dehydrating. Cut fruit into uniform slices — typically 1/4 to 3/8 inch thick — so all pieces finish at the same time. Pre-treatment prevents enzymatic browning in light-colored fruits such as apples, pears, peaches, and apricots. Dip cut fruit for 1–2 minutes in a solution of 1 teaspoon ascorbic acid (vitamin C powder) per cup of water, or in a 1:1 mixture of bottled lemon juice and water. Drain well before placing on trays. Commercially prepared dips (Fruit-Fresh) are ascorbic acid blends and work equally well. Blanching is optional for some fruits and softens the skin to speed drying.",
+          "tips": [
+            "Ascorbic acid solution is more effective at preventing browning than lemon juice alone.",
+            "Slice uniformly — a mandoline slicer produces consistent thickness that dries evenly."
+          ]
+        },
+        {
+          "heading": "Slicing for Even Drying",
+          "body": "Uniform slice thickness is the single most important preparation step for even drying. Pieces that are too thick will still be moist inside when the outside is done; pieces that are too thin will over-dry and become brittle. A general target of 1/4 inch (6mm) works for most fruits. Small berries and cherries can be left whole but should be halved or scored to break the skin and allow moisture to escape. Grapes for raisins should be left whole or halved — whole grapes take 24–48 hours. Arrange pieces in a single layer on dehydrator trays without overlapping; touching pieces can fuse together and create wet spots.",
+          "tips": [
+            "Rotate trays every 4–6 hours if your dehydrator has uneven airflow.",
+            "Berries dehydrate faster when halved or quartered."
+          ]
+        },
+        {
+          "heading": "Temperature and Time Reference",
+          "body": "All fruits dehydrate at 135°F. Times below are for 1/4-inch slices unless noted. Apples: 6–12 hours, leathery texture. Apricots (halved): 12–18 hours, pliable. Bananas (1/4-inch rounds): 8–12 hours, leathery. Berries — blueberries, raspberries, strawberries (halved): 12–24 hours depending on size. Cherries (pitted and halved): 12–24 hours. Figs (halved): 12–24 hours, pliable. Grapes/raisins (whole): 24–48 hours. Mangoes (1/4-inch slices): 8–12 hours. Peaches and nectarines (1/4-inch slices): 8–16 hours. Pears (1/4-inch slices): 8–16 hours. Plums/prunes (halved): 12–18 hours. Strawberries (halved): 8–16 hours. These times assume a properly calibrated dehydrator; oven drying takes similar time but is harder to regulate.",
+          "tips": [
+            "Check fruits at the low end of the time range; over-drying makes them brittle but is still safe.",
+            "High-sugar fruits like figs and grapes will remain tacky even when fully dry — this is normal."
+          ]
+        },
+        {
+          "heading": "Doneness Test",
+          "body": "Properly dried fruit should be leathery and pliable — it bends without breaking and springs back. It should have no wet or sticky interior when you tear a piece in half. High-sugar fruits (figs, grapes, dates) will feel slightly tacky on the surface even when adequately dried; this is normal because the sugar is hygroscopic. Let a few pieces cool to room temperature before testing — warm fruit always feels softer and more pliable than cooled fruit. If you cut a piece open and see glistening moisture, it needs more time. Conduct a conditioning test (7 days in a sealed jar) before committing to long-term storage.",
+          "tips": [
+            "Always test fruit at room temperature, not while still warm from the dehydrator.",
+            "When in doubt, dry an additional 1–2 hours — slight over-drying is far safer than under-drying."
+          ]
+        },
+        {
+          "heading": "Storage Life",
+          "body": "Properly dried and conditioned fruit stored in airtight containers at cool temperatures (below 60°F) will last 6–12 months at good quality. Vacuum-sealed dried fruit in glass jars or mylar bags can retain acceptable quality for 1–2 years. Refrigerating or freezing dried fruit extends life further — freezing does not harm dried fruit. Exposure to heat, light, and oxygen degrades color, flavor, and nutrient content even without causing safety concerns. Label all containers with the food name and drying date. Do not store with strongly aromatic foods, as dried fruits readily absorb off-flavors.",
+          "tips": [
+            "Mylar bags with oxygen absorbers are ideal for long-term bulk storage.",
+            "Glass mason jars sealed with oxygen absorbers are a practical option for smaller quantities."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dehydrating-vegetables",
+      "name": "Dehydrating Vegetables",
+      "category": "Dehydrating",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "Most vegetables require blanching before dehydrating to inactivate enzymes that cause off-flavors and color loss during storage. Vegetables are dried at 125°F to a crisp or brittle texture and rehydrate well in soups, stews, and hot water. Properly dried vegetables store for 6–12 months in airtight containers.",
+      "difficulty": "beginner",
+      "time_estimate": "4–16 hours",
+      "safety_notes": "Blanch all starchy and high-enzyme vegetables before drying. Dry vegetables to a crisp or brittle texture — pliable vegetables retain too much moisture for safe storage. Never dry low-acid vegetables at temperatures below 125°F.",
+      "source": "USDA",
+      "sections": [
+        {
+          "heading": "Blanching First",
+          "body": "Unlike fruits, most vegetables must be blanched — briefly boiled or steamed — before dehydrating. Blanching inactivates enzymes (peroxidase and catalase) that cause undesirable color changes, off-flavors, and nutrient loss during storage. Without blanching, dried vegetables develop poor color and flavor even if they appear dry. Steam blanching is preferred over water blanching because it leaches fewer water-soluble vitamins. To steam blanch, place vegetables in a single layer in a steam basket over boiling water, cover, and time from when steam resumes. Immediately cool blanched vegetables in ice water to stop cooking, drain thoroughly, and proceed to drying.",
+          "tips": [
+            "Steam blanching retains more nutrients than water blanching.",
+            "Under-blanching (insufficient time) is worse than no blanching — it activates rather than inactivates enzymes."
+          ]
+        },
+        {
+          "heading": "Why Vegetables Differ from Fruits",
+          "body": "Fruits contain natural acids and sugars that suppress microbial growth and slow enzymatic browning, making them more forgiving to dry without pre-treatment. Vegetables are generally low-acid and low-sugar, so they rely entirely on low water activity for preservation. Their starchier cell structure also requires complete drying to a crisp or brittle texture — unlike fruit's leathery target. The presence of active enzymes in unblanched vegetables will cause them to develop musty, off-flavors within a few weeks of storage regardless of how dry they are. Vegetables like tomatoes and peppers are exceptions — their acidity and softer structure mean they can be dried without blanching.",
+          "tips": [
+            "High-starch vegetables (potatoes, corn) need the longest blanching times to inactivate enzymes fully.",
+            "Tomatoes and peppers can skip blanching due to their acidity."
+          ]
+        },
+        {
+          "heading": "Temperature and Time Reference",
+          "body": "All vegetables dehydrate at 125°F unless noted. Doneness texture listed after time. Beans (green, cut): steam blanch 4 min, 8–10 hours, crisp/brittle. Beets (cooked until tender, then sliced): 8–10 hours, leathery to crisp. Broccoli (florets): steam blanch 3 min, 8–12 hours, crisp. Carrots (sliced): steam blanch 3 min, 8–12 hours, crisp/brittle. Celery (sliced): no blanch, 6–10 hours, crisp. Corn (kernels): steam blanch 2–3 min, 6–8 hours, dry/brittle. Garlic (thin slices): no blanch, 125°F, 6–8 hours, crisp. Mushrooms (sliced): no blanch, 125°F, 6–10 hours, crisp to leathery. Onions (rings or diced): no blanch, 125°F, 6–10 hours, crisp. Peas (shelled): steam blanch 2 min, 8–10 hours, wrinkled/hard. Peppers — bell or hot (sliced or diced): no blanch, 125°F, 8–12 hours, leathery to crisp. Potatoes (sliced 1/8 inch): steam blanch 6–8 min, 125°F, 6–8 hours, brittle. Tomatoes (sliced 1/4 inch): no blanch, 135°F, 8–16 hours, leathery or chip-like. Zucchini (sliced 1/4 inch): no blanch, 125°F, 6–10 hours, crisp to brittle.",
+          "tips": [
+            "Dried garlic and onions grind easily into powder in a spice grinder.",
+            "Dried tomatoes become chip-like when sliced thin — cut thicker for leathery sun-dried style."
+          ]
+        },
+        {
+          "heading": "Reconstitution",
+          "body": "Dried vegetables rehydrate best in hot water — typically 30–60 minutes depending on the vegetable and cut size. Use just enough water to cover, as excess water dilutes flavor and leaches nutrients. Alternatively, add dried vegetables directly to soups, stews, chilis, or sauces where they will absorb cooking liquid during the cooking process — this is the most nutrient-efficient method. Coarser vegetables like carrots, potatoes, and green beans need 30–45 minutes of simmering to fully rehydrate and soften. Onion, garlic, celery, and mushroom powders (ground from dried pieces) dissolve instantly in liquids and are excellent flavor additions without any pre-rehydration needed.",
+          "tips": [
+            "Add dried vegetables to soups at the start of cooking for best texture.",
+            "Avoid soaking dried vegetables in cold water for more than 2 hours to prevent microbial issues."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dehydrating-jerky",
+      "name": "Making Jerky",
+      "category": "Dehydrating",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "Jerky is dried and preserved meat that requires careful attention to food safety because standard dehydrator temperatures may not reliably reach the internal meat temperature needed to destroy pathogens. The USDA recommends reaching 160°F (poultry: 165°F) in the meat itself, not just the drying chamber. Properly made jerky lasts 1–2 months at room temperature or up to 6 months refrigerated.",
+      "difficulty": "intermediate",
+      "time_estimate": "4–8 hours",
+      "safety_notes": "CRITICAL: Dehydrators often cannot guarantee internal meat temperatures sufficient to destroy Salmonella, E. coli O157:H7, and other pathogens. The USDA recommends heating meat to 160°F (poultry 165°F) — either in the oven before drying, or after drying. Do not skip this step. Marinating does not make meat safe.",
+      "source": "USDA FSIS",
+      "sections": [
+        {
+          "heading": "Meat Safety (Critical)",
+          "body": "The most important safety principle for jerky: a dehydrator maintaining 160°F chamber temperature does not guarantee that the meat's interior reaches 160°F, particularly during the early stages of drying when evaporative cooling keeps meat cooler. The USDA recommends two safe approaches. Option 1 (pre-heating): heat raw marinated meat strips in a 275°F oven for 10 minutes before placing in the dehydrator — this ensures the internal temperature reaches 160°F. Option 2 (post-heating): finish the dried jerky in a 275°F oven for 10 minutes after dehydrating. Acid marinades (vinegar, citrus) reduce surface bacteria but do not eliminate internal contamination and should not be relied upon as a safety control.",
+          "tips": [
+            "An instant-read meat thermometer inserted into the thickest piece confirms the 160°F target was met.",
+            "The post-heat method (after drying) is easier and does not affect the drying process."
+          ]
+        },
+        {
+          "heading": "Selecting Meat",
+          "body": "Choose lean cuts — fat does not dehydrate and will turn rancid during storage, drastically shortening shelf life. For beef, eye of round, top round, bottom round, and flank steak are ideal. For turkey, turkey breast is the standard choice. Trim all visible fat before slicing. Partially freeze meat (1–2 hours in the freezer) to make uniform slicing easier. Slice against the grain for tender jerky or with the grain for chewier texture, both at 1/4 inch thickness. Pre-sliced jerky cuts are available at some butcher counters and are a time-saving option.",
+          "tips": [
+            "Partially frozen meat slices far more cleanly and uniformly than fully thawed.",
+            "Ask a butcher to run the meat through a slicer — this guarantees consistent 1/4-inch thickness."
+          ]
+        },
+        {
+          "heading": "Preparation and Marinating",
+          "body": "Marinating adds flavor and some surface antimicrobial effect from salt, acid, and sugar, but does not replace thermal processing. A basic jerky marinade includes soy sauce (provides salt and umami), Worcestershire sauce, garlic powder, black pepper, and optional liquid smoke. Marinate meat strips in the refrigerator — never at room temperature — for 6–24 hours. Longer marinating increases flavor penetration. After marinating, blot strips dry with paper towels before placing on dehydrator trays; wet surfaces slow initial drying and can cause uneven results. Arrange strips in a single layer with no overlapping.",
+          "tips": [
+            "Add red pepper flakes, brown sugar, or smoked paprika to vary flavor profiles.",
+            "Blotting meat dry before loading speeds up the first hours of drying significantly."
+          ]
+        },
+        {
+          "heading": "Pre-Heating Option",
+          "body": "The pre-heat method: after marinating and blotting, arrange meat strips on a baking rack over a rimmed baking sheet. Place in an oven preheated to 275°F and heat for 10 minutes. Use an instant-read thermometer to confirm the thickest piece has reached 160°F internally. Transfer the hot meat directly to the dehydrator trays and begin drying at 160°F. This step adds minimal time and guarantees pathogen destruction before drying begins. It does not meaningfully change the final texture of the jerky.",
+          "tips": [
+            "Meat shrinks noticeably during the oven pre-heat — this is normal and expected.",
+            "Work quickly when transferring from oven to dehydrator to maintain heat."
+          ]
+        },
+        {
+          "heading": "Dehydration Temperature",
+          "body": "Dehydrate jerky at 160°F (or the highest setting your dehydrator allows). Do not use the fruit/vegetable temperature of 125–135°F for meat. Total drying time depends on meat thickness, dehydrator model, and moisture content of the meat, typically 4–8 hours. Thicker strips take longer. Do not open the dehydrator repeatedly during the first 2 hours — doing so releases accumulated heat and extends drying time significantly. Begin checking for doneness at 4 hours by removing a test piece, letting it cool, and bending it.",
+          "tips": [
+            "Rotate trays halfway through if your dehydrator has uneven airflow.",
+            "If using a post-heat method, dehydrate at 160°F and then finish in oven — do not lower the dehydrator temp."
+          ]
+        },
+        {
+          "heading": "Testing for Doneness",
+          "body": "Allow a test piece to cool completely to room temperature before checking — hot jerky will feel more pliable than it actually is. Properly finished jerky bends and shows slight cracking along the bend but does not snap cleanly in two; it has no soft or spongy spots; and it shows white fibers when bent (indicating dryness). If jerky snaps cleanly, it is over-dried but still safe and edible. If it bends without cracking and feels moist, it needs more time. There should be no glistening moisture on the surface when cool.",
+          "tips": [
+            "The 'bend test' is reliable: good jerky bends and cracks but doesn't snap.",
+            "Test multiple pieces from different trays — thicker pieces always take longer."
+          ]
+        },
+        {
+          "heading": "Storage",
+          "body": "Jerky cooled to room temperature should be conditioned in a sealed jar for several days before final packaging, though this step is less critical than for fruits and vegetables because the post-heat step ensures safety. Store in airtight containers — vacuum-sealed bags are ideal. At room temperature, properly dried jerky lasts 1–2 months. Refrigerated, it lasts 3–6 months. Frozen, it lasts up to 1 year. Commercial jerky uses oxygen absorbers and nitrogen flushing, which extends shelf life beyond home methods. Do not store jerky in warm conditions; fat rancidity (if any fat was present) accelerates dramatically with heat.",
+          "tips": [
+            "Refrigerate homemade jerky if you plan to keep it more than 2 weeks.",
+            "Vacuum sealing removes the oxygen that drives both oxidation and aerobic mold growth."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dehydrating-herbs",
+      "name": "Drying Herbs",
+      "category": "Dehydrating",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "Herbs are among the simplest foods to preserve by drying, and dried herbs retain their culinary value for 1–3 years when stored properly. Low-moisture herbs like rosemary and thyme air-dry successfully, while high-moisture herbs like basil and parsley benefit from dehydrator drying at low temperatures to preserve color and volatile oils.",
+      "difficulty": "beginner",
+      "time_estimate": "1–4 hours (dehydrator) or 1–2 weeks (air drying)",
+      "safety_notes": "Herbs are low-risk foods with no significant pathogen concerns when properly dried. The main quality concern is volatile oil loss from excessive heat — keep temperatures at or below 115°F.",
+      "source": "USDA",
+      "sections": [
+        {
+          "heading": "Harvesting",
+          "body": "Harvest herbs at the right time to maximize their flavor and aromatic oil content. For leafy herbs, harvest just before flowering — once a plant flowers (bolts), the leaves become more bitter and less aromatic as the plant redirects energy to seed production. Harvest in the morning after dew has dried but before the heat of the day causes volatile oils to evaporate. For best results, cut stems to just above a leaf node to encourage continued plant growth. Rinse lightly if needed to remove dirt or insects, and shake off excess water or pat dry before drying. Avoid harvesting wilted or yellowing leaves.",
+          "tips": [
+            "Pinching off flower buds as they appear extends the leafy harvest period.",
+            "Early morning harvest captures peak essential oil content."
+          ]
+        },
+        {
+          "heading": "Air Drying vs Dehydrator",
+          "body": "Low-moisture woody herbs with naturally low water content — rosemary, thyme, sage, oregano, marjoram, and lavender — air-dry beautifully. Bundle 4–6 stems together, secure with a rubber band, and hang upside down in a warm (70–80°F), dry, well-ventilated, dark location. Darkness prevents chlorophyll degradation. These herbs are typically fully dry in 1–2 weeks. High-moisture tender herbs — basil, parsley, cilantro, mint, tarragon, and dill — contain more water and often turn black or brown when air-dried because the drying process is too slow and enzymes have time to act. These are best dried in a dehydrator at 95–115°F, which preserves their green color and aroma. Microwave drying also works for small quantities of high-moisture herbs in 1–3 minute bursts.",
+          "tips": [
+            "A paper bag loosely tied over the herb bundle catches any falling leaves and blocks light.",
+            "Basil dried at even 125°F will turn noticeably darker — keep it at 95–100°F."
+          ]
+        },
+        {
+          "heading": "Temperature for Herbs",
+          "body": "Herbs contain volatile aromatic compounds (terpenes, alcohols, esters) that evaporate at elevated temperatures, reducing the culinary intensity of the dried product. Use the lowest effective drying temperature: 95–115°F for tender high-moisture herbs, and up to 115°F for woody herbs in a dehydrator. At 125°F and above, significant volatile oil loss occurs and color degradation accelerates. Commercial herb drying is often done at even lower temperatures with higher airflow to compensate for reduced heat. Dehydrator drying at 95–115°F takes 1–4 hours depending on the herb — check every 30–60 minutes after the first hour.",
+          "tips": [
+            "Strip leaves from stems before dehydrating to reduce drying time.",
+            "Spread leaves in a single layer — they shrink substantially during drying."
+          ]
+        },
+        {
+          "heading": "Storage",
+          "body": "Herbs are done drying when they crumble to a powder between your fingers rather than bending or feeling soft. Stems of woody herbs should snap crisply. Let herbs cool completely before storage. Store in sealed glass containers — amber or opaque glass is ideal; clear glass should be kept in a dark cupboard. Keep whole leaves and store in the container rather than crushing immediately — volatile oils escape faster from crushed or powdered herbs. Label with herb name and date. Dried herbs in proper storage retain good quality for 1–3 years, though intensity decreases gradually over time. Do not store near heat sources (stove, oven) or in direct sunlight.",
+          "tips": [
+            "Crumble or grind dried herbs just before use for maximum flavor intensity.",
+            "The 'crush and sniff' test: if a dried herb has little scent, its culinary potency is gone — replace it."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "curing-principles",
+      "name": "Principles of Curing and Smoking",
+      "category": "Smoking & Curing",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "Curing and smoking are ancient preservation methods that rely on salt, nitrates, smoke compounds, and heat to preserve meat and fish. Hot smoking cooks food as it smokes and is relatively forgiving; cold smoking does not cook and requires rigorous curing with nitrates to prevent botulism. Understanding the difference is essential for safe home food preservation.",
+      "difficulty": "intermediate",
+      "time_estimate": "Varies widely by method and product",
+      "safety_notes": "CRITICAL: Cold smoking (below 90°F) does NOT cook food and creates serious botulism risk without proper curing with nitrates. Never cold-smoke uncured meat or fish. Hot smoking must reach proper internal temperatures. Always use food-grade curing salts (Prague Powder #1 or #2) — never substitute iodized table salt.",
+      "source": "USDA FSIS",
+      "sections": [
+        {
+          "heading": "How Curing Preserves",
+          "body": "Curing uses salt as its primary preservation mechanism. Salt (sodium chloride) draws water out of meat cells by osmosis, reducing water activity and creating an environment hostile to most spoilage organisms and pathogens. Salt also denatures surface proteins, forming a protective pellicle. Sugar (when used) feeds beneficial bacteria in fermentation-based cures and counterbalances the harshness of salt. In extended cures, nitrates and nitrites provide additional protection specifically against Clostridium botulinum, the bacterium responsible for botulism — a toxin that can form in low-oxygen, low-acid, moderate-temperature environments, exactly the conditions found in a dense piece of curing meat.",
+          "tips": [
+            "Salt alone cannot reliably prevent botulism in thick, dense cuts — nitrates are required for whole muscle cures longer than 24 hours.",
+            "Curing fundamentally changes meat texture: proteins denature and moisture redistributes, firming the product."
+          ]
+        },
+        {
+          "heading": "Salt and Nitrates",
+          "body": "Curing salts (commonly called pink salt, Prague Powder, or Instacure) are mixtures of salt and sodium nitrite (Prague Powder #1, for short-term cures and hot-smoked products) or sodium nitrate plus nitrite (Prague Powder #2, for long-term dry-cured products like salami and prosciutto). The pink color is a dye to distinguish them from table salt — they are toxic in large quantities and must be used in precise amounts only. Prague Powder #1 contains 6.25% sodium nitrite; typical usage is 1 teaspoon per 5 pounds of meat. Prague Powder #2 is for products that cure for weeks to months, as the nitrate slowly converts to nitrite over time. Never use these products interchangeably. Sodium nitrite inhibits botulinum toxin production and also produces the characteristic pink color of cured meats.",
+          "tips": [
+            "Prague Powder #1 (6.25% sodium nitrite): use for short cures, hot-smoked products, and wet brines.",
+            "Prague Powder #2: use only for long dry-cured products that will not be cooked — never heat Prague Powder #2 products."
+          ]
+        },
+        {
+          "heading": "Smoking Overview",
+          "body": "Hot smoking operates at chamber temperatures of 180–275°F, which both flavors and cooks the food simultaneously. The internal temperature of the food must still reach USDA-safe minimums: 145°F for whole cuts of beef, pork, lamb; 160°F for ground meats; 165°F for all poultry. Cold smoking operates at below 90°F (typically 60–80°F) and is used to impart smoke flavor without cooking. Cold-smoked products include lox (cold-smoked salmon), cold-smoked bacon, and traditional European sausages. Because cold smoking does not cook, it cannot be relied upon to destroy pathogens — all cold-smoked products must first be cured with adequate salt and nitrates to prevent botulism and other foodborne illness.",
+          "tips": [
+            "The boundary between hot and cold smoking is generally 90°F — below this temperature, no meaningful cooking occurs.",
+            "Warm smoking (90–140°F) is a middle ground used for some fish and poultry; these products also require proper curing."
+          ]
+        },
+        {
+          "heading": "Equipment Overview",
+          "body": "Hot smoking equipment ranges from simple kettle grills with a two-zone fire setup to dedicated barrel smokers, offset smokers, kamado-style grills, pellet grills, and electric smokers. Each has trade-offs in temperature control, fuel cost, and learning curve. For cold smoking, a dedicated cold smoke generator (maze-style pellet smokers, Smoke Chief, or ProQ Cold Smoke Generator) produces smoke without heat and can be attached to an enclosed chamber — even a cardboard box or old refrigerator. Many hobbyists cold-smoke in cool weather (outside temperature below 50°F) to naturally keep chamber temperature low. Thermometers — both chamber and probe — are essential for any serious smoking operation.",
+          "tips": [
+            "An offset smoker requires more fuel management skill; pellet grills automate temperature control.",
+            "A dual-probe thermometer monitoring both chamber and meat temperature is the most important equipment upgrade for beginners."
+          ]
+        },
+        {
+          "heading": "Critical Safety Notes",
+          "body": "Home cold smoking without proper curing and temperature control is one of the higher-risk activities in home food preservation. Botulism toxin is colorless, odorless, and tasteless — contaminated food looks and smells normal. The risk is highest with fish (particularly salmon), poultry, and thick muscle meats held in the temperature danger zone (40–140°F) during prolonged smoking. If you are cold smoking, you must: (1) use an established tested recipe with specific salt and nitrate amounts, (2) maintain chamber temperature below 38°F or above 90°F — never in between for extended periods, (3) cure the product fully before smoking begins. When in doubt, hot smoke. Do not improvise cold-smoking cures without validated recipes from the USDA, NCHFP, or equivalent authorities.",
+          "tips": [
+            "Cold-smoked lox made at home is a legitimate higher-risk food — consider the risk level before serving to immunocompromised individuals, pregnant women, or children.",
+            "If a cold-smoked product smells off, slimy, or unusual — discard it without tasting."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "curing-dry-salt",
+      "name": "Basic Dry Curing (Salt Curing)",
+      "category": "Smoking & Curing",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "Dry curing rubs meat with salt (and optionally sugar, spices, and curing salts) to draw moisture out by osmosis and create a preserved product. Equilibrium curing — using exactly 2.5–3% of the total meat weight in salt — is the most reliable modern method and prevents over-salting. Dry-cured meats can be cold-smoked, cooked, or eaten as-is depending on the product.",
+      "difficulty": "intermediate",
+      "time_estimate": "1–7 days per inch of thickness",
+      "safety_notes": "Use Prague Powder #1 when smoking or storing at room temperature. Use only food-grade non-iodized salt. Cure at refrigerator temperatures (35–40°F) throughout the process. Iodized table salt inhibits desirable microbial activity and can create off-flavors.",
+      "source": "USDA FSIS",
+      "sections": [
+        {
+          "heading": "What Is Dry Curing",
+          "body": "Dry curing is the process of applying a dry mixture of salt, sugar, and optionally spices and curing salts directly to the surface of meat or fish and allowing it to rest, refrigerated, for a period of days. Salt draws moisture from the interior of the meat by osmosis, creating a concentrated brine on the surface that then slowly penetrates inward. This process simultaneously dehydrates, flavors, and preserves the meat. Traditional dry curing (the old-fashioned method) applied salt in excess and relied on the meat drawing it in; modern equilibrium curing applies exactly the needed amount so that the meat absorbs essentially all of the salt applied — a more reliable and less wasteful approach.",
+          "tips": [
+            "Traditional excess-salt curing required desalting before cooking; equilibrium curing does not.",
+            "Dry curing is the foundation of pancetta, guanciale, bresaola, gravlax, and many traditional charcuterie products."
+          ]
+        },
+        {
+          "heading": "Salt Types",
+          "body": "Use only non-iodized salt for curing. Iodine inhibits the activity of beneficial bacteria in fermented cures and can produce off-flavors and a grayish color. Acceptable salts: kosher salt (Diamond Crystal or Morton — note they have different densities, always weigh by grams), sea salt (fine or flaked), and pure curing salt (pink salt / Prague Powder). Do not use table salt (contains iodine and anti-caking agents). When adding Prague Powder #1 for nitrate protection, use 0.25% of total meat weight (approximately 2.75g per kilogram of meat, or follow the 1 tsp per 5 lbs rule). Weigh all ingredients — volume measurements are unreliable for curing.",
+          "tips": [
+            "A digital kitchen scale accurate to 1g is essential for safe equilibrium curing.",
+            "Diamond Crystal kosher salt and Morton kosher salt have very different densities — never substitute by volume."
+          ]
+        },
+        {
+          "heading": "Basic Ratio",
+          "body": "Equilibrium curing formula: salt at 2.5–3% of meat weight, sugar at 1–1.5% (optional), Prague Powder #1 at 0.25% (if curing for smoking or room-temperature storage). Example: for a 1000g (1 kg) pork belly — 25g kosher salt, 10g sugar, 2.5g Prague Powder #1. Mix the dry cure thoroughly before applying. Rub the entire surface of the meat evenly, getting into any folds or pockets. The meat will absorb essentially all of this mixture during curing — it will not over-salt even with extended time.",
+          "tips": [
+            "Increase salt to 3% for thicker cuts that cure longer; 2.5% is fine for thin cuts cured 3 days or less.",
+            "Brown sugar, maple sugar, honey powder, or white sugar all work in equilibrium cures — each adds a different background flavor."
+          ]
+        },
+        {
+          "heading": "The Process",
+          "body": "After applying the cure, place the meat in a vacuum-sealed bag or wrap tightly in plastic wrap with all cure pressed against the meat surface. Refrigerate at 35–40°F. Flip the package once daily so that the liquid that accumulates redistributes. Cure for approximately 1 day per 1 cm of the meat's thickness at its thickest point, minimum 3 days for small cuts. A 2-inch thick pork belly requires a minimum of 5–6 days. Larger whole muscles (legs, shoulders) may require 7–14 days. Equilibrium curing is forgiving — leaving the meat 1–2 days past the calculated minimum does not over-salt it.",
+          "tips": [
+            "A vacuum sealer creates the best contact between cure and meat and produces the most consistent results.",
+            "Check that no dry cure has fallen off into a corner of the bag — redistribute if needed."
+          ]
+        },
+        {
+          "heading": "Equilibrium Curing",
+          "body": "Equilibrium curing is the most reliable modern approach to dry curing. Rather than applying excess salt and hoping to control the outcome, you apply precisely the amount of salt that the meat will absorb to reach its final salinity target. Because the final salt concentration cannot exceed what you applied (salt cannot move from low to high concentration), over-salting is virtually impossible even with extended curing time. This makes equilibrium curing far more consistent than traditional methods, which required experience and judgment to know when curing was complete and when to desalt the product. The method was popularized by charcuterie practitioners in the 2000s–2010s and is now standard in modern home charcuterie.",
+          "tips": [
+            "The equilibrium curing method was a major advance in making charcuterie reliably reproducible at home.",
+            "The only risk with extended equilibrium curing is color change — very long cures can produce a darker surface color."
+          ]
+        },
+        {
+          "heading": "Resting After Cure",
+          "body": "After the curing period is complete, remove the meat from the bag and rinse briefly under cold water to remove any loose cure on the surface. Pat completely dry with paper towels. Place the meat on a wire rack in the refrigerator, uncovered, for 1–3 days. This resting period allows the salt to redistribute evenly throughout the meat (equalization), and allows the surface to dry and form a tacky, shiny skin called a pellicle. The pellicle is critical for smoking — smoke adheres to and penetrates the meat far better through a pellicle than a wet surface. If skipping smoking, the rested and pellicle-formed product can go directly to aging, cooking, or cold smoking.",
+          "tips": [
+            "A good pellicle looks glossy and slightly tacky, not slimy. If slimy, the meat has spoiled.",
+            "A small fan blowing gently in the refrigerator speeds pellicle formation to 12–24 hours."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "smoking-hot",
+      "name": "Hot Smoking",
+      "category": "Smoking & Curing",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "Hot smoking simultaneously flavors and cooks food at temperatures between 180 and 275°F, making it one of the more accessible preservation and cooking methods for home practitioners. Proper internal meat temperatures are the definitive safety check. Wood selection dramatically affects flavor, and understanding the temperature stall is critical for large cuts like brisket and pork shoulder.",
+      "difficulty": "intermediate",
+      "time_estimate": "2–12 hours",
+      "safety_notes": "Internal meat temperatures are the safety standard, not time or appearance. Use a calibrated probe thermometer. Minimum safe internal temperatures: 145°F for whole muscle beef, pork, lamb (with 3-minute rest); 160°F for ground meat; 165°F for all poultry. Never rely on smoke ring or color as a doneness indicator.",
+      "source": "USDA FSIS",
+      "sections": [
+        {
+          "heading": "Equipment",
+          "body": "Hot smoking can be accomplished with a wide range of equipment. Kettle grills (Weber-style) work well using a two-zone indirect setup with charcoal and wood chunks on one side and food on the other side. Barrel and offset smokers provide more capacity and traditional airflow. Kamado-style grills (Big Green Egg, Kamado Joe) excel at holding low, steady temperatures for long cooks. Pellet grills (Traeger, Camp Chef, Weber Smokefire) automate temperature control with a digital controller and wood pellets. Electric smokers are convenient for beginners but produce lighter smoke flavor. Water smokers (bullet-style, such as Weber Smokey Mountain) use a water pan to regulate temperature and add moisture. All require a dual-probe thermometer: one probe for chamber temperature, one for the meat.",
+          "tips": [
+            "Invest in a quality dual-zone wireless thermometer before your first serious smoke — it removes all guesswork.",
+            "Pellet grills are the easiest entry point for consistent temperature control."
+          ]
+        },
+        {
+          "heading": "Wood Selection",
+          "body": "The choice of smoking wood is the primary flavor variable in hot smoking. Fruit woods (apple, cherry, peach) produce mild, sweet smoke that pairs well with poultry, pork, and fish. Hickory produces strong, classic bacon-style smoke and pairs with pork and beef. Oak is versatile and medium-strength, the workhorse of BBQ, excellent with brisket and ribs. Pecan is a milder relative of hickory, good with poultry and pork. Mesquite is very strong and earthy, best used sparingly or mixed with milder woods; it can overwhelm food when used for long cooks. Alder is traditional for fish, particularly salmon, in the Pacific Northwest. Never use pine, cedar, spruce, or other resinous softwoods — they contain toxic resins and creosote that will contaminate food. Avoid treated or painted wood entirely.",
+          "tips": [
+            "Cherry wood adds beautiful deep mahogany color to pork and poultry in addition to mild flavor.",
+            "Use wood chunks rather than chips for charcoal smoking — chunks smolder longer than chips."
+          ]
+        },
+        {
+          "heading": "Temperature Zones",
+          "body": "Most hot smoking occurs at 225–275°F chamber temperature. Lower temperatures (225°F) produce more smoke penetration and are traditional for large cuts; higher temperatures (275°F) speed cooking and are useful when time is a factor. The USDA-mandated safe internal temperatures are the actual targets: 145°F for whole cuts of pork, beef, and lamb (allow a 3-minute rest); 160°F for ground meat and mechanically tenderized meat; 165°F for all poultry and reheated pre-cooked products. Fish should reach 145°F. A probe thermometer in the thickest part of the meat (avoiding bone) gives the accurate reading. Do not insert near the bone — bone conducts heat and gives a falsely high reading.",
+          "tips": [
+            "Insert the probe in the thickest part, horizontally, avoiding fat caps and bone.",
+            "For brisket, 203°F is the quality target for tenderness (collagen breakdown) — safety is achieved much earlier at 145°F."
+          ]
+        },
+        {
+          "heading": "The Stall",
+          "body": "When smoking large, collagen-rich cuts — brisket, pork shoulder, pork ribs — the internal temperature will plateau at approximately 150–170°F for an extended period, sometimes 2–6 hours, before continuing to rise. This phenomenon, called the stall, occurs because evaporating surface moisture (evaporative cooling) offsets the heat being added. The stall is not a sign that something is wrong. To push through the stall faster, wrap the meat tightly in unwaxed butcher paper (the Texas crutch) or aluminum foil. Foil accelerates the push through the stall most aggressively but softens the bark (the dried surface crust). Butcher paper allows some moisture to escape and preserves more bark texture. Alternatively, wait it out unwrapped — the stall will eventually end naturally.",
+          "tips": [
+            "Plan for the stall when scheduling: a brisket that looks '2 hours away' at 155°F can stall for 4 more hours.",
+            "Butcher paper (pink or white unwaxed kraft paper) is the competition standard for preserving bark while accelerating past the stall."
+          ]
+        },
+        {
+          "heading": "Finishing and Food Safety",
+          "body": "Meat is safe to eat the moment it reaches its minimum internal temperature — but tenderness is a separate quality consideration for large cuts. Brisket is safe at 145°F but optimally tender and probe-soft at around 200–205°F. Pork shoulder is safe at 145°F but pulls easily only at 200–205°F. Ribs are done when the meat has pulled back from the bone tips by 1/4 inch and a toothpick or probe slides through the meat between bones with no resistance. Always rest hot-smoked meats before slicing — brisket benefits from a 1-hour rest wrapped in butcher paper and a towel in a cooler; this allows juices to redistribute. Whole chickens and poultry must reach 165°F at the thickest part of the thigh.",
+          "tips": [
+            "A well-insulated cooler (without ice) can hold a rested brisket for 4–6 hours — useful for timing meals.",
+            "Cutting into meat immediately after cooking causes significant juice loss — always rest before slicing."
+          ]
+        },
+        {
+          "heading": "What to Smoke",
+          "body": "Almost any meat or fish benefits from hot smoking. Popular whole muscle cuts: brisket (beef), pork shoulder/butt, pork ribs, whole chicken, turkey breast, leg of lamb, beef ribs. Fish: salmon, trout, mackerel, and whitefish are classics — cure with a dry brine (2:1 salt to sugar) for 2–4 hours before smoking for best results and food safety. Vegetables smoke well at higher temperatures: onion halves, whole garlic heads, peppers, corn, and tomatoes take on excellent smoky character in 30–90 minutes. Cheese can be cold-smoked or smoked briefly at very low temperatures (below 90°F) for 30–60 minutes. Eggs (hard-boiled and peeled) absorb smoke flavor in 30 minutes.",
+          "tips": [
+            "Salmon is the most popular home-smoked fish: cure it first, then smoke to 145°F internal.",
+            "Smoked hard-boiled eggs are a surprisingly easy and delicious introduction to smoking."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "curing-wet-brine",
+      "name": "Wet Brining (Immersion Curing)",
+      "category": "Smoking & Curing",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "Wet brining submerges meat in a salt-water solution to cure and flavor it before cooking or smoking. It is particularly well-suited for poultry, pork, and fish. Equilibrium brining — using a calculated amount of salt relative to the combined weight of water and meat — produces consistent, reliably seasoned results without risk of over-salting.",
+      "difficulty": "beginner",
+      "time_estimate": "4 hours to 7 days",
+      "safety_notes": "Brine and cure at refrigerator temperatures (35–40°F) at all times. For whole pork legs or any cure longer than 3 days, add Prague Powder #1 (curing salt) to the brine to protect against botulism. Use only food-grade non-iodized salt.",
+      "source": "USDA FSIS",
+      "sections": [
+        {
+          "heading": "When to Use Wet Brine",
+          "body": "Wet brining is best for relatively lean, porous meats that can absorb liquid easily — poultry, pork loin, pork chops, whole fish, and shrimp. It adds moisture that is retained during cooking, producing a juicier final product. Wet brining is less suitable for dense whole muscle beef (dry curing is preferred) or fatty meats that don't benefit from additional moisture. Wet brining is also the standard method for curing bacon (pork belly), Canadian bacon (pork loin), and corned beef (brisket). Unlike dry curing, wet brining can be done in food-safe containers like zip-lock bags, food-safe buckets, or cambro containers — no vacuum sealer required.",
+          "tips": [
+            "Wet brining is the easiest entry point for home curing — no special equipment beyond a container and salt.",
+            "For uniform penetration, make sure the meat is fully submerged — use a plate or bag of ice to weigh it down."
+          ]
+        },
+        {
+          "heading": "Basic Brine Ratio",
+          "body": "Standard wet brine ratios range from 5% to 8% salt by weight relative to water volume. A 5% brine (50g salt per liter of water) is mild and suitable for longer brines; an 8% brine (80g salt per liter) is stronger and suited to shorter brines. A traditional guideline of '1 tablespoon kosher salt per cup of water' produces approximately a 5% brine when using Diamond Crystal salt (Morton kosher salt is denser — use less). Always dissolve salt completely in a small amount of hot water, then add the remaining cold water to bring the brine to refrigerator temperature before adding meat. Never brine in warm or hot liquid.",
+          "tips": [
+            "Dissolve salt and sugar in 1/4 of the water volume heated to near-boiling, then add remaining cold water to cool quickly.",
+            "Always chill brine fully before adding meat — brining in warm liquid accelerates bacterial growth."
+          ]
+        },
+        {
+          "heading": "Equilibrium vs Saturation Brining",
+          "body": "Equilibrium brining calculates salt based on the total weight of both the meat and the water combined, targeting a final salinity of 2.5–3% throughout the entire system. Because salt seeks equilibrium between the brine and the meat, the meat will absorb exactly enough salt to match the brine's concentration — and stop. This makes over-salting impossible regardless of how long the meat is left in the brine. Equilibrium brine formula: (combined weight of meat + water in grams) × 0.025 = grams of salt to add. Traditional saturation brining uses excess salt and relies on timing to control salinity; it is less forgiving and requires experience to get right. Equilibrium brining is strongly recommended for home practitioners.",
+          "tips": [
+            "Equilibrium brining is the only method where you cannot over-salt a piece of meat — a major advantage for beginners.",
+            "Weigh meat and planned water volume together; multiply by 0.025 for salt quantity."
+          ]
+        },
+        {
+          "heading": "Flavor Additions",
+          "body": "The basic brine can be enhanced with aromatics and spices that infuse into the meat during the brine period. Classic additions include: whole black peppercorns, bay leaves, garlic cloves (smashed), fresh herbs (thyme, rosemary), citrus zest, juniper berries, mustard seeds, coriander seeds, and brown sugar or maple syrup. Toast whole spices briefly before adding for more aromatic intensity. Sugar in the brine (1–2% of water weight) adds mild sweetness, promotes browning during cooking, and improves color. Sugar does not meaningfully contribute to preservation at these concentrations.",
+          "tips": [
+            "Avoid very delicate fresh herbs in the brine — they often produce off-flavors over long brining periods.",
+            "Citrus zest (not juice) contributes bright flavor; citrus juice makes brine too acidic and can partially cook fish."
+          ]
+        },
+        {
+          "heading": "Time Guidelines",
+          "body": "Brining time depends on meat thickness and type. Shrimp: 30 minutes (brine can toughen quickly). Fish fillets: 30–60 minutes. Chicken pieces (boneless): 2–4 hours. Whole chicken: 8–24 hours. Chicken breasts: 1–2 hours. Pork chops (1 inch): 2–4 hours. Pork loin roast: 8–24 hours. Pork belly for bacon: 5–7 days. Whole turkey: 24–48 hours in the refrigerator in a large food-safe container or brining bag. Corned beef (brisket flat): 5–7 days. For whole turkeys and chickens, allow brine to penetrate by ensuring it is fully submerged. In equilibrium brining, minimum time is when the salt has fully equalized — this can be confirmed only by time (roughly 1 day per inch of thickness for large cuts).",
+          "tips": [
+            "Use a brining bag for large turkeys — it contains the brine in a manageable package that fits in a refrigerator.",
+            "Don't brine pre-basted or enhanced (injected) commercial turkeys — they already contain added salt and will become too salty."
+          ]
+        },
+        {
+          "heading": "Pink Salt for Long Cures",
+          "body": "For any wet brine that cures meat for more than 3 days — particularly pork belly for bacon, whole pork legs, ham, and corned beef — add Prague Powder #1 (sodium nitrite curing salt) at a rate of 1g per liter of brine. This concentration provides effective protection against Clostridium botulinum throughout the extended curing period. In the equilibrium brining calculation, include the Prague Powder #1 as part of the total cure: the standard addition is approximately 0.25% of total meat weight in Prague Powder #1, combined with the equilibrium salt calculation. For home bacon, a convenient rule of thumb is 1 tsp Prague Powder #1 per gallon of brine (approximately 1g/liter). Always measure curing salts by weight, not volume.",
+          "tips": [
+            "Prague Powder #1 (not #2) is correct for wet brines and short-to-medium cures.",
+            "Curing salt is not optional for bacon or ham that will be cold-smoked — it is a safety requirement."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-cellaring-principles",
+      "name": "Root Cellaring Principles",
+      "category": "Root Cellaring",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "Root cellaring exploits naturally cool, dark, and often humid conditions to slow the metabolic processes and microbial growth that cause produce to deteriorate. No energy input is required for storage itself, making this one of the most ancient and sustainable food preservation methods. Success depends on matching each crop's specific temperature and humidity requirements.",
+      "difficulty": "beginner",
+      "time_estimate": "Setup varies; storage is passive",
+      "safety_notes": "Inspect stored produce at least weekly and remove any rotting items immediately — one rotting item releases ethylene gas and moisture that accelerates decay in surrounding produce. Never store damaged, bruised, or immature produce for long-term root cellaring.",
+      "source": "Traditional",
+      "sections": [
+        {
+          "heading": "Why Root Cellaring Works",
+          "body": "Living plant cells continue to respire (consume oxygen and produce carbon dioxide) after harvest. This metabolic activity, combined with moisture loss and microbial growth on the surface, is what causes produce to age and deteriorate. Cool temperatures slow all of these processes dramatically — a decrease from 70°F to 35°F can extend the storage life of many vegetables tenfold. Darkness is important because light triggers some metabolic responses (potatoes turning green and producing solanine, for example) that reduce quality and safety. Humidity management prevents the moisture loss (shriveling) that makes roots inedible, while avoiding excess moisture that encourages mold.",
+          "tips": [
+            "The colder (above freezing) and darker the storage, the slower produce deteriorates.",
+            "Potatoes exposed to light turn green and produce solanine, a toxic alkaloid — always store in complete darkness."
+          ]
+        },
+        {
+          "heading": "Ideal Conditions",
+          "body": "Different crops have very different optimal storage requirements. Cold and moist (32–40°F, 90–95% relative humidity): apples, beets, carrots, celery root, kohlrabi, parsnips, turnips, and most root vegetables. Cold and dry (32–40°F, 60–70% relative humidity): garlic and onions — these will rot in high humidity. Cool and moist (40–50°F, 90–95% humidity): Chinese cabbage, endive, herbs (potted). Cool and dry (50–60°F, 60–70% humidity): garlic (short-term), green tomatoes for ripening. Moderately warm and dry (50–55°F, 60–70% humidity): pumpkins, winter squash (butternut, acorn, delicata). Understanding these requirements and providing different zones within your storage space allows you to store a wider variety of crops successfully.",
+          "tips": [
+            "A small hygrometer/thermometer in the storage space lets you monitor actual conditions rather than guessing.",
+            "Garlic and onions will sprout and rot quickly in humid conditions — store them separately from root vegetables."
+          ]
+        },
+        {
+          "heading": "DIY Root Cellar Options",
+          "body": "A full basement root cellar is ideal but not required. Many alternatives work well depending on local climate. Corner basement room: build a two-wall corner room in the coolest corner of a basement (usually the north or northeast), insulate the interior walls (separating it from the warm house), add vents to the outside for cold air circulation, and include a thermometer and hygrometer. Buried garbage can: bury a galvanized or food-grade plastic garbage can in the ground outside, add drainage gravel at the bottom, store produce inside with straw insulation around it, and cover with a lid and a bale of straw. Unheated garage: suitable for mild climates or as a temporary cold-weather option — temperatures fluctuate with weather. In-ground pit: a simple hole in the ground lined with wire mesh (to exclude rodents), filled with straw and produce, and covered with boards and soil. Works well in cold climates.",
+          "tips": [
+            "Vent pipes (one low intake, one high exhaust) allow temperature regulation in a basement root cellar.",
+            "Add a wire mesh lining to any buried option — rodents will quickly find and consume improperly protected stores."
+          ]
+        },
+        {
+          "heading": "What Stores Well",
+          "body": "Cold and moist storage: potatoes (2–6 months), carrots (4–6 months), beets (3–5 months), parsnips (4–6 months, improve in flavor with cold), turnips (4–5 months), rutabagas (4–6 months), and cabbage (3–4 months, store away from other produce due to odor). Apples and pears store 1–3 months cold, but must be kept separate from vegetables — they release ethylene gas that causes vegetables to sprout and deteriorate. Potatoes store 2–6 months at 35–40°F after proper curing. Winter squash stores 3–6 months at 50–55°F. Onions and garlic store 6–8 months in cool, dry, well-ventilated conditions.",
+          "tips": [
+            "Wrap individual apples in newspaper to slow ethylene release and prevent one bad apple from affecting others.",
+            "Store cabbage in a separate area or in covered bins — it produces strong sulfur odors in an enclosed space."
+          ]
+        },
+        {
+          "heading": "What Does Not Store Well",
+          "body": "Not all produce is suitable for root cellaring. Chilling-sensitive crops suffer cellular damage (called chilling injury) when held below 50°F, even though they are above freezing: tomatoes (below 55°F causes texture breakdown and loss of flavor), cucumbers (below 50°F causes pitting and water-soaking), peppers (below 45°F causes pitting and decay), eggplant (below 50°F causes surface browning and decay), and summer squash and zucchini (below 50°F causes pitting). Sweet corn, asparagus, and leafy greens are not suitable for long-term root cellaring — they deteriorate rapidly regardless of conditions. These crops are better preserved by canning, freezing, or fermenting.",
+          "tips": [
+            "Never store tomatoes in the refrigerator or a cold cellar — temperatures below 55°F destroy their texture and flavor irreversibly.",
+            "Chilling-sensitive crops can be identified by their tropical or subtropical origin: they evolved without cold seasons."
+          ]
+        },
+        {
+          "heading": "Managing Humidity and Airflow",
+          "body": "High-humidity storage (90–95%) for root vegetables is maintained by packing them in slightly damp sand, peat moss, or sawdust — not wet, just barely moist to the touch. Carrots, beets, and parsnips buried in moist sand in crates or bins retain moisture beautifully and resist shriveling. Alternatively, perforate plastic bags and seal them around root vegetables to retain humidity while allowing minimal gas exchange. Low-humidity storage for garlic and onions requires excellent airflow — store in mesh bags, slatted crates, or braided strings hung in a ventilated space. Inspect all stored produce at least once per week. Remove any item showing soft spots, mold, or off-odors immediately. The saying 'one bad apple spoils the barrel' is literally true in root cellaring.",
+          "tips": [
+            "Slightly damp sand is the gold standard packing material for carrots and parsnips — inexpensive and effective.",
+            "Mark a weekly inspection on your calendar — neglecting to check stores for 2–3 weeks can result in total loss."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-cellaring-curing",
+      "name": "Curing Vegetables for Storage",
+      "category": "Root Cellaring",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "Curing is a pre-storage process that heals damage to a vegetable's skin or surface, creating a protective barrier that significantly extends storage life. Different vegetables have very different curing requirements, and skipping curing leads to rapid deterioration. Curing is required before root cellaring, not an optional step.",
+      "difficulty": "beginner",
+      "time_estimate": "4 days to 8 weeks depending on crop",
+      "safety_notes": "Do not store uncured vegetables for long-term root cellaring. Potatoes that are green (solanine exposure) should be discarded — do not cure or store them. Sweet potatoes should never be refrigerated or held below 50°F.",
+      "source": "Traditional",
+      "sections": [
+        {
+          "heading": "Why Cure Before Storage",
+          "body": "Harvesting inevitably damages the skin or outer layer of vegetables — cuts, scrapes, punctures from harvesting tools, or separation of stems. These wounds are entry points for mold, bacteria, and rot organisms. Curing heals these wounds: it triggers the vegetable's own cellular repair processes, causing the skin to thicken and wound surfaces to suberize (develop a protective layer of suberin, similar to cork). Cured vegetables resist moisture loss, infection, and bruising damage far better than freshly harvested ones. Curing also converts starches to sugars in some crops, improving flavor (this is why properly cured sweet potatoes become sweeter after curing).",
+          "tips": [
+            "The rule of thumb: any vegetable you plan to store for more than a few weeks should be cured first.",
+            "Handle vegetables gently during and after curing — damage after curing provides new entry points for rot."
+          ]
+        },
+        {
+          "heading": "Potatoes",
+          "body": "Potatoes require a two-stage process. First, harvest carefully to minimize skin damage and allow the soil to dry on the surface. Cure immediately after harvest: hold at 50–60°F with high humidity (85–95%) and good airflow for 10–14 days. During this period, wounds suberize and the skin thickens. After curing, move to long-term storage at 35–40°F with 90–95% humidity — this cold storage converts some starch back (starch conversion is why cold-stored potatoes taste slightly sweeter). Potatoes intended for frying should be brought back to 65°F for 2 weeks before use to re-convert sugars to starch, otherwise they brown too quickly. Store potatoes in complete darkness — any light exposure causes greening and solanine formation.",
+          "tips": [
+            "Do not wash potatoes before curing or storage — washing removes the protective skin bloom and promotes rot.",
+            "Any potato with green skin or flesh contains solanine — discard it, do not attempt to cure or store it."
+          ]
+        },
+        {
+          "heading": "Winter Squash",
+          "body": "Winter squash (butternut, acorn, delicata, hubbard, kabocha, spaghetti squash) requires warm curing to harden the skin before storage. Cure at 80–85°F with relative humidity of 80–85% for 10–20 days. This can be done in a warm room indoors, on a covered porch in warm weather, or in a greenhouse. After curing, move to cool, dry storage at 50–55°F — not cold storage, as temperatures below 50°F cause chilling injury in squash. In ideal conditions, properly cured winter squash stores 3–6 months. Acorn squash is the least storable of the winter squashes (2–3 months); hubbard and butternut store the longest. Always cure squash with the stem intact — stemless squash rots rapidly.",
+          "tips": [
+            "Harvest winter squash before frost and before the stem dries and detaches — a lost stem dramatically shortens storage.",
+            "A small scratch through the skin that draws only clear fluid (not milky) indicates the squash is mature enough to store."
+          ]
+        },
+        {
+          "heading": "Onions and Garlic",
+          "body": "Onions and garlic require extended curing in warm, dry, well-ventilated conditions to thoroughly dry the outer skin layers and neck tissue. Begin curing immediately after harvest. Spread in a single layer or hang in bunches in a location with temperatures of 75–80°F and relative humidity of 40–60%. Good airflow is essential — fans help in humid climates. Curing takes 3–8 weeks depending on onion variety and ambient conditions. Onions are fully cured when the neck is completely dry and papery, the outer skins are dry and rustling, and there is no moisture visible when the neck is cut. Garlic is cured when the outer wrappers are dry and papery. Store cured onions and garlic in mesh bags, slatted crates, or braided strings in cool (35–45°F), dry, dark conditions — never in sealed containers or high humidity.",
+          "tips": [
+            "Test onion cure by cutting through the neck — any visible moisture means more curing time is needed.",
+            "Sweet onions (Walla Walla, Vidalia) have high moisture and sugar content and store only 1–2 months even when well cured; storage onions (yellow, red) store 6–8 months."
+          ]
+        },
+        {
+          "heading": "Sweet Potatoes",
+          "body": "Sweet potatoes are one of the most temperature-sensitive root crops and require careful handling throughout curing and storage. Cure at a high temperature — 85–90°F — with relative humidity of 85–90% for 4–7 days. This warm, humid curing heals skin wounds and initiates the conversion of starches to sugars that makes sweet potatoes sweeter and more flavorful. After curing, move to storage at 55–60°F with moderate humidity (75–85%). Never store sweet potatoes below 50°F — they suffer chilling injury that causes internal discoloration, hard spots, and off-flavors. Never refrigerate sweet potatoes. Handle very gently — their skin is thin before curing and bruises easily. Properly cured and stored sweet potatoes last 4–6 months.",
+          "tips": [
+            "A curing box or chamber (a wooden box with a small heater and humidifier) makes warm curing more precise.",
+            "Sweet potatoes wrapped individually in newspaper and stored in a cool (55°F) room or basement corner do well in moderate climates."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "freeze-drying-overview",
+      "name": "Freeze Drying Overview",
+      "category": "Freeze Drying",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "Freeze drying (lyophilization) removes water from food through sublimation — converting ice directly to vapor without passing through liquid — while the food remains frozen. This process produces a shelf-stable product with superior quality retention compared to conventional dehydration. Home freeze dryers are now available but represent a significant investment of $2,000–$5,000 and ongoing power costs.",
+      "difficulty": "advanced",
+      "time_estimate": "20–40 hours per batch",
+      "safety_notes": "Store freeze-dried food in sealed mylar bags or jars with oxygen absorbers immediately after processing — freeze-dried food is extremely hygroscopic and will re-absorb atmospheric moisture within minutes of exposure to air. Never leave freeze-dried food open to air. Package in small quantities to minimize exposure during use.",
+      "source": "USDA",
+      "sections": [
+        {
+          "heading": "How Freeze Drying Works (Sublimation)",
+          "body": "Conventional dehydration removes water in its liquid form by applying heat. Freeze drying works differently: food is first frozen solid, then placed in a vacuum chamber where air pressure is reduced to below the triple point of water (0.006 atm). At this pressure, ice converts directly to water vapor (sublimation) without first becoming liquid. The vapor is then removed by a refrigerated condenser that traps it as ice. Because the food never warms above freezing during primary drying (the sublimation phase), the cellular structure is preserved nearly intact. This explains why freeze-dried foods rehydrate so much more completely than conventionally dehydrated foods — the cell walls were never softened or damaged by heat during drying.",
+          "tips": [
+            "Freeze drying is fundamentally different from dehydrating — heat is not the drying mechanism.",
+            "The vacuum pump is the most critical component; a failed pump means the food will spoil in the chamber."
+          ]
+        },
+        {
+          "heading": "Home Freeze Dryers",
+          "body": "Harvest Right is the primary (and currently the only widely available) manufacturer of consumer-grade home freeze dryers, with models ranging from small (4–6 lbs fresh food per batch) to extra-large (12–16 lbs per batch). Prices range from approximately $2,000 for the small unit to $5,000 or more for the extra-large. A home freeze dryer consists of a vacuum pump, a refrigeration system, a vacuum chamber with heated shelves, and a condenser. Each batch runs 20–40 hours automatically. The machine requires dedicated electrical service (standard 110V for small/medium, 220V for large) and adequate ventilation. Units require regular maintenance including periodic oil changes in the vacuum pump. Many users report payback periods of 3–7 years compared to purchasing commercially freeze-dried food.",
+          "tips": [
+            "Purchase the freeze dryer oil (high-vacuum pump oil) in bulk — oil changes are required every 20–40 batches.",
+            "Place the unit in a well-ventilated space — it generates significant heat during operation."
+          ]
+        },
+        {
+          "heading": "What Can Be Freeze Dried",
+          "body": "Freeze drying is remarkably versatile — nearly any food with water content can be freeze dried successfully. Excellent candidates: fruits (all varieties, including sliced, pureed, or whole small berries), vegetables (raw, cooked, or blanched), cooked complete meals (soups, stews, casseroles, chili, pasta dishes), raw meat and fish (slice thin or freeze in portions), eggs (scrambled, beaten, or cooked), cheese (shredded or sliced), yogurt, and ice cream. High-fat foods are the primary exception: foods with very high fat content (greater than ~30% fat) do not freeze dry well because fat does not contain significant water and oxidizes during the extended processing and storage. Peanut butter, chocolate, and very fatty meats are poor candidates. Honey and pure sugar syrups will not freeze dry due to their extremely low water content relative to dissolved solids.",
+          "tips": [
+            "Ice cream is a popular novelty freeze-dry product — the result is crunchy and melts on the tongue.",
+            "Slicing food uniformly before freeze drying ensures even drying across the tray."
+          ]
+        },
+        {
+          "heading": "Shelf Life",
+          "body": "Freeze-dried foods stored in sealed mylar bags with oxygen absorbers have an estimated shelf life of 25–30 years for most products according to USDA estimates — far exceeding conventionally dehydrated foods (1–5 years), canned foods (1–5 years), or frozen foods (1–2 years). This exceptional shelf life results from the combination of very low water activity (typically below 0.1), the absence of oxygen (from oxygen absorbers), and the intact cellular structure that reduces surface area for oxidation. In practice, freeze-dried food remains palatable far beyond the 25-year estimate if packaging is intact. Quality slowly degrades over decades primarily through oxidation and Maillard reactions (browning), not microbial activity.",
+          "tips": [
+            "The 25-year estimate assumes proper mylar packaging with oxygen absorbers — mason jar storage without oxygen absorbers reduces shelf life to 2–5 years.",
+            "Use 300cc oxygen absorbers for quart mylar bags, 2000cc for gallon mylar bags."
+          ]
+        },
+        {
+          "heading": "Rehydration",
+          "body": "Freeze-dried foods rehydrate with remarkable fidelity to their fresh state, particularly compared to conventionally dehydrated foods. The preserved cellular structure allows water to re-enter the same spaces it occupied before drying. Most freeze-dried vegetables rehydrate in warm water in 5–15 minutes; fruits in cold water in 5–10 minutes; cooked meals in hot water or broth in 10–20 minutes. Use approximately the same volume of water as the original fresh food — start with the weight of water removed (which the freeze dryer often displays after a batch) as a guide. Freeze-dried raw meat rehydrates and can be cooked exactly like fresh meat. Freeze-dried ice cream does not rehydrate — it is designed to be eaten dry.",
+          "tips": [
+            "Warm water rehydrates most foods faster than cold water without compromising texture.",
+            "Add freeze-dried vegetables directly to soups — they will rehydrate during cooking."
+          ]
+        },
+        {
+          "heading": "Cost Considerations",
+          "body": "The economics of home freeze drying involve several factors. Equipment cost: $2,000–$5,000 initial purchase. Power consumption: approximately 1.5 kWh per hour of operation; at an average of $0.15/kWh, a 30-hour batch costs approximately $6.75 in electricity. Supplies: mylar bags, oxygen absorbers, and vacuum pump oil are ongoing costs. Food cost: the primary input. Compared to purchasing commercially freeze-dried foods — which retail at $50–$100 per #10 can — home freeze drying can be economical for high-volume users. However, the machine requires significant time investment: loading trays, monitoring cycles, and packaging output. Many users find the break-even point is achieved after 1–3 years of regular use if the machine is run several times per month.",
+          "tips": [
+            "Run the freeze dryer at full capacity every batch — partial loads are equally expensive in time and power.",
+            "Buying seasonal produce in bulk (or growing your own) dramatically reduces the cost per pound of freeze-dried output."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,453 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "fishing-hawaii-principles",
+      "name": "West Hawaii Fishing: Principles & Catch Care",
+      "category": "Hawaii Fishing",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "West Hawaii (the Kona coast of the Big Island) offers world-class nearshore and offshore fishing year-round. Proper catch handling from the moment a fish is landed determines whether you eat well or waste the catch.",
+      "difficulty": "beginner",
+      "time_estimate": "",
+      "safety_notes": "Hawaii fishing licenses are not required for recreational saltwater fishing from shore or private vessels, but bag limits, size limits, and closed seasons apply to many species. Check DLNR Division of Aquatic Resources (DAR) regulations before fishing. Ciguatera fish poisoning is a real risk with certain reef species — see individual fish entries.",
+      "source": "Hawaii DLNR / DAR; traditional Hawaiian fishing practice",
+      "wikipedia_title": "",
+      "sections": [
+        {
+          "heading": "Gear & Access",
+          "body": "Shore fishing access points on the Kona coast include Honokohau Harbor, Kawaihae Harbor, Old Airport Park, and many rocky lava shoreline spots. A four-wheel-drive vehicle is helpful but not necessary. Trolling, jigging, bottom fishing, and traditional throw-net fishing are all productive. The Kona pelagic grounds begin just a few miles offshore due to the steep drop from the island shelf.",
+          "tips": [
+            "Sunrise and sunset are the most productive times for shore fishing.",
+            "Local bait shops (e.g., Kona Bait & Tackle) provide current species and location intel.",
+            "Polarized sunglasses are essential for spotting fish in shallow reef areas."
+          ]
+        },
+        {
+          "heading": "Immediate Catch Care (Ike Pono)",
+          "body": "The single most important factor for quality table fish is getting it on ice immediately. Pelagic fish (ahi, mahimahi, ono) should be bled by cutting the gill arch and the tail, then placed in an ice slurry — a mixture of ice and seawater — which cools faster than ice alone. Reef fish should be killed quickly and iced. Never leave fish in the sun or in a dry cooler without ice.",
+          "tips": [
+            "A ratio of 1 part ice to 2 parts fish in ice slurry is ideal for pelagics.",
+            "Bleed ahi and mahimahi immediately — the meat quality difference is dramatic.",
+            "Bring more ice than you think you need."
+          ]
+        },
+        {
+          "heading": "Filleting & Processing",
+          "body": "Pelagic fish (ahi, mahimahi, ono) should be filleted within a few hours of landing if not whole-iced. Remove bloodline (dark red meat along the lateral line) — it becomes strong-tasting quickly. For preservation purposes, the cleaner and colder the fish at filleting, the longer it will keep or smoke or dry successfully. Reef fish can be scaled and gutted whole or filleted.",
+          "tips": [
+            "A sharp, flexible fillet knife is worth every dollar.",
+            "Rinse fillets with clean cold water — never soak, which washes out flavor."
+          ]
+        },
+        {
+          "heading": "Preservation Methods Overview",
+          "body": "Hawaiian fish preservation historically relied on salt drying (paakai) and underground fermentation (particularly for shellfish). Modern options include: vacuum-sealed freezing (best for large pelagics), cold smoking (ideal for opakapaka, ono, akule), hot smoking (ahi, papio), dehydrating into jerky (ahi, ono), and pressure canning (any firm fish). Select your method based on the species and quantity.",
+          "tips": [
+            "Freeze in meal-sized portions vacuum-sealed — a whole ahi loin is unwieldy.",
+            "Label every package with species, date, and method immediately."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fishing-ahi",
+      "name": "Ahi / Yellowfin Tuna (Thunnus albacares)",
+      "category": "Hawaii Fishing",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "Ahi is the king of the Kona fishing grounds. Yellowfin tuna can exceed 200 pounds on the Kona coast, though 20–80 lb fish are the typical recreational catch. The meat is bright red, rich, and versatile — prized raw as poke, cooked, smoked, or dried into jerky.",
+      "difficulty": "intermediate",
+      "time_estimate": "",
+      "safety_notes": "Ahi is not associated with ciguatera. However, histamine (scombroid poisoning) develops rapidly in improperly iced tuna — always ice immediately and maintain the cold chain. Never eat ahi that smells peppery or causes tingling of the mouth.",
+      "source": "Hawaii DLNR / DAR; NOAA Pacific Islands Fisheries",
+      "wikipedia_title": "Yellowfin_tuna",
+      "sections": [
+        {
+          "heading": "Identification",
+          "body": "Yellowfin tuna are identified by their vivid yellow dorsal and anal fins and finlets, torpedo-shaped body, and bright blue-black back fading to silver-white belly. The second dorsal fin elongates dramatically in large fish. Eyes are large and gold-rimmed. Bigeye tuna (also called ahi) look similar but have larger eyes and thicker body profile.",
+          "tips": [
+            "The yellow finlets along the top and bottom of the tail base are the easiest field mark.",
+            "Bigeye tuna (also called ahi locally) taste similar and are handled identically."
+          ]
+        },
+        {
+          "heading": "Where & When",
+          "body": "Yellowfin tuna are found year-round off Kona in the blue water beyond the 100-fathom curve, often just 3–5 miles offshore due to the steep island shelf. They school with dolphins, birds, and floating debris. The Kona fishing grounds are world-famous for their ahi fishery. Peak season runs July–October, but fish are caught every month.",
+          "tips": [
+            "Follow frigate birds and spinner dolphins — they often mark feeding ahi schools from above.",
+            "Concentrate near sea surface temperature breaks visible on satellite SST charts (free apps available).",
+            "The Kona shelf drops sharply — target the 100–300 fathom range."
+          ]
+        },
+        {
+          "heading": "Catch & Handling",
+          "body": "Troll with skirted lures or rigged baits at 7–10 knots. Once landed, bleed immediately by cutting the gill arch and the base of the tail. Place in an ice slurry (ice + seawater) belly-down. Do not gut until ready to process — the viscera protect the meat. For fish over 40 lbs, consider removing the head and tail dockside to fit in a cooler.",
+          "tips": [
+            "Bleeding is not optional — the meat color and flavor difference is significant.",
+            "Allow at least 4–6 hours in ice slurry before filleting for best texture."
+          ]
+        },
+        {
+          "heading": "Preservation",
+          "body": "Ahi is best preserved by: (1) Vacuum-sealed freezing — portion loins and freeze within 24 hours of catch for up to 6 months; (2) Hot smoking — brine loins, smoke at 200–225°F to internal 145°F, refrigerate up to 2 weeks or vacuum-seal and freeze; (3) Dehydrating into ahi jerky — slice thin against the grain, marinate, dry at 165°F; (4) Poke marinade — salt, sesame oil, and seaweed slow the spoilage curve but poke must be eaten within 1–2 days of preparation. Ahi is not typically pressure canned due to its premium quality raw.",
+          "tips": [
+            "The bloodline (dark red muscle along the lateral line) must be removed before smoking or drying — it becomes intensely bitter.",
+            "Sashimi-grade ahi should be consumed within 2 days of landing; freeze promptly otherwise."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fishing-mahimahi",
+      "name": "Mahi-Mahi / Dolphinfish (Coryphaena hippurus)",
+      "category": "Hawaii Fishing",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "Mahi-mahi are among the most spectacular sport fish in Kona waters — blazingly fast, acrobatic fighters that turn brilliant blue, green, and gold when hooked. The white, mildly flavored flesh is excellent for grilling, smoking, and canning.",
+      "difficulty": "beginner",
+      "time_estimate": "",
+      "safety_notes": "Mahi-mahi are not associated with ciguatera. Scombroid histamine poisoning is possible if not iced promptly — always ice immediately. Very large mahi can have mildly elevated mercury; USDA guidelines suggest limiting consumption of large pelagics for pregnant women and young children.",
+      "source": "Hawaii DLNR / DAR",
+      "wikipedia_title": "Mahi-mahi",
+      "sections": [
+        {
+          "heading": "Identification",
+          "body": "Mahi-mahi are unmistakable: males (bulls) have a blunt, squared-off head; females (cows) have a rounded head. Both have a long dorsal fin running nearly the full body length, and striking colors — iridescent blue-green on the back fading to gold and white. Colors fade rapidly after death. Typical catch: 5–30 lbs, though 50+ lb bulls are taken off Kona.",
+          "tips": [
+            "Bulls are distinguished from cows by the steep, square forehead profile.",
+            "Dead mahi fade to dull grey-green quickly — the brilliant color does not persist."
+          ]
+        },
+        {
+          "heading": "Where & When",
+          "body": "Mahi congregate around floating debris, FADs (Fish Aggregating Devices), weed lines, and temperature breaks. In West Hawaii they are found year-round but are most abundant March–September. They often travel in pairs or small schools. Trolling around floating objects at 6–9 knots is highly productive.",
+          "tips": [
+            "A single floating board or pallet can hold dozens of mahi — approach slowly, troll around it.",
+            "Keep a hooked fish in the water while the school is present — it will attract the others."
+          ]
+        },
+        {
+          "heading": "Catch & Handling",
+          "body": "Land quickly to preserve quality. Bleed by cutting the gill arch immediately. Mahi deteriorate faster than tuna if left uniced — they develop a strong, musty flavor within hours at ambient temperature. Ice slurry is ideal. A 15–20 lb mahi yields roughly 8–10 lbs of fillet.",
+          "tips": [
+            "Mahi are usually not too large to fit whole in a 70-quart cooler — pack with ice and go.",
+            "Fillet the same day for best quality."
+          ]
+        },
+        {
+          "heading": "Preservation",
+          "body": "Mahi-mahi's mild, white flesh takes well to most preservation methods: (1) Vacuum-sealed freezer storage — up to 6 months; (2) Cold smoking — brine lightly (2% salt brine, 4–6 hours), cold smoke at 80°F for 8–12 hours for a delicate product; (3) Hot smoking — brine, smoke at 200–225°F to internal 145°F; (4) Pressure canning — follow USDA fish canning procedures (process pints 100 min at 11 lb dial gauge); (5) Dehydrating into fish jerky.",
+          "tips": [
+            "Mahi takes a citrus-herb brine particularly well before smoking.",
+            "Canned mahi works beautifully in fish cakes and tacos."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fishing-ono",
+      "name": "Ono / Wahoo (Acanthocybium solandri)",
+      "category": "Hawaii Fishing",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "Ono means 'delicious' in Hawaiian — and the name is well earned. Wahoo are among the fastest fish in the ocean and produce a pale, fine-grained, mild white flesh that many consider the best eating of all Hawaiian pelagics.",
+      "difficulty": "intermediate",
+      "time_estimate": "",
+      "safety_notes": "Ono (wahoo) are occasionally associated with ciguatera poisoning, particularly large fish caught in reef-adjacent areas. West Hawaii offshore wahoo are generally lower risk than fish from shallower reef systems. No guaranteed way to detect ciguatoxin — the fish looks, smells, and tastes normal.",
+      "source": "Hawaii DLNR / DAR",
+      "wikipedia_title": "Wahoo",
+      "sections": [
+        {
+          "heading": "Identification",
+          "body": "Ono are long, slender, and torpedo-shaped with a distinctive pattern of irregular blue-grey vertical bars on a steel-blue back. The head is elongated with a sharp, underslung lower jaw armed with razor teeth. Typical catch: 15–50 lbs; 80+ lb fish are caught in Kona waters. They travel singly or in loose aggregations.",
+          "tips": [
+            "Wahoo have razor-sharp teeth — use a lip gaff or land with a gaff; never lip-grip.",
+            "The distinctive blue-barred pattern makes ono unmistakable."
+          ]
+        },
+        {
+          "heading": "Where & When",
+          "body": "Ono are found year-round off West Hawaii, peaking October–March. They favor the edges of the island shelf and temperature breaks in 100–300 fathom water. High-speed trolling (12–16 knots) with konahead lures or rigged ballyhoo is the standard method. They also respond to pitch-baits and slow-trolled live bait.",
+          "tips": [
+            "Ono are frequently caught while trolling fast for marlin — use wire leader as their teeth cut monofilament.",
+            "Look for them aggregating near underwater structure and temperature breaks."
+          ]
+        },
+        {
+          "heading": "Catch & Handling",
+          "body": "Bleed immediately (gill cut). The flesh is delicate and bruises easily — handle with care. Ice slurry is essential. Ono flesh turns soft quickly if not kept cold; it is often described as having a 'watery' texture when poorly handled. Fillet the same day of landing.",
+          "tips": [
+            "Some anglers rest ono fillets on a rack in the refrigerator uncovered for 12 hours — this firms the texture slightly.",
+            "The flesh is very pale and lean — it benefits from a brine or marinade before cooking or smoking."
+          ]
+        },
+        {
+          "heading": "Preservation",
+          "body": "Ono's delicate, lean flesh excels for: (1) Hot smoking — ono smokes beautifully; brine in a mild salt-brown sugar solution 2–4 hours, smoke at 200–225°F to 145°F internal; (2) Dehydrating into fish jerky — ono jerky is outstanding; slice thin, marinate in soy-ginger, dehydrate at 165°F; (3) Vacuum-sealed freezing — up to 4 months (the lean flesh can oxidize faster than fattier fish); (4) Pressure canning. Remove any remaining skin and bloodline before preservation.",
+          "tips": [
+            "Ono responds especially well to a teriyaki-style marinade before smoking or drying.",
+            "Freeze portions flat then stack — the thin fillets freeze and thaw quickly."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fishing-opakapaka",
+      "name": "Opakapaka / Pink Snapper (Pristipomoides filamentosus)",
+      "category": "Hawaii Fishing",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "Opakapaka is Hawaii's most prized bottomfish — a deepwater pink snapper with delicate, moist white flesh. It is considered one of the finest eating fish in Hawaii and commands a premium price at fish markets. Caught by bottom fishing in 120–600 feet of water.",
+      "difficulty": "intermediate",
+      "time_estimate": "",
+      "safety_notes": "Opakapaka is a deepwater species and is not associated with ciguatera. Hawaii DLNR imposes bottomfish annual catch limits — check current regulations for bag limits on the Main Hawaiian Islands Bottomfish Restricted Fishing Area (BRFA). Some BRFA areas in West Hawaii may be closed seasonally.",
+      "source": "Hawaii DLNR / DAR; NOAA PIFSC",
+      "wikipedia_title": "Pristipomoides_filamentosus",
+      "sections": [
+        {
+          "heading": "Identification",
+          "body": "Opakapaka have a pale pinkish-lavender overall color with a distinctive yellowish tinge under the chin and belly. The body is moderately deep, with a slightly forked tail and large eyes adapted for deep water. Common catch sizes are 1–5 lbs; fish up to 15 lbs are occasionally taken. Related species include ehu (short-tailed snapper, bright orange-red), uku (grey jobfish, green-grey), and lehi (silvermouth jobfish).",
+          "tips": [
+            "Ehu and lehi are caught alongside opakapaka and are similarly excellent eating.",
+            "All four species (opakapaka, ehu, uku, lehi) fall under the DLNR bottomfish bag limit."
+          ]
+        },
+        {
+          "heading": "Where & When",
+          "body": "Target opakapaka over rocky bottom structure in 180–600 feet on the leeward (west) side of the Big Island. Electric reels or heavy jigging gear is standard. The Kona coast is one of the most productive opakapaka grounds in Hawaii. Year-round fishing with peak productivity in calmer winter and spring conditions.",
+          "tips": [
+            "Bottom contour maps and a good fish finder are essential — opakapaka hold over specific rocky structure.",
+            "Baited dropper rigs with cut squid or frozen opelu work well.",
+            "Electric reels dramatically reduce angler fatigue when fishing 300+ feet."
+          ]
+        },
+        {
+          "heading": "Catch & Handling",
+          "body": "Fish brought up rapidly from deep water suffer barotrauma (swimbladder expansion) — descend them quickly to depth using a venting tool or descender device if releasing. Keeper fish should be iced immediately. The flesh is delicate and benefits from careful handling — bruising shows as discoloration.",
+          "tips": [
+            "A descender device (weighted release clip) is more effective than venting for release survival.",
+            "Opakapaka yield an excellent skin-on fillet — leave the skin for presentation."
+          ]
+        },
+        {
+          "heading": "Preservation",
+          "body": "Opakapaka's premium quality is best enjoyed fresh, but it preserves very well: (1) Vacuum-sealed freezing — up to 6 months; freeze skin-on portions for best quality; (2) Cold smoking — produces a world-class product; brine skin-on fillets in 3% salt solution 4–6 hours, cold smoke at 70–90°F for 8–12 hours; refrigerate and consume within 5 days; (3) Hot smoking — smoke to internal 145°F; (4) Pressure canning — 100 minutes per pint at 11 lb dial gauge; the canned product is excellent in chowders. Never smoke opakapaka with strong woods — use light fruit wood (apple, cherry) or kiawe (Hawaiian mesquite).",
+          "tips": [
+            "Kiawe (mesquite) from West Hawaii is the traditional local smoking wood — it gives a mild, sweet smoke.",
+            "Cold-smoked opakapaka rivals the best smoked salmon for quality."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fishing-akule-opelu",
+      "name": "Akule & Opelu (Bigeye & Mackerel Scad)",
+      "category": "Hawaii Fishing",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "Akule (bigeye scad, Selar crumenophthalmus) and opelu (mackerel scad, Decapterus macarellus) are small schooling fish that have been a staple of traditional Hawaiian fishing for centuries. They are caught in large numbers by throw-net, dip-net, and sabiki rigs, and traditionally dried with salt (paakai) for long-term storage.",
+      "difficulty": "beginner",
+      "time_estimate": "",
+      "safety_notes": "Akule and opelu spoil very rapidly — they must be iced or processed within hours of landing. Do not leave in the sun even briefly. Both species are baitfish for larger game; when used as bait keep them alive in a live well.",
+      "source": "Hawaii DLNR / DAR; traditional Hawaiian fishing practice",
+      "wikipedia_title": "Selar_crumenophthalmus",
+      "sections": [
+        {
+          "heading": "Identification",
+          "body": "Akule (bigeye scad) are oval-bodied, silver fish with disproportionately large eyes, reaching 8–12 inches. Opelu (mackerel scad) are slimmer, rounder in cross-section, 8–14 inches, with a row of large scutes (armored scales) along the lateral line near the tail. Both school tightly in huge numbers and are visible as dark patches in clear water.",
+          "tips": [
+            "Akule's enormous eyes are the easiest field mark — they look almost comically large.",
+            "Opelu have a more rounded body profile and a row of ridged scutes near the tail."
+          ]
+        },
+        {
+          "heading": "Where & When",
+          "body": "Both species school in nearshore waters throughout West Hawaii. Akule are commonly found in bays and harbors (Honokohau, Keauhou, Kawaihae) especially near lights at night. Opelu school slightly deeper and offshore. Historically, Hawaiian fishermen maintained koʻa (fishing shrines/grounds) where opelu were attracted by regular feeding. Year-round availability.",
+          "tips": [
+            "Night fishing under dock lights at Honokohau Harbor for akule with sabiki rigs is productive and fun.",
+            "A throw-net is the traditional (and most effective) tool — practice on land before using in water.",
+            "Opelu are excellent live bait for ahi, ono, and mahimahi."
+          ]
+        },
+        {
+          "heading": "Catch & Handling",
+          "body": "Akule and opelu must be handled quickly. Transfer to an ice slurry immediately — at ambient temperature they begin to deteriorate within an hour. For preservation, gut them promptly after icing. Their high oil content makes them superb for smoking and drying but also means they go rancid faster than lean fish.",
+          "tips": [
+            "Gut fish before icing if you plan to dry or smoke — the viscera accelerate spoilage.",
+            "Scale akule before drying — the scales do not dry out attractively."
+          ]
+        },
+        {
+          "heading": "Preservation",
+          "body": "Traditional Hawaiian preservation: Paakai (salt-drying) — gut and score the fish, pack in coarse Hawaiian sea salt for 12–24 hours, rinse, then sun-dry or dehydrate until stiff and shelf-stable. Modern methods: (1) Hot smoking — brine overnight in 5% salt solution, smoke at 200–225°F for 2–4 hours (small fish smoke quickly); (2) Dehydrating — at 165°F for 4–6 hours; (3) Pickling in vinegar brine — traditional in many Pacific cultures; (4) Pressure canning as fish in brine — process pints 100 minutes at 11 lb dial gauge. Smoked akule is a traditional Hawaiian delicacy.",
+          "tips": [
+            "Hawaiian salt (alaea red clay salt) gives paakai dried fish its traditional color and mineral flavor.",
+            "Score the sides of whole fish before drying to speed moisture loss and salt penetration."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fishing-ulua-papio",
+      "name": "Ulua / Papio — Giant Trevally & Juvenile (Caranx ignobilis)",
+      "category": "Hawaii Fishing",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "Ulua (Giant Trevally) is the premier shore fishing target in Hawaii — powerful, hard-fighting fish that can exceed 100 lbs. Papio refers to juvenile trevally under ~10 lbs. Both are excellent eating, though large ulua can be coarse. Culturally significant in Hawaiian tradition.",
+      "difficulty": "intermediate",
+      "time_estimate": "",
+      "safety_notes": "Large ulua (over about 25 lbs) from inshore reef areas carry a moderate ciguatera risk — the toxin bioaccumulates in large reef predators. Smaller papio and fish from sandy-bottom open water areas are lower risk. There is no test for ciguatoxin in the field. Hawaiians traditionally avoided eating very large ulua. Check local knowledge about specific fishing spots.",
+      "source": "Hawaii DLNR / DAR; traditional Hawaiian fishing practice",
+      "wikipedia_title": "Giant_trevally",
+      "sections": [
+        {
+          "heading": "Identification",
+          "body": "Giant trevally are deep-bodied, powerful fish with a steep forehead profile, strongly forked tail, and a row of hard scutes along the lateral line near the tail. Adults are silver to dark grey, often with black spots. Papio (juveniles) have 5–7 dark vertical bars that fade with age. Common papio size: 1–7 lbs; ulua range from 10–100+ lbs.",
+          "tips": [
+            "The steep forehead, powerful body, and hard scutes near the tail distinguish GT from other trevally.",
+            "Young papio look quite different from adults — the dark bars on juveniles can cause misidentification."
+          ]
+        },
+        {
+          "heading": "Where & When",
+          "body": "Shore fishing from rocky lava points along the Kona and Kohala coasts is the primary method. Ulua patrol reef edges, rocky points, and the interface between sand and reef, often in surging water. Night fishing with live bait (akule, opelu, crabs) is most productive. Papio are found in shallower water, bays, and sandy margins. Year-round fishery with peak action during calm conditions.",
+          "tips": [
+            "The best ulua spots are typically the most dangerous — rocky ledges with surge and splash zone. Always watch the water before stepping out.",
+            "A heavy braided line (65–100 lb) and a 9–11 ft surf rod are standard shore ulua gear.",
+            "Crabs, live opelu, and akule are top baits."
+          ]
+        },
+        {
+          "heading": "Catch & Handling",
+          "body": "Ulua are extremely strong — use a gaff to land them from rocky ledges. Bleed the fish immediately (cut the gill arch). Papio are excellent eating at any size; large ulua over 20 lbs have coarser, stronger-flavored meat that benefits from marinating or slow cooking rather than raw preparations.",
+          "tips": [
+            "Papio in the 3–8 lb range are the ideal table size — sweet, firm white flesh.",
+            "The belly (kama of the ulua) is the most prized cut — fatty and rich."
+          ]
+        },
+        {
+          "heading": "Preservation",
+          "body": "Papio: treat like any mild white fish — vacuum-seal and freeze, hot smoke, or pressure can. Ulua: the stronger-flavored meat of large fish suits salt-curing and smoking particularly well. Dry salt cure (generous layer of Hawaiian salt, refrigerate 24–48 hours for a thick piece), then hot smoke at 200–250°F. Alternatively, marinate thick ulua steaks in soy-ginger and dehydrate into a bold fish jerky.",
+          "tips": [
+            "Salt curing before smoking tightens the texture and draws out moisture — critical for large ulua cuts.",
+            "Ulua flesh is denser than most Hawaiian fish — slice thin across the grain for jerky."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fishing-limu",
+      "name": "Limu — Edible Hawaiian Seaweed",
+      "category": "Hawaii Fishing",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "Limu is the Hawaiian term for edible seaweed (and aquatic plants generally). Multiple species grow along the Kona coast and are integral to traditional Hawaiian cuisine — used fresh in poke, as a side dish, and preserved by drying and salting. Gathering limu requires knowledge of species identification.",
+      "difficulty": "beginner",
+      "time_estimate": "",
+      "safety_notes": "Harvest only from clean, unpolluted water — avoid areas near harbors, boat ramps, cesspools, or stream runoff. Some limu species are regulated — check DLNR DAR rules on harvest of coastal resources. Gather only what you will use; overharvesting destroys regenerating beds. Never harvest from areas posted with water quality warnings.",
+      "source": "Hawaii DLNR / DAR; University of Hawaii Sea Grant",
+      "wikipedia_title": "",
+      "sections": [
+        {
+          "heading": "Key Species",
+          "body": "Limu kohu (Asparagopsis taxiformis) — the most prized species; reddish-pink, feathery tufts found in wave-washed rock pools; used in poke and as a condiment. Limu manauea / ogo (Gracilaria salicornia and related spp.) — crunchy, salty green or reddish strands found in shallow reef pools; used in poke and salads. Limu wawae'iole (Codium edule) — dark green, spongy, finger-like lobes; found in calm shallow water; used in salads. Limu lipoa (Dictyota acutiloba) — golden-brown, branching fronds; strong flavor; used as a seasoning.",
+          "tips": [
+            "Limu kohu is relatively rare — harvest sparingly and only the tips, leaving the holdfast intact.",
+            "Ogo (manauea) is the most abundant and easiest to cultivate — many Kona fish farms grow it commercially."
+          ]
+        },
+        {
+          "heading": "Where & When",
+          "body": "Look in shallow (<6 ft) reef pools and surge channels along the Kona coast at low tide. Morning low tides are ideal. Limu kohu prefers wave-washed areas with good water circulation. Ogo grows in calm tidal pools and estuaries. Early morning gathering preserves the most flavor — limu wilts in midday sun.",
+          "tips": [
+            "A minus-tide (negative low tide) exposes the best limu beds — check tide charts.",
+            "Kona's lava shoreline is extensive — explore beyond the tourist areas for less-harvested beds."
+          ]
+        },
+        {
+          "heading": "Harvest & Preparation",
+          "body": "Pick by hand, pinching or snipping with scissors — never pull by the holdfast, which kills the plant. Gather into a wet cloth bag or bucket with a little seawater. Rinse thoroughly with fresh water to remove sand, debris, and small invertebrates. Inspect carefully for small crabs and snails. Store wet in the refrigerator up to 5 days.",
+          "tips": [
+            "Shake rinsed limu vigorously in a bucket of fresh water to dislodge hitchhikers.",
+            "Some cooks prefer to soak limu kohu in fresh water 30–60 minutes to mellow its strong iodine flavor."
+          ]
+        },
+        {
+          "heading": "Preservation",
+          "body": "Fresh limu is best but can be preserved: (1) Salting — bury in coarse Hawaiian salt in a glass jar; keeps refrigerated for months; rinse before use. (2) Drying — spread rinsed limu on screens in the sun or in a dehydrator at 95°F until cracker-dry; store in airtight containers; rehydrate in cool water before use. (3) Freezing — works for ogo; freeze flat on a sheet, then bag; texture softens slightly. (4) Pickling — limu in rice vinegar brine is excellent.",
+          "tips": [
+            "Dried limu kohu can be crumbled as a seasoning like dried herbs.",
+            "Salt-preserved limu keeps indefinitely in the refrigerator — use as a condiment."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fishing-opihi",
+      "name": "Opihi / Hawaiian Limpets (Cellana spp.)",
+      "category": "Hawaii Fishing",
+      "type": "guide",
+      "method": "",
+      "altitude_note": "",
+      "entries": [],
+      "summary": "Opihi are Hawaii's most culturally iconic shellfish — small limpets clinging to wave-swept lava rock. Gathered since ancient times, they are eaten raw, lightly seasoned with Hawaiian salt and seaweed. Gathering opihi is both a tradition and a hazard; the shoreline can be extremely dangerous.",
+      "difficulty": "intermediate",
+      "time_estimate": "",
+      "safety_notes": "Opihi gathering is responsible for a disproportionately high number of drowning fatalities in Hawaii. Never turn your back on the ocean. Never gather alone. Only harvest from the muliwai (upper intertidal zone), not from the surge zone. DLNR has a 1-inch minimum size limit and prohibits commercial harvest without a license. Leave smaller opihi to grow.",
+      "source": "Hawaii DLNR / DAR; traditional Hawaiian fishing practice",
+      "wikipedia_title": "Cellana",
+      "sections": [
+        {
+          "heading": "Species & Identification",
+          "body": "Three species are found in West Hawaii: Cellana exarata (ʻopihi makaiauli — black-footed limpet) lives highest on the rocks in the splash zone; Cellana sandwicensis (ʻopihi ʻalinalina — yellow-footed limpet) lives in the mid-intertidal zone; Cellana talcosa (ʻopihi ko'ele — giant limpet) lives lowest in the surge zone and is least commonly harvested. Shell shape is conical, 1–3 inches diameter. The foot color distinguishes species.",
+          "tips": [
+            "Cellana exarata (black foot) is found highest on the rocks and is the safest to gather — stay in the splash zone.",
+            "Measure shell diameter — only take those over 1 inch (measured across the shell opening)."
+          ]
+        },
+        {
+          "heading": "Where & When",
+          "body": "Found on exposed lava rock throughout the Kona coast wherever wave action is present. Highest density on semi-exposed points. Gather during calm sea conditions and outgoing low tides. Never harvest during high surf warnings or when ocean conditions are rough.",
+          "tips": [
+            "Check surf forecasts — surf above 3 feet on the leeward coast makes gathering dangerous.",
+            "Early morning at low tide on calm days is the ideal combination.",
+            "Go with an experienced local the first few times — the safe zones and good spots are passed by word of mouth."
+          ]
+        },
+        {
+          "heading": "Harvest",
+          "body": "Use a thin-bladed knife or a flat opihi knife — slip the blade under the shell edge quickly with a single firm motion before the limpet clamps down. Take only adults over 1 inch. Leave a significant proportion of each population — populations do not recover quickly from over-harvest. Collect in a bucket with some seawater.",
+          "tips": [
+            "Speed matters — opihi sense vibration and clamp down hard if you hesitate.",
+            "A purpose-made opihi knife with a thin, beveled tip is far better than a general knife."
+          ]
+        },
+        {
+          "heading": "Preservation",
+          "body": "Opihi are traditionally eaten raw, immediately after gathering, seasoned only with a pinch of Hawaiian salt and sometimes limu. Fresh is best — refrigerated opihi should be consumed within 24 hours. For preservation: (1) Steaming or grilling then vacuum-sealing and freezing extends shelf life to 2–3 months; (2) Salt packing in Hawaiian salt — layer opihi (removed from shell) with generous salt in a glass jar, refrigerate up to 2 weeks; (3) Lightly pickled in rice vinegar — keeps 1–2 weeks refrigerated. Opihi are not suitable for water bath or pressure canning — the delicate texture does not survive processing.",
+          "tips": [
+            "Raw opihi on the rocks with Hawaiian salt and a squeeze of lime is one of Hawaii's great simple pleasures.",
+            "When cooking opihi, heat only until the foot just tightens — 30–60 seconds; overcooking makes them tough."
+          ]
+        }
+      ]
+    }
+  ]
+}
