@@ -1,0 +1,494 @@
+{
+  "version": 1,
+  "species": [
+    {
+      "id": "ulua",
+      "hawaiian_name": "Ulua",
+      "common_name": "Giant Trevally",
+      "scientific_name": "Caranx ignobilis",
+      "wikipedia_title": "Giant trevally",
+      "fishing_category": "Shore Casting",
+      "habitat": "Rocky points, lava benches, channel edges, sandy flats near structure",
+      "depth_range": "Shoreline to 50 m",
+      "best_season": "Year-round; peak May–September",
+      "avg_size": "5–40 lbs typical; up to 100+ lbs",
+      "edibility_rating": "Excellent",
+      "regulations": "No statewide bag or size limit; confirm current rules at DLNR.Hawaii.gov",
+      "identification_features": [
+        "Steep, nearly vertical forehead in large adults",
+        "Deep, laterally compressed silver body",
+        "Dark spots or mottled blotches on fish over 20 lbs",
+        "Deeply forked lunate tail with dark upper lobe",
+        "Hard scutes along posterior lateral line"
+      ],
+      "catch_methods": [
+        "Shore casting — surface lures (pencil poppers, stickbaits, GT Ice Cream)",
+        "Live bait — akule, papio, or small reef fish",
+        "Jigging vertically near structure drop-offs",
+        "Fly fishing with 9–12 wt rod and large saltwater streamers"
+      ],
+      "best_spots": [
+        "Keahole Point (lava bench and channel)",
+        "Mahukona (historic harbor structure)",
+        "Lapakahi coast (remote lava shore)",
+        "Ka Lae / South Point (strong current, large fish)",
+        "Anaehoomalu Bay channel and reef edge"
+      ],
+      "preparation": "Firm, white, mild flesh. Bleed immediately after catch for best quality. Excellent sashimi, grilled fillets, or pan-fried. Larger fish (>20 lbs) are better smoked or cooked than eaten raw.",
+      "safety_note": ""
+    },
+    {
+      "id": "papio",
+      "hawaiian_name": "Papio",
+      "common_name": "Juvenile Trevally",
+      "scientific_name": "Caranx spp. / Carangoides spp.",
+      "wikipedia_title": "Bluefin trevally",
+      "fishing_category": "Shore Casting",
+      "habitat": "Sandy beaches, small bays, tidal flats, shallow reef edges",
+      "depth_range": "Shoreline to 15 m",
+      "best_season": "Year-round",
+      "avg_size": "Under 10 lbs (juvenile ulua / trevally spp.)",
+      "edibility_rating": "Good",
+      "regulations": "Juvenile form of multiple ulua/trevally species. No statewide bag limit; check DLNR for current rules.",
+      "identification_features": [
+        "Smaller body than ulua, typically under 10 lbs",
+        "Silver sides often with faint yellow tinge",
+        "Dark spot near pectoral fin base on many species",
+        "Omilu (bluefin trevally) has vivid blue fins and spotted body"
+      ],
+      "catch_methods": [
+        "Light tackle with small plugs, spoons, or jigs",
+        "Live bait or cut bait on sandy bottoms",
+        "Cast-and-retrieve from beach or pier"
+      ],
+      "best_spots": [
+        "Kahaluu Bay beach",
+        "Anaehoomalu Bay shallows",
+        "Puako tide pools and reef edge",
+        "Any sandy bay along the Kohala coast"
+      ],
+      "preparation": "Mild white flesh. Pan-fry, grill, or steam whole. Good sashimi when very fresh. Bleed promptly after catch.",
+      "safety_note": ""
+    },
+    {
+      "id": "moi",
+      "hawaiian_name": "Moi",
+      "common_name": "Pacific Threadfin",
+      "scientific_name": "Polydactylus sexfilis",
+      "wikipedia_title": "Pacific threadfin",
+      "fishing_category": "Shore Casting",
+      "habitat": "Sandy shorelines, surf zones, nearshore sand flats",
+      "depth_range": "Surf zone to 10 m",
+      "best_season": "Year-round; peak summer and fall",
+      "avg_size": "1–5 lbs",
+      "edibility_rating": "Excellent — considered a delicacy",
+      "regulations": "REGULATED: Minimum size 11 inches total length. Bag limit 10 fish/day. No moi fishing April 1–July 31 (spawning season) in some areas. Verify current DLNR rules before fishing.",
+      "identification_features": [
+        "Silvery body with faint diagonal stripes",
+        "Distinctive thread-like pectoral fin rays extending forward",
+        "Blunt snout, inferior mouth (faces down for bottom feeding)",
+        "Forked tail; typically 1–5 lbs"
+      ],
+      "catch_methods": [
+        "Light surf tackle with small hooks and sand crabs (ohiki) as bait",
+        "Slide baiting along sandy beaches",
+        "Small flies or soft plastics in the surf"
+      ],
+      "best_spots": [
+        "Hapuna Beach surf zone",
+        "Kahaluu Beach",
+        "Anaehoomalu Bay sandy flats",
+        "Any long sandy beach along the Kohala coast"
+      ],
+      "preparation": "Sweet, delicate white flesh — historically a royal (kapu) fish. Grill whole, steam, or pan-fry. Minimal seasoning needed. Excellent sashimi.",
+      "safety_note": "REGULATED SPECIES: Check current DLNR seasons and size/bag limits before harvesting."
+    },
+    {
+      "id": "mu",
+      "hawaiian_name": "Mu",
+      "common_name": "Bigeye Emperor",
+      "scientific_name": "Monotaxis grandoculis",
+      "wikipedia_title": "Bigeye emperor",
+      "fishing_category": "Shore Casting",
+      "habitat": "Coral reef edges, rocky bottoms, sandy areas adjacent to reef",
+      "depth_range": "2–100 m; commonly taken from shore at 5–15 m",
+      "best_season": "Year-round; better at dusk and night",
+      "avg_size": "2–8 lbs",
+      "edibility_rating": "Very Good",
+      "regulations": "No statewide bag or size limit; confirm at DLNR.Hawaii.gov",
+      "identification_features": [
+        "Large eyes (characteristic feature)",
+        "Silvery-white body, often with faint brownish bars",
+        "Robust body with small mouth",
+        "Can change color pattern rapidly"
+      ],
+      "catch_methods": [
+        "Bottom fishing with cut bait (urchin, crab, small fish) near reef",
+        "Night fishing from rocky shorelines and piers",
+        "Small circle hooks with light leader near structure"
+      ],
+      "best_spots": [
+        "Kawaihae Harbor jetty (night)",
+        "Mahukona pier area",
+        "Puako reef edge",
+        "Any rocky shoreline adjacent to reef"
+      ],
+      "preparation": "Mild, white, firm flesh. Grill, steam, or bake whole. Popular for stew (lawalu style). Remove tough outer skin for fillets.",
+      "safety_note": ""
+    },
+    {
+      "id": "weke",
+      "hawaiian_name": "Weke",
+      "common_name": "Goatfish",
+      "scientific_name": "Mulloidichthys vanicolensis / M. flavolineatus",
+      "wikipedia_title": "Yellowfin goatfish",
+      "fishing_category": "Shore Casting",
+      "habitat": "Sandy bottoms, mixed sand-rubble near reef, tide pools",
+      "depth_range": "Shoreline to 30 m",
+      "best_season": "Year-round",
+      "avg_size": "0.5–3 lbs",
+      "edibility_rating": "Good to Excellent",
+      "regulations": "No statewide bag or size limit; confirm at DLNR.Hawaii.gov. Weke pueo (M. pfluegeri) reported to cause nightmares — avoid or use caution.",
+      "identification_features": [
+        "Elongated body with two distinctive chin barbels",
+        "Yellowfin weke: yellow lateral stripe, yellow fins",
+        "Bandtail weke: white body with distinct black tail band",
+        "Often seen in small groups over sand, tilting nose-down to forage"
+      ],
+      "catch_methods": [
+        "Light bottom fishing with small hooks, shrimp, or worm bait",
+        "Netting in schools over sandy shallows",
+        "Spearfishing while cruising sandy bottom"
+      ],
+      "best_spots": [
+        "Anaehoomalu Bay sandy flats",
+        "Hapuna Beach nearshore sandy bottom",
+        "Kahaluu Bay shallows",
+        "Sand channels between reef patches"
+      ],
+      "preparation": "Light, sweet flesh. Grill whole, steam, or pan-fry. Common in traditional Hawaiian plate lunches. Salt-brine before cooking enhances flavor.",
+      "safety_note": "Weke pueo (M. pfluegeri) may cause hallucinogenic nightmares — identified by darker coloration and blunter head. Confirm species before eating at night."
+    },
+    {
+      "id": "menpachi",
+      "hawaiian_name": "Menpachi",
+      "common_name": "Hawaiian Squirrelfish",
+      "scientific_name": "Sargocentron xantherythrum",
+      "wikipedia_title": "Sargocentron xantherythrum",
+      "fishing_category": "Shore Casting",
+      "habitat": "Shallow reef caves, crevices, coral heads; nocturnal",
+      "depth_range": "1–40 m",
+      "best_season": "Year-round; active at night",
+      "avg_size": "0.25–1 lb",
+      "edibility_rating": "Good",
+      "regulations": "No statewide bag or size limit; confirm at DLNR.Hawaii.gov",
+      "identification_features": [
+        "Bright red body with white or silver horizontal stripes",
+        "Large eyes (adapted for nocturnal feeding)",
+        "Spiny dorsal fin; sharp preopercle spine",
+        "Relatively small fish, rarely over 1 lb"
+      ],
+      "catch_methods": [
+        "Night fishing from rocks with small hooks and shrimp bait",
+        "Small lures around reef crevices at dusk",
+        "Spearfishing in caves and under ledges at night"
+      ],
+      "best_spots": [
+        "Any rocky shoreline with reef caves at night",
+        "Keahole and Kawaihae rocky areas",
+        "Puako and Anaehoomalu reef edges at night"
+      ],
+      "preparation": "Small but flavorful. Pan-fry or deep-fry whole. Good in fish soup or miso soup. Bones are manageable in small fish.",
+      "safety_note": "Handle carefully — dorsal fin spines and preopercle spine are sharp."
+    },
+    {
+      "id": "akule",
+      "hawaiian_name": "Akule",
+      "common_name": "Bigeye Scad",
+      "scientific_name": "Selar crumenophthalmus",
+      "wikipedia_title": "Bigeye scad",
+      "fishing_category": "Cast Net",
+      "habitat": "Open nearshore waters, often in large schools near surface; bays and harbors",
+      "depth_range": "Surface to 30 m",
+      "best_season": "Year-round; watch for birds diving to locate schools",
+      "avg_size": "0.25–1.5 lbs",
+      "edibility_rating": "Very Good — traditional Hawaiian fish",
+      "regulations": "No statewide bag or size limit; confirm at DLNR.Hawaii.gov",
+      "identification_features": [
+        "Large eyes relative to body size",
+        "Silvery elongated body with greenish back",
+        "Small fish in schools of hundreds to thousands",
+        "Scutes along posterior lateral line"
+      ],
+      "catch_methods": [
+        "Cast net (upena) when schools are spotted near surface",
+        "Sabiki rigs (multiple small hooks) drifted through schools",
+        "Used as live bait for ulua and other large predators"
+      ],
+      "best_spots": [
+        "Kawaihae Harbor (schools often present)",
+        "Keahole Point area",
+        "Honokohau Harbor",
+        "Watch for diving seabirds (noio, wedge-tailed shearwater) indicating schools"
+      ],
+      "preparation": "Rich, oily fish similar to mackerel. Traditional preparation: salt-dried (paakai), grilled whole, or fermented. Excellent smoked. Cook immediately or preserve — oily flesh spoils quickly.",
+      "safety_note": "Oily flesh spoils faster than white-fish species. Ice or preserve immediately."
+    },
+    {
+      "id": "opelu",
+      "hawaiian_name": "Opelu",
+      "common_name": "Mackerel Scad",
+      "scientific_name": "Decapterus macarellus",
+      "wikipedia_title": "Mackerel scad",
+      "fishing_category": "Cast Net",
+      "habitat": "Open nearshore and offshore waters; forms large midwater schools",
+      "depth_range": "Surface to 100 m; commonly caught nearshore",
+      "best_season": "Year-round; seasonal aggregations vary",
+      "avg_size": "0.25–1 lb",
+      "edibility_rating": "Very Good",
+      "regulations": "No statewide bag or size limit; confirm at DLNR.Hawaii.gov",
+      "identification_features": [
+        "Slender, elongated body, more cylindrical than akule",
+        "Metallic blue-green back, silver sides",
+        "Single small finlet behind dorsal and anal fins",
+        "Smaller mouth than akule; less prominent eyes"
+      ],
+      "catch_methods": [
+        "Cast net (upena) near surface schools",
+        "Sabiki rigs or small feather jigs",
+        "Traditional opelu trap (hokeo) used in deeper water"
+      ],
+      "best_spots": [
+        "Offshore areas along the Kona coast",
+        "Kawaihae Harbor vicinity",
+        "Often found alongside akule schools"
+      ],
+      "preparation": "Similar to akule — rich and oily. Excellent grilled whole, salt-dried, or smoked. Traditional Hawaiian preparation includes fermenting with salt and seaweed.",
+      "safety_note": "Ice quickly after catch; oily fish spoils fast."
+    },
+    {
+      "id": "uhu",
+      "hawaiian_name": "Uhu",
+      "common_name": "Parrotfish",
+      "scientific_name": "Chlorurus perspicillatus / Scarus rubroviolaceus",
+      "wikipedia_title": "Bullethead parrotfish",
+      "fishing_category": "Spearfishing",
+      "habitat": "Coral reefs, rocky reef areas with algae growth",
+      "depth_range": "1–30 m",
+      "best_season": "Year-round",
+      "avg_size": "2–10 lbs; large terminal-phase males up to 30 lbs",
+      "edibility_rating": "Good",
+      "regulations": "No statewide bag or size limit, but spearfishing regulations apply. No spearfishing in designated Marine Life Conservation Districts (MLCDs). Check area-specific rules.",
+      "identification_features": [
+        "Fused beak-like teeth (parrot beak) for scraping algae from coral",
+        "Initial phase: drab brown/red; terminal phase: brilliant blue, green, and pink",
+        "Produces mucus cocoon when sleeping",
+        "Grinding sound audible underwater when feeding"
+      ],
+      "catch_methods": [
+        "Spearfishing on freedive or SCUBA near reef",
+        "Spearguns or Hawaiian slings; often targeted at night when sleeping",
+        "Not typically caught by hook-and-line"
+      ],
+      "best_spots": [
+        "Reefs along the Kona coast outside MLCDs",
+        "Puako reef areas",
+        "Kohala coast nearshore reefs"
+      ],
+      "preparation": "White, mild flesh. Good grilled, steamed, or in stew. Terminal-phase males (blue/green) are most commonly targeted for size. Scale carefully.",
+      "safety_note": "Do NOT spearfish in Marine Life Conservation Districts (Kahaluu, Lapakahi, Waialea, Old Kona Airport, Kona Coast SP). Know your location before diving."
+    },
+    {
+      "id": "manini",
+      "hawaiian_name": "Manini",
+      "common_name": "Convict Tang",
+      "scientific_name": "Acanthurus triostegus",
+      "wikipedia_title": "Manini",
+      "fishing_category": "Spearfishing",
+      "habitat": "Rocky shorelines, shallow reef flats, tide pools, surge zones",
+      "depth_range": "Shoreline to 15 m; very common in knee-deep water",
+      "best_season": "Year-round; very abundant",
+      "avg_size": "0.25–0.75 lbs",
+      "edibility_rating": "Good — traditional staple",
+      "regulations": "No statewide bag or size limit; confirm at DLNR.Hawaii.gov. Cannot spear in MLCDs.",
+      "identification_features": [
+        "White-gray body with 5–6 distinct black vertical bars (convict stripes)",
+        "Small fish, rarely over 0.5 lbs",
+        "Retractable sharp spine at base of tail",
+        "Moves in large grazing schools across reef flats"
+      ],
+      "catch_methods": [
+        "Spearfishing with short spear or pole spear in shallows",
+        "Netting with fine-mesh net in surge zones",
+        "Hook-and-line with very small hooks and seaweed bait (rarely used)"
+      ],
+      "best_spots": [
+        "Kahaluu Bay (outside MLCD boundaries)",
+        "Any rocky shoreline with reef flat",
+        "Tide pools along Kona coast"
+      ],
+      "preparation": "Small but flavorful. Often dried (dried manini are a traditional snack). Pan-fry whole, deep-fry, or steam. Gut promptly after catch.",
+      "safety_note": "Sharp caudal spine — handle carefully, grab fish from behind the head."
+    },
+    {
+      "id": "kole",
+      "hawaiian_name": "Kole",
+      "common_name": "Goldring Surgeonfish",
+      "scientific_name": "Ctenochaetus strigosus",
+      "wikipedia_title": "Goldring bristletooth",
+      "fishing_category": "Spearfishing",
+      "habitat": "Rocky reefs, surge zones, areas with encrusting algae",
+      "depth_range": "1–55 m; commonly shallow",
+      "best_season": "Year-round",
+      "avg_size": "0.25–1 lb",
+      "edibility_rating": "Good",
+      "regulations": "No statewide bag or size limit. No spearfishing in MLCDs.",
+      "identification_features": [
+        "Brown/olive body with faint horizontal lines",
+        "Distinctive yellow-gold ring around each eye",
+        "Oval body; small mouth with comb-like teeth for scraping algae",
+        "Sharp spine at base of tail (caudal peduncle)"
+      ],
+      "catch_methods": [
+        "Spearfishing on reef flats and surge zones",
+        "Pole spear in shallows"
+      ],
+      "best_spots": [
+        "Rocky reef areas along Kona and Kohala coasts",
+        "Outside designated MLCD boundaries"
+      ],
+      "preparation": "Mild white flesh. Pan-fry, grill, or steam. Often prepared whole. Good in soup. Very fresh fish can be used in poke.",
+      "safety_note": "Sharp caudal spine — handle carefully."
+    },
+    {
+      "id": "opihi",
+      "hawaiian_name": "Opihi",
+      "common_name": "Hawaiian Limpet",
+      "scientific_name": "Cellana exarata / C. sandwicensis / C. talcosa",
+      "wikipedia_title": "Cellana exarata",
+      "fishing_category": "Shore Foraging",
+      "habitat": "Rocky shoreline — wave-splash zone to intertidal zone; high-energy lava bench areas preferred",
+      "depth_range": "Intertidal (above water to surge zone)",
+      "best_season": "Year-round; best when surf is 2 ft or less",
+      "avg_size": "1–3 inch shell diameter; harvest only over 1.25 inches",
+      "edibility_rating": "Excellent — prized Hawaiian delicacy",
+      "regulations": "Minimum size 1.25 inches (3.18 cm) shell length. Bag limit 100 per person per day. Do not harvest in Marine Life Conservation Districts.",
+      "identification_features": [
+        "Conical limpet shell, gray-white exterior, gray-brown interior",
+        "Three species: ko'ele (black foot, highest zone), alinalina (yellow foot, mid zone), makaiauli (white foot, lowest zone)",
+        "Firmly attached to lava rock — requires flat blade to pry loose",
+        "Foot muscle is the edible part"
+      ],
+      "catch_methods": [
+        "Pry from rocks with flat-bladed opihi knife or thin putty knife",
+        "Approach carefully and remove swiftly — animal retracts if it detects vibration",
+        "Work during low tide on calm days only",
+        "Never harvest from extremely high-danger wave zones"
+      ],
+      "best_spots": [
+        "Remote lava bench areas along Kohala coast",
+        "Lapakahi and Mahukona rocky shores",
+        "Any accessible lava bench with wave splash during calm weather"
+      ],
+      "preparation": "Traditionally eaten raw on the half shell with Hawaiian salt. Can be lightly cooked on the half shell over coals. Drizzle with sesame oil and shoyu. Do not overcook — turns rubbery.",
+      "safety_note": "SERIOUS DANGER: Opihi picking is one of the most dangerous activities on Hawaii's shores. Rogue waves appear without warning on lava benches. Never turn your back to the ocean. Do not pick during high surf. People die every year harvesting opihi."
+    },
+    {
+      "id": "limu",
+      "hawaiian_name": "Limu",
+      "common_name": "Edible Hawaiian Seaweed",
+      "scientific_name": "Caulerpa racemosa / Gracilaria coronopifolia / Asparagopsis taxiformis",
+      "wikipedia_title": "Limu (algae)",
+      "fishing_category": "Shore Foraging",
+      "habitat": "Intertidal and shallow subtidal reef flats, tide pools, nearshore rocky areas",
+      "depth_range": "Shoreline to 5 m",
+      "best_season": "Year-round; some species more abundant seasonally",
+      "avg_size": "N/A — harvested by hand",
+      "edibility_rating": "Excellent — essential in traditional Hawaiian diet",
+      "regulations": "Non-commercial harvest generally unrestricted. Do not harvest in MLCDs. Respect any posted signs.",
+      "identification_features": [
+        "Limu kohu (Asparagopsis taxiformis): reddish, feathery, strong pungent aroma — premium sashimi limu",
+        "Limu wawae'iole (Caulerpa racemosa): green, grape-like clusters, mild flavor",
+        "Limu ele'ele (Enteromorpha spp.): thin green sheets, mild flavor, common",
+        "Avoid limu with unusual smell or dark slime — may indicate pollution"
+      ],
+      "catch_methods": [
+        "Hand-pick from rocks and reef flats during low tide",
+        "Submerge hands in tide pools to feel for limu among rocks",
+        "Bring mesh bag for collection and rinsing"
+      ],
+      "best_spots": [
+        "Tide pools along Kona and Kohala coasts",
+        "Shallow reef areas at low tide",
+        "Puako tide pools (outside restricted areas)"
+      ],
+      "preparation": "Rinse thoroughly in fresh water. Limu kohu: serve fresh with poke or sashimi. Limu wawae'iole: use fresh in poke, salads, or as garnish. Most edible limu can be lightly pickled (namasu style) with rice vinegar.",
+      "safety_note": "Harvest only from areas away from runoff and sewage outfalls. Never harvest limu that smells strongly of decay or petroleum."
+    },
+    {
+      "id": "wana",
+      "hawaiian_name": "Wana",
+      "common_name": "Long-spined Sea Urchin",
+      "scientific_name": "Diadema paucispinum",
+      "wikipedia_title": "Diadema paucispinum",
+      "fishing_category": "Shore Foraging",
+      "habitat": "Shallow reef flats, rocky bottoms, wave-exposed areas; hides in crevices during day",
+      "depth_range": "Shoreline to 30 m",
+      "best_season": "Year-round; roe quality best in spring and summer",
+      "avg_size": "2–4 inch test (shell), spines to 12 inches",
+      "edibility_rating": "Good — roe (uni / ina) eaten",
+      "regulations": "No statewide bag or size limit; confirm at DLNR.Hawaii.gov",
+      "identification_features": [
+        "Extremely long, hollow, sharp black spines (up to 12 inches)",
+        "Round purple-black to dark brown test (shell)",
+        "Common on reef flats, often in clusters",
+        "Spines can penetrate wetsuit — approach with extreme caution"
+      ],
+      "catch_methods": [
+        "Hand-pick with thick gloves or grab with tongs",
+        "Cut test in half with knife to access roe (roe is on inner walls)",
+        "Harvest carefully — spines break off and are painful to remove"
+      ],
+      "best_spots": [
+        "Shallow reef flats along Kona coast",
+        "Tide pools at low tide"
+      ],
+      "preparation": "Roe (called ina): scoop out yellow or orange roe from inside the test. Eat fresh with shoyu, or use in poke. Traditional Hawaiian preparation with Hawaiian salt and limu. Used to flavor soups and rice.",
+      "safety_note": "PAINFUL SPINES: Long spines easily penetrate skin and break off. Wear thick gloves. If stung, remove spine fragments and soak in hot water. Spines may require medical removal. Never step on or near wana barefoot."
+    },
+    {
+      "id": "ula",
+      "hawaiian_name": "Ula",
+      "common_name": "Banded Spiny Lobster",
+      "scientific_name": "Panulirus marginatus",
+      "wikipedia_title": "Panulirus marginatus",
+      "fishing_category": "Shore Foraging",
+      "habitat": "Rocky reefs, lava ledges, crevices; hides during day, forages at night",
+      "depth_range": "Shallow shoreline to 60 m; accessible from shore at night in shallows",
+      "best_season": "September 1–April 30 only (closed May 1–August 31)",
+      "avg_size": "1–4 lbs",
+      "edibility_rating": "Excellent",
+      "regulations": "SEASONAL CLOSURE: May 1–August 31. Minimum carapace length 3.25 inches. Bag limit 6 per person per day. No egg-bearing females. Verify current DLNR rules.",
+      "identification_features": [
+        "Spiny body without claws (spiny lobster)",
+        "Banded orange-brown and white tail",
+        "Long, spiny antennae (longer than body)",
+        "Distinctive white spots on body segments",
+        "Ula poni (P. penicillatus) is more spotted and slightly different"
+      ],
+      "catch_methods": [
+        "Night snorkeling or freediving with flashlight along rocky shoreline",
+        "Grab from behind — approach slowly and grab across the carapace",
+        "Hoop nets from piers at night with fish bait",
+        "Do NOT use SCUBA or slurp guns for lobster"
+      ],
+      "best_spots": [
+        "Rocky shorelines along Kohala and Kona coasts at night",
+        "Mahukona and Lapakahi rocky areas",
+        "Reef edges accessible by snorkel at night"
+      ],
+      "preparation": "Boil or steam live (10–12 min for a 2 lb lobster). Grill split in half with butter and garlic. Meat is sweet and firm. Excellent chilled with citrus.",
+      "safety_note": "SEASONAL CLOSURE May 1–August 31. Minimum carapace 3.25 inches. No egg-bearing females. Violations carry significant fines under Hawaii law."
+    }
+  ]
+}
