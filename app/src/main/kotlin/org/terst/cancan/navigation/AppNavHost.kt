@@ -41,6 +41,7 @@ import org.terst.cancan.library.LibraryScreen
 import org.terst.cancan.library.PdfViewerScreen
 import org.terst.cancan.recipes.RecipesScreen
 import org.terst.cancan.reference.ReferenceScreen
+import org.terst.cancan.reference.ShoreFishScreen
 
 sealed class Screen(val route: String, val label: String) {
     data object Recipes : Screen("recipes", "Recipes")
@@ -48,6 +49,7 @@ sealed class Screen(val route: String, val label: String) {
     data object Inventory : Screen("inventory", "Inventory")
     data object Reference : Screen("reference", "Reference")
     data object Library : Screen("library", "Library")
+    data object ShoreFish : Screen("shore_fish", "Shore Fish Lookup")
 }
 
 private val topLevelScreens = listOf(
@@ -123,6 +125,7 @@ fun AppNavHost() {
             composable(Screen.Inventory.route) { InventoryScreen(navController) }
             composable(Screen.Reference.route) { ReferenceScreen(navController) }
             composable(Screen.Library.route) { LibraryScreen(navController) }
+            composable(Screen.ShoreFish.route) { ShoreFishScreen(navController) }
             composable(
                 route = "pdf_viewer/{documentId}",
                 arguments = listOf(navArgument("documentId") { type = NavType.StringType })

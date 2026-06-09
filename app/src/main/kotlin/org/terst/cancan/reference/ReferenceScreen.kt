@@ -20,6 +20,7 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ExpandLess
 import androidx.compose.material.icons.filled.ExpandMore
+import androidx.compose.material.icons.filled.PhotoLibrary
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.Warning
 import androidx.compose.material3.ElevatedCard
@@ -60,7 +61,8 @@ fun ReferenceScreen(navController: NavController) {
         uiState = uiState,
         onSearch = viewModel::onSearch,
         onCategorySelected = viewModel::onCategorySelected,
-        onFetchImage = viewModel::fetchImageFor
+        onFetchImage = viewModel::fetchImageFor,
+        onNavigateToFishLookup = { navController.navigate("shore_fish") }
     )
 }
 
@@ -69,7 +71,8 @@ private fun ReferenceContent(
     uiState: ReferenceUiState,
     onSearch: (String) -> Unit,
     onCategorySelected: (String) -> Unit,
-    onFetchImage: (String, String) -> Unit
+    onFetchImage: (String, String) -> Unit,
+    onNavigateToFishLookup: () -> Unit = {}
 ) {
     Column(modifier = Modifier.fillMaxSize()) {
         OutlinedTextField(
@@ -111,6 +114,11 @@ private fun ReferenceContent(
                 verticalArrangement = Arrangement.spacedBy(8.dp),
                 modifier = Modifier.fillMaxSize()
             ) {
+                if (uiState.activeCategory == "Hawaii Fishing") {
+                    item(key = "__fish_lookup_banner") {
+                        FishLookupBanner(onClick = onNavigateToFishLookup)
+                    }
+                }
                 items(uiState.filtered, key = { it.id }) { item ->
                     ReferenceItemCard(
                         item = item,
@@ -367,6 +375,41 @@ private fun String.formatJarSize(): String = when (this) {
     "pint" -> "Pint"
     "quart" -> "Quart"
     else -> replaceFirstChar { it.uppercaseChar() }.replace('_', ' ')
+}
+
+@Composable
+private fun FishLookupBanner(onClick: () -> Unit) {
+    ElevatedCard(
+        onClick = onClick,
+        modifier = Modifier.fillMaxWidth()
+    ) {
+        Row(
+            verticalAlignment = Alignment.CenterVertically,
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(16.dp)
+        ) {
+            Icon(
+                imageVector = Icons.Default.PhotoLibrary,
+                contentDescription = null,
+                tint = MaterialTheme.colorScheme.primary,
+                modifier = Modifier.size(36.dp)
+            )
+            Spacer(Modifier.width(14.dp))
+            Column(modifier = Modifier.weight(1f)) {
+                Text(
+                    text = "Visual Shore Fish Lookup",
+                    style = MaterialTheme.typography.titleSmall,
+                    fontWeight = FontWeight.Bold
+                )
+                Text(
+                    text = "15 west Hawaii species — photo grid with ID, catch, prep & regulations",
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                )
+            }
+        }
+    }
 }
 
 @Preview(showBackground = true)

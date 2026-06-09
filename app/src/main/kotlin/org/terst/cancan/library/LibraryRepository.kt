@@ -225,6 +225,29 @@ class LibraryRepository @Inject constructor() {
             assetPath = "library/food_preservation/canning_basics_ucce.pdf"
         ),
 
+        // ── Hawaii Fishing ──────────────────────────────────────────────────
+        LibraryDocument(
+            id = "hawaii-fishes",
+            title = "Fishes of Hawai'i",
+            category = "Hawaii Fishing",
+            description = "DLNR DAR illustrated guide to Hawaii's nearshore and reef fish species.",
+            assetPath = "library/hawaii_fishing/fishes_of_hawaii.pdf"
+        ),
+        LibraryDocument(
+            id = "hawaii-fishing-guide",
+            title = "Fishing in Hawai'i",
+            category = "Hawaii Fishing",
+            description = "DLNR DAR recreational fishing guide covering methods, species, and regulations.",
+            assetPath = "library/hawaii_fishing/fishing_in_hawaii.pdf"
+        ),
+        LibraryDocument(
+            id = "hawaii-fishing-regs-2025",
+            title = "Hawaii Fishing Regulations — May 2025",
+            category = "Hawaii Fishing",
+            description = "Current DLNR DAR freshwater and marine fishing regulations effective May 2025.",
+            assetPath = "library/hawaii_fishing/fishing_regs_may_2025.pdf"
+        ),
+
         // ── Foraging ────────────────────────────────────────────────────────
         LibraryDocument(
             id = "foraging-northeast",

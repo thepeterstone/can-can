@@ -1,9 +1,9 @@
 # can-can — Worklog
 
-## Current State (as of 2026-05-27)
+## Current State (as of 2026-06-09)
 
-**Branch:** `main`
-**Session focus:** All planned features through PR #5 are merged to main
+**Branch:** `claude/hawaii-fish-reference-lookup-1m8enb`
+**Session focus:** Hawaii fish reference — shore fish lookup screen + library PDF stubs
 
 ---
 
@@ -79,14 +79,27 @@
   - Fermentation (4): Sauerkraut, Kimchi, Lacto-Fermented Pickles, Sourdough Starter
   - Dehydrating (3): Fruit Leather, Beef Jerky, Dried Herb Blend
 
+### Shore Fish Lookup (in progress — 2026-06-09, branch: claude/hawaii-fish-reference-lookup-1m8enb)
+- `assets/reference/shore_fish_lookup.json`: 15 west Hawaii shoreline species with full field set
+- `reference/data/ShoreFish.kt`: `ShoreFishData`, `ShoreFish` (`@Serializable`)
+- `reference/data/ShoreFishRepository.kt`: loads JSON from assets, same lazy pattern as `ReferenceRepository`
+- `reference/ShoreFishViewModel.kt`: `ShoreFishUiState` with category filter + Wikipedia image loading
+- `reference/ShoreFishScreen.kt`: `LazyVerticalGrid` (2-col) photo cards + `ModalBottomSheet` detail with full species info, safety warnings
+- `AppNavHost.kt`: added `Screen.ShoreFish` (`"shore_fish"` route) + composable
+- `ReferenceScreen.kt`: "Visual Shore Fish Lookup" banner card appears when "Hawaii Fishing" category is active
+- `LibraryRepository.kt`: 3 Hawaii Fishing PDF stubs added (fishes_of_hawaii, fishing_in_hawaii, fishing_regs_may_2025) — PDFs not yet downloaded
+
 ## Stub Screens (not yet started)
 - `CookingScreen` — placeholder only
 
 ---
 
 ## Next Steps
-- Download PDFs locally with `scripts/download_reference_pdfs.py` and copy to `app/src/main/assets/library/`
-- Smoke test: Library tab, category filter, tap → PDF renders pages, back works offline
+- Download 3 DLNR PDFs manually and commit to `app/src/main/assets/library/hawaii_fishing/`:
+  - `https://dlnr.hawaii.gov/dar/files/2014/04/fishes_of_hawaii.pdf`
+  - `https://dlnr.hawaii.gov/dar/files/2016/03/Fishing_in_Hawaii.pdf`
+  - `https://dlnr.hawaii.gov/dar/files/2025/05/fishing_regs_May_2025.pdf`
+- Merge `claude/hawaii-fish-reference-lookup-1m8enb` to main
 - Cooking mode: step-by-step, screen-on, large text, per-step timers
 - Consider: recipe-to-inventory integration (reduce stock when cooking)
 
