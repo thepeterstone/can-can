@@ -96,6 +96,7 @@ fun AppNavHost() {
                                         Screen.Reference -> Icons.Default.Book
                                         Screen.Cooking -> Icons.Default.Restaurant
                                         Screen.Library -> Icons.Default.LibraryBooks
+                                        Screen.ShoreFish -> Icons.Default.Book
                                     },
                                     contentDescription = screen.label
                                 )
