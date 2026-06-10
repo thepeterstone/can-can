@@ -13,6 +13,7 @@ Sources:
   - USDA Complete Guide to Home Canning (public domain, NCHFP/UGA)
   - NCHFP fact sheets (public domain)
   - University of Hawaii CTAHR publications (open access)
+  - Hawaii DLNR DAR fishing guides and regulations (open access)
   - UC ANR, UAF, Virginia Tech extension publications (open access)
   - Various foraging guides (open access / educational)
 """
@@ -233,6 +234,26 @@ PDFS = [
         "canning_basics_ucce.pdf",
         "https://ucanr.edu/sites/default/files/2022-04/366406.pdf",
         "UC ANR: Preserve It — Canning Basics",
+    ),
+
+    # ---- Hawaii DLNR DAR — fishing guides and regulations (open access) ---
+    (
+        "hawaii_fishing",
+        "fishes_of_hawaii.pdf",
+        "https://dlnr.hawaii.gov/dar/files/2014/04/fishes_of_hawaii.pdf",
+        "DLNR DAR: Fishes of Hawai'i (illustrated nearshore and reef species guide)",
+    ),
+    (
+        "hawaii_fishing",
+        "fishing_in_hawaii.pdf",
+        "https://dlnr.hawaii.gov/dar/files/2016/03/Fishing_in_Hawaii.pdf",
+        "DLNR DAR: Fishing in Hawai'i (recreational fishing guide — methods, species, regulations)",
+    ),
+    (
+        "hawaii_fishing",
+        "fishing_regs_may_2025.pdf",
+        "https://dlnr.hawaii.gov/dar/files/2025/05/fishing_regs_May_2025.pdf",
+        "DLNR DAR: Hawaii Fishing Regulations — May 2025",
     ),
 
     # ---- Wild edible plants / foraging ------------------------------------
